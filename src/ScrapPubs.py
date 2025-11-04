@@ -16,6 +16,7 @@ class ScrapPubs:
 
         self.service = Service('chromedriver.exe')  # Update with your chromedriver path
         self.driver = webdriver.Chrome(service=self.service, options=self.chrome_options)
+        self.wait = WebDriverWait(self.driver, 10)  # 10 seconds wait
 
     def get_pub_data(self):
         """1) Get urls of pubs from a directory site
@@ -33,14 +34,13 @@ class ScrapPubs:
             self.driver.get(self.start_url) # Open page
 
             # Handle consent to ads button
-            time.sleep(5)  # Wait for the page to load completely
-            shadow_host = self.driver.find_element(By.CLASS_NAME, "szn-cmp-dialog-container")
+            # please wait until the shadow DOM is available
+            shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
             shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
             button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
             button.click()
 
-            time.sleep(5)  # Wait for the page to load completely after clicking
-            block_containing_urls = self.driver.find_element(By.CLASS_NAME, "premiseList")  # Locate the block with pub links
+            block_containing_urls =self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "premiseList")))  # Locate the block with pub links
             hopefully_urls = block_containing_urls.find_elements(By.TAG_NAME, "a")  # Find all anchor tags within the block
             for url in hopefully_urls:
                 print(url.get_attribute("href"))
