@@ -41,10 +41,14 @@ class ScrapPubs:
             button.click()
 
             block_containing_urls =self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "premiseList")))  # Locate the block with pub links
-            hopefully_urls = block_containing_urls.find_elements(By.TAG_NAME, "a")  # Find all anchor tags within the block
-            for url in hopefully_urls:
-                print(url.get_attribute("href"))
 
+            #We take different types of premiseBoxes
+            hopefully_urls = block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox")  # Find all anchor tags within the block
+            hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox withOffer"))
+            hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox freeProfile"))
+            for block in hopefully_urls:
+                print(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
+            #    print(url.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
             # Implement logic to extract pub URLs from the page
             pub_urls = []  # Replace with actual extraction logic
             return pub_urls    
