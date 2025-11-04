@@ -28,6 +28,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "setuptools>=80.9.0",
     "ydata-profiling>=4.17.0",
+    "selenium>=4.27.1",
 ]
 
 
