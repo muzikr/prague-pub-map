@@ -210,3 +210,6 @@ __marimo__/
 **/*.quarto_ipynb
 report/*.html
 data/bible.txt
+
+# Ignore executable files
+*.exe
