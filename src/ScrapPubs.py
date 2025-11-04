@@ -28,7 +28,18 @@ class ScrapPubs:
     def get_pubs_urls(self, page_url):
         """Get URLs of pubs from the directory site."""
         try:
+            # premiseBox
+            # premiseBox withOffer
             self.driver.get(self.start_url) # Open page
+
+            # Handle consent to ads button
+            time.sleep(5)  # Wait for the page to load completely
+            shadow_host = self.driver.find_element(By.CLASS_NAME, "szn-cmp-dialog-container")
+            shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
+            button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
+            button.click()
+
+            time.sleep(5)  # Wait for the page to load completely after clicking
             block_containing_urls = self.driver.find_element(By.CLASS_NAME, "premiseList")  # Locate the block with pub links
             hopefully_urls = block_containing_urls.find_elements(By.TAG_NAME, "a")  # Find all anchor tags within the block
             for url in hopefully_urls:
