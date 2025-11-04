@@ -1,0 +1,52 @@
+---
+title: "Ukázkový report"
+author:
+    - name: Richard Mužík
+      email: richard@imuzik.cz
+    - name: Martin Kunst
+      email: martin.kunst2001@centrum.cz
+abstract: "Můj ukázkový abstrakt"
+abstract-title: "Toto je abstrakt"
+editor:
+    render-on-save: true
+date: today
+format:
+    html:
+        toc: true
+        embed-resources: true
+        echo: true
+---
+
+# Data
+
+## Načtení dat
+
+```{python}
+print("Hello, World!")
+```
+
+## První vizualizace
+
+```{python}
+
+print("Hello here too!")
+```
+
+## Závěr
+
+:::{.column-margin}
+
+Toto je text
+
+:::
+
+
+:::{.panel-tabset}
+
+## Muži
+
+## Ženy
+
+## Ostatní
+
+:::
