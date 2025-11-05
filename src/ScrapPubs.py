@@ -26,38 +26,67 @@ class ScrapPubs:
         """
         pass
 
-    def get_pubs_urls(self, page_url):
+    def get_pubs_urls(self) -> list[str]:
         """Get URLs of pubs from the directory site."""
+        pub_urls = []
         try:
-            # premiseBox
-            # premiseBox withOffer
             self.driver.get(self.start_url) # Open page
-
-            # Handle consent to ads button
-            # please wait until the shadow DOM is available
+                # Handle consent to ads button
+                # please wait until the shadow DOM is available
             shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
             shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
+            time.sleep(2)
             button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
             button.click()
+            is_there_more = True
 
-            block_containing_urls =self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "premiseList")))  # Locate the block with pub links
+            while is_there_more:
+                block_containing_urls =self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "premiseList")))  # Locate the block with pub links
 
-            #We take different types of premiseBoxes
-            hopefully_urls = block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox")  # Find all anchor tags within the block
-            hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox withOffer"))
-            hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox freeProfile"))
-            for block in hopefully_urls:
-                print(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
-            #    print(url.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
-            # Implement logic to extract pub URLs from the page
-            pub_urls = []  # Replace with actual extraction logic
+                #We take different types of premiseBoxes
+                hopefully_urls = block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox")  # Find all anchor tags within the block
+                hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox withOffer"))
+                hopefully_urls.extend(block_containing_urls.find_elements(By.CLASS_NAME, "premiseBox freeProfile"))
+                
+                for block in hopefully_urls[:-1]: # for some reason last one does not have link
+                    try:
+                        print(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
+                        pub_urls.append(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
+                    except Exception as e:
+                        print(f"Error extracting URL from block: {e}")
+
+                is_there_more = self.__get_another_page()  # Check if there's a next page and navigate to it
+            print(f"Total URLs found: {len(pub_urls)}")
             return pub_urls    
         
         except Exception as e:
             print(f"Error fetching pub URLs: {e}")
             return []    
     
+    def __get_another_page(self):
+        """Navigate to the next page of the directory."""
+        try:
+            next_button = self.wait.until(EC.presence_of_element_located((By.ID, "nextBtn")))  # Adjust selector as needed
+            # Scroll into view to avoid interception
+            try:
+                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_button)
+            except Exception:
+                # fallback simple scroll
+                self.driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
+
+            try:
+                self.driver.execute_script("arguments[0].click();", next_button)
+            except Exception as js_err:
+                return False
+    
+            return True
+        
+        except Exception as e:
+            print(f"No more pages or error navigating to next page: {e}")
+            return False
+    
+
 if __name__ == "__main__":
     scraper = ScrapPubs()
-    scraper.get_pubs_urls(scraper.start_url)
+    scraper.get_pubs_urls()
     
