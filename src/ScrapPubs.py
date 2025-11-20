@@ -6,9 +6,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from urllib.parse import urlparse, parse_qs
+import tqdm
 
 START_URL = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-praha"
 
+def write_data(data : dict, file) -> None:
+    if data["menu"]:
+        for menu_item, price in data["menu"]:
+            print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item};{price}"',file=file)
+    else:
+        print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};;',file=file)
 class ScrapPubs:
     def __init__(self):
         self.chrome_options = Options()
@@ -18,7 +25,13 @@ class ScrapPubs:
 
         #self.service = Service('chromedriver.exe')  # Update with your chromedriver path
         self.driver = webdriver.Chrome(options=self.chrome_options)
-        self.wait = WebDriverWait(self.driver, 10)  # 10 seconds wait
+        self.wait = WebDriverWait(self.driver, 30)  # 10 seconds wait
+
+    def restart_driver(self):
+        """Restart the WebDriver."""
+        self.driver.quit()
+        self.driver = webdriver.Chrome(options=self.chrome_options)
+        self.wait = WebDriverWait(self.driver, 30)
 
     def _extract_coordinates_from_url(self, url):
         """Extract latitude and longitude from a given URL."""
@@ -30,10 +43,14 @@ class ScrapPubs:
         
     def _get_rating(self):
         """Extract rating from the page."""
-        rating_elem = self.driver.find_element(By.CLASS_NAME, "mapyRatingBadge.hydrated")
-        rating = rating_elem.get_attribute("rating")
-        number_of_ratings = rating_elem.get_attribute("reviews")
-        return rating, number_of_ratings
+        try:
+            rating_elem = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "mapyRatingBadge.hydrated")))
+            rating = rating_elem.get_attribute("rating")
+            number_of_ratings = rating_elem.get_attribute("reviews")
+            return rating, number_of_ratings
+        except Exception as e:
+            print(f"Error extracting rating: {e}")
+            return None, None
     
     def _get_coordinates(self):
         """Extract coordinates from the page."""
@@ -41,12 +58,10 @@ class ScrapPubs:
         lat, lon = self._extract_coordinates_from_url(url_plan)
         return lat, lon
     
-
     def _get_menu(self):
         buttons = self.driver.find_elements(By.CSS_SELECTOR, "button.btn.btn-black.wholeList")
         if len(buttons) > 0:
             self.driver.execute_script("arguments[0].click();", buttons[0])
-        time.sleep(1)
         menu = []
 
         def get_one_menu():
@@ -58,7 +73,6 @@ class ScrapPubs:
 
         for button in buttons:
             self.driver.execute_script("arguments[0].click();", button)
-            time.sleep(1)
             get_one_menu()
         
         if not buttons:
@@ -72,27 +86,30 @@ class ScrapPubs:
            3) Return the data as a list of dictionaries
            4) Move to next page and repeat until no more pages left
         """
-        self.driver.get(url)
+        try:
+            self.driver.get(url)
 
-        #shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
-        #shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
-        #button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
-        #button.click()
+            #shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
+            #shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
+            #button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
+            #button.click()
 
-        time.sleep(5)
-        time.sleep(2)
-
-        rating, number_of_reviews = self._get_rating()
-        lat, lon = self._get_coordinates()
-        menu = self._get_menu()
-        pub_data = {
-            "url": url,
-            "rating": rating,
-            "coordinates": (lat, lon),
-            "menu": menu,
-            "number_of_reviews": number_of_reviews
-        }
-        return pub_data
+            rating, number_of_reviews = self._get_rating()
+            lat, lon = self._get_coordinates()
+            menu = self._get_menu()
+            pub_data = {
+                "url": url,
+                "rating": rating,
+                "coordinates": (lat, lon),
+                "menu": menu,
+                "number_of_reviews": number_of_reviews
+            }
+            return pub_data
+        
+        except Exception as e:
+            self.restart_driver()
+            print(f"Error fetching data for {url}: {e}")
+            return None
 
 
     def get_pubs_urls(self, start_url : str) -> list[str]:
@@ -157,6 +174,23 @@ class ScrapPubs:
 if __name__ == "__main__":
     scraper = ScrapPubs()
     list_of_pubs = scraper.get_pubs_urls(START_URL)
-    for i in range(len(list_of_pubs)):
-        pub_data = scraper.get_pub_data(list_of_pubs[i])
-        print(pub_data)
+    print(f"Total pubs to scrape: {len(list_of_pubs)}")
+
+    pubs_data = []
+    failed = []
+    with open("pubs_data.csv","w",encoding = "utf-8") as f:
+        print("url;rating;number_of_reviews;latitude;longitude;menu_item;price",file=f)
+        for i in tqdm.tqdm(range(len(list_of_pubs))):
+            pub_data = scraper.get_pub_data(list_of_pubs[i])
+            if pub_data is None:
+                failed.append(list_of_pubs[i])
+                continue
+            pubs_data.append(pub_data)
+            write_data(pub_data,f)
+
+    pubs_with_no_menu_count = len([pub for pub in pubs_data if len(pub['menu']) == 0])
+    print(f"data with no menu percentage: {pubs_with_no_menu_count / len(pubs_data) * 100}%")
+    print(f"Total pubs scraped: {len(pubs_data)}")
+    print(f"Pubs with no menu: {pubs_with_no_menu_count}")
+    print(f"Pubs with menu: {len(pubs_data) - pubs_with_no_menu_count}")
+    print(f"Failed to scrape {len(failed)} pubs.")
