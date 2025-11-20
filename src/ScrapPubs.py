@@ -5,10 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import argparse
 from urllib.parse import urlparse, parse_qs
 import tqdm
 
-START_URL = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-praha"
+START_URL_PRAGUE = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-praha"
+
+START_URL_WHOLE_CZECHIA = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince"
 
 def write_data(data : dict, file) -> None:
     if data["menu"]:
@@ -87,6 +90,8 @@ class ScrapPubs:
            4) Move to next page and repeat until no more pages left
         """
         try:
+
+            
             self.driver.get(url)
 
             #shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
@@ -172,13 +177,23 @@ class ScrapPubs:
             return False
     
 if __name__ == "__main__":
+
+    argparser = argparse.ArgumentParser(description="Scrape pub data from a directory site.")
+    argparser.add_argument("--all_czechia", action="store_true", help="Scrape pubs from the whole Czechia instead of just Prague.", default=None)
+    args = argparser.parse_args()
     scraper = ScrapPubs()
-    list_of_pubs = scraper.get_pubs_urls(START_URL)
+    start_url = START_URL_WHOLE_CZECHIA
+    filename = "pubs_data_czechia.csv"
+    if args.all_czechia is None :
+        start_url = START_URL_PRAGUE
+        filename = "pubs_data_prague.csv"
+    list_of_pubs = scraper.get_pubs_urls(start_url)
     print(f"Total pubs to scrape: {len(list_of_pubs)}")
 
     pubs_data = []
     failed = []
-    with open("pubs_data.csv","w",encoding = "utf-8") as f:
+
+    with open(filename,"w",encoding = "utf-8") as f:
         print("url;rating;number_of_reviews;latitude;longitude;menu_item;price",file=f)
         for i in tqdm.tqdm(range(len(list_of_pubs))):
             pub_data = scraper.get_pub_data(list_of_pubs[i])
