@@ -29,12 +29,14 @@ class ScrapPubs:
         #self.service = Service('chromedriver.exe')  # Update with your chromedriver path
         self.driver = webdriver.Chrome(options=self.chrome_options)
         self.wait = WebDriverWait(self.driver, 30)  # 10 seconds wait
+        self.was_restarted = False
 
     def restart_driver(self):
         """Restart the WebDriver."""
         self.driver.quit()
         self.driver = webdriver.Chrome(options=self.chrome_options)
         self.wait = WebDriverWait(self.driver, 30)
+        self.was_restarted = True
 
     def _extract_coordinates_from_url(self, url):
         """Extract latitude and longitude from a given URL."""
@@ -90,14 +92,16 @@ class ScrapPubs:
            4) Move to next page and repeat until no more pages left
         """
         try:
-
-            
             self.driver.get(url)
 
-            #shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
-            #shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
-            #button = shadow_root.find_element(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
-            #button.click()
+            if self.was_restarted:
+                shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
+                shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
+                time.sleep(2)
+                buttons = shadow_root.find_elements(By.CSS_SELECTOR, '[data-testid="cw-button-agree-with-ads"]')
+                if buttons:
+                    buttons[0].click()
+                self.was_restarted = False
 
             rating, number_of_reviews = self._get_rating()
             lat, lon = self._get_coordinates()
