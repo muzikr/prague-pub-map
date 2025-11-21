@@ -8,6 +8,7 @@ import time
 import argparse
 from urllib.parse import urlparse, parse_qs
 import tqdm
+from selenium.common.exceptions import TimeoutException
 
 START_URL_PRAGUE = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-praha"
 
@@ -19,10 +20,14 @@ def write_data(data : dict, file) -> None:
             print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item};{price}"',file=file)
     else:
         print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};;',file=file)
+
+
+
 class ScrapPubs:
     def __init__(self):
         self.chrome_options = Options()
-       # self.chrome_options.add_argument("--headless")  # Run in headless mode
+        # Run in headless mode so the browser window doesn't pop up
+        self.chrome_options.add_argument("--window-size=1920,1080")
         self.chrome_options.add_argument("--no-sandbox")
         self.chrome_options.add_argument("--disable-dev-shm-usage")
 
@@ -92,8 +97,17 @@ class ScrapPubs:
            4) Move to next page and repeat until no more pages left
         """
         try:
-            self.driver.get(url)
+            # Ensure page load / scripts don't hang indefinitely
+            try:
+                self.driver.set_page_load_timeout(30)
+            except Exception:
+                pass
+            try:
+                self.driver.set_script_timeout(30)
+            except Exception:
+                pass
 
+            self.driver.get(url)
             if self.was_restarted:
                 shadow_host = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "szn-cmp-dialog-container")))
                 shadow_root = self.driver.execute_script("return arguments[0].shadowRoot", shadow_host)
@@ -115,6 +129,15 @@ class ScrapPubs:
             }
             return pub_data
         
+        except TimeoutException as e:
+            # Page load or script timed out — skip this pub
+            print(f"Timeout fetching data for {url}: {e}")
+            try:
+                self.restart_driver()
+            except Exception:
+                pass
+            return None
+
         except Exception as e:
             self.restart_driver()
             print(f"Error fetching data for {url}: {e}")
@@ -187,10 +210,10 @@ if __name__ == "__main__":
     args = argparser.parse_args()
     scraper = ScrapPubs()
     start_url = START_URL_WHOLE_CZECHIA
-    filename = "pubs_data_czechia.csv"
+    filename = "pubs_data_czechia_1604.csv"
     if args.all_czechia is None :
         start_url = START_URL_PRAGUE
-        filename = "pubs_data_prague.csv"
+        filename = "pubs_data_pragueadadada.csv"
     list_of_pubs = scraper.get_pubs_urls(start_url)
     print(f"Total pubs to scrape: {len(list_of_pubs)}")
 
@@ -199,10 +222,13 @@ if __name__ == "__main__":
 
     with open(filename,"w",encoding = "utf-8") as f:
         print("url;rating;number_of_reviews;latitude;longitude;menu_item;price",file=f)
-        for i in tqdm.tqdm(range(len(list_of_pubs))):
-            pub_data = scraper.get_pub_data(list_of_pubs[i])
+        for i in tqdm.tqdm(range(1604,len(list_of_pubs))):
+            url = list_of_pubs[i]
+
+            # Reuse the main scraper's driver — faster because we don't recreate Chrome each time.
+            pub_data = scraper.get_pub_data(url)
             if pub_data is None:
-                failed.append(list_of_pubs[i])
+                failed.append(url)
                 continue
             pubs_data.append(pub_data)
             write_data(pub_data,f)
