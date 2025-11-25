@@ -36,6 +36,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+MAX_WIDTH = 8
+
 prague_pubs_df = pd.read_csv("../data/pubs_data.csv", sep=";")
 prague_pubs_df.head()
 
@@ -44,223 +46,6 @@ prague_pubs_df.head()
 
 czech_pubs_df = pd.read_csv("../data/pubs_data_czechia.csv" , sep=";")
 czech_pubs_df.head()
-```
-
-:::{.panel-tabset}
-## Prague
-```{python}
-print(f"Total number of lines: {len(prague_pubs_df)}")
-print(f"Number of duplicate lines: {prague_pubs_df.duplicated().sum()}")
-print(f"Number of unique pubs: {prague_pubs_df.groupby('url').ngroups}")
-print(f"Number of missing values:\n{prague_pubs_df.isna().sum()}")
-
-# get rid of dupilicate lines
-prague_pubs_df = prague_pubs_df.drop_duplicates()
-```
-
-```{python}
-# print all unique ratings
-print("Unique ratings:")
-print(prague_pubs_df['rating'].unique())
-```
-
-```{python}
-import contextily as ctx
-import geopandas as gpd
-
-# Convert your DataFrame into a GeoDataFrame
-# keep only one row per unique URL (first occurrence)
-prague_unique = prague_pubs_df.drop_duplicates(subset="url", keep="first")
-
-gdf = gpd.GeoDataFrame(
-  prague_unique,
-  geometry=gpd.points_from_xy(prague_unique.longitude, prague_unique.latitude),
-  crs="EPSG:4326"   # WGS84 lat/lon
-)
-
-# Convert to Web Mercator
-gdf = gdf.to_crs(epsg=3857)
-
-# Plot
-fig, ax = plt.subplots(figsize=(10,10))
-gdf.plot(ax=ax, color="blue", alpha=0.7, markersize=30)
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.show()
-```
-
-```{python}
-# keep only rows with non-empty rating, then one row per url
-mask_rated = prague_pubs_df['rating'].notna() & (prague_pubs_df['rating'].astype(str).str.strip() != '')
-prague_filtered = prague_pubs_df[mask_rated]
-prague_unique = prague_filtered.drop_duplicates(subset="url", keep="first")
-
-# rows without rating (also one row per url)
-mask_unrated = ~mask_rated
-prague_no_rating = prague_pubs_df[mask_unrated].drop_duplicates(subset="url", keep="first")
-
-# GeoDataFrames
-gdf_rated = gpd.GeoDataFrame(
-  prague_unique,
-  geometry=gpd.points_from_xy(prague_unique.longitude, prague_unique.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-gdf_unrated = gpd.GeoDataFrame(
-  prague_no_rating,
-  geometry=gpd.points_from_xy(prague_no_rating.longitude, prague_no_rating.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-# Plot
-fig, ax = plt.subplots(figsize=(10,10))
-# rated pubs (e.g., blue)
-gdf_rated.plot(ax=ax, color="blue", alpha=0.7, markersize=30, label="With rating")
-# unrated pubs as red points
-gdf_unrated.plot(ax=ax, color="red", alpha=0.9, markersize=40, marker="x", label="No rating")
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague (rated = blue, no rating = red)")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.legend()
-plt.show()
-```
-
-```{python}
-# keep only rows with non-empty rating, then one row per url
-mask_rated = prague_pubs_df['rating'].notna() & (prague_pubs_df['rating'].astype(str).str.strip() != '')
-prague_filtered = prague_pubs_df[mask_rated].drop_duplicates(subset="url", keep="first")
-
-# ensure rating is numeric
-prague_filtered['rating_num'] = pd.to_numeric(prague_filtered['rating'], errors='coerce')
-prague_filtered = prague_filtered[prague_filtered['rating_num'].notna()]
-
-# rows without rating (also one row per url)
-mask_unrated = ~mask_rated
-prague_no_rating = prague_pubs_df[mask_unrated].drop_duplicates(subset="url", keep="first")
-
-# GeoDataFrames
-gdf_rated = gpd.GeoDataFrame(
-  prague_filtered,
-  geometry=gpd.points_from_xy(prague_filtered.longitude, prague_filtered.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-gdf_unrated = gpd.GeoDataFrame(
-  prague_no_rating,
-  geometry=gpd.points_from_xy(prague_no_rating.longitude, prague_no_rating.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-# Plot: color by rating (1 = red, 5 = green) using RdYlGn colormap
-fig, ax = plt.subplots(figsize=(10,10))
-
-# plot unrated first so rated points are on top
-if not gdf_unrated.empty:
-    gdf_unrated.plot(ax=ax, color="lightgray", alpha=0.8, markersize=40, marker="x", label="No rating")
-
-# scatter rated points with colormap
-ratings = gdf_rated['rating_num'].astype(float)
-x = gdf_rated.geometry.x
-y = gdf_rated.geometry.y
-
-cmap = plt.get_cmap('RdYlGn')   # low=red, high=green
-norm = plt.Normalize(vmin=1, vmax=5)
-
-sc = ax.scatter(x, y, c=ratings, cmap=cmap, norm=norm, s=40, edgecolor='k', linewidth=0.2, alpha=0.9, label="With rating")
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague (colored by rating: 1=red ... 5=green)")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.legend()
-
-# colorbar for the ratings
-cbar = plt.colorbar(sc, ax=ax, fraction=0.03, pad=0.02)
-cbar.set_label('Rating')
-
-plt.show()
-```
-
-```{python}
-
-# Convert your DataFrame into a GeoDataFrame
-# keep only one row per unique URL (first occurrence)
-prague_unique = prague_pubs_df.drop_duplicates(subset="url", keep="first")
-
-gdf = gpd.GeoDataFrame(
-  prague_unique,
-  geometry=gpd.points_from_xy(prague_unique.longitude, prague_unique.latitude),
-  crs="EPSG:4326"   # WGS84 lat/lon
-)
-
-# Convert to Web Mercator
-gdf = gdf.to_crs(epsg=3857)
-
-# Plot
-fig, ax = plt.subplots(figsize=(10,10))
-gdf.plot(ax=ax, color="blue", alpha=0.7, markersize=30)
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.show()
-```
-
-```{python}
-# keep only rows with non-empty rating, then one row per url
-# determine whether each restaurant (unique url) has at least one non-empty menu_item
-has_menu = prague_pubs_df.groupby('url')['menu_item'].apply(
-  lambda s: (s.notna() & (s.astype(str).str.strip() != '')).any()
-)
-
-# take first row per url for coords/metadata and attach flag
-prague_unique = prague_pubs_df.drop_duplicates(subset='url', keep='first').set_index('url')
-prague_unique['has_menu'] = has_menu.reindex(prague_unique.index).fillna(False)
-
-# split into with/without menu
-with_menu = prague_unique[prague_unique['has_menu']]
-no_menu = prague_unique[~prague_unique['has_menu']]
-
-# GeoDataFrames
-gdf_with = gpd.GeoDataFrame(
-  with_menu,
-  geometry=gpd.points_from_xy(with_menu.longitude, with_menu.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-gdf_no = gpd.GeoDataFrame(
-  no_menu,
-  geometry=gpd.points_from_xy(no_menu.longitude, no_menu.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-# Plot: blue dots = has menu, red X = no menu
-fig, ax = plt.subplots(figsize=(10,10))
-if not gdf_no.empty:
-  gdf_no.plot(ax=ax, color="red", marker="x", markersize=50, alpha=0.9, label="No menu")
-if not gdf_with.empty:
-  gdf_with.plot(ax=ax, color="blue", markersize=30, alpha=0.8, label="Has menu")
-
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-plt.title("Pubs in Prague (has menu = blue, no menu = red)")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.legend()
-plt.show()
 ```
 
 ```{python}
@@ -276,104 +61,352 @@ def parse_price(s):
   nums = [int(n) for n in nums]
   return float(np.mean(nums))
 
-# create numeric price column per row
+  # create numeric price column per row
 prague_pubs_df['price_num'] = prague_pubs_df.get('price', prague_pubs_df.get('menu_price', pd.Series([np.nan]*len(prague_pubs_df)))).apply(parse_price)
-
-# average price per unique URL (restaurant/pub)
-price_avg = prague_pubs_df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
-
-# take first row per url for coords/metadata and attach avg_price
-prague_unique = prague_pubs_df.drop_duplicates(subset='url', keep='first').set_index('url')
-prague_unique['avg_price'] = price_avg.reindex(prague_unique.index)
-
-# split into with/without avg_price
-with_price = prague_unique[prague_unique['avg_price'].notna()].reset_index()
-no_price = prague_unique[prague_unique['avg_price'].isna()].reset_index()
-
-# GeoDataFrames
-gdf_with = gpd.GeoDataFrame(
-  with_price,
-  geometry=gpd.points_from_xy(with_price.longitude, with_price.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-gdf_no = gpd.GeoDataFrame(
-  no_price,
-  geometry=gpd.points_from_xy(no_price.longitude, no_price.latitude),
-  crs="EPSG:4326"
-).to_crs(epsg=3857)
-
-# Plot: cheapest (green) -> most expensive (red). Use reversed RdYlGn so low=green, high=red.
-fig, ax = plt.subplots(figsize=(10,10))
-
-if not gdf_no.empty:
-  gdf_no.plot(ax=ax, color="lightgray", alpha=0.8, markersize=40, marker="x", label="No price")
-
-if not gdf_with.empty:
-  prices = gdf_with['avg_price'].astype(float)
-  x = gdf_with.geometry.x
-  y = gdf_with.geometry.y
-
-  cmap = plt.get_cmap('RdYlGn_r')   # reversed: low=green, high=red
-  vmin = prices.min()
-  vmax = prices.max()
-  if np.isclose(vmin, vmax):
-    vmin = max(0, vmin - 1)
-    vmax = vmax + 1
-  norm = plt.Normalize(vmin=vmin, vmax=vmax)
-
-  sc = ax.scatter(x, y, c=prices, cmap=cmap, norm=norm, s=50, edgecolor='k', linewidth=0.2, alpha=0.9, label="With avg price")
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague (colored by average price; green=cheapest, red=most expensive)")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.legend()
-
-# colorbar for average price
-if 'sc' in locals():
-  cbar = plt.colorbar(sc, ax=ax, fraction=0.03, pad=0.02)
-  cbar.set_label('Average price (Kč)')
-
-plt.show()
+czech_pubs_df['price_num'] = czech_pubs_df.get('price', czech_pubs_df.get('menu_price', pd.Series([np.nan]*len(czech_pubs_df)))).apply(parse_price)
 ```
+
+```{python}
+import contextily as ctx
+import geopandas as gpd
+
+def analyze_df(df):
+    print(f"Total number of lines: {len(df)}")
+    print(f"Number of duplicate lines: {df.duplicated().sum()}")
+    print(f"Number of unique pubs: {df.groupby('url').ngroups}")
+    print(f"Number of missing values:\n{df.isna().sum()}")
+
+def plot_all_pubs(df, title, marker_size=30):
+  # Convert your DataFrame into a GeoDataFrame
+  # keep only one row per unique URL (first occurrence)
+  df_unique = df.drop_duplicates(subset="url", keep="first")
+
+  gdf = gpd.GeoDataFrame(
+    df_unique,
+    geometry=gpd.points_from_xy(df_unique.longitude, df_unique.latitude),
+    crs="EPSG:4326"   # WGS84 lat/lon
+  )
+
+  # Convert to Web Mercator
+  gdf = gdf.to_crs(epsg=3857)
+
+  # Plot
+  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  gdf.plot(ax=ax, color="blue", alpha=0.7, markersize=marker_size)
+
+  # Add basemap
+  ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
+
+  plt.title(f"Pubs in {title}")
+  plt.xlabel("Longitude")
+  plt.ylabel("Latitude")
+  plt.show()
+
+def plot_filter_rating(df, title, marker_size_dots=30, marker_size_x=40):
+  # keep only rows with non-empty rating, then one row per url
+  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
+  df_filtered = df[mask_rated]
+  df_unique = df_filtered.drop_duplicates(subset="url", keep="first")
+
+  # rows without rating (also one row per url)
+  mask_unrated = ~mask_rated
+  df_no_rating = df[mask_unrated].drop_duplicates(subset="url", keep="first")
+  # GeoDataFrames
+  gdf_rated = gpd.GeoDataFrame(
+    df_unique,
+    geometry=gpd.points_from_xy(df_unique.longitude, df_unique.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  gdf_unrated = gpd.GeoDataFrame(
+    df_no_rating,
+    geometry=gpd.points_from_xy(df_no_rating.longitude, df_no_rating.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  # Plot
+  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  # rated pubs (e.g., blue)
+  gdf_rated.plot(ax=ax, color="blue", alpha=0.7, markersize=marker_size_dots, label="With rating")
+  # unrated pubs as red points
+  gdf_unrated.plot(ax=ax, color="red", alpha=0.9, markersize=marker_size_x, marker="x", label="No rating")
+
+  # Add basemap
+  ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
+
+  plt.title(f"Pubs in {title} (rated = blue, no rating = red)")
+  plt.xlabel("Longitude")
+  plt.ylabel("Latitude")
+  plt.legend()
+  plt.show()
+
+def plot_rating(df, title, min_size=30, max_size=350):
+  # keep only rows with non-empty rating, then one row per url
+  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
+  df_filtered = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
+
+  # ensure rating is numeric
+  df_filtered['rating_num'] = pd.to_numeric(df_filtered['rating'], errors='coerce')
+  df_filtered = df_filtered[df_filtered['rating_num'].notna()]
+
+  # ensure number_of_reviews is numeric (int) and fill missing with 0
+  df_filtered['num_reviews'] = pd.to_numeric(df_filtered.get('number_of_reviews', pd.Series(dtype='float')), errors='coerce').fillna(0).astype(int)
+
+  # rows without rating (also one row per url)
+  mask_unrated = ~mask_rated
+  df_no_rating = df[mask_unrated].drop_duplicates(subset="url", keep="first")
+  # GeoDataFrames
+  gdf_rated = gpd.GeoDataFrame(
+    df_filtered,
+    geometry=gpd.points_from_xy(df_filtered.longitude, df_filtered.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  gdf_unrated = gpd.GeoDataFrame(
+    df_no_rating,
+    geometry=gpd.points_from_xy(df_no_rating.longitude, df_no_rating.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  # Plot: color by rating (1 = red, 5 = green) using RdYlGn colormap
+  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+
+  # plot unrated first so rated points are on top
+  if not gdf_unrated.empty:
+      gdf_unrated.plot(ax=ax, color="lightgray", alpha=0.8, markersize=40, marker="x", label="No rating")
+
+  # scatter rated points with colormap; size corresponds to number_of_reviews
+  ratings = gdf_rated['rating_num'].astype(float)
+  x = gdf_rated.geometry.x
+  y = gdf_rated.geometry.y
+  num_reviews = gdf_rated['num_reviews'].astype(int)
+
+  # scale sizes: map num_reviews to a reasonable marker area range [min_size, max_size]
+  if len(num_reviews) == 0:
+      sizes = np.array([])
+  else:
+      nmin = int(num_reviews.min())
+      nmax = int(num_reviews.max())
+      if nmax == nmin:
+          sizes = np.full(len(num_reviews), (min_size + max_size) / 2.0)
+      else:
+          sizes = min_size + (num_reviews - nmin) / (nmax - nmin) * (max_size - min_size)
+
+  cmap = plt.get_cmap('RdYlGn')   # low=red, high=green
+  norm = plt.Normalize(vmin=1, vmax=5)
+
+  sc = ax.scatter(x, y, c=ratings, cmap=cmap, norm=norm, s=sizes, edgecolor='k', linewidth=0.2, alpha=0.9, label="With rating (size = #reviews)")
+
+  # Add basemap
+  ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
+
+  plt.title(f"Pubs in {title} (colored by rating: 1=red ... 5=green; size = number of reviews)")
+  plt.xlabel("Longitude")
+  plt.ylabel("Latitude")
+  plt.legend()
+
+  # colorbar for the ratings
+  cbar = plt.colorbar(sc, ax=ax, fraction=0.03, pad=0.02)
+  cbar.set_label('Rating')
+
+  plt.show()
+
+def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
+  # keep only rows with non-empty rating, then one row per url
+  # determine whether each restaurant (unique url) has at least one non-empty menu_item
+  has_menu = df.groupby('url')['menu_item'].apply(
+    lambda s: (s.notna() & (s.astype(str).str.strip() != '')).any()
+  )
+
+  # take first row per url for coords/metadata and attach flag
+  unique = df.drop_duplicates(subset='url', keep='first').set_index('url')
+  unique['has_menu'] = has_menu.reindex(unique.index).fillna(False)
+
+  # split into with/without menu
+  with_menu = unique[unique['has_menu']]
+  no_menu = unique[~unique['has_menu']]
+
+  # GeoDataFrames
+  gdf_with = gpd.GeoDataFrame(
+    with_menu,
+    geometry=gpd.points_from_xy(with_menu.longitude, with_menu.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  gdf_no = gpd.GeoDataFrame(
+    no_menu,
+    geometry=gpd.points_from_xy(no_menu.longitude, no_menu.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  # Plot: blue dots = has menu, red X = no menu
+  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  if not gdf_no.empty:
+    gdf_no.plot(ax=ax, color="red", marker="x", markersize=marker_size_x, alpha=0.9, label="No menu")
+  if not gdf_with.empty:
+    gdf_with.plot(ax=ax, color="blue", markersize=marker_size_dots, alpha=0.7, label="Has menu")
+
+  ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
+  plt.title(f"Pubs in {title} (has menu = blue, no menu = red)")
+  plt.xlabel("Longitude")
+  plt.ylabel("Latitude")
+  plt.legend()
+  plt.show()
+
+def plot_price(df, title):
+  # average price per unique URL (restaurant/pub)
+  price_avg = df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
+
+  # take first row per url for coords/metadata and attach avg_price
+  unique = df.drop_duplicates(subset='url', keep='first').set_index('url')
+  unique['avg_price'] = price_avg.reindex(unique.index)
+  # split into with/without avg_price
+  with_price = unique[unique['avg_price'].notna()].reset_index()
+  no_price = unique[unique['avg_price'].isna()].reset_index()
+
+  # GeoDataFrames
+  gdf_with = gpd.GeoDataFrame(
+    with_price,
+    geometry=gpd.points_from_xy(with_price.longitude, with_price.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  gdf_no = gpd.GeoDataFrame(
+    no_price,
+    geometry=gpd.points_from_xy(no_price.longitude, no_price.latitude),
+    crs="EPSG:4326"
+  ).to_crs(epsg=3857)
+
+  # Plot: cheapest (green) -> most expensive (red). Use reversed RdYlGn so low=green, high=red.
+  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+
+  if not gdf_no.empty:
+    gdf_no.plot(ax=ax, color="lightgray", alpha=0.8, markersize=40, marker="x", label="No price")
+
+  if not gdf_with.empty:
+    prices = gdf_with['avg_price'].astype(float)
+    x = gdf_with.geometry.x
+    y = gdf_with.geometry.y
+
+    cmap = plt.get_cmap('RdYlGn_r')   # reversed: low=green, high=red
+    vmin = prices.min()
+    vmax = prices.max()
+    if np.isclose(vmin, vmax):
+      vmin = max(0, vmin - 1)
+      vmax = vmax + 1
+    norm = plt.Normalize(vmin=vmin, vmax=vmax)
+
+    sc = ax.scatter(x, y, c=prices, cmap=cmap, norm=norm, s=50, edgecolor='k', linewidth=0.2, alpha=0.9, label="With avg price")
+
+  # Add basemap
+  ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
+
+  plt.title(f"Pubs in {title} (colored by average price; green=cheapest, red=most expensive)")
+  plt.xlabel("Longitude")
+  plt.ylabel("Latitude")
+  plt.legend()
+
+  # colorbar for average price
+  if 'sc' in locals():
+    cbar = plt.colorbar(sc, ax=ax, fraction=0.03, pad=0.02)
+    cbar.set_label('Average price (Kč)')
+
+  plt.show()
+```
+
+
+:::{.panel-tabset}
+## Prague
+```{python}
+analyze_df(prague_pubs_df)
+
+# get rid of dupilicate lines
+prague_pubs_df = prague_pubs_df.drop_duplicates()
+```
+
+```{python}
+# print all unique ratings
+print("Unique ratings:")
+print(prague_pubs_df['rating'].unique())
+```
+
+Velikost puntiku podle poctu hodnoceni
+Histogram cen a hodnocení
+
+### Rating
+
+:::{.panel-tabset}
+## All
+```{python}
+plot_all_pubs(prague_pubs_df, "Prague")
+```
+## Filtered
+```{python}
+plot_filter_rating(prague_pubs_df, "Prague")
+```
+## Rated
+```{python}
+plot_rating(prague_pubs_df, "Prague")
+```
+:::
+
+### Price
+
+:::{.panel-tabset}
+## All
+```{python}
+plot_all_pubs(prague_pubs_df, "Prague")
+```
+## Filtered
+```{python}
+plot_filter_price(prague_pubs_df, "Prague")
+```
+## Priced
+```{python}
+plot_price(prague_pubs_df, "Prague")
+```
+:::
 
 ## Czechia
 
 ```{python}
-print(f"Total number of lines: {len(czech_pubs_df)}")
-print(f"Number of duplicate lines: {czech_pubs_df.duplicated().sum()}")
-print(f"Number of unique pubs: {czech_pubs_df.groupby('url').ngroups}")
-print(f"Number of missing values:\n{czech_pubs_df.isna().sum()}")
+analyze_df(czech_pubs_df)
 
 czech_pubs_df = czech_pubs_df.drop_duplicates()
 ```
 
+### Rating
+
+:::{.panel-tabset}
+## All
 ```{python}
-czechia_unique = czech_pubs_df.drop_duplicates(subset="url", keep="first")
-
-gdf = gpd.GeoDataFrame(
-    czechia_unique,
-    geometry=gpd.points_from_xy(czechia_unique.longitude, czechia_unique.latitude),
-    crs="EPSG:4326"   # WGS84 lat/lon
-)
-
-# Convert to Web Mercator
-gdf = gdf.to_crs(epsg=3857)
-
-# Plot
-fig, ax = plt.subplots(figsize=(10,10))
-gdf.plot(ax=ax, alpha=0.7, markersize=10)
-
-# Add basemap
-ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
-
-plt.title("Pubs in Prague")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.show()
+plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
 ```
+## Filtered
+```{python}
+plot_filter_rating(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
+```
+## Rated
+```{python}
+plot_rating(czech_pubs_df, "Czechia", 15, 175)
+```
+:::
+
+### Price
+
+:::{.panel-tabset}
+## All
+```{python}
+plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
+```
+## Filtered
+```{python}
+plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
+```
+## Priced
+```{python}
+plot_price(czech_pubs_df, "Czechia")
+```
+:::
 
 :::
