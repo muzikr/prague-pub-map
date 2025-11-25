@@ -211,6 +211,51 @@ def plot_rating(df, title, min_size=30, max_size=350):
 
   plt.show()
 
+def plot_rating_histogram(df, title):
+  # keep only rows with non-empty rating
+  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
+  df_filtered = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
+
+  # ensure rating is numeric
+  df_filtered['rating_num'] = pd.to_numeric(df_filtered['rating'], errors='coerce')
+  df_filtered = df_filtered[df_filtered['rating_num'].notna()]
+  ratings = df_filtered['rating_num'].astype(float)
+  plt.figure(figsize=(8,5))
+  sns.histplot(ratings, bins=np.arange(0.5, 5.6, 0.1), kde=False, color='blue')
+  plt.title(f"Histogram of Ratings for Pubs in {title}")
+  plt.xlabel("Rating")
+  plt.ylabel("Number of Pubs")
+  plt.xlim(0.5, 5.5)
+  plt.grid(axis='y', alpha=0.75)
+  plt.show()
+
+def print_min_max_rating(df):
+  # keep only rows with non-empty rating, one row per url
+  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
+  df_unique = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
+
+  # ensure rating is numeric
+  df_unique['rating_num'] = pd.to_numeric(df_unique['rating'], errors='coerce')
+  df_unique = df_unique[df_unique['rating_num'].notna()]
+
+  if df_unique.empty:
+    print("No ratings available.")
+    return
+
+  min_r = float(df_unique['rating_num'].min())
+  max_r = float(df_unique['rating_num'].max())
+
+  print(f"Minimum rating: {min_r}")
+  min_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), min_r)]
+  print(f"Number of pubs with minimum rating: {len(min_rows)}")
+  # print relevant columns
+  print(min_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
+
+  print(f"\nMaximum rating: {max_r}")
+  max_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), max_r)]
+  print(f"Number of pubs with maximum rating: {len(max_rows)}")
+  print(max_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
+
 def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
   # keep only rows with non-empty rating, then one row per url
   # determine whether each restaurant (unique url) has at least one non-empty menu_item
@@ -312,6 +357,34 @@ def plot_price(df, title):
     cbar.set_label('Average price (Kč)')
 
   plt.show()
+
+def print_min_max_price(df):
+  # average price per unique URL (restaurant/pub)
+  price_avg = df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
+
+  # take first row per url for coords/metadata and attach avg_price
+  unique = df.drop_duplicates(subset='url', keep='first').set_index('url')
+  unique['avg_price'] = price_avg.reindex(unique.index)
+
+  # filter to those with avg_price
+  unique = unique[unique['avg_price'].notna()]
+
+  if unique.empty:
+    print("No price data available.")
+    return
+
+  min_p = float(unique['avg_price'].min())
+  max_p = float(unique['avg_price'].max())
+
+  print(f"Minimum average price: {min_p:.2f} Kč")
+  min_rows = unique[np.isclose(unique['avg_price'].astype(float), min_p)]
+  print(f"Number of pubs with minimum average price: {len(min_rows)}")
+  print(min_rows.reset_index()[['url','avg_price']].to_string(index=False))
+
+  print(f"\nMaximum average price: {max_p:.2f} Kč")
+  max_rows = unique[np.isclose(unique['avg_price'].astype(float), max_p)]
+  print(f"Number of pubs with maximum average price: {len(max_rows)}")
+  print(max_rows.reset_index()[['url','avg_price']].to_string(index=False))
 ```
 
 
@@ -350,6 +423,14 @@ plot_rating(prague_pubs_df, "Prague")
 ```
 :::
 
+```{python}
+plot_rating_histogram(prague_pubs_df, "Prague")
+```
+
+```{python}
+print_min_max_rating(prague_pubs_df)
+```
+
 ### Price
 
 :::{.panel-tabset}
@@ -366,6 +447,10 @@ plot_filter_price(prague_pubs_df, "Prague")
 plot_price(prague_pubs_df, "Prague")
 ```
 :::
+
+```{python}
+print_min_max_price(prague_pubs_df)
+```
 
 ## Czechia
 
@@ -392,6 +477,14 @@ plot_rating(czech_pubs_df, "Czechia", 15, 175)
 ```
 :::
 
+```{python}
+plot_rating_histogram(czech_pubs_df, "Czechia")
+```
+
+```{python}
+print_min_max_rating(czech_pubs_df)
+```
+
 ### Price
 
 :::{.panel-tabset}
@@ -408,5 +501,9 @@ plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=2
 plot_price(czech_pubs_df, "Czechia")
 ```
 :::
+
+```{python}
+print_min_max_price(czech_pubs_df)
+```
 
 :::
