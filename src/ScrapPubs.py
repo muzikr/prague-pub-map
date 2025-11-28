@@ -1,6 +1,5 @@
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -17,9 +16,9 @@ START_URL_WHOLE_CZECHIA = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby
 def write_data(data : dict, file) -> None:
     if data["menu"]:
         for menu_item, price in data["menu"]:
-            print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item};{price}"',file=file)
+            print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item}";"{price}"',file=file)
     else:
-        print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};;',file=file)
+        print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};{None};{None}',file=file)
 
 
 
@@ -54,7 +53,10 @@ class ScrapPubs:
     def _get_rating(self):
         """Extract rating from the page."""
         try:
-            rating_elem = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "mapyRatingBadge.hydrated")))
+            # The element has two classes: "value" and "detailRating"; use a CSS selector
+            value_detail_rating = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".value.detailRating")))
+            print("Found rating element")
+            rating_elem = value_detail_rating.find_element(By.CSS_SELECTOR, ".mapyRatingBadge.hydrated")
             rating = rating_elem.get_attribute("rating")
             number_of_ratings = rating_elem.get_attribute("reviews")
             return rating, number_of_ratings
@@ -118,7 +120,7 @@ class ScrapPubs:
                 self.was_restarted = False
 
             rating, number_of_reviews = self._get_rating()
-            lat, lon = self._get_coordinates()
+            lon, lat = self._get_coordinates()
             menu = self._get_menu()
             pub_data = {
                 "url": url,
@@ -203,15 +205,33 @@ class ScrapPubs:
             print(f"No more pages or error navigating to next page: {e}")
             return False
     
+def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_reviews = None):
+    scraper = ScrapPubs()
+    pub_data = scraper.get_pub_data(pub_url)
+    if pub_data:
+        print(pub_data)
+        assert (len(pub_data['menu']) > 0) == has_menu, f"Menu presence assertion failed for {pub_url}"
+        assert (pub_data['rating'] is not None) == has_rating, f"Rating presence assertion failed for {pub_url}"
+        assert (pub_data['number_of_reviews'] is not None) == (number_of_reviews is not None), f"Number of reviews presence assertion failed for {pub_url}"
+        if number_of_reviews is not None:
+            assert (int(pub_data['number_of_reviews']) == number_of_reviews), f"Number of reviews assertion failed for {pub_url}"
+    else:
+        print("Failed to scrape pub data.")
+
+    
 if __name__ == "__main__":
 
+    test_pub("https://www.firmy.cz/detail/13823963-hospudka-na-ruzku-praha-kunratice.html") #no menu # no rating
+    test_pub("https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html", has_rating=True,number_of_reviews=48) 
+    test_pub("https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html", has_rating=True,number_of_reviews=40)
+    exit(0)
     argparser = argparse.ArgumentParser(description="Scrape pub data from a directory site.")
     argparser.add_argument("--all_czechia", action="store_true", help="Scrape pubs from the whole Czechia instead of just Prague.", default=None)
     args = argparser.parse_args()
     scraper = ScrapPubs()
     start_url = START_URL_WHOLE_CZECHIA
     filename = "pubs_data_czechia_1604.csv"
-    if args.all_czechia is None :
+    if args.all_czechia is None:
         start_url = START_URL_PRAGUE
         filename = "pubs_data_pragueadadada.csv"
     list_of_pubs = scraper.get_pubs_urls(start_url)
@@ -222,7 +242,7 @@ if __name__ == "__main__":
 
     with open(filename,"w",encoding = "utf-8") as f:
         print("url;rating;number_of_reviews;latitude;longitude;menu_item;price",file=f)
-        for i in tqdm.tqdm(range(1604,len(list_of_pubs))):
+        for i in tqdm.tqdm(len(list_of_pubs)):
             url = list_of_pubs[i]
 
             # Reuse the main scraper's driver — faster because we don't recreate Chrome each time.
