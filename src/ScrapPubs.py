@@ -13,15 +13,29 @@ START_URL_PRAGUE = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospod
 
 START_URL_WHOLE_CZECHIA = "https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince"
 
-def write_data(data : dict, file) -> None:
+URLS_WHOLE_REPUBLIC = [
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-praha","Prague"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-karlovarsky","Karlovy Vary"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-plzensky","Plzen"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-stredocesky","Středočeský"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-ustecky","Ústecký"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-kralovehradecky","Královéhradecký"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-pardubicky","Pardubický"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-vysocina","Vysočina"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-jihocesky","Jihočeský"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-zlinsky","Zlínský"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-olomoucky","Olomoucký"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-moravskoslezsky","Moravskoslezský"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-jihomoravsky","Jihomoravský"),
+     ("https://www.firmy.cz/Restauracni-a-pohostinske-sluzby/Hospody-a-hostince/kraj-liberecky","Liberecký"),
+]
+
+def write_data(data : dict, file, region : str) -> None:
     if data["menu"]:
         for menu_item, price in data["menu"]:
-            print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item}";"{price}"',file=file)
+            print(f'{data["name"]};{region};{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};"{menu_item}";"{price}"',file=file)
     else:
-        print(f'{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};{None};{None}',file=file)
-
-
-
+        print(f'{data["name"]};{region};{data["url"]};{data["rating"]};{data["number_of_reviews"]};{data["coordinates"][0]};{data["coordinates"][1]};{None};{None}',file=file)
 class ScrapPubs:
     def __init__(self):
         self.chrome_options = Options()
@@ -32,14 +46,14 @@ class ScrapPubs:
 
         #self.service = Service('chromedriver.exe')  # Update with your chromedriver path
         self.driver = webdriver.Chrome(options=self.chrome_options)
-        self.wait = WebDriverWait(self.driver, 30)  # 10 seconds wait
+        self.wait = WebDriverWait(self.driver, 20)  # 10 seconds wait
         self.was_restarted = False
 
     def restart_driver(self):
         """Restart the WebDriver."""
         self.driver.quit()
         self.driver = webdriver.Chrome(options=self.chrome_options)
-        self.wait = WebDriverWait(self.driver, 30)
+        self.wait = WebDriverWait(self.driver, 20)
         self.was_restarted = True
 
     def _extract_coordinates_from_url(self, url):
@@ -54,9 +68,10 @@ class ScrapPubs:
         """Extract rating from the page."""
         try:
             # The element has two classes: "value" and "detailRating"; use a CSS selector
-            value_detail_rating = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".value.detailRating")))
-            print("Found rating element")
-            rating_elem = value_detail_rating.find_element(By.CSS_SELECTOR, ".mapyRatingBadge.hydrated")
+            # Wait up to 5 seconds for the rating badge that is a descendant of the detail block
+            rating_elem = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".value.detailRating .mapyRatingBadge.hydrated"))
+            )
             rating = rating_elem.get_attribute("rating")
             number_of_ratings = rating_elem.get_attribute("reviews")
             return rating, number_of_ratings
@@ -118,8 +133,15 @@ class ScrapPubs:
                 if buttons:
                     buttons[0].click()
                 self.was_restarted = False
-
             rating, number_of_reviews = self._get_rating()
+                # Wait up to 5s for the primary title element that has classes
+                # `detailPrimaryTitle`, `speakable`, and `title`
+            name_elem = self.wait.until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".detailPrimaryTitle.speakable.title"))
+            )
+            name = name_elem.text
+
+
             lon, lat = self._get_coordinates()
             menu = self._get_menu()
             pub_data = {
@@ -127,7 +149,8 @@ class ScrapPubs:
                 "rating": rating,
                 "coordinates": (lat, lon),
                 "menu": menu,
-                "number_of_reviews": number_of_reviews
+                "number_of_reviews": number_of_reviews,
+                "name" : name
             }
             return pub_data
         
@@ -205,7 +228,7 @@ class ScrapPubs:
             print(f"No more pages or error navigating to next page: {e}")
             return False
     
-def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_reviews = None):
+def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_reviews = None) -> None | dict:
     scraper = ScrapPubs()
     pub_data = scraper.get_pub_data(pub_url)
     if pub_data:
@@ -215,47 +238,71 @@ def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_revie
         assert (pub_data['number_of_reviews'] is not None) == (number_of_reviews is not None), f"Number of reviews presence assertion failed for {pub_url}"
         if number_of_reviews is not None:
             assert (int(pub_data['number_of_reviews']) == number_of_reviews), f"Number of reviews assertion failed for {pub_url}"
+        return pub_data
     else:
         print("Failed to scrape pub data.")
 
     
-if __name__ == "__main__":
 
-    test_pub("https://www.firmy.cz/detail/13823963-hospudka-na-ruzku-praha-kunratice.html") #no menu # no rating
-    test_pub("https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html", has_rating=True,number_of_reviews=48) 
-    test_pub("https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html", has_rating=True,number_of_reviews=40)
-    exit(0)
-    argparser = argparse.ArgumentParser(description="Scrape pub data from a directory site.")
-    argparser.add_argument("--all_czechia", action="store_true", help="Scrape pubs from the whole Czechia instead of just Prague.", default=None)
-    args = argparser.parse_args()
+    #test_pub("https://www.firmy.cz/detail/13823963-hospudka-na-ruzku-praha-kunratice.html") #no menu # no rating
+    #test_pub("https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html", has_rating=True,number_of_reviews=48) 
+    #test_pub("https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html", has_rating=True,number_of_reviews=40)
+    #test_pub("https://www.firmy.cz/detail/13503510-pivovarsky-dum-benedict-praha-nove-mesto.html", has_menu=True, has_rating=True, number_of_reviews=116)
+    #data = test_pub("https://www.firmy.cz/detail/12761309-pivni-bar-napalme-praha-liben.html", has_menu=False, has_rating=True, number_of_reviews=14)
+    #with open("test_output.csv","w",encoding = "utf-8") as f:
+    #    write_data(data,f)
+    #exit(0)
+from multiprocessing import Process
+import argparse, tqdm
+
+def scrape_region(url, region):
+    print(f"[{region}] Starting...")
     scraper = ScrapPubs()
-    start_url = START_URL_WHOLE_CZECHIA
-    filename = "pubs_data_czechia_1604.csv"
-    if args.all_czechia is None:
-        start_url = START_URL_PRAGUE
-        filename = "pubs_data_pragueadadada.csv"
-    list_of_pubs = scraper.get_pubs_urls(start_url)
-    print(f"Total pubs to scrape: {len(list_of_pubs)}")
-
+    list_of_pubs = scraper.get_pubs_urls(url)
     pubs_data = []
     failed = []
 
-    with open(filename,"w",encoding = "utf-8") as f:
-        print("url;rating;number_of_reviews;latitude;longitude;menu_item;price",file=f)
-        for i in tqdm.tqdm(len(list_of_pubs)):
-            url = list_of_pubs[i]
+    out_file = f"pub_urls_{region}.csv"
+    with open(out_file, "w", encoding="utf-8") as f:
+        print("name;region;url;rating;number_of_reviews;latitude;longitude;menu_item;price", file=f)
 
-            # Reuse the main scraper's driver — faster because we don't recreate Chrome each time.
-            pub_data = scraper.get_pub_data(url)
+        for pub_url in tqdm.tqdm(list_of_pubs, desc=f"{region}"):
+            pub_data = scraper.get_pub_data(pub_url)
             if pub_data is None:
-                failed.append(url)
+                failed.append(pub_url)
                 continue
             pubs_data.append(pub_data)
-            write_data(pub_data,f)
+            write_data(pub_data, f, region)
 
-    pubs_with_no_menu_count = len([pub for pub in pubs_data if len(pub['menu']) == 0])
-    print(f"data with no menu percentage: {pubs_with_no_menu_count / len(pubs_data) * 100}%")
-    print(f"Total pubs scraped: {len(pubs_data)}")
-    print(f"Pubs with no menu: {pubs_with_no_menu_count}")
-    print(f"Pubs with menu: {len(pubs_data) - pubs_with_no_menu_count}")
-    print(f"Failed to scrape {len(failed)} pubs.")
+    pubs_with_no_menu_count = len([p for p in pubs_data if len(p['menu']) == 0])
+    pubs_with_no_rating_count = len([p for p in pubs_data if p['rating'] is None])
+
+    print(
+        f"[{region}] DONE. total={len(pubs_data)} "
+        f"no menu={pubs_with_no_menu_count} "
+        f"no rating={pubs_with_no_rating_count} "
+        f"failed={len(failed)}"
+    )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--all_czechia", action="store_true")
+    args = parser.parse_args()
+
+    if not args.all_czechia:
+        start_urls = [(START_URL_PRAGUE, "Praha")]
+    else:
+        start_urls = URLS_WHOLE_REPUBLIC
+
+    processes = []
+
+    for url, region in start_urls:
+        p = Process(target=scrape_region, args=(url, region))
+        p.start()
+        processes.append(p)
+
+    for p in processes:
+        p.join()
+
+    print("All jobs finished!")
