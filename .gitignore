@@ -213,3 +213,5 @@ data/bible.txt
 
 # Ignore executable files
 *.exe
+
+report/.jupyter_cache
