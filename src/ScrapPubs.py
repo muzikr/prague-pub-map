@@ -66,18 +66,33 @@ class ScrapPubs:
         
     def _get_rating(self):
         """Extract rating from the page."""
-        try:
-            # The element has two classes: "value" and "detailRating"; use a CSS selector
-            # Wait up to 5 seconds for the rating badge that is a descendant of the detail block
-            rating_elem = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, ".value.detailRating .mapyRatingBadge.hydrated"))
-            )
-            rating = rating_elem.get_attribute("rating")
-            number_of_ratings = rating_elem.get_attribute("reviews")
-            return rating, number_of_ratings
-        except Exception as e:
-            print(f"Error extracting rating: {e}")
-            return None, None
+        # Retry a few times because on some pages the badge or its attributes
+        # may appear slightly later (transient JS updates).
+        max_attempts = 5
+        for attempt in range(1, max_attempts + 1):
+            try:
+                # Wait a bit longer on subsequent attempts
+                wait_seconds = 3 * attempt
+                rating_elem = WebDriverWait(self.driver, wait_seconds).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, ".value.detailRating .mapyRatingBadge.hydrated"))
+                )
+                rating = rating_elem.get_attribute("rating")
+                number_of_ratings = rating_elem.get_attribute("reviews")
+
+                # If attributes are missing, treat it as a transient failure and retry
+                if (rating is None or rating == "") and (number_of_ratings is None or number_of_ratings == ""):
+                    raise Exception("rating attributes not populated yet")
+
+                return rating, number_of_ratings
+
+            except Exception as e:
+                print(f"Attempt {attempt}/{max_attempts}: couldn't extract rating ({e})")
+                # short backoff before next try
+                if attempt < max_attempts:
+                    time.sleep(1 + attempt)
+
+        print("Failed to extract rating after retries")
+        return None, None
     
     def _get_coordinates(self):
         """Extract coordinates from the page."""
@@ -140,10 +155,9 @@ class ScrapPubs:
                 EC.presence_of_element_located((By.CSS_SELECTOR, ".detailPrimaryTitle.speakable.title"))
             )
             name = name_elem.text
-
-
             lon, lat = self._get_coordinates()
             menu = self._get_menu()
+
             pub_data = {
                 "url": url,
                 "rating": rating,
@@ -193,13 +207,14 @@ class ScrapPubs:
                 
                 for block in hopefully_urls[:-1]: # for some reason last one does not have link
                     try:
-                        print(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
+                  #      print(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
                         pub_urls.append(block.find_element(By.CSS_SELECTOR, '[data-dot="premise"]').get_attribute("href"))
                     except Exception as e:
-                        print(f"Error extracting URL from block: {e}")
+                        pass
+                  #      print(f"Error extracting URL from block: {e}")
 
                 is_there_more = self.__get_another_page()  # Check if there's a next page and navigate to it
-            print(f"Total URLs found: {len(pub_urls)}")
+          #  print(f"Total URLs found: {len(pub_urls)}")
             return pub_urls    
         
         except Exception as e:
@@ -230,6 +245,7 @@ class ScrapPubs:
     
 def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_reviews = None) -> None | dict:
     scraper = ScrapPubs()
+    scraper.was_restarted = True
     pub_data = scraper.get_pub_data(pub_url)
     if pub_data:
         print(pub_data)
@@ -241,17 +257,20 @@ def test_pub(pub_url: str, has_menu = False, has_rating = False, number_of_revie
         return pub_data
     else:
         print("Failed to scrape pub data.")
-
     
+def test_pubs():
+    test_pub("https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html", has_rating=True,number_of_reviews=48) 
+    test_pub("https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html", has_rating=True,number_of_reviews=40)
+    test_pub("https://www.firmy.cz/detail/13503510-pivovarsky-dum-benedict-praha-nove-mesto.html", has_rating=True, number_of_reviews=116)
+        #data = test_pub("https://www.firmy.cz/detail/12761309-pivni-bar-napalme-praha-liben.html", has_menu=False, has_rating=True, number_of_reviews=14)
+        #with open("test_output.csv","w",encoding = "utf-8") as f:
+        #    write_data(data,f)
+        #exit(0)
+    test_pub("https://www.firmy.cz/detail/2097075-pohostinstvi-u-stojanu-zadverice-rakova-zadverice.html",has_rating=True,number_of_reviews=17) #no menu # no rating
+    print("All tests passed.")
 
-    #test_pub("https://www.firmy.cz/detail/13823963-hospudka-na-ruzku-praha-kunratice.html") #no menu # no rating
-    #test_pub("https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html", has_rating=True,number_of_reviews=48) 
-    #test_pub("https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html", has_rating=True,number_of_reviews=40)
-    #test_pub("https://www.firmy.cz/detail/13503510-pivovarsky-dum-benedict-praha-nove-mesto.html", has_menu=True, has_rating=True, number_of_reviews=116)
-    #data = test_pub("https://www.firmy.cz/detail/12761309-pivni-bar-napalme-praha-liben.html", has_menu=False, has_rating=True, number_of_reviews=14)
-    #with open("test_output.csv","w",encoding = "utf-8") as f:
-    #    write_data(data,f)
-    #exit(0)
+#test_pubs()
+#exit(0)
 from multiprocessing import Process
 import argparse, tqdm
 
