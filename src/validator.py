@@ -36,7 +36,7 @@ def validate_dataframe(url: str, scraper, region : str,f) -> None:
     print(f"Number of pubs in DataFrame: {df_count}",file = f)
 
     print(f"Actual number of pubs: {actual_count}",file = f)
-    print(f"count of ratings missing: {df['rating'].notna().sum()}",file  = f)
+    print(f"count of ratings missing: {df_count- df['rating'].notna().sum()}",file  = f)
 
 if __name__ == "__main__":
     with open('validator_log.txt', 'w',encoding="utf-8") as f:
