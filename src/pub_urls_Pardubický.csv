@@ -1,0 +1,388 @@
+name;region;url;rating;number_of_reviews;latitude;longitude;menu_item;price
+Hostinec Obora;Pardubický;https://www.firmy.cz/detail/13048962-hostinec-obora-slatinany-trpisov.html;4.4;102;49.888932;15.797196;None;None
+Hostinec u Kateřiny;Pardubický;https://www.firmy.cz/detail/13702007-hostinec-u-kateriny-lanskroun-zichlinske-predmesti.html;4.7;7;49.910829;16.603816;None;None
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Kuřecí steak se sýrovým dipem";"225 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Kuřecí steak s bylinkovým dipem";"225 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Kachní steak s medovo – hořčičným dipem";"235 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Kachní steak na černém pivu";"235 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Přírodní steak z vepřové krkovice 500g";"365 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Steak z vepřové krkovice se sweet chilli omáčkou";"235 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Steak z vepřové panenky s pepřovým dipem";"245 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Steak z vepřové panenky se švestkovou omáčkou";"245 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Flank steak s dipem z červeného vína a hořčicí";"295 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Steak z lososa s citronovým dipem";"255 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Steak z lososa na bylinkách";"255 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Hranolky";"45 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Krokety";"45 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Pečené brambory";"45 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Americké brambory";"45 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Domácí bramborové chipsy s dipem";"95 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Cibulové kroužky s pikantním dipem";"55 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Utopenec s chlebem";"79 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Nakládaný hermelín s chlebem";"82 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Pikantní klobása s chlebem";"79 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Topinka s kuřecí směsí";"125 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Chicken twister";"155 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Pikantní twister";"155 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"CHEESEBURGER";"145 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"SEBI BURGER (bulka, 150g maso, slanina, okurek, smaž. cibulka, rajče, salát, dresing, sýr";"155 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"SEB -EYE BURGE";"165 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Chalupářská pizza";"149 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Ďábelská pizza";"149 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Chaozz pizza";"159 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Sýrová pizza";"149 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Pizza s kuřecím masem";"159 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Smažený sýr";"120 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Smažené kuřecí stripsy";"110 Kč"
+Chaozz Bar U Tří Mostů;Pardubický;https://www.firmy.cz/detail/13465331-chaozz-bar-u-tri-mostu-usti-nad-orlici-hylvaty.html;4.7;7;49.953832;16.413097;"Smažené tvarůžky";"95 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Výborná GULÁŠOVÁ St. Patrick v teplém křupavém bochníku chleba";"99 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Silný HOVĚZÍ VÝVAR z oháňky servírovaný s kuřecím nokem a raviolkou";"75 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"ČESNEČKA se sýrovými hoblinami, šunkou a chlebovými krutony";"64 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"KRÉMOVÁ ČESNEČKA s chlebovým chipsem a sýrem TIP!";"89 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Originál IRSKÁ SNÍDANĚ křupavá slanina, opečené párečky, hashbrowns (smažené bramborové rösti) , grilované rajče, fazole v tomatové šťávě a sázené vejce TIP!";"149 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"VEJCE BENEDIKT se šunkou, grilovanými houbami, holandskou omáčkou a rozpečenými večkami";"149 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"HEMENEX s anglickou slaninou, podáváno s pečivem";"109 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"ČERSTVÁ BAGETKA s bylinkovým máslem";"30 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Marinované TVARŮŽKY Z LOŠTIC s jalapeňos papričkou a čerstvým pečivem";"149 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše POMAZÁNKA z pečeného bůčku s cibulkou, kyselou okurkou, čerstvým chlebem, s plátky jalapeňos";"109 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Tygří krevety na sádle s česnekem a chilli s rozpečenou bagetou";"229 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Šéfkuchařova vepřová TLAČENKA extra libová, s octem a cibulí a čerstvým chlebem";"99 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"GRILOVANÉ OCÁSKY Z ANGLICKÉ SLANINY slanina s česnekovým dresinkem a rozpečenými bagetkami";"129 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"IRISH FINGER´S FOOD kuřecí křidélka, cibulové kroužky, grilované klobásky, plněné papričky Jalapeňos a spicy wedges (kořeněné brambory) , servírované v košíku s česnekovým a BBQ dresingem";"229 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše smažené CIBULOVÉ KROUŽKY s omáčkou dle výběru (grilovací, bluecheese nebo spicy)";"109 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"ROZPEČENÉ TRIO SÝRŮ (ementál, parmazán a gouda) v keramické misce s bylinkami a česnekem, s rozpečenými večkami";"119 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše bramborové chipsy jemně kořeněné";"74 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"BUFFALO WING´S miska pečených kuřecích křidélek v marinádě dle výběru (BBQ Jameson nebo pikantní Chipotle marinádě) , podávaná s grilovací omáčkou, 400g";"179 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Šťavnatý IRISH BURGER z hovězího masa, s rokforovým krémem a omáčkou JAMESON, salát, rajče, v naší rozpečené bulce s hranolky";"279 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Hovězí BURGER St. Patrick se slaninou, sýrem, salsou, cibulí, rajčaty a salátem v naší rozpečené bulce s hranolky TIP!";"279 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"BURGER S TRHANÝM KACHNÍM MASEM domácí majonézou, salátem a rajčetem v briošce s domácími hranolky a salsou";"279 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovaná zauzená VEPŘOVÁ ŽEBRA marinovaná v medovo–česnekovém glazuru, 700g";"289 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"JEHNĚČÍ KOLÍNKO pomalu pečené na rozmarýnu a česneku se šťouchaným bramborem s listovým špenátem a terčíky dijónské hořčice, 350g TIP!";"399 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"PŘÍLOHA K ŽEBRŮM & KE KOLENU rozpečený chléb, beraní rohy, skleněné cibulky, hořčice, křen, grilovací a česnekový dresink";"79 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Pečené VEPŘOVÉ KOLENO krále Artuše v marinádě z piva Guinness, zasytí i dva jedlíky";"295 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"STEAK Z PŮLKY vykostěného KUŘETE s křupavou kůžičkou, servírovaný s bramborovými kostičkami se sýrem a česnekem a tradiční irskou omáčkou, 350g";"289 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Smažený VEPŘOVÝ ŘÍZEK z mléčného prasátka zjemněný máslem, s Vídeňským bramborovým salátem s červenou cibulí, panenským olejem a viným octem, 300g";"249 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"FISH & CHIPS pravá čerstvá treska v křupavém těstíčku z piva Guinness a domácí irské hranolky (s vinným octem a solí)";"299 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Originál DUBLIN CODDLE Pečené brambory se slaninou, klobásou a cibulí TIP!";"159 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Šťavnatý IRISH BURGER z hovězího masa s rokforovým krémem a omáčkou JAMESON v naší rozpečené bulce a s hranolky";"279 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Smažený VEPŘOVÝ ŘÍZEK z mléčného prasátka zjemněný máslem, s Vídeňským bramborovým salátem s červenou cibulí, panenským olejem a viným octem, 300g";"249 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"SVÍČKOVÁ NA SMETANĚ s houskovými knedlíky, citronem, brusinkami a šlehačkou";"249 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"SMAŽENÝ SÝR s tatarskou omáčkou";"149 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"SMAŽENÉ KUŘECÍ MINIŘÍZEČKY s citronovými řezy, 200g";"188 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"BIFTEK St. PATRICK z hovězí svíčkové, zjemnělý vynikajícím ochuceným irským máslem s lístky bazalky, 200g";"415 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"BIFTEK Z HOVĚZÍ SVÍČKOVÉ "FERMANACH" se sušenými rajčaty, jalapeňos papričkami a červeným pestem, 200g";"415 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Šťavnatý STEAK Z HOVĚZÍHO OŘECHU jemné libové maso s lehkým mramorováním, s pálivou omáčkou z papriček jalapeňos, sušených rajčat a chorizem, 200g";"320 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"SURF AND TURF grilovaný hovězí ořech s tygřími krevetami a česnekovým máslem, 200g";"345 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovaný STEAK z vyzrálého hovězího ořechu S KARAMELIZOVANOU CIBULKOU a kozím sýrem, 200g";"329 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovaný STEAK Z VYZRÁLÉ KRKOVICE odleželý v bylinkové lázni s opečenou slaninou a pivním sýrem, 300g (podáváme s česnekovým dresinkem)";"258 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Vepřová KRKOVICE NA GRILU s barbecue - Jameson omáčkou a křupavou cibulkou, 300g";"228 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Vepřová PANENKA NA GRILU "OFFALY" přelitá jemnou sýrovo-smetanovou omáčkou, 200g";"249 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Zprudka grilovaný KUŘECÍ PRSNÍ STEAK provoněný čerstvým rozmarýnem s bylinkovou omáčkou a celerovými chipsy, 200g";"224 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"KUŘECÍ PRSÍČKO KILDARE nadívané pálivými papričkami Jalapeňos a sušeným rajčetem, podávané na červeném pestu, 200g";"234 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"BUFFALO WING´S miska pečených kuřecích křidélek v pikantní marinádě, servírovaná s grilovacím dresinkem, 400g";"179 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"MEČ LIGO jemně marinované masíčko z vepřové panenské svíčkové, prokládané cibulí, slaninou a paprikou, servírované s bramborovými kostičkami se sýrem a česnekem";"319 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"PIVNÍ KUŘECÍ NUDLIČKY s nivou, řapíkem a česnekem, zapékané v keramické misce";"227 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Ostrá ROZPÁLENÁ PÁNEV s hovězími a vepřovými kousky, s červenými fazolkami se zeleninou";"238 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"TATARSKÝ BIFTEK z pravé svíčkové s deseti topinkami (připravíme i na sucho) , 180g";"315 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Kousky ledového salátu CAESAR S KUŘECÍMI PRSÍČKY s bylinkovými krutóny a parmazánem";"189 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"IRISH WARM SALAD Ledový salát s rajčaty a okurkou, domácím dresinkem a smaženými kuřecími prsíčky se strouhaným sýrem Lancashire, 150g";"189 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"GRILOVANÝ CAMEMBERT obalený v čerstvých bylinkách, podávaný s grilovanou zeleninou a balsamikovou reduí TIP!";"198 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Menší PŘÍLOHOVÝ SALÁT z čerstvé zeleniny";"96 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"KUŘECÍ "SKRBLÍKOVY" NUGETKY s kečupem nebo tatarkou a hrstkou hranolek";"119 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"SMAŽÁK "ČUNÍK" s kečupem a hrstkou hranolek";"119 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"STEAK Z ČERSTVÉHO LOSOSA s baby karotkou, hráškovými lusky a bylinkovým máslem, 200g";"349 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovaný FILET Z LOSOSA s jemně nakrájenou zeleninou, s virgin omáčkou, s čerstvým koriandrem a citrónem, 200g";"349 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše kynuté LÍVANEČKY s vanilkovou zmrzlinou a borůvkovým pyré TIP!";"129 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Teplý JABLEČNÝ KOLÁČ s vanilkovým krémem";"85 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Pečený ČOKOLÁDOVÝ DORT s banánem a krémem Chantilly";"75 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše SORBETY s kousky ovoce dle nabídky";"68 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"HORKÝ ČOKOLÁDOVÝ FONDANT s malinovým sorbetem a reduí z lesního ovoce";"136 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovací dresink";"34 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Česnekový dresink";"34 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Blue cheese dip";"40 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Pálivá omáčka";"40 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Bbq jameson omáčka";"40 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Hořčice";"21 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Křen";"34 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Tatarská omáčka";"34 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Kečup";"21 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Šťouchané brambory s opraženou cibulkou";"64 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Restované fazolové lusky se slaninou";"64 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Glazírované steakové brambory s cibulí";"60 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Vařený brambor s máslem";"50 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Mrkvovo - celerové hranolky";"68 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Naše bramborové hranolky";"54 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Tradiční tenké hranolky";"54 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Pivní bramborové kostičky se sýrem a česnekem";"68 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Rozpečená česneková bageta, 6 ks";"55 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Grilovaná čerstvá zelenina";"69 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Ošatka čerstvého pečiva";"35 Kč"
+St. Patrick – Original Irish Pub;Pardubický;https://www.firmy.cz/detail/13034559-st-patrick-original-irish-pub-pardubice-zelene-predmesti.html;4.4;78;50.033716;15.779878;"Čtvrtka bochníku rozpečeného teplého chleba";"40 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"0, 25l Gulášová";"42 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"0, 25l Boršč";"42 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"140g Hovězí dušené na houbách, houskový knedlík";"172 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"140g Vepřo, knedlo, zelo";"172 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"140g Smažený kuřecí řízek, vařené brambory, salát Coleslaw";"172 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"130g Vepřové medailonky, restované zelené lusky, rozmarýnové grenaille";"179 Kč"
+Bohémská Hospoda;Pardubický;https://www.firmy.cz/detail/12976628-bohemska-hospoda-pardubice-stare-mesto.html;4.2;34;50.038948;15.779245;"90g Lososový Gravlax na zeleninovém salátu, Ciabatta, bylinkové pesto";"175 Kč"
+Statek Poštolka;Pardubický;https://www.firmy.cz/detail/13538848-statek-postolka-sloupnice-dolni-sloupnice.html;4.6;11;49.926317;16.290100;None;None
+Hospoda Trnávka;Pardubický;https://www.firmy.cz/detail/13832243-hospoda-trnavka-trnavka.html;5;1;50.032931;15.460589;None;None
+Obecní hospůdka U Káblisů;Pardubický;https://www.firmy.cz/detail/13573425-obecni-hospudka-u-kablisu-uhretice.html;None;None;49.980326;15.868307;None;None
+Hospůdka Sportovní areál DM;Pardubický;https://www.firmy.cz/detail/13366578-hospudka-sportovni-areal-dm-dolni-morava.html;3.7;12;50.119682;16.799186;None;None
+Janovanka;Pardubický;https://www.firmy.cz/detail/13108842-janovanka-morasice-janovice.html;4.6;11;49.915651;15.709605;None;None
+Hostinec U Pilařů;Pardubický;https://www.firmy.cz/detail/12924573-hostinec-u-pilaru-libkov.html;5;6;49.841120;15.756767;None;None
+Hostinec Na Důlku;Pardubický;https://www.firmy.cz/detail/1944528-hostinec-na-dulku-pardubice-lany-na-dulku.html;None;None;50.040389;15.675877;None;None
+David Mikuláš;Pardubický;https://www.firmy.cz/detail/13114026-david-mikulas-chrudim-iv.html;5;1;49.955142;15.791487;None;None
+Hospůdka Pod věží;Pardubický;https://www.firmy.cz/detail/13463855-hospudka-pod-vezi-krasne.html;5;20;49.821231;15.744988;None;None
+Hostinec U Kučerů;Pardubický;https://www.firmy.cz/detail/13119240-hostinec-u-kuceru-pardubice-bile-predmesti.html;4.9;17;50.052509;15.813563;None;None
+Hostinec u Kmoníčku;Pardubický;https://www.firmy.cz/detail/2387170-hostinec-u-kmonicku-labske-chrcice.html;4.7;28;50.047874;15.410838;None;None
+U Dufků;Pardubický;https://www.firmy.cz/detail/13117690-u-dufku-policka-modrec.html;5;5;49.683146;16.305604;None;None
+Pohostinství Rozstání;Pardubický;https://www.firmy.cz/detail/13115266-pohostinstvi-rozstani-rozstani.html;None;None;49.735026;16.721406;None;None
+HZ Klub;Pardubický;https://www.firmy.cz/detail/13631102-hz-klub-sec.html;None;None;50.025574;16.296029;None;None
+Hospoda Pod Kostelem;Pardubický;https://www.firmy.cz/detail/13886905-hospoda-pod-kostelem-korouhev.html;None;None;49.670561;16.246981;None;None
+Hospoda u Macanů;Pardubický;https://www.firmy.cz/detail/13862888-hospoda-u-macanu-cervena-voda-moravsky-karlov.html;5;2;50.028225;16.775906;None;None
+Hospůdka Na Hradbách;Pardubický;https://www.firmy.cz/detail/13118108-hospudka-na-hradbach-vysoke-myto-mesto.html;None;None;49.951822;16.161552;None;None
+Liberty Bar Na Poště;Pardubický;https://www.firmy.cz/detail/13105432-liberty-bar-na-poste-pardubice-bile-predmesti.html;4;1;50.038747;15.785815;None;None
+Hospoda u Květy;Pardubický;https://www.firmy.cz/detail/13119191-hospoda-u-kvety-opatov.html;5;1;49.831582;16.506350;None;None
+Hospůdka Na hřišti - Vítějeves;Pardubický;https://www.firmy.cz/detail/13139470-hospudka-na-hristi-vitejeves-vitejeves.html;4.9;4;49.623537;16.466964;None;None
+Hospoda Na Hřišti;Pardubický;https://www.firmy.cz/detail/13167502-hospoda-na-hristi-mikulovice.html;5;1;49.991263;15.773501;None;None
+Pivnice u Vavřičků;Pardubický;https://www.firmy.cz/detail/13795847-pivnice-u-vavricku-zamberk.html;4.7;4;50.079652;16.466244;None;None
+Hostinec U Kunstů;Pardubický;https://www.firmy.cz/detail/13123574-hostinec-u-kunstu-jedlova.html;None;None;49.659624;16.309410;None;None
+Hospoda U Čížků;Pardubický;https://www.firmy.cz/detail/13071027-hospoda-u-cizku-pardubice-zelene-predmesti.html;4.4;10;50.034531;15.770605;None;None
+Pivnice Manhattan;Pardubický;https://www.firmy.cz/detail/13363508-pivnice-manhattan-moravska-trebova-predmesti.html;2;1;49.757487;16.660430;None;None
+Hostinec Pravy;Pardubický;https://www.firmy.cz/detail/13109884-hostinec-pravy-pravy.html;5;2;50.131385;15.625331;None;None
+Hostinec na Filousku;Pardubický;https://www.firmy.cz/detail/2664548-hostinec-na-filousku-horni-bradlo-dolni-bradlo.html;4.8;20;49.802946;15.740025;None;None
+Hostinec Podhořany u Ronova;Pardubický;https://www.firmy.cz/detail/13133978-hostinec-podhorany-u-ronova-podhorany-u-ronova.html;5;1;49.935958;15.536774;None;None
+Hospůdka na Návsi Liboměřice;Pardubický;https://www.firmy.cz/detail/13125568-hospudka-na-navsi-libomerice-libomerice.html;4;1;49.872205;15.742128;None;None
+Hospůdka v ofsajdu;Pardubický;https://www.firmy.cz/detail/13863680-hospudka-v-ofsajdu-policka-dolni-predmesti.html;3;1;49.708160;16.258173;None;None
+Hospůdka peklo;Pardubický;https://www.firmy.cz/detail/12901130-hospudka-peklo-tremosnice-stary-dvur.html;4.3;27;49.868896;15.610564;None;None
+Hospoda Na Křižovatce;Pardubický;https://www.firmy.cz/detail/13687148-hospoda-na-krizovatce-rosice.html;5;1;49.923052;15.946883;None;None
+Hospoda Lozice;Pardubický;https://www.firmy.cz/detail/13879291-hospoda-lozice-lozice.html;None;None;49.916751;16.022212;None;None
+Hospoda Čepí;Pardubický;https://www.firmy.cz/detail/13219499-hospoda-cepi-cepi.html;5;2;49.985570;15.716228;None;None
+Banínská hospůdka;Pardubický;https://www.firmy.cz/detail/13790237-baninska-hospudka-banin.html;5;1;49.665959;16.461627;None;None
+U Sherlocka;Pardubický;https://www.firmy.cz/detail/13350061-u-sherlocka-usti-nad-orlici-hylvaty.html;5;4;49.961839;16.400001;None;None
+Hostinec V Zatáčce;Pardubický;https://www.firmy.cz/detail/13622558-hostinec-v-zatacce-opatovice-nad-labem.html;5;2;50.150339;15.794139;None;None
+Hostinec ČHJ Včelákov;Pardubický;https://www.firmy.cz/detail/13213460-hostinec-chj-vcelakov-vcelakov.html;4.1;4;49.818849;15.885414;None;None
+Hospůdka Bojanov;Pardubický;https://www.firmy.cz/detail/13810907-hospudka-bojanov-bojanov.html;4.3;18;49.844879;15.708201;None;None
+Pohostinstvi u Moniky;Pardubický;https://www.firmy.cz/detail/1954461-pohostinstvi-u-moniky-rosice-brcekoly.html;None;None;49.935903;15.964629;None;None
+Hostinec U Hvězdy;Pardubický;https://www.firmy.cz/detail/13263376-hostinec-u-hvezdy-bucina.html;None;None;49.896921;16.193113;None;None
+Hospůdka Na koupališti;Pardubický;https://www.firmy.cz/detail/13300648-hospudka-na-koupalisti-sebranice.html;4.2;5;49.768308;16.241341;None;None
+Hostinec U Špičáků;Pardubický;https://www.firmy.cz/detail/13120742-hostinec-u-spicaku-bystrec.html;4.6;29;50.009749;16.622047;None;None
+Hospoda U Majky;Pardubický;https://www.firmy.cz/detail/13160906-hospoda-u-majky-klasterec-nad-orlici-zbudov.html;4.1;5;50.109896;16.539705;None;None
+Růžena Andrsová - Hospoda;Pardubický;https://www.firmy.cz/detail/13110465-ruzena-andrsova-hospoda-makov.html;None;None;49.855530;16.192557;None;None
+Hospoda Vlčí Habřina;Pardubický;https://www.firmy.cz/detail/13112077-hospoda-vlci-habrina-vlci-habrina.html;None;None;50.084812;15.592478;None;None
+Škrovádská hospoda - u Půhoných;Pardubický;https://www.firmy.cz/detail/13916026-skrovadska-hospoda-u-puhonych-slatinany-skrovad.html;None;None;49.906343;15.812816;None;None
+Hospůdka U Kapličky;Pardubický;https://www.firmy.cz/detail/13217025-hospudka-u-kaplicky-moravany-ceradice.html;None;None;49.998318;15.985652;None;None
+Hospoda na Hřišti;Pardubický;https://www.firmy.cz/detail/13302645-hospoda-na-hristi-srch.html;5;2;50.083585;15.774673;None;None
+Hospůdka U dvou zmijí;Pardubický;https://www.firmy.cz/detail/13581159-hospudka-u-dvou-zmiji-pardubice-zelene-predmesti.html;None;None;50.037644;15.775073;None;None
+Hostinec Opat;Pardubický;https://www.firmy.cz/detail/13620080-hostinec-opat-opatovice-nad-labem.html;4.3;11;50.152971;15.791349;None;None
+Hospůdka Pod Radnicí;Pardubický;https://www.firmy.cz/detail/13519991-hospudka-pod-radnici-lazne-bohdanec.html;4.4;8;50.075728;15.680242;None;None
+Hospoda u koupaliště;Pardubický;https://www.firmy.cz/detail/13117853-hospoda-u-koupaliste-otradov.html;4.7;2;49.796417;16.050640;None;None
+Hospoda U Zlesáků Rampušák Bystřice;Pardubický;https://www.firmy.cz/detail/1945911-hospoda-u-zlesaku-rampusak-bystrice-vcelakov-bystrice.html;4.3;14;49.814084;15.877327;None;None
+Hostinec Sajdlův mlýn;Pardubický;https://www.firmy.cz/detail/13371571-hostinec-sajdluv-mlyn-trstenice.html;4.8;21;49.806555;16.344716;None;None
+Hospoda Cerekvický Medvídek;Pardubický;https://www.firmy.cz/detail/13180887-hospoda-cerekvicky-medvidek-cerekvice-nad-loucnou.html;4.7;9;49.901692;16.210449;None;None
+Hospoda "U Nožíků" - KD Nekoř;Pardubický;https://www.firmy.cz/detail/13658042-hospoda-u-noziku-kd-nekor-nekor.html;5;1;50.061561;16.545452;None;None
+Hospoda Na Verandě U Toulovce;Pardubický;https://www.firmy.cz/detail/13054978-hospoda-na-verande-u-toulovce-bor-u-skutce.html;3.9;129;49.828294;16.149483;None;None
+Hospoda Na Vinicích;Pardubický;https://www.firmy.cz/detail/13501482-hospoda-na-vinicich-vysoke-myto-chocenske-predmesti.html;5;14;49.959251;16.189274;None;None
+Hostinec u zastávky;Pardubický;https://www.firmy.cz/detail/13513610-hostinec-u-zastavky-kvetna.html;4.5;2;49.733699;16.350980;None;None
+Pohostinství Podůlšany;Pardubický;https://www.firmy.cz/detail/13118411-pohostinstvi-podulsany-podulsany.html;4.8;3;50.127944;15.740233;None;None
+Starý mlýn Bukovina u Přelouče;Pardubický;https://www.firmy.cz/detail/2332065-stary-mlyn-bukovina-u-prelouce-bukovina-u-prelouce.html;None;None;49.947275;15.562369;None;None
+Hospoda V Zatáčce Opatov;Pardubický;https://www.firmy.cz/detail/13120924-hospoda-v-zatacce-opatov-opatov.html;4.2;2;49.822864;16.504452;None;None
+Hospůdka na Zámečku;Pardubický;https://www.firmy.cz/detail/13871675-hospudka-na-zamecku-tatenice.html;4;1;49.867474;16.698023;None;None
+Hospoda Na peci;Pardubický;https://www.firmy.cz/detail/13820612-hospoda-na-peci-prepychy.html;5;2;50.107439;15.519329;None;None
+Vladimír Křivka - Hospoda;Pardubický;https://www.firmy.cz/detail/13113729-vladimir-krivka-hospoda-steblova.html;5;1;50.092810;15.749547;None;None
+Hospoda Pod Kopcem;Pardubický;https://www.firmy.cz/detail/13849976-hospoda-pod-kopcem-slatinany-skrovad.html;5;15;49.907450;15.812407;None;None
+Hostinec U Moravců;Pardubický;https://www.firmy.cz/detail/13126826-hostinec-u-moravcu-jamne-nad-orlici.html;5;2;50.039430;16.623692;None;None
+Cykloubytovna Jedlová - bowling;Pardubický;https://www.firmy.cz/detail/13507680-cykloubytovna-jedlova-bowling-jedlova.html;None;None;49.655091;16.331487;None;None
+René Šťastný;Pardubický;https://www.firmy.cz/detail/13109571-rene-stastny-pardubice-zelene-predmesti.html;None;None;50.037327;15.776915;None;None
+Hospoda Na Výsluní;Pardubický;https://www.firmy.cz/detail/13170592-hospoda-na-vysluni-litomysl.html;5;5;49.867035;16.321415;None;None
+Hospoda Platěnice;Pardubický;https://www.firmy.cz/detail/12901816-hospoda-platenice-moravany-platenice.html;4.6;24;50.011423;15.954522;None;None
+Pohostinství Litošice;Pardubický;https://www.firmy.cz/detail/13113163-pohostinstvi-litosice-litosice.html;4;2;49.983355;15.513984;None;None
+Irská Hospoda Svatojánská Galerie;Pardubický;https://www.firmy.cz/detail/2462387-irska-hospoda-svatojanska-galerie-pardubice-zelene-predmesti.html;4;2;50.033421;15.772190;None;None
+Hospůdka Za vodou;Pardubický;https://www.firmy.cz/detail/13139462-hospudka-za-vodou-horni-tresnovec.html;5;3;49.942179;16.600305;None;None
+Hospoda u Lípy;Pardubický;https://www.firmy.cz/detail/13183549-hospoda-u-lipy-anenska-studanka.html;4.7;2;49.849831;16.540160;None;None
+Restaurace Srnov;Pardubický;https://www.firmy.cz/detail/13815020-restaurace-srnov-rybnik.html;5;1;49.896365;16.480239;None;None
+Obecní hospoda Skořenice;Pardubický;https://www.firmy.cz/detail/12921921-obecni-hospoda-skorenice-skorenice.html;None;None;50.031589;16.221777;None;None
+Pivnice RECORD;Pardubický;https://www.firmy.cz/detail/13657583-pivnice-record-libchavy-horni-libchavy.html;4.9;10;50.015498;16.380782;None;None
+Hostinec Slatina;Pardubický;https://www.firmy.cz/detail/13585773-hostinec-slatina-slatina.html;5;5;49.628198;16.607382;None;None
+Obecní dům U Lípy;Pardubický;https://www.firmy.cz/detail/12997813-obecni-dum-u-lipy-stary-materov.html;5;3;50.001603;15.716872;None;None
+Hospůdka u Syrůčků;Pardubický;https://www.firmy.cz/detail/2343928-hospudka-u-syrucku-ceperka.html;3.6;3;50.132938;15.775308;None;None
+Hospoda Na Hřišti;Pardubický;https://www.firmy.cz/detail/13265892-hospoda-na-hristi-moravany.html;5;1;49.998050;15.945444;None;None
+Restaurace Pivovarka;Pardubický;https://www.firmy.cz/detail/13329930-restaurace-pivovarka-choltice.html;None;None;49.988336;15.630454;None;None
+Hospoda na Ostrově;Pardubický;https://www.firmy.cz/detail/13885777-hospoda-na-ostrove-dasice.html;None;None;50.030168;15.916059;None;None
+Obecní hostinec Úhřetická Lhota;Pardubický;https://www.firmy.cz/detail/13134338-obecni-hostinec-uhreticka-lhota-uhreticka-lhota.html;4.5;1;49.987566;15.869766;None;None
+Němčická hospůdka;Pardubický;https://www.firmy.cz/detail/13023193-nemcicka-hospudka-nemcice.html;4.2;18;50.090526;15.807338;None;None
+Hospoda u Zamastilů;Pardubický;https://www.firmy.cz/detail/13112492-hospoda-u-zamastilu-pardubice-ohrazenice.html;4.4;11;50.062437;15.758221;None;None
+Polabinská Tankovna;Pardubický;https://www.firmy.cz/detail/13886089-polabinska-tankovna-pardubice-polabiny.html;None;None;50.043912;15.752131;None;None
+Hospoda Skořenice 117;Pardubický;https://www.firmy.cz/detail/13118370-hospoda-skorenice-117-skorenice.html;5;1;50.029089;16.222467;None;None
+Obecní hospoda Džbánov;Pardubický;https://www.firmy.cz/detail/13122277-obecni-hospoda-dzbanov-dzbanov.html;4.5;1;49.918587;16.160550;None;None
+Lukovská hospoda;Pardubický;https://www.firmy.cz/detail/13815062-lukovska-hospoda-lukova.html;4.7;2;49.872700;16.596475;None;None
+Obecní hospoda;Pardubický;https://www.firmy.cz/detail/13213626-obecni-hospoda-oucmanice.html;5;3;49.989089;16.278780;None;None
+Hostinec MASH;Pardubický;https://www.firmy.cz/detail/13914763-hostinec-mash-veseli.html;5;1;50.011104;15.619575;None;None
+Hostinec Na Křižovatce;Pardubický;https://www.firmy.cz/detail/13756528-hostinec-na-krizovatce-vejvanovice.html;5;3;49.970954;15.879946;None;None
+Hostinec Dlouhá Loučka;Pardubický;https://www.firmy.cz/detail/13564245-hostinec-dlouha-loucka-dlouha-loucka.html;5;1;49.708365;16.640680;None;None
+Podskalák;Pardubický;https://www.firmy.cz/detail/13536082-podskalak-studene.html;5;1;50.063918;16.589644;None;None
+Hostinec Vraclav 68;Pardubický;https://www.firmy.cz/detail/13027841-hostinec-vraclav-68-vraclav.html;None;None;49.967463;16.090923;None;None
+Hostinec U Řeky;Pardubický;https://www.firmy.cz/detail/13315538-hostinec-u-reky-dolni-ujezd.html;4.5;23;49.823196;16.257928;None;None
+Hospoda na koupališti;Pardubický;https://www.firmy.cz/detail/13052274-hospoda-na-koupalisti-jezborice.html;4.7;8;49.976675;15.690669;None;None
+Hospoda U Kina;Pardubický;https://www.firmy.cz/detail/13815779-hospoda-u-kina-pardubice-svitkov.html;4.5;2;50.027248;15.729364;None;None
+Hospůdka U Móni;Pardubický;https://www.firmy.cz/detail/12871746-hospudka-u-moni-hermanuv-mestec.html;4.4;3;49.948072;15.661992;None;None
+Pivnice Nádražní;Pardubický;https://www.firmy.cz/detail/13119165-pivnice-nadrazni-policka-horni-predmesti.html;5;8;49.718153;16.264413;None;None
+Hostinec U Farmáře;Pardubický;https://www.firmy.cz/detail/1985183-hostinec-u-farmare-pardubice-drazkovice.html;4.7;19;50.001439;15.771716;None;None
+Hanibal pub;Pardubický;https://www.firmy.cz/detail/13581156-hanibal-pub-pardubice-zelene-predmesti.html;None;None;50.036603;15.779292;None;None
+Hospůdka Žabka;Pardubický;https://www.firmy.cz/detail/13136324-hospudka-zabka-hradec-nad-svitavou.html;4;7;49.711818;16.477084;None;None
+Zahradní hospůdka Festuňk;Pardubický;https://www.firmy.cz/detail/12913220-zahradni-hospudka-festunk-chrudim-ii.html;4.2;7;49.952116;15.800113;None;None
+Hostinec u Bačkovských;Pardubický;https://www.firmy.cz/detail/13114946-hostinec-u-backovskych-chrast-skala.html;5;7;49.868958;15.948875;None;None
+Česká hospoda;Pardubický;https://www.firmy.cz/detail/13109990-ceska-hospoda-litomysl-pohodli.html;None;None;49.822295;16.297839;None;None
+Obecní hospoda Újezd u Chocně;Pardubický;https://www.firmy.cz/detail/13598416-obecni-hospoda-ujezd-u-chocne-ujezd-u-chocne.html;4.7;2;50.026741;16.165586;None;None
+Hospůdka U Pařezu, Spojil;Pardubický;https://www.firmy.cz/detail/13110758-hospudka-u-parezu-spojil-spojil.html;4.7;21;50.043326;15.821308;None;None
+Pohostinství Žichlínek;Pardubický;https://www.firmy.cz/detail/13669433-pohostinstvi-zichlinek-zichlinek.html;1;1;49.881751;16.638373;None;None
+Obecní hospoda Příluka - u Hasičů;Pardubický;https://www.firmy.cz/detail/13369793-obecni-hospoda-priluka-u-hasicu-priluka.html;4.5;2;49.863860;16.153796;None;None
+Hostinec Veská;Pardubický;https://www.firmy.cz/detail/13864373-hostinec-veska-sezemice-veska.html;5;12;50.039121;15.860353;None;None
+Hostinec Na Podhradí;Pardubický;https://www.firmy.cz/detail/12915228-hostinec-na-podhradi-dolni-dobrouc-lansperk.html;3.8;11;49.995068;16.455651;None;None
+Naše hospůdka;Pardubický;https://www.firmy.cz/detail/13860860-nase-hospudka-ceske-hermanice.html;5;2;49.933427;16.251456;None;None
+Obecní hospoda Plch;Pardubický;https://www.firmy.cz/detail/13685564-obecni-hospoda-plch-plch.html;None;None;50.130726;15.704731;None;None
+Hospoda U Chrbolků;Pardubický;https://www.firmy.cz/detail/13070089-hospoda-u-chrbolku-svidnice.html;5;2;49.890126;15.814007;None;None
+Hostinec U Wenzlů;Pardubický;https://www.firmy.cz/detail/13112483-hostinec-u-wenzlu-slatinany.html;4.7;22;49.923649;15.815794;None;None
+Hospoda U Sitařů;Pardubický;https://www.firmy.cz/detail/13186904-hospoda-u-sitaru-ceska-trebova-kozlov.html;4.8;22;49.882830;16.409671;None;None
+Hospoda Velká Skrovnice;Pardubický;https://www.firmy.cz/detail/13116900-hospoda-velka-skrovnice-velka-skrovnice.html;4.7;5;50.028298;16.321116;None;None
+Hospoda v Pohledu;Pardubický;https://www.firmy.cz/detail/13114797-hospoda-v-pohledu-mladonovice-pohled.html;4.8;5;49.896447;15.723451;None;None
+Hospůdka Na Návsi;Pardubický;https://www.firmy.cz/detail/13135644-hospudka-na-navsi-stare-jesencany.html;5;1;50.000522;15.754182;None;None
+Hostinec V Zatáčce;Pardubický;https://www.firmy.cz/detail/2514374-hostinec-v-zatacce-kraliky.html;4.8;4;50.082412;16.750191;None;None
+Hospoda U Zelené sedmy;Pardubický;https://www.firmy.cz/detail/13686641-hospoda-u-zelene-sedmy-vysocina-rvacov.html;5;3;49.769646;15.853681;None;None
+Myslivna Dřeveš;Pardubický;https://www.firmy.cz/detail/13116561-myslivna-dreves-tisovec-dreves.html;None;None;49.830323;15.923071;None;None
+Hostinec Na Kopečku;Pardubický;https://www.firmy.cz/detail/13344226-hostinec-na-kopecku-chrast.html;4.9;29;49.901145;15.939232;None;None
+Hospůdka Na Hradisku;Pardubický;https://www.firmy.cz/detail/13219948-hospudka-na-hradisku-budislav.html;4.6;162;49.802891;16.170842;None;None
+Hospůdka U Gregarů;Pardubický;https://www.firmy.cz/detail/13111215-hospudka-u-gregaru-ceska-trebova.html;4.9;10;49.900837;16.448790;None;None
+Hostinec Antonína Slavíčka 938;Pardubický;https://www.firmy.cz/detail/13114450-hostinec-antonina-slavicka-938-svitavy-lany.html;None;None;49.750197;16.478107;None;None
+Pivní Ambasáda;Pardubický;https://www.firmy.cz/detail/13148546-pivni-ambasada-pardubice-zelene-predmesti.html;4.6;16;50.034343;15.771521;None;None
+Na Bouchalce;Pardubický;https://www.firmy.cz/detail/13502641-na-bouchalce-vysocina-drevikov.html;5;2;49.763031;15.827589;None;None
+Hospoda U Václava;Pardubický;https://www.firmy.cz/detail/13872617-hospoda-u-vaclava-bukovka.html;1;1;50.100548;15.629931;None;None
+Hramat Club Polabiny;Pardubický;https://www.firmy.cz/detail/13112057-hramat-club-polabiny-pardubice-polabiny.html;1;1;50.049393;15.760601;None;None
+Sparťanská hospůdka;Pardubický;https://www.firmy.cz/detail/13229372-spartanska-hospudka-bitovany.html;2.5;1;49.893307;15.863398;None;None
+Pivnice Na Středu;Pardubický;https://www.firmy.cz/detail/12731580-pivnice-na-stredu-slatinany.html;None;None;49.918997;15.814097;None;None
+Pivovarská Hospoda;Pardubický;https://www.firmy.cz/detail/13107540-pivovarska-hospoda-chrudim-medlesice.html;4.1;20;49.977619;15.769730;None;None
+Hostinec U Novotnů;Pardubický;https://www.firmy.cz/detail/1740263-hostinec-u-novotnu-mistrovice.html;4.8;6;50.026206;16.570219;None;None
+Hospůdka Na Salaši;Pardubický;https://www.firmy.cz/detail/13324747-hospudka-na-salasi-kunvald.html;None;None;50.127907;16.498906;None;None
+Hyltn;Pardubický;https://www.firmy.cz/detail/13598128-hyltn-oldris.html;4.8;2;49.728464;16.189629;None;None
+Hostinec Huntovna;Pardubický;https://www.firmy.cz/detail/13118247-hostinec-huntovna-lubna.html;5;2;49.773147;16.225254;None;None
+Hospoda U Pařízků;Pardubický;https://www.firmy.cz/detail/1946727-hospoda-u-parizku-sezemice-velke-kolodeje.html;None;None;50.051055;15.873966;None;None
+SH ČMS - Sbor dobrovolných hasičů Študlov;Pardubický;https://www.firmy.cz/detail/13108756-sh-cms-sbor-dobrovolnych-hasicu-studlov-studlov.html;None;None;49.606995;16.498370;None;None
+Hospůdka U Vavřince;Pardubický;https://www.firmy.cz/detail/13868564-hospudka-u-vavrince-ronov-nad-doubravou.html;3.7;4;49.889084;15.530654;None;None
+Hostinec U Kristiána;Pardubický;https://www.firmy.cz/detail/13260881-hostinec-u-kristiana-lisnice.html;5;2;50.079610;16.509103;None;None
+Kamenná hospoda U Šotka;Pardubický;https://www.firmy.cz/detail/13105407-kamenna-hospoda-u-sotka-pardubice-bile-predmesti.html;4.6;6;50.039026;15.784888;None;None
+Hostinec Biskupice;Pardubický;https://www.firmy.cz/detail/13110288-hostinec-biskupice-biskupice.html;5;3;49.647377;16.754643;None;None
+Pivnice na Kovárně;Pardubický;https://www.firmy.cz/detail/13266934-pivnice-na-kovarne-miretice-dubova.html;4.9;4;49.842463;15.894219;None;None
+Hostinec u Mrštíků;Pardubický;https://www.firmy.cz/detail/13117166-hostinec-u-mrstiku-policka-horni-predmesti.html;4.1;25;49.717067;16.266174;None;None
+Cyklostanice;Pardubický;https://www.firmy.cz/detail/12992038-cyklostanice-tremosnice-stary-dvur.html;3.7;4;49.869507;15.610296;None;None
+Hospůdka Lipovec;Pardubický;https://www.firmy.cz/detail/13517195-hospudka-lipovec-lipovec.html;5;1;49.916260;15.544915;None;None
+Hospoda U Wernera;Pardubický;https://www.firmy.cz/detail/13535215-hospoda-u-wernera-moravska-trebova-predmesti.html;3;1;49.756623;16.660263;None;None
+Hospoda Lipoltice;Pardubický;https://www.firmy.cz/detail/13437693-hospoda-lipoltice-lipoltice.html;None;None;49.987328;15.569158;None;None
+Hospoda v Sopřeči;Pardubický;https://www.firmy.cz/detail/13112818-hospoda-v-sopreci-soprec.html;3.6;2;50.093587;15.556726;None;None
+HOSPŮDKA U KOSTELA;Pardubický;https://www.firmy.cz/detail/13559907-hospudka-u-kostela-chornice.html;5;1;49.666105;16.741029;None;None
+Hospůdka na konci světa;Pardubický;https://www.firmy.cz/detail/12982131-hospudka-na-konci-sveta-retuvka.html;4.7;10;49.958220;16.348837;None;None
+Hospoda U raka;Pardubický;https://www.firmy.cz/detail/13112054-hospoda-u-raka-skutec-radcice.html;5;1;49.817860;15.983732;None;None
+Hostinec Za Vodou;Pardubický;https://www.firmy.cz/detail/13137929-hostinec-za-vodou-litomysl-mesto.html;4.3;8;49.869442;16.310025;None;None
+U Holubů;Pardubický;https://www.firmy.cz/detail/13135541-u-holubu-vyzice.html;4.8;9;49.924309;15.621660;None;None
+Hospoda v Černé u Bohdanče;Pardubický;https://www.firmy.cz/detail/13118915-hospoda-v-cerne-u-bohdance-cerna-u-bohdance.html;None;None;50.056129;15.671780;None;None
+Hospoda U Nosků;Pardubický;https://www.firmy.cz/detail/13118270-hospoda-u-nosku-zichlinek.html;4.1;5;49.885958;16.634865;None;None
+Hospůdka Pod Rozhlednou;Pardubický;https://www.firmy.cz/detail/2396083-hospudka-pod-rozhlednou-skutec-hnevetice.html;4.5;3;49.839694;16.059937;None;None
+Kozlův Hostinec u Vacků;Pardubický;https://www.firmy.cz/detail/13681535-kozluv-hostinec-u-vacku-dolni-dobrouc.html;4.5;2;50.004886;16.487644;None;None
+Hospůdka u Bukanýra;Pardubický;https://www.firmy.cz/detail/13133747-hospudka-u-bukanyra-pardubice-zelene-predmesti.html;4.4;3;50.017925;15.775476;None;None
+Hostinec Na Oflendě;Pardubický;https://www.firmy.cz/detail/1979969-hostinec-na-oflende-hlinsko.html;4.3;2;49.763876;15.912349;None;None
+Hostinec U Lorenců;Pardubický;https://www.firmy.cz/detail/13057632-hostinec-u-lorencu-ceperka.html;4.7;11;50.133623;15.773318;None;None
+Hospůdka Pod Kostelem;Pardubický;https://www.firmy.cz/detail/13369186-hospudka-pod-kostelem-svojanov.html;4.8;320;49.624251;16.410424;None;None
+Hospoda u fotbalového hřiště;Pardubický;https://www.firmy.cz/detail/13112079-hospoda-u-fotbaloveho-hriste-luze.html;4.5;1;49.894025;16.032419;None;None
+Hostinec Skalka Lubná;Pardubický;https://www.firmy.cz/detail/13484840-hostinec-skalka-lubna-lubna.html;4.5;1;49.773395;16.217655;None;None
+Hospůdka na stadioně;Pardubický;https://www.firmy.cz/detail/13832555-hospudka-na-stadione-slatinany.html;None;None;49.915451;15.812486;None;None
+Žlíbka PUB;Pardubický;https://www.firmy.cz/detail/13471754-zlibka-pub-jevicko.html;5;4;49.635708;16.710610;None;None
+Hospoda Na Rozcestí;Pardubický;https://www.firmy.cz/detail/13113850-hospoda-na-rozcesti-moravany-turov.html;4.7;5;49.988808;15.995731;None;None
+Hospoda U Pitrů;Pardubický;https://www.firmy.cz/detail/13498376-hospoda-u-pitru-rokytno.html;5;3;50.104363;15.889152;None;None
+Obecní hospoda;Pardubický;https://www.firmy.cz/detail/262583-obecni-hospoda-kostenice.html;5;2;50.005099;15.901965;None;None
+Hospoda Načešice;Pardubický;https://www.firmy.cz/detail/13822931-hospoda-nacesice-nacesice.html;4.2;3;49.939347;15.622840;None;None
+Hostinec U Jelena;Pardubický;https://www.firmy.cz/detail/1890448-hostinec-u-jelena-jenikov.html;None;None;49.742402;15.957721;None;None
+Pohostinství Pod Borovicí;Pardubický;https://www.firmy.cz/detail/2465023-pohostinstvi-pod-borovici-svaty-jiri.html;1;1;49.970367;16.267353;None;None
+U svatého Huberta;Pardubický;https://www.firmy.cz/detail/13774976-u-svateho-huberta-hlinsko.html;4.6;33;49.762577;15.905794;None;None
+Pavla Berto;Pardubický;https://www.firmy.cz/detail/13136295-pavla-berto-chrudim-iv.html;5;1;49.954783;15.780106;None;None
+Hospůdka U Zeleného stromu;Pardubický;https://www.firmy.cz/detail/337944-hospudka-u-zeleneho-stromu-pardubice-zelene-predmesti.html;4.4;11;50.020342;15.771613;None;None
+Hospůdka U Sokola;Pardubický;https://www.firmy.cz/detail/13507938-hospudka-u-sokola-krouna.html;None;None;49.771947;16.032117;None;None
+Študlovská Rychta;Pardubický;https://www.firmy.cz/detail/13113027-studlovska-rychta-studlov.html;5;2;49.602229;16.498297;None;None
+Obecní dům Koldín;Pardubický;https://www.firmy.cz/detail/13480748-obecni-dum-koldin-koldin.html;5;1;50.036868;16.252224;None;None
+Hospoda U Hamouna;Pardubický;https://www.firmy.cz/detail/13113864-hospoda-u-hamouna-chrast-podlazice.html;5;2;49.895862;15.952565;None;None
+Hospoda Pod terasou;Pardubický;https://www.firmy.cz/detail/13137422-hospoda-pod-terasou-cepi.html;4.6;5;49.986294;15.718113;None;None
+Hospoda U Marka;Pardubický;https://www.firmy.cz/detail/13113356-hospoda-u-marka-hrochuv-tynec-sticany.html;4;1;49.968464;15.902869;None;None
+Loko Kuželna;Pardubický;https://www.firmy.cz/detail/13122416-loko-kuzelna-ceska-trebova.html;4.5;1;49.898050;16.439267;None;None
+Hospoda Ponorka;Pardubický;https://www.firmy.cz/detail/1981674-hospoda-ponorka-pardubice-zelene-predmesti.html;4.6;8;50.035688;15.782023;None;None
+Hospoda Valy;Pardubický;https://www.firmy.cz/detail/13787540-hospoda-valy-valy.html;5;1;50.030189;15.614901;None;None
+Hospůdka Na pálenici;Pardubický;https://www.firmy.cz/detail/13135432-hospudka-na-palenici-rozstani.html;None;None;49.734124;16.722574;None;None
+Sokolovna Chroustovice;Pardubický;https://www.firmy.cz/detail/13270668-sokolovna-chroustovice-chroustovice.html;5;1;49.956122;15.990034;None;None
+Chata Rosnička;Pardubický;https://www.firmy.cz/detail/13254748-chata-rosnicka-svitavy-predmesti.html;4.7;31;49.772598;16.449554;None;None
+Hospůdka Na Vejměnku;Pardubický;https://www.firmy.cz/detail/13125311-hospudka-na-vejmenku-vysocina-vesely-kopec.html;4.9;33;49.761616;15.837426;None;None
+Hospoda u Partyzána;Pardubický;https://www.firmy.cz/detail/13156041-hospoda-u-partyzana-litosice-krasnice.html;4.5;2;49.997561;15.508296;None;None
+Pivní ráj Na Radhošti;Pardubický;https://www.firmy.cz/detail/13108749-pivni-raj-na-radhosti-pardubice-zelene-predmesti.html;4;3;50.026031;15.770633;None;None
+U Nádraží, restaurace a ubytování;Pardubický;https://www.firmy.cz/detail/13771820-u-nadrazi-restaurace-a-ubytovani-lichkov.html;4.8;28;50.096840;16.659350;None;None
+Obecní hospoda;Pardubický;https://www.firmy.cz/detail/13516904-obecni-hospoda-sudislav-nad-orlici.html;None;None;49.989301;16.312926;None;None
+Hospůdka Gansberg;Pardubický;https://www.firmy.cz/detail/13505568-hospudka-gansberg-cotkytle.html;4.7;64;49.928122;16.728970;None;None
+Obecní hospoda Třebosice;Pardubický;https://www.firmy.cz/detail/13808432-obecni-hospoda-trebosice-trebosice.html;5;1;49.997381;15.734090;None;None
+Putyka Osík;Pardubický;https://www.firmy.cz/detail/13377996-putyka-osik-osik.html;4.7;22;49.842928;16.284578;None;None
+Hostinec U Valentů;Pardubický;https://www.firmy.cz/detail/12713911-hostinec-u-valentu-cervena-voda-sanov.html;4.1;11;50.050119;16.747696;None;None
+Hospůdka v Areálu;Pardubický;https://www.firmy.cz/detail/13244527-hospudka-v-arealu-svojsice.html;4.6;4;49.970395;15.602524;None;None
+Rybářská bašta;Pardubický;https://www.firmy.cz/detail/13115316-rybarska-basta-stolany.html;5;2;49.928102;15.744720;None;None
+Hostinec Možděnice;Pardubický;https://www.firmy.cz/detail/13110027-hostinec-mozdenice-vysocina-mozdenice.html;None;None;49.764583;15.795100;None;None
+Dům hasičů;Pardubický;https://www.firmy.cz/detail/13076504-dum-hasicu-mladkov.html;4.1;5;50.096373;16.626337;None;None
+Restaurace Kotelna;Pardubický;https://www.firmy.cz/detail/13375776-restaurace-kotelna-tremosnice.html;4.2;43;49.872131;15.577957;None;None
+Hospoda Sruby;Pardubický;https://www.firmy.cz/detail/13142590-hospoda-sruby-sruby.html;1;1;49.996784;16.174337;None;None
+Pohostinství u Borové šišky;Pardubický;https://www.firmy.cz/detail/13325305-pohostinstvi-u-borove-sisky-chocen.html;4;12;49.996772;16.215425;None;None
+Restaurace Nedvězí 33;Pardubický;https://www.firmy.cz/detail/13117334-restaurace-nedvezi-33-nedvezi.html;None;None;49.630986;16.302017;None;None
+Coolturák;Pardubický;https://www.firmy.cz/detail/13108833-coolturak-chvaletice.html;4.5;1;50.034284;15.411967;None;None
+U Žabáka;Pardubický;https://www.firmy.cz/detail/13017739-u-zabaka-jankovice-senik.html;4.7;51;49.996330;15.524924;None;None
+Hospoda u rybníka;Pardubický;https://www.firmy.cz/detail/13117060-hospoda-u-rybnika-chrast-chacholice.html;3.5;1;49.881622;15.949106;None;None
+LFP Club;Pardubický;https://www.firmy.cz/detail/13112529-lfp-club-moravska-trebova-predmesti.html;None;None;49.760016;16.659187;None;None
+Hospoda U Kalášků;Pardubický;https://www.firmy.cz/detail/13105116-hospoda-u-kalasku-svitavy-lany.html;4.5;6;49.751788;16.474128;None;None
+Hostinec Netřeby;Pardubický;https://www.firmy.cz/detail/13139049-hostinec-netreby-ceske-hermanice-netreby.html;None;None;49.917458;16.263813;None;None
+Kulturní dům Komárov;Pardubický;https://www.firmy.cz/detail/13169219-kulturni-dum-komarov-dolni-roven-komarov.html;2.5;1;50.040133;15.946433;None;None
+Hospoda Chrastavec;Pardubický;https://www.firmy.cz/detail/13112030-hospoda-chrastavec-chrastavec.html;5;2;49.618009;16.502909;None;None
+Udánská hospoda;Pardubický;https://www.firmy.cz/detail/13108983-udanska-hospoda-moravska-trebova-udanky.html;5;2;49.763543;16.650348;None;None
+Hostinec Rudofla Štrumfy;Pardubický;https://www.firmy.cz/detail/13054331-hostinec-rudofla-strumfy-peralec-kutrin.html;5;3;49.821361;16.062388;None;None
+Hospoda U Maxe;Pardubický;https://www.firmy.cz/detail/270524-hospoda-u-maxe-pardubice-studanka.html;4.6;5;50.042661;15.807927;None;None
+SH ČMS -Sbor dobrovolných hasičů Banín;Pardubický;https://www.firmy.cz/detail/13122929-sh-cms-sbor-dobrovolnych-hasicu-banin-banin.html;None;None;49.665785;16.462010;None;None
+Hospůdka U Macka;Pardubický;https://www.firmy.cz/detail/13135856-hospudka-u-macka-pardubice-opocinek.html;4.9;3;50.037758;15.655640;None;None
+Kněžická knajpa;Pardubický;https://www.firmy.cz/detail/13302556-knezicka-knajpa-knezice.html;None;None;49.859885;15.528128;None;None
+Hospůdka Na Kopečku;Pardubický;https://www.firmy.cz/detail/2646721-hospudka-na-kopecku-byst-hodesovice.html;4.7;21;50.147958;15.920969;None;None
+Hospůdka u Paulusů;Pardubický;https://www.firmy.cz/detail/13056538-hospudka-u-paulusu-vrbatuv-kostelec.html;5;3;49.856545;15.940501;None;None
+Hostinec u Stratílků;Pardubický;https://www.firmy.cz/detail/13109874-hostinec-u-stratilku-slatina.html;5;1;49.980170;16.164212;None;None
+Hospoda Boršov;Pardubický;https://www.firmy.cz/detail/13155552-hospoda-borsov-moravska-trebova-borsov.html;4;1;49.744693;16.627632;None;None
+Třebařovská hospoda;Pardubický;https://www.firmy.cz/detail/1954072-trebarovska-hospoda-trebarov.html;4.1;2;49.829649;16.702274;None;None
+Hospůdka Bohumileč 59;Pardubický;https://www.firmy.cz/detail/13142450-hospudka-bohumilec-59-rokytno-bohumilec.html;5;4;50.101109;15.858332;None;None
+Pohostinství Kampelička;Pardubický;https://www.firmy.cz/detail/13857794-pohostinstvi-kampelicka-letohrad-kuncice.html;5;1;50.023140;16.519640;None;None
+Hospůdka U Skalů;Pardubický;https://www.firmy.cz/detail/13123603-hospudka-u-skalu-libisany.html;4.8;3;50.152739;15.757499;None;None
+Hospůdka Pod Sokolovnou;Pardubický;https://www.firmy.cz/detail/13499894-hospudka-pod-sokolovnou-pomezi.html;None;None;49.709428;16.326797;None;None
+Hostinec Marta;Pardubický;https://www.firmy.cz/detail/13832852-hostinec-marta-mestecko-trnavka.html;None;None;49.708635;16.724455;None;None
+Sportovní hospoda Načešice;Pardubický;https://www.firmy.cz/detail/13123534-sportovni-hospoda-nacesice-nacesice.html;3;2;49.940133;15.622248;None;None
+Hostinec U Netuků;Pardubický;https://www.firmy.cz/detail/13134437-hostinec-u-netuku-sadek.html;5;1;49.704974;16.226932;None;None
+Hostinec U Špalka;Pardubický;https://www.firmy.cz/detail/13120798-hostinec-u-spalka-chocen.html;4.2;5;50.002443;16.212941;None;None
+Hospůdka u Johana;Pardubický;https://www.firmy.cz/detail/13137228-hospudka-u-johana-moravska-trebova-mesto.html;2.6;2;49.758793;16.665351;None;None
+Hospůdka Podlíšťany;Pardubický;https://www.firmy.cz/detail/12925406-hospudka-podlistany-nasavrky-podlistany.html;5;3;49.852696;15.842601;None;None
+Hostinec u mostu;Pardubický;https://www.firmy.cz/detail/12962809-hostinec-u-mostu-pastviny.html;4.2;280;50.093357;16.560480;None;None
+Hospůdka Pod Strání;Pardubický;https://www.firmy.cz/detail/13503264-hospudka-pod-strani-teleci.html;4.5;1;49.698297;16.180809;None;None
+Pivnice U Mrtvoly;Pardubický;https://www.firmy.cz/detail/12822663-pivnice-u-mrtvoly-svitavy-predmesti.html;5;4;49.755786;16.476264;None;None
+Sportovní osvěžovna;Pardubický;https://www.firmy.cz/detail/13622219-sportovni-osvezovna-chrudim-iv.html;3.5;3;49.953803;15.791135;None;None
+Hospoda U Koupaliště 1362;Pardubický;https://www.firmy.cz/detail/13119899-hospoda-u-koupaliste-1362-zamberk.html;None;None;50.085589;16.475386;None;None
+Staroždánická hospůdka;Pardubický;https://www.firmy.cz/detail/13739187-starozdanicka-hospudka-stare-zdanice.html;4.8;23;50.123509;15.718930;None;None
+Pohostinství Orlovna;Pardubický;https://www.firmy.cz/detail/13186965-pohostinstvi-orlovna-letohrad-orlice.html;5;3;50.028260;16.523213;None;None
+Kovárna Polička;Pardubický;https://www.firmy.cz/detail/13649699-kovarna-policka-policka-horni-predmesti.html;4.8;2;49.714996;16.268769;None;None
+Hostinec U Němců;Pardubický;https://www.firmy.cz/detail/2141867-hostinec-u-nemcu-stare-mesto-petrusov.html;5;25;49.804576;16.726480;None;None
+Pohostinství Kamenec u Poličky;Pardubický;https://www.firmy.cz/detail/13673144-pohostinstvi-kamenec-u-policky-kamenec-u-policky.html;None;None;49.710436;16.241964;None;None
+Jiří Jandík;Pardubický;https://www.firmy.cz/detail/13139044-jiri-jandik-slatinany.html;4.6;17;49.919159;15.805775;None;None
+Hospůdka U Čerta;Pardubický;https://www.firmy.cz/detail/12988189-hospudka-u-certa-libchavy-horni-libchavy.html;4.9;8;50.010973;16.386598;None;None
+Čankovická hospoda;Pardubický;https://www.firmy.cz/detail/13427759-cankovicka-hospoda-cankovice.html;None;None;49.963763;15.937260;None;None
+Hospůdka Crazy;Pardubický;https://www.firmy.cz/detail/13172505-hospudka-crazy-pardubice.html;4.9;7;50.021087;15.764065;None;None
+Restaurace Zámek Karlštejn;Pardubický;https://www.firmy.cz/detail/13509722-restaurace-zamek-karlstejn-svratouch-karlstejn.html;4.1;26;49.714438;16.063937;None;None
+Hostinec na mýtě;Pardubický;https://www.firmy.cz/detail/13115356-hostinec-na-myte-korouhev.html;1;1;49.665644;16.260830;None;None
+Restaurace Žlebská Lhotka;Pardubický;https://www.firmy.cz/detail/13139025-restaurace-zlebska-lhotka-zlebske-chvalovice-zlebska-lhotka.html;4.5;10;49.897287;15.552571;None;None
+Kulturní centrum Hrušová;Pardubický;https://www.firmy.cz/detail/13119222-kulturni-centrum-hrusova-hrusova.html;None;None;49.914576;16.194813;None;None
+Hostinec U Drobílků;Pardubický;https://www.firmy.cz/detail/598191-hostinec-u-drobilku-rabstejnska-lhota.html;3.9;8;49.915887;15.769473;None;None
+Hospoda Na Rozcestí;Pardubický;https://www.firmy.cz/detail/13137023-hospoda-na-rozcesti-lavicne.html;4.2;7;49.643422;16.463852;None;None
+Miroslav Makovský;Pardubický;https://www.firmy.cz/detail/13147276-miroslav-makovsky-dolni-ujezd.html;4.8;2;49.827111;16.261468;None;None
+Hostinec Víska u Jevíčka;Pardubický;https://www.firmy.cz/detail/13112815-hostinec-viska-u-jevicka-viska-u-jevicka.html;4;1;49.651958;16.708557;None;None
+Pivnice Chaloupka;Pardubický;https://www.firmy.cz/detail/13525079-pivnice-chaloupka-skutec.html;5;1;49.846736;15.994990;None;None

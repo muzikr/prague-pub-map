@@ -1,0 +1,667 @@
+name;region;url;rating;number_of_reviews;latitude;longitude;menu_item;price
+Pivovarský dům Benedict;Prague;https://www.firmy.cz/detail/13503510-pivovarsky-dum-benedict-praha-nove-mesto.html;4.7;116;50.075451;14.423677;None;None
+U Matěje Kotrby - Restaurace a Bar;Prague;https://www.firmy.cz/detail/2004407-u-mateje-kotrby-restaurace-a-bar-praha-nove-mesto.html;4.5;70;50.079464;14.416620;None;None
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"130g Sví?ková na smetan?, houskový knedlík, brusinkový ter?";"195 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"130g Hov?zí gulá? s houskovým knedlíkem";"175 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"130g Pe?ená vep?ová plec se zelím a houskovým knedlíkem";"155 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"130g Moravský vrabec se ?penátem a bramborovým knedlíkem";"165 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"130g Pe?ené kr?tí stehno (b. k) se ?penátem a bramborovým knedlíkem";"165 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"150g Sma?ený ku?ecí ?ízek s bramborem, okurka";"175 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"150g Sma?ený vep?ový ?ízek s bramborovým salátem";"175 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"150g Sma?ený kapr s bramborovým salátem";"165 Kč"
+Penzion-restaurant U Hofmanů;Prague;https://www.firmy.cz/detail/12866962-penzion-restaurant-u-hofmanu-praha-kobylisy.html;3.6;53;50.122563;14.454215;"150g Sma?ené kalamáry s bramborem a tatarskou omá?kou";"175 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"150 g Hovězí tatarák z falešné svíčkové, sekaná cibulka, koření, česnekové topinky";"249 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"150 g Grilované klobásky dle nabídky /jehněčí, telecí, vepřové/, dva druhy hořčice, salát z kysaného zelí";"189 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"3 Ks Olomoucké tvarůžky ve slanině balené a v pivním těstíčku smažené, hořčice, cibulka";"149 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Hovězí steak dle nabídky, silná omáčka se zeleným pepřem, bramborové hranolky";"319 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Filírovaná vepřová panenka, smetanová omáčka s liškami, šťouchané brambory";"299 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"1300 g Vepřové koleno pečené do křupava, petrželové pesto, salát z kysaného zelí, hořčice, křen";"329 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Tradiční svíčková na smetaně s brusinkami, houskovým a karlovarským knedlíkem";"249 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"250 g Smažený vepřový řízek "Sloní ucho", šťouchané brambory";"249 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Smažené kuřecí řízečky v bylinkové strouhance, šťouchané brambory";"229 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"120 g Smažený sýr Gouda, šťouchané brambory, tatarská omáčka";"209 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Lišky na smetaně s karlovarským knedlíkem";"189 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Pivní chilli guláš s hovězího krku s červenou cibulí a chilli papričkou";"229 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Klasický poctivý hospodský guláš z hovězího krku s bílou cibulí";"229 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Segedínský guláš z vepřové plece se šlehačkou a slninovým chipsem";"229 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Guláš z kančích líček s bylinkami a brusinkami";"269 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"1 Ks Utopenec z davelských špekáčků u nás naložený s cibulí a feferonkou";"79 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"120 g Světlá tlačenka od Nováka s cibulí, octem a peřem";"110 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"120 Matesy ala losos s červenou cibulí a citronem";"119 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"100 g Tatarák z pivního sýra s cibulkou, hořčicí a opečeným chlebem";"139 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"1 Ks Pikantní Hermelín u nasá naložený s červenou cibulí a feferonkou";"109 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"150 g Staropražské smažené grundle s citronem, petrželí a česnekovým Aioli";"149 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"1 Ks Talián od Dilejších ohřívaný ve vývaru, podávaný s hořčicí a smetanovým křenem";"99 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"400 g Caesar salát s kuřecím masem se slaninou, krutony, trhanými saláty a ančovičkoým dresinkem";"199 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"300 g Šopský salát s balkánským sýrem";"89 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"150 g Salát z kysaného zelí";"39 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"3 Ks Lívance s máslem, skořicí a šlehačkou";"89 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"2 Ks Ovocné knedlíky dle nabídky s cukrem, máslem a tvarohem";"99 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Domácí karlovarský knedlík";"50 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"260 g Knedlík houskový aneb klasických "šest"";"45 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"4 Ks Domácí bramboráčky";"49 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Šťouhané brambory s cibulkou a slaninou";"40 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Bramborové hranolky";"49 Kč"
+Restaurace U Sedlerů;Prague;https://www.firmy.cz/detail/2589014-restaurace-u-sedleru-praha-nove-mesto.html;3.7;18;50.077176;14.419194;"200 g Domácí americké brambory";"49 Kč"
+Zahradní restaurace MIMINOO;Prague;https://www.firmy.cz/detail/13072330-zahradni-restaurace-miminoo-praha-zizkov.html;4.2;59;50.080985;14.450763;None;None
+Krčma U Pavouka;Prague;https://www.firmy.cz/detail/661662-krcma-u-pavouka-praha-stare-mesto.html;3.6;37;50.087437;14.424618;None;None
+Pivní bar Černá ruka;Prague;https://www.firmy.cz/detail/13568397-pivni-bar-cerna-ruka-praha-vinohrady.html;5;4;50.078005;14.447955;None;None
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Špagety "Bolognese" posypané parmezánem";"189 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Pečené kuřecí paličky v pikantní marinádě, hranolky Julienne, tatarská omáčka";"209 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Pečený vepřový špalík se zelím a bramborovým knedlíkem";"199 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Svíčková na smetaně s brusinkovým terčem a houskovým knedlíkem";"229 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"130g Kuřecí nudličky na curry s porkem a jasmínovou rýží";"195 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Sekaná pečeně se sýrem, vařený brambor, okurka";"195 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Bramborové knedlíky plněné uzeným masem, zelí, osmažená cibulka";"195 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"1ks Medovník se šlehačkou";"65 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"1ks Pistáciový Cheesecake";"99 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"1ks Banán v čokoládě se šlehačkou";"59 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"0, 33l Polévka dle denní nabídky";"65 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Tatarský biftek z hovězí roštěné, topinky";"249 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"1ks Nakládaný hermelín, vlastní výroba, chléb";"109 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"100g Škvarková pomazánka, vlastní výroba, chléb";"95 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"80g Carpaccio, bazalkové pesto, rukola, bagetka, parmazán, olivový olej";"175 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Tlačenka od řezníka Heřmana, cibule, chléb";"95 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"1ks Klobása na grilu, čerstvý struhaný křen, hořčice, chléb";"115 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"120g Grilovaný hermelín, brusinky, toustový chléb";"139 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Kuřecí prsní steak s anglickou slaninou, chléb";"219 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Vepřový steak z krkovice, grilovaná paprika, chléb";"239 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"350g Vepřová kotleta se sázeným vejcem, chléb";"255 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Vepřové medajlonky z panenky s restovanou cibulkou, chléb";"249 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Jihoamerický hovězí steak z vysoké roštěné (Rib Eye) , chléb";"329 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Hovězí Rumpsteak, chléb";"309 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Katův šleh s chilli papričkami, chléb";"199 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"500g Pečená vepřová žebra, zelný salát, barbecue omáčka, česnekový dip, strouhaný křen, chléb";"219 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Smažený kuřecí/vepřový řízek, citron";"185 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"120g Smažený sýr eidam 40%, vlastní výroba, obloha";"115 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"100g Smažený hermelín, obloha";"115 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"70g Smažený kuřecí řízek pro děti, hranolky, kečup";"135 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Hot Mexican burger s hranolky hovězí Angus, Chilli Rawit paprička, sýr Cheddar, ledový salát, pikantní dresink, opečená houska, hranolky Julienne";"239 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Hovězí Bacon Cheddar Burger s hranolky hovězí Angus, sýr Cheddar, dresink, slanina, zelenina, opečená houska, hranolky Julienne";"239 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Okurkový salát";"89 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"150g Šopský salát okurky, rajčata, papriky, balkánský sýr, olivový olej";"99 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"300g Lehký zeleninový salát s grilovaným kuřecím masem";"209 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"250g Caesar salát římský salát, kuřecí prsa, žemlové krutony, ančovičkový dresink, plátky slaniny";"209 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"300g Mix listových salátů saláty, mozzarella, cherry rajčata, rukola, olivový olej";"165 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Hranolky Julianne (tenké)";"49 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Krokety";"50 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Grilované zelené fazolky se slaninou";"69 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"200g Grilovaná zelenina";"75 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Tatarská omáčka, vlastní výroba";"35 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Blekotova omáčka";"35 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Pepřová omáčka";"35 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Hříbková omáčka";"35 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Kopeček zmrzliny na výběr vanilka nebo vlašský ořech";"29 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Banán v čokoládě banán, šlehačka, čokoládová poleva";"75 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Banánový pohár vanilková zmrzlina, banán, čokoládová poleva, šlehačka";"105 Kč"
+Restaurace U Blekotů;Prague;https://www.firmy.cz/detail/2220349-restaurace-u-blekotu-praha-kobylisy.html;4.4;71;50.130522;14.456530;"Horká láska vanilková zmrzlina, horké maliny, šlehačka";"105 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Česnečka se sýrem a chlebovými krutony";"69 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Hot dog s davelským párkem, Cheddar, mexické okurky, cibulka, hranolky, jalapenos majonéza";"229 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Kančí guláš, domácí zelńáky, cibulka, feferonka";"259 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"1/2 konfitované baby kachny, karlovarské knedlíky, červené zelí na pomerančích, cibulka";"279 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Škvarková pomazánka, šalotka, chléb";"125 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Telecí paštika brusinkové sádlo, chléb";"165 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Zavináče, nakládané zelí Koprová zálivka";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Lahůdkový maxi chlebíček s bramborovým salátem, šunkou a vejcem";"105 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Lahůdkový maxxi chlebíček s rostbífem a smetanovým křenem";"125 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Lahůdkový maxi chlebíček sýrový s ořechy a hroznovým vínem";"105 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Nakládaný hermelín chléb";"169 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Smažené dršťky v kořenovém pivním těstíčku tatarská omáčka";"185 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Hovězí tatarák spravovna trochu jinak: s kapary, cornišonkami, koktejlovou omáčkou a parmezánem pečené topinky 5 ks";"289 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Domácí tlačenka z vepřových líček nakládané zelí, cibulka, ocet";"179 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Variace ďábelských topinek jeden kus s masovou směsí, sypané sýrem jeden kus strhaným masem, restovaná cibulka z fíky";"189 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Buřty na černém pivu chléb";"175 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Polévka dle denní nabídky";"79 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Silný slepičí vývar s játrovým knedlíkem, kořenovou zeleninou a libečkem";"95 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Pomalu pečený vepřový bůček majoránková omáčka, smetanový špenát, bramborová kaše";"345 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Čevabčiči plněné sýrem vařené brambory s osmaženou cibulkou domácí hořčice, cibulový salátek";"310 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Smažený sýr v bylinkové strouhance vařené brambory, domácí tatarská omáčka";"289 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Bramborový knedlík plněný kachním masem červené zelí nakládaný rybíz, karamelizovaná cibule";"325 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Kuřecí křídla pečená macerovaná v medu a rumu bylinkový dip, tousty nebo smažená pálivá se zauzeným pepřem";"295 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Grilované vepřové koleno domácí hořčice, křen, zelným salát, čerstvý chléb";"450 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Pomalu tažená vepřová žebra Na medvědím česneku, zelný salát, bylinkový dip, chléb";"399 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Kuřecí gordon bleu máslová bramborová kaše, okurkový salát";"325 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Vepřo, knedlo, zelo z přeštíka, chlebové knedlíky, kedlubnové zelí";"340 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Smažená treska v pivním těstíčku batátové hranolky, hráškový krém";"335 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Trhané kuřecí s máslovou omáčkou bramborovém chlebu s pastou s avokáda a sušený v tomatu, Caesar salátek";"315 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Burger spravovák 150/300g v závorce bioagnus (uzavřít z volským okem, opečenou slaninou, čedarem, salátek s rajčaty, hranolky, zauzená majonéza";"335 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Hovězí flank steak 300g mačkané brambory s jarní cibulkou, lanýžový demi glace";"499 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Domácí pirohy s bramborami a kapustou, Lišky, pažitkový dip";"289 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Listový salát s grilovaným kuřecím prsíčkem avokádo, sušená rajčata, pistácie, citrusový dresy";"325 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Trhané saláty s kozím sýrem červená řepa, octový dresin s medem, ořechy a perníkem";"285 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Dukátové buchtičky se šodó";"169 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Tvarohový koláč z čerstvým ovocem a drobenkou";"135 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Prazdroj světlý ležák 0, 3";"59 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Prazdroj světlý ležák 0, 5";"72 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Velkopopovický kozel tmavý výčepní 0, 3";"54 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Velkopopovický kozel tmavý výčepní 0, 5";"66 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Speciál z Prazdroje 0. 4l";"75 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Birell ovocný nealkoholické 0, 3/0, 5";"55 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Birell nealkoholický lahvové světlý lomeno polotmavý 0, 33";"55 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Frisco-sider 0, 33";"79 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Rozlévané víno bílé Pinot Grigio/ červené Merlot, 0, 15/ 0, 5";"79 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Rozlévané víno bílé Grüner Veltliner / červené Primitivo, 0, 15/ 0, 5";"95 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Rozlévané prosecco 0, 15";"95 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Žufánek Hruškovice z dubového sudu 0, 02";"82 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Tatranský čaj 52% 0, 02";"52 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Fasbind švýcarská hruškovice/jablko 0, 02";"92 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Bartida slivovice/ meruňkovice/ Hruškovice Williams 0, 02";"57 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Baron Hildebrand z zralá hruška/malina 0. 02";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Božkov republika rezerva 0, 02";"47 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Božkov republika exlusive";"42 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Božkov originál 0, 02";"32 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Captain Morgan 0, 02";"42 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Cortés Ron blanco 0, 02";"42 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Legendario elixír rum 0, 02";"55 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Zacapa 23 y. o.";"97 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Diplomatico rezerva exclusiva 12 áňos";"82 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Johnnie Walker red label 0, 02";"40 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Tullamore Dew 0, 02";"47 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Chivas regál 12 y. o. 0. 02";"60 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Jack daniel's/Honey 0. 02";"50 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Jim Beam 0. 02";"42 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Fernet Stock originál/citrus 0. 02";"37 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Becherovka originál/grep 0, 02";"37 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Bartida peprmint/griotka/hruška 0, 02";"37 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Jägermeister originál/orange 0, 02";"40 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Amundsen 0, 02";"37 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Smirnoff 0, 02";"42 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Grey goose 0, 02";"82 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Tequila Sierra blanco/reposado 0, 02";"50 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Gordon's london dry Gin 0, 02";"40 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Gordon s premium pink 0, 02";"40 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Roku Gin 0, 02";"77 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Remi Martin v. s. o. p. 0, 02";"82 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Beton Becherovka, tonic, citrón";"139 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Beton grep, grep Becherovka, tonic, limeta";"139 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Bavorák Fernet Stock, tonic, citrón";"139 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Gin and tonic Gin tonic, limeta";"149 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Pink Gin and tonic pink Gin, Targa tonic";"159 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Aperol spritz prosecco, aperol soda";"159 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Hugo spritz prosecco, bezinkový sirup, máta soda";"145 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Mojito originál";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Mojito malina/mango";"175 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Caipirinha cachaca limetky, třtinový cukr";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Capiroska vodka, limetky, třtinový cukr";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Cosmopolitan vodka, Cointreau, brusinkový džus";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Cuba libre rum, kola limetka";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Long Island ice tea vodka, rum, Gin, tequila, Cointreau limetový sirup cola";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Chupito rum, lime sirup, koktejlová třešeň";"135 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Skinny bitch vodka soda, limety";"125 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Virgin mojito";"119 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Virgin mojito malina/mango";"139 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Gordon's 0, 0% tonic limeta";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Espresso tonic";"129 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Zero Cuba libre";"155 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Zero caipirinha";"190 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Domácí limonády dle nabídky 0, 3/0, 5";"89 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Domácí ledový čaj dle nabídky 0, 3/0, 5";"89 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Kofola originál čepovaná 0, 3/0. 5";"45 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"RC Cola";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Targa florio pomeranč";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Targa florio tonic";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Džusy curiosa dle nabídky";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Rajec neperlivý, jemně perlivý, perlivý";"59 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Evian perlivý neperlivý";"115 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Red Bull";"99 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Karafa vody 0, 5/1";"40 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Karafa sody 0, 5/1";"48 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Ristretto";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Expresso";"65 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Double expresso";"105 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Cappuccino";"77 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Flat white";"105 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Café latte";"77 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Americano";"69 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Čaj dle nabídky";"75 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Čerstvý čaj dle nabídky";"85 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Horká čokoláda";"95 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Grog";"95 Kč"
+Spravovna;Prague;https://www.firmy.cz/detail/13297627-spravovna-praha-zizkov.html;4.1;23;50.079143;14.448408;"Svařené víno";"95 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"K celému hlavnímu jídlu polévka za";"35 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"330 ml Hovězí vývar";"49 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"330 ml Dršťková";"49 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"250g Menu 1 -Svíčková hovězí pečeně, HK, brusinky";"170 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"150g Menu 2 -Pečený vepřový bok po selsku, zelí, BK";"170 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"1/4 ks Pečená kachna, červené a bílé zelí, HK+BK";"259 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"200g Španělský ptáček, rýže";"219 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"150g Svíčková hovězí pečeně, HK, brusinky";"195 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"200g Smažený vepřový řízek, bramborová kaše";"195 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"200 ks Pečený vepřový bok po selsku, zelí, BK";"195 Kč"
+Hostinec U Herčíků;Prague;https://www.firmy.cz/detail/12976056-hostinec-u-herciku-praha-cakovice.html;4.7;19;50.152846;14.531192;"3 ks Borůvkové knedlíky se zakysanou smetanou, cukrem a šlehačkou";"155 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Gulášová";"55 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Česnečka s anglickou slaninou, sýrem a chlebovými krutony";"50 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Polévka dle denní nabídky";"45 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Utopenci s cibulí a feferonkou";"75 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Tlačenka s octem a cibulí";"80 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"120g Nakládaný Hermelín s feferonkou a kozím rohem";"85 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Studený uzený bůček s křenem a hořčicí";"85 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Klobása na grilu s hořčicí, křenem, feferonkou a kozím rohem";"95 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"300g Horké buřty na černém pivu";"95 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"2ks Pikantní masová směs na topince se sýrem";"95 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"120g Grilovaný Hermelín na ledovém salátu s brusinkami, toast";"115 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"350g Smažené bramborové lupínky, omáčky BBQ, smetanovo-česneková";"125 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Selská vepřová pečeně, dušené zelí, houskový knedlík";"165 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Hovězí guláš s cibulí a feferonkou, houskový knedlík";"165 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Svíčková na smetaně, brusinkový terč, houskový knedlík";"175 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Smažený kuřecí řízek, okurka, citron";"160 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Smažený vepřový řízek, okurka, citron";"160 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Smažené řízečky z panenky, okurka, citron";"175 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Jitrnička pečená na grilu, vařený brambor, kysané zelí, hořčice";"145 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks 1/4 Pečená kachnička, zelí, houskový knedlík";"205 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"700g Pečená vepřová žebírka v pikantní medové marinádě, hořčice, křen, feferonka, kozí roh";"255 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Pečené vepřové koleno s kostí (1300 - 1500 g) na černém pivu, hořčice, křen, feferonka, kozí roh";"285 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Grilovaná kuřecí prsa naložená v barbecue marinádě";"160 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Zapečená kuřecí prsíčka se třemi druhy sýrů (Eidam, Niva, Hermelín)";"175 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Přírodní kuřecí prsíčka s grilovanou zeleninou";"190 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Vepřová panenka na hříbkách";"190 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Vepřové medailonky zabalené ve slanině";"190 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Steak z vepřové krkovičky, zelené fazolové lusky se slaninou";"185 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"400g Flákota z vepřové krkovice na grilu, hořčice, křen";"245 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Vepřový steak s pepřovou omáčkou";"170 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"250g Hovězí steak z mladého býčka, zelené fazolové lusky se slaninou";"285 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"250g Hovězí steak z mladého býčka se smetanovou omáčkou se zeleným pepřem";"285 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Tataráček, topinky s česnekem";"195 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Smažený sýr Eidam, tatarská omáčka";"145 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"120g Smažený Hermelín, tatarská omáčka";"145 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"300g Zeleninový salát s grilovaným kuřecím masem, bylinkový dip";"155 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"250g Šopský salát";"95 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Hranolky";"35 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Americké brambory";"40 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Vařené brambory";"30 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Šťouchané brambory";"40 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Krokety";"45 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"3ks Domácí bramboráčky";"45 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"150g Fazolové lusky se slaninou";"50 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"200g Grilovaná zelenina";"80 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"50g Tatarská omáčka";"20 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"50g Hořčice";"5 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Kyselá okurka";"5 Kč"
+Hostinec ResPUBlica;Prague;https://www.firmy.cz/detail/263644-hostinec-respublica-praha-vinohrady.html;4.6;16;50.071832;14.433236;"1ks Chléb";"2 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"Polévka dne";"90 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"Nachos s chedarem a s chalapeňos papričkami, rajčatovou salsou, zakysanou smetanou a česnekovo-pažitkovým dipem";"205 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"B. L. T. SENDVIČ 300g";"240 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"Kuřecí zapečený sendvič 300g";"240 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"SMAŽENÝ SÝR 150 g";"260 Kč"
+J.J. Murphy´s Irish Pub;Prague;https://www.firmy.cz/detail/13373711-j-j-murphy-s-irish-pub-praha-mala-strana.html;4.9;6;50.087198;14.403346;"J. J. HOVEZÍ GULÁŠ NA GUINNESSU 150 g";"280 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Plátky smažené tenké bramborové plátky s česnekovou, chilli a tatarskou omáčkou";"169 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Čízy smažené tenké bramborové plátky s horkou sýrovou omáčkou";"179 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Grundle obalované smažené grundle s bylinkovou a pikantní omáčkou";"179 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Grilovaný kozí sýr grilovaný kozí sýr s brusinkovým přelivem na hruškách a olivovým olejem dochucený ledový salát, rukola a cherry rajčátka, bylinková bagetka";"189 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Nakládaný hermelín s feferonkou, beraními rohy a čerstvým chlebem";"129 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Chleba se škvarkovou pomazánkou jarní cibulkou a kyselou okurkou";"119 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Roastbeef roastbeef, kyselé okurky, feferonky, cibulka, pikantní omáčka, podáváme s bylinkovou bagetkou";"215 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Brambule brambory restované na másle s cibulí, česnekem a petrželkou, kořeněné tymiánem, zasypané balkánským sýrem";"189 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Pikantule brambory restované na másle s kuřecími nudličkami, anglickou slaninou, cibulí, česnekem, petrželkou, žampiony, kořeněné špetkou tabasca, zasypané balkánským sýrem";"199 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Špagety Carbonara špagety s pancettou, zahuštěné žloutkem a parmazánem";"245 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Špagety se špenátem a pancettou špagety s pancettou a listovým špenátem na smetaně a česneku, hoblinky parmazánu";"250 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Burritos s filírovaným hovězím steakem tortila plněná fazolovou pastou a filírovaným hovězím steakem, papričkami jalapeňos, paprikami, cherry rajčátky a sýrem cheddar, podáváme s rajčatovou salsou, guacamole a zakysanou smetanou";"269 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Tortila s trhaným kuřecím masem tortila plněná trhaným kuřecím masem, ledový salát, ředkvička, cheddarová omáčka, guacamole";"255 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Tortila s kuřecími stripsy s bylinkovým dipem, ledovým salátem, rukolou a rajčetem";"259 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Burritos vegetarián tortilla plněná fazolovou pastou, pečenou paprikou, červenou cibulí, špenátem, česnekem, jalapeňos a sýrem cheddar, podáváme s rajčatovou salsou, guacamole a zakysanou smetanou";"259 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Bageta s kuřecím masem zapečená francouzská bageta s kuřecím masem, směsí salátů, rajčaty a majonézou, podáváme se zeleninovým salátem";"225 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Bageta s roastbeefem zapečená francouzská bageta s roastbeefem, směsí salátů, rajčaty, cibulkou a pikantní omáčkou, podáváme se zeleninovým salátem";"239 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Bageta s trhaným vepřovým masem zapečená francouzská bageta s trhaným vepřovým masem, rajčaty, čerstvým špenátem a cheddarem, podáváme se zeleninovým salátem";"235 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Big cheeseburger 100% hovězí mleté maso v bulce se sýrem cheddar, pancettou, rukolou, nakládanou červenou cibulkou, rajčaty a hořčičnou omáčkou, podáváme s hranolky";"299 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Big BBQ jalapeňos burger 100% hovězí mleté maso v bulce s grilovanou slaninou, papričkami jalapeňos, rajčaty, ledovým salátem, šalotkou, BBQ omáčkou a majonézou, podáváme s hranolky";"299 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Big Pork Burger trhané pečené vepřové maso v bulce se smaženou cibulkou, cheddarem, polníčkem, rajčaty a BBQ omáčkou, podáváme s hranolky";"299 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Big BBQ Chicken Burger trhané kuřecí maso v bulce se smaženou cibulkou, cheddarem, polníčkem, rajčaty a BBQ omáčkou, podáváme s hranolky a majonézou";"295 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Caesar salát grilovaná kuřecí prsa na římském salátu s ančovičkovým dresinkem, křupavou pancettou, krutony a hoblinkami parmazánu, podáváme s česnekovou bagetou";"210 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Salát s kozím sýrem a avokádem grilovaný kozí sýr na směsi salátů s avokádem a restovaným řapíkatým celerem s vlašskými ořechy, podáváme s česnekovou bagetou";"239 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Salát s roastbeefem plátky roastbeefu se Směsí salátů a rajčat s šalotkou, dresinkem, hruškovo-cibulovým chutney, podávané s česnekovou bagetou";"239 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Řecký salát cherry rajčátka, papriky, okurky, olivy, balkánský sýr, domácí oregánový olej, podáváme s česnekovou bagetou";"199 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Kuřecí prsa s roqueforovou omáčkou grilovaná kuřecí prsa přelitá roqueforovou omáčkou s čerstvou bazalkou";"245 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Kuřecí prsa s listovým špenátem grilovaná kuřecí prsa s čerstvým listovým špenátem dochuceným česnekem";"245 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Pečená křídla 12ks pečených kuřecích křídel marinovaných v BBQ omáčce, bylinkový dip, podávané s čerstvou zeleninou";"259 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Kuřecí parmazánové stripsy podávané se zeleninovým salátkem a batátovými hranolkami, pažitkový dip";"265 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Biftek whisky and pepper biftek ze svíčkové s pepřovou whisky omáčkou";"395 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Biftek s hříbkovou omáčkou biftek ze svíčkové s hříbkovou omáčkou";"395 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Plátky svíčkové na pánvi tenké plátky hovězí svíčkové zprudka opečené, provoněné rozmarýnem a česnekem";"395 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Tatarský biftek čerstvě umletá hovězí svíčková podávaná s vaječným žloutkem, cibulí, hořčicí, worchesterovou omáčkou, solí, pepřem a sladkou paprikou, s 5 kusy topinek s česnekem";"330 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Losos s ratatouille grilovaný steak z lososa podávaný se zeleninou ratatouille";"340 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Losos s medovohořčičnou omáčkou grilovaný filet z lososa marinovaný v medovohořčičné omáčce s mladým koprem";"325 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Panenka s hořčičnou omáčkou grilovaná panenka s hořčičnou omáčkou";"325 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Panenka s Jack Daniel’s honey omáčkou grilovaná panenka s omáčkou ze zeleného pepře a Jack Daniel’s Honey";"339 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Pečená žebra pečená vepřová žebírka s hořčičnou a BBQ omáčkou, čerstvým křenem a nakládanými beraními rohy, s rozpečeným česnekovým chlebem";"299 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Medová žebra pečená vepřová žebírka v medové marinádě s grilovanými chilli papričkami a rozpečeným česnekovým chlebem";"299 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Česneková omáčka";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Chipotle omáčka";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"BBQ omáčka";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Bylinková omáčka";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Tatarská omáčka";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Zakysaná smetana";"35 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Rajčatová salsa";"45 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Guacamole";"45 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Rustikální hranolky";"59 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Restované brambory";"59 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Batátové hranolky";"59 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Česneková bageta 1ks";"59 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Grilovaná zelenina";"59 Kč"
+Cafe - Pub Atmosphere;Prague;https://www.firmy.cz/detail/13005261-cafe-pub-atmosphere-praha-stare-mesto.html;4.6;10;50.084055;14.413542;"Zelené lusky na cibulce a slanině";"59 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"0, 3l Česnečka z uzeného žebra";"49 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"0, 3l Polévka dle denní nabídky";"49 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"120g Hovězí tatarák s topinkami (6ks) a česnekem (podáváme již ochucený, na přání si můžete ochutit sami)";"199 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"300g Belgické hranolky podávané s horkým čedarem, česnekovým dipem a zeleninovými prsty";"109 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"120g Cibulové kroužky smažené v pivním těstíčku, podávané s BBQ omáčkou a zeleninovými prsty";"109 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"2ks Chilli papričky plněné sýrem, smažené v pikantním těstíčku, podávané se zakysanou smetanou a rozpečenou půlkou bagety";"109 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"150g Chilli Nachos se salsou kukuřičné chipsy podávané s horkým čedarem a domácí mexickou salsou";"109 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"Utopenec podávaný na zelném salátku s čerstvým chlebem";"69 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks Nakládaný hermelín podávaný na zelném salátu s feferonkou a čerstvým chlebem";"99 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"Uzenářský talíř domácí uzené, slanina, krájená klobáska - podávané s hořčicí, křenem, kyselou okurkou a chlebem";"249 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"500g Rautové řízečky z kuřecích prsíček podávané na ledovém salátu s řezy citrónu";"319 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"500g Rautové řízečky z vepřové krkovičky podávané na ledovém salátu s řezy citrónu";"319 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"300g Chicken Caesar Salát salát připravený z římského salátu s česnekovými krutony, ančovičkovým dresinkem, restovanými kousky kuřecích prsíček a praženou slaninou, sypaný sýrem grana padano";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Caesar Salát salát připravený z římského salátu s česnekovými krutony a ančovičkovým dresinkem, sypaný sýrem grana padano";"139 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"300g PUB Chicken Wrap tortilla plněná grilovanými kuřecími prsíčky, plátky grilované slaniny, římskými listy, plátky rajčat, okurkou, paprikami, červenou cibulí a bylinkovo paramzánovou majonézou, podávaná s listovým salátkem a česnekovým dipem (A1, A";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"300g Cheddar Cheese Quesadilla NOVINKA grilovaná tortilla plněná mexickou salsou, papričkami jalapeňos a 100g čedaru, podávaná se zakysanou smetanou a listovým salátkem";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks PUB Double Cheese Burger burger z 280g mletého hovězího masa v domácí cibulové housce, plněný čedarem, plátky grilované slaniny a čerstvého rajčete, lístkem ledového salátu, červenou cibulí a hořčičnou majonézou s worcester omáčkou, podávaný s hr";"269 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks PUB Beef Burger burger ze 140g mletého hovězího masa v domácí cibulové housce, plněný karamelizovanou cibulkou, žampiony, čedarem, plátkem grilované slaniny, plátkem rajčete, lístkem ledového salátu a hořčičnou majonézou, podávaný s hranolky (A1,";"199 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks PUB Texas Smokey BBQ Burger burger ze 140g mletého hovězího masa v domácí cibulové housce, s lístky ledového salátu, rajčaty, kyselou okurkou, plátky slaniny, čedarem, hořčičnou majonézou a BBQ omáčkou, podávaný s hranolky (A1, A3, A4, A7, A9, A10, A13";"199 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks PUB Nachos & Jalapeňo Burger burger ze 140g mletého hovězího masa v domácí cibulové housce, plněný čedarem, slaninou, nachos, feferonkami, ledovým salátem, plátkem rajčete, mexickou salsou a zakysanou smetanou, podávaný s hranolky";"199 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1550g Masová variace The PUB pro 4 osoby 600g PUB Wings, 500g PUB smoked Ribs, 200g Panenka ve slanině, 250g Pfeffersteak, BBQ omáčka, česnekový dip, zeleninové prsty, salát coleslaw, steakové hranolky, rozpečená bylinková bageta, chléb (A1, A";"919 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"500g PUB smoked Ribs lehce zauzená, pečená pikantní vepřová žebra v BBQ marinádě, podávaná se salátem coleslaw a rozpečenou bylinkovou bagetou";"219 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"600g PUB Wings pečená pikantní kuřecí křidélka, podávaná se zeleninovými prsty, BBQ omáčkou a rozpečenou bylinkovou bagetou";"189 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Beefsteak steak z hovězí svíčkové, pečený dorůžova, podávaný se smetanovou hříbkovou omáčkou a pečenými bramborami grenaille";"339 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Pfeffersteak steak z hovězí svíčkové, pečený dorůžova, podávaný s krémovou omáčkou ze zeleného pepře a steakovými hranolky";"339 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Grilovaná vepřová panenka ve slanině NOVINKA podávaná s fazolkami restovanými s česnekem a šťouchanými bramborami";"209 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Grilovaná BBQ krkovička podávaná s pečeným kukuřičným klasem, BBQ omáčkou, šťouchanými bramborami a vídeňskou cibulkou";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Grilované kuřecí prsíčko plněné listovým špenátem, podávané s grilovanými cherry rajčátky a pečenými bramborami grenaille";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1200g Pečené plzeňské kolínko pečené zadní vepřové koleno v marinádě z Plzeňského Prazdroje, česneku, dijonské hořčice a rozmarýnu, podávané se smetanovým křenem, hořčicí, zelným salátem a čerstvým chlebem";"279 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1/4 Pečená kachna po staročesku podávaná s červeným a moravským zelím a houskovými a bramborovými knedlíky";"209 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"150g Svíčková na smetaně podávaná s brusinkami, šlehačkou a houskovými knedlíky";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"150g Plzeňský pivní guláš podávaný s houskovými knedlíky a čerstvou cibulkou";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Řízek z kuřecích prsíček NOVINKA podávaný s hranolky s citronem";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Řízek z vepřové krkovičky podávaný se šťouchanými bramborami a citronem";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Grilovaná Pražská šunka NOVINKA podávaná s hořčicí, smetanovým křenem, beraními rohy a čerstvým chlebem (3ks)";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"150g Smažený Eidam podávaný s tatarskou omáčkou a hranolky";"179 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"150g Jablečný štrůdl podávaný s vanilkovou zmrzlinou a čerstvou šlehačkou";"69 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g BBQ omáčka";"49 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Česnekový dip";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Mexická salsa";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Horký čedar";"49 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Tatarská omáčka";"29 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Zakysaná smetana";"29 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Plnotučná hořčice";"29 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"80g Kečup Heinz";"29 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Šťouchané brambory";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Grilovaná zelenina paprika, cibule, lilek, cuketa";"99 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"250g Grilovaná zelenina při změně přílohy";"69 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Steakové hranolky";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"200g Hranolky";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks Rozpečená bylinková bageta";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"6ks Topinky s česnekem k tataráku";"39 Kč"
+The PUB - Pilsner Unique Bar;Prague;https://www.firmy.cz/detail/13098804-the-pub-pilsner-unique-bar-praha-nove-mesto.html;4.5;7;50.076179;14.428369;"1ks Ošatka chleba";"39 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Dle denní nabídky";"69 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"90g Domácí pomazánka s třeným pivním sýrem, červenou cibulkou a topinkami";"139 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"130g Hovězí tatarák s opékanými topinkami";"235 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"80g Domácí škvarková pomazánka s nakládanou okurkou, cibulkou a chlebem";"115 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"10ks Cibulové kroužky v pivním těstíčku s naší majonézou";"128 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"120g Čerstvé bramborové lupínky, se slaninovými chipsy a domácí majonézou";"145 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"1ks Vltavský utopenec, pečivo";"107 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"100g Nakládaný Hermelín s omáčkou z pečených paprik, pečivo";"135 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"90g Přírodní pařený ovčí sýr s olivami a červenou cibulkou";"155 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"150g KLASIK - naše majonéza, gouda, nakládané okurky, rajčata, červená cibule, grilovaná slanina, čerstvý salát";"202 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"300g KLASIK - naše majonéza, gouda, nakládané okurky, rajčata, červená cibule, grilovaná slanina, čerstvý salát";"264 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"150g ROUTE 66 - medovo-hořčičná majonéza, gouda, parmská šunka, vídeňská cibulka, sušená rajčata, rukola";"207 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"300g ROUTE 66 - medovo-hořčičná majonéza, gouda, parmská šunka, vídeňská cibulka, sušená rajčata, rukola";"269 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"150g JALAPEŇO - chipotle majonéza, čedar, pečené vejce, jalapeňos papričky, slaninový chips, hořčice, čerstvý salát";"207 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"300g JALAPEŇO - chipotle majonéza, čedar, pečené vejce, jalapeňos papričky, slaninový chips, hořčice, čerstvý salát";"269 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"150g TOM-IR - parmazánová majonéza, čedar, grilovaná slaninka, plátky čerstvé okurky, náš kečup, salát";"204 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"300g TOM-IR - parmazánová majonéza, čedar, grilovaná slaninka, plátky čerstvé okurky, náš kečup, salát";"266 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"120g WEGGIE - naše majonéza, grilovaný camembert, brusinky, smažená cibulka, BBQ omáčka, rukola";"202 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"1ks Pečené vepřové koleno s hořčicí, křenem, beraními rohy, pečivo (cca800g)";"289 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"480g Marinované vepřové žebra, pečené v medové omáčce s uzenou solí, podávané s hořčicí, křenem a beraními rohy, pečivo";"279 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"500g Pečená kuřecí křídélka s čerstvou zeleninou a dipem dle vašeho výběru, (Buffalo/med)";"239 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"BBQ omáčkou a česnekovým dipem ze zakysané smetany";"247 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"200g ované Gril krůtí prsa, s restovanými cherry rajčaty, balkánským sýrem, bylinkovým pestem, domácími hranolky";"265 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"200g Grilovaná vepřová panenka obalená ve slanince, smetanová pepřová omáčka, steakové hranolky";"265 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"200g Filírovaný hovězí pupek z grilu, s restovanou sezónní zeleninou a nakuřovanou BBQ omáčkou s hořčicí";"285 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"170g Kuřecí / Vepřový řízek se šťouchaným bramborem, kyselou okurkou";"205 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"150g Smažený sýr, steakové hranolky, naše tatarka";"207 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"200g Grilované vepřové játra, vídeňská cibulka, naše hranolky, domácí tatarská omáčka";"208 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"CAESAR SALÁT - listy římského salátu s parmazánovým dresinkem, rajčaty, pečeným vejcem, grilovaným kuřetem, s hobliny parmazánu a toustem";"215 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"MOZZARELLA SALÁT - čerstvé listové saláty, s mozzarellou, rajčaty, bazalkovým pestem, praženými semínky a balsamikovou reduí";"197 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"COLESLAW SALÁT - čerstvé zelí, mrkev, domácí majonéza";"95 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"120g Křupavé kuřecí řízečky, naše hranolky, kečup";"159 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"350g Špagety pomodoro s cherry rajčaty a strouhaným parmazánem";"188 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"2ks Palačinky s jahodovým džemem, lesním ovocem a šlehačkou";"119 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Bagetka rovnou z pece s bylinkovo - česnekovým máslem";"59 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Naše domácí steakové hranolky";"55 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Grilovaná sezónní zelenina";"89 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Šťouchané brambory s cibulkou";"55 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Naše majonéza s okurčičkami a kapary";"35 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"BBQ";"35 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Parmazánová";"35 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Česneková";"35 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Chipotle";"35 Kč"
+Hostinec Na Kamýku;Prague;https://www.firmy.cz/detail/13024465-hostinec-na-kamyku-praha-kamyk.html;4.2;42;50.017620;14.442012;"Pepřová";"35 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"100g Tlačenka našeho mistra řezníka s cibulkou, octem a čerstvým chlebem";"65 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Petrovický utopenec s cibulí, feferonkou a beraním rohem, chléb";"70 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Domácí Camembert (Hermelín) s beraním rohem, chléb";"80 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Domácí langoš z našeho těsta s česnekem, kečupem a sýrem";"100 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Grilovaná Pirátská klobása s hořčicí a čerstvým chlebem";"100 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Ďábelská topinka s pikantní masovou směsí, sypaná sýrem";"100 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"3 ks Smažené Jalapeňos papričky plněné čedarem, s limetkovým dipem a tortilla chips";"135 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"300 g Domácí bramborové knedle plněné uzeným, bílé zelí, smažená cibulka";"185 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150 g Svíčková na smetaně pomalu tažená hovězí pečeně, houskové knedlíky, brusinkový terč";"190 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"120g Smažený sýr (eidam) s domácí tatarkou";"140 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"100g Smažený Camembert (hermelín) s domácí tatarkou";"140 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Smažená sýrová jehla (eidam, camembert, niva) s domácí tatarkou";"160 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Smažený řízek z kuřecích prsíček zdobený citrónem";"170 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Smažený vepřový řízek zdobený citrónem";"170 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"500g Kuřecí křídla „SWEET-CHILLI“ s bylinkovou bagetkou, limetkovým dipem ze zakysané smetany a salátem Coleslaw";"210 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Křeslická řezanka pikantní kuřecí/vepřové nudličky restované s cibulí a barevnou paprikou";"210 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"600g Pečená vepřová žebra v pikantní marinádě podávaná s hořčicí, křenem s beraními rohy a čerstvým chlebem";"245 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"300g Špagety Bolognese (masové ragů, tomatová omáčka, Grana Padano/Eidam)";"190 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Domácí bramborák s česnekem a majoránkou plněný pikantní masovou směsí";"220 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Šťavnatý steak z kuřecích prsíček na čerstvých bylinkách";"190 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"300g Steak z vepřové krkovice v úpravě SOUS-VIDE";"210 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"200g Vepřová panenka na grilu";"225 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"250g RUMP STEAK – URUGAY na drceném barevném pepři";"310 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"0, 1 l Teplé pepřová se smetanou, medově-hořčičná z hrubozrnné hořčice, krémová smetanová z lesních hub";"45 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"0, 05l Studené dip bylinkový, limetkový ze zakysané smetany, jalapeňo-tomatový, domácí tatarka, bylinkové máslo";"25 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"0, 05l Kečup, hořčice";"15 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"350g ŠOPÁK (okurka, rajče, paprika, balkánský sýr)";"135 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"350g CEASAR (římský salát, grilované kuřecí prsíčko, opečená slanina, Grana Padano, ančovičkový dresink, krutony)";"225 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Vařené brambory";"40 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Americké brambory";"45 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Selské brambory opečené s cibulí, se slaninou a česnekem";"50 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Restované fazolky se slaninou a česnekem";"65 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Hranolky";"45 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"150g Krokety";"45 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"1 ks Bylinková bageta";"45 Kč"
+U 2 dubů;Prague;https://www.firmy.cz/detail/13016552-u-2-dubu-praha-kreslice.html;4.6;28;50.023295;14.565109;"2ks Domácí palačinky plněné nutellou, zdobené šlehačkou a čokoládou";"100 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"NAKLÁDANÝ HERMELÍN Marinovaný camembert s feferonkou";"55 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"Pikantní utopenec";"55 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"ŠOPSKÝ SALÁT Rajčata, paprika, okurka, cibule, olej, ocet, balkánský sýr / 150g Malá verze za 65 /";"120 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"SALÁT S KUŘECÍM MASEM Kuřecí stripsy s listovým salátem, francouzský dresing";"145 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"PALAČINKA SE ZMRZLINOU Palačinka s ovocem, zmrzlinou, šlehačkou, toping";"65 Kč"
+Pivnice U Járy;Prague;https://www.firmy.cz/detail/13895167-pivnice-u-jary-praha-zizkov.html;4.7;33;50.086091;14.448507;"ZMRZLINOVÝ POHÁR Vanilková zmrzlina s ovocem, šlehačkou a topingem";"55 Kč"
+Hospůdka V Ofsajdu;Prague;https://www.firmy.cz/detail/13115302-hospudka-v-ofsajdu-praha-chodov.html;2.5;1;50.034563;14.509640;None;None
+Corso hospoda;Prague;https://www.firmy.cz/detail/13504695-corso-hospoda-praha-modrany.html;None;None;50.007631;14.430931;None;None
+Gorila bar;Prague;https://www.firmy.cz/detail/13245901-gorila-bar-praha-smichov.html;4.8;11;50.073692;14.394085;None;None
+Hospůdka Na Růžku;Prague;https://www.firmy.cz/detail/13823963-hospudka-na-ruzku-praha-kunratice.html;None;None;50.022328;14.487018;None;None
+Hospoda U Bočana;Prague;https://www.firmy.cz/detail/13608338-hospoda-u-bocana-praha-hloubetin.html;4;3;50.104917;14.530427;None;None
+Pivnice Fantasie;Prague;https://www.firmy.cz/detail/13209457-pivnice-fantasie-praha-stodulky.html;4;4;50.037939;14.338864;None;None
+Hospůdka U Bartoše;Prague;https://www.firmy.cz/detail/13306064-hospudka-u-bartose-praha-karlin.html;4.8;7;50.093621;14.449997;None;None
+Hospůdka U Draka v exilu;Prague;https://www.firmy.cz/detail/13121637-hospudka-u-draka-v-exilu-praha-radotin.html;None;None;49.984403;14.359792;None;None
+Hospůdka Pohoda;Prague;https://www.firmy.cz/detail/12800069-hospudka-pohoda-praha-zizkov.html;4.4;4;50.079829;14.458604;None;None
+Pivnice Skalka;Prague;https://www.firmy.cz/detail/204115-pivnice-skalka-praha-strasnice.html;4.6;4;50.068358;14.509466;None;None
+Klub Na Věnečku;Prague;https://www.firmy.cz/detail/13450799-klub-na-venecku-praha-smichov.html;4.2;5;50.067863;14.395353;None;None
+Restaurace Nadějovská 1466;Prague;https://www.firmy.cz/detail/13138061-restaurace-nadejovska-1466-praha-ujezd-nad-lesy.html;4.8;3;50.082907;14.641630;None;None
+Výčep Balabenka;Prague;https://www.firmy.cz/detail/13403662-vycep-balabenka-praha-liben.html;5;3;50.103991;14.485727;None;None
+Občerstvení grill Xaveriova;Prague;https://www.firmy.cz/detail/13136270-obcerstveni-grill-xaveriova-praha.html;5;2;50.063871;14.398143;None;None
+Pivnice Stodůlky;Prague;https://www.firmy.cz/detail/13372387-pivnice-stodulky-praha-stodulky.html;4.8;5;50.046621;14.311480;None;None
+U Vystřelenýho oka;Prague;https://www.firmy.cz/detail/573893-u-vystrelenyho-oka-praha-zizkov.html;4.8;47;50.087154;14.449557;None;None
+Café bar Kolíbka;Prague;https://www.firmy.cz/detail/13363234-cafe-bar-kolibka-praha-nove-mesto.html;4.5;2;50.077997;14.423079;None;None
+Sedmý schod - Café bar Hospoda;Prague;https://www.firmy.cz/detail/13098475-sedmy-schod-cafe-bar-hospoda-praha-michle.html;4.5;7;50.057280;14.469786;None;None
+Pivnice u Mejly;Prague;https://www.firmy.cz/detail/12810597-pivnice-u-mejly-praha.html;4.9;5;50.071684;14.405317;None;None
+Restaurant Smolik;Prague;https://www.firmy.cz/detail/12988691-restaurant-smolik-praha-ujezd-nad-lesy.html;4.1;19;50.086661;14.664767;None;None
+Hospoda Na hřišti Řeporyje;Prague;https://www.firmy.cz/detail/13119912-hospoda-na-hristi-reporyje-praha-reporyje.html;3.9;6;50.030512;14.311002;None;None
+Pivovar Bad Flash;Prague;https://www.firmy.cz/detail/13490459-pivovar-bad-flash-praha-kobylisy.html;4.7;15;50.128784;14.453813;None;None
+BeerGeek Bar;Prague;https://www.firmy.cz/detail/13157661-beergeek-bar-praha-vinohrady.html;4.5;15;50.077085;14.450013;None;None
+Hospoda JAROV;Prague;https://www.firmy.cz/detail/12919719-hospoda-jarov-praha-zizkov.html;3.8;6;50.091704;14.497189;None;None
+Hospůdka U Kladiva;Prague;https://www.firmy.cz/detail/625166-hospudka-u-kladiva-praha-strasnice.html;4.5;15;50.080900;14.487674;None;None
+Pivní laboratoř U Rumlíka;Prague;https://www.firmy.cz/detail/12969993-pivni-laborator-u-rumlika-praha-nusle.html;5;48;50.056438;14.443794;None;None
+JERKY PUB U stříbrné kočky;Prague;https://www.firmy.cz/detail/13361575-jerky-pub-u-stribrne-kocky-praha-hradcany.html;4.4;8;50.086541;14.387432;None;None
+3J Beer Bar;Prague;https://www.firmy.cz/detail/13831595-3j-beer-bar-praha-vrsovice.html;5;4;50.072106;14.454588;None;None
+Restaurace Dejvické nádraží;Prague;https://www.firmy.cz/detail/568432-restaurace-dejvicke-nadrazi-praha-dejvice.html;4.5;73;50.097137;14.400001;None;None
+Hospoda U Kačera;Prague;https://www.firmy.cz/detail/13115532-hospoda-u-kacera-praha-vinor.html;5;3;50.143543;14.578755;None;None
+Kulturní centrum Klubovna;Prague;https://www.firmy.cz/detail/13057808-kulturni-centrum-klubovna-praha.html;4.6;29;50.098261;14.388537;None;None
+BEER POINT;Prague;https://www.firmy.cz/detail/13229448-beer-point-praha-nove-mesto.html;3.8;12;50.078852;14.429552;None;None
+Hostinec na Břetislavce;Prague;https://www.firmy.cz/detail/13808483-hostinec-na-bretislavce-praha-dejvice.html;None;None;50.123195;14.389273;None;None
+Hospoda Severka;Prague;https://www.firmy.cz/detail/13240896-hospoda-severka-praha-chodov.html;3.9;8;50.028253;14.520266;None;None
+Hospůdka U Pošty - Doma;Prague;https://www.firmy.cz/detail/13114793-hospudka-u-posty-doma-praha-strasnice.html;4.4;17;50.074803;14.491212;None;None
+Těsně vedle Burundi;Prague;https://www.firmy.cz/detail/13840145-tesne-vedle-burundi-praha-bubenec.html;5;1;50.101352;14.420148;None;None
+Restaurace Na hřišti;Prague;https://www.firmy.cz/detail/13807044-restaurace-na-hristi-praha-brevnov.html;4.9;9;50.078397;14.330809;None;None
+Hostinec U Přístavu;Prague;https://www.firmy.cz/detail/692513-hostinec-u-pristavu-praha-holesovice.html;4.3;3;50.104923;14.455621;None;None
+HOSPŮDKA U PAŘEZU;Prague;https://www.firmy.cz/detail/13115719-hospudka-u-parezu-praha-stodulky.html;4.9;9;50.047236;14.344370;None;None
+Hospůdka Modrá Hvězda;Prague;https://www.firmy.cz/detail/13118484-hospudka-modra-hvezda-praha-smichov.html;4.2;4;50.062999;14.404581;None;None
+Hostinec U Suchý Dásně;Prague;https://www.firmy.cz/detail/679683-hostinec-u-suchy-dasne-praha-nove-mesto.html;4.4;14;50.070811;14.416315;None;None
+Dande, spol. s r.o.;Prague;https://www.firmy.cz/detail/13497818-dande-praha-chodov.html;None;None;50.031826;14.496105;None;None
+Pivnice Boleslavka;Prague;https://www.firmy.cz/detail/13302446-pivnice-boleslavka-praha-prosek.html;3.2;6;50.123679;14.491211;None;None
+Vajtfiš BAR;Prague;https://www.firmy.cz/detail/13503225-vajtfis-bar-praha-nove-mesto.html;5;1;50.079791;14.416382;None;None
+Kozel na Mostě;Prague;https://www.firmy.cz/detail/13418924-kozel-na-moste-praha-cerny-most.html;5;4;50.106100;14.575636;None;None
+Snack Bar V Domě;Prague;https://www.firmy.cz/detail/13144885-snack-bar-v-dome-praha-horni-mecholupy.html;3.9;2;50.042272;14.554012;None;None
+U Tiskárny;Prague;https://www.firmy.cz/detail/13099005-u-tiskarny-praha-nove-mesto.html;5;3;50.072112;14.430779;None;None
+Pivotéka ŽižkOff;Prague;https://www.firmy.cz/detail/13012663-pivoteka-zizkoff-praha-zizkov.html;5;1;50.084759;14.451081;None;None
+Pivnice Satanka;Prague;https://www.firmy.cz/detail/2450871-pivnice-satanka-praha-kobylisy.html;3.8;9;50.128082;14.475632;None;None
+Hospoda na Točné;Prague;https://www.firmy.cz/detail/13118461-hospoda-na-tocne-praha-tocna.html;4.6;10;49.972816;14.431152;None;None
+Kavárna Na Šumavě;Prague;https://www.firmy.cz/detail/2289361-kavarna-na-sumave-praha-vinohrady.html;4.9;36;50.075719;14.443755;None;None
+Bar Kočárek;Prague;https://www.firmy.cz/detail/13175914-bar-kocarek-praha-smichov.html;4.4;4;50.072515;14.389519;None;None
+Pivnice U Báby;Prague;https://www.firmy.cz/detail/13739280-pivnice-u-baby-praha-karlin.html;4.5;6;50.090694;14.440828;None;None
+Jan Paleček - hospoda;Prague;https://www.firmy.cz/detail/13065989-jan-palecek-hospoda-praha-vrsovice.html;2.8;2;50.070592;14.447478;None;None
+Pivnice U Marešů;Prague;https://www.firmy.cz/detail/13118950-pivnice-u-maresu-praha-kbely.html;5;1;50.133061;14.548130;None;None
+Jan Baťha;Prague;https://www.firmy.cz/detail/13139431-jan-batha-praha-zizkov.html;None;None;50.082188;14.457187;None;None
+Hospoda Lidový dům;Prague;https://www.firmy.cz/detail/13417763-hospoda-lidovy-dum-praha-uhrineves.html;4.6;12;50.030203;14.600482;None;None
+Zetko Comedy pub;Prague;https://www.firmy.cz/detail/13532701-zetko-comedy-pub-praha-liben.html;None;None;50.119118;14.462449;None;None
+Hospůdka Na Schůdkách;Prague;https://www.firmy.cz/detail/13624598-hospudka-na-schudkach-praha-vrsovice.html;4.7;15;50.070523;14.474745;None;None
+Lahváček;Prague;https://www.firmy.cz/detail/13869812-lahvacek-praha-letnany.html;None;None;50.136576;14.514699;None;None
+Naše hospoda Na Růžku;Prague;https://www.firmy.cz/detail/12960737-nase-hospoda-na-ruzku-praha-smichov.html;3.9;21;50.060311;14.409609;None;None
+Drinkøtéka - Craft Beer Bar & Pííííívotéka;Prague;https://www.firmy.cz/detail/13905322-drink-teka-craft-beer-bar-piiiiivoteka-praha-nove-mesto.html;4.5;21;50.071125;14.414482;None;None
+Club Montana;Prague;https://www.firmy.cz/detail/13127305-club-montana-praha-vysocany.html;4.5;3;50.099950;14.487923;None;None
+Klub Prosek;Prague;https://www.firmy.cz/detail/13443981-klub-prosek-praha-strizkov.html;5;1;50.126026;14.493094;None;None
+U Bráchy;Prague;https://www.firmy.cz/detail/13187194-u-brachy-praha-nove-mesto.html;3.2;5;50.068383;14.416665;None;None
+Občerstvení Horolezecká 867/1;Prague;https://www.firmy.cz/detail/2457833-obcerstveni-horolezecka-867-1-praha-hostivar.html;5;1;50.051708;14.542057;None;None
+Hospůdka u Peci;Prague;https://www.firmy.cz/detail/13858532-hospudka-u-peci-praha-kamyk.html;5;1;50.015047;14.428294;None;None
+Pivnice Žerno;Prague;https://www.firmy.cz/detail/13872935-pivnice-zerno-praha-prosek.html;5;1;50.121318;14.493638;None;None
+Pivní bar Napalmě;Prague;https://www.firmy.cz/detail/12761309-pivni-bar-napalme-praha-liben.html;4.5;14;50.104103;14.473084;None;None
+Krkonošská hospůdka;Prague;https://www.firmy.cz/detail/12913831-krkonosska-hospudka-praha-dejvice.html;4.9;26;50.098309;14.406486;None;None
+Hospoda U Lesa;Prague;https://www.firmy.cz/detail/13139510-hospoda-u-lesa-praha-klanovice.html;3.6;49;50.087706;14.671149;None;None
+Výčep U Rarášků;Prague;https://www.firmy.cz/detail/13204969-vycep-u-rarasku-praha-nove-mesto.html;4.9;19;50.081531;14.417799;None;None
+Hostinec U Parku;Prague;https://www.firmy.cz/detail/337032-hostinec-u-parku-praha-nusle.html;5;4;50.059482;14.448006;None;None
+Hospůdka U Neostichu;Prague;https://www.firmy.cz/detail/13490762-hospudka-u-neostichu-praha-smichov.html;4.5;4;50.067038;14.400114;None;None
+Craft House, s.r.o.;Prague;https://www.firmy.cz/detail/12983894-craft-house-praha-nove-mesto.html;3.5;8;50.078661;14.423456;None;None
+Pivnice U Švejka;Prague;https://www.firmy.cz/detail/337671-pivnice-u-svejka-praha-dejvice.html;4.2;16;50.105310;14.394514;None;None
+Bar Večernice;Prague;https://www.firmy.cz/detail/13722057-bar-vecernice-praha-holesovice.html;5;4;50.098580;14.425166;None;None
+Karel MLEJNEK;Prague;https://www.firmy.cz/detail/13136401-karel-mlejnek-praha-branik.html;1;1;50.033590;14.426829;None;None
+Prague Beer Museum;Prague;https://www.firmy.cz/detail/12720695-prague-beer-museum-praha-stare-mesto.html;3.2;5;50.085012;14.413984;None;None
+Klubová Hospůdka Újezd;Prague;https://www.firmy.cz/detail/13805448-klubova-hospudka-ujezd-praha-ujezd-u-pruhonic.html;4.3;2;50.010220;14.544069;None;None
+Lokomotiva Vršovice;Prague;https://www.firmy.cz/detail/13108271-lokomotiva-vrsovice-praha-vrsovice.html;3.8;7;50.064302;14.455999;None;None
+Restaurace Pod Hájem;Prague;https://www.firmy.cz/detail/13021295-restaurace-pod-hajem-praha-liben.html;4.9;9;50.126164;14.472769;None;None
+Výčep Fialka;Prague;https://www.firmy.cz/detail/13229002-vycep-fialka-praha-liben.html;1;1;50.106288;14.487772;None;None
+Restaurace pivní Sanatorium;Prague;https://www.firmy.cz/detail/2466288-restaurace-pivni-sanatorium-praha-radotin.html;4.4;9;49.990398;14.365511;None;None
+Hospůdka Sokol;Prague;https://www.firmy.cz/detail/12948757-hospudka-sokol-praha-smichov.html;4.5;1;50.071310;14.407880;None;None
+Rohan BEERGARDEN;Prague;https://www.firmy.cz/detail/13506966-rohan-beergarden-praha.html;4.2;26;50.103122;14.464390;None;None
+Nightmare Prague horror bar;Prague;https://www.firmy.cz/detail/13153811-nightmare-prague-horror-bar-praha-mala-strana.html;5;2;50.079936;14.404522;None;None
+Restaurace U Bobra;Prague;https://www.firmy.cz/detail/2346019-restaurace-u-bobra-praha-horni-pocernice.html;3.5;11;50.111911;14.617374;None;None
+Hospoda Na Pahorku;Prague;https://www.firmy.cz/detail/13001427-hospoda-na-pahorku-praha-hostivar.html;4.5;2;50.048787;14.546876;None;None
+Hospůdka u Kopeckých;Prague;https://www.firmy.cz/detail/13411792-hospudka-u-kopeckych-praha-zabehlice.html;4.7;7;50.054941;14.489830;None;None
+Hospůdka Nad Viktorkou;Prague;https://www.firmy.cz/detail/332447-hospudka-nad-viktorkou-praha-zizkov.html;3.7;5;50.082905;14.448674;None;None
+Hospoda Děkanka;Prague;https://www.firmy.cz/detail/12995468-hospoda-dekanka-praha-nusle.html;4.4;8;50.053252;14.430280;None;None
+Hospoda Jaromírova;Prague;https://www.firmy.cz/detail/13133686-hospoda-jaromirova-praha-nusle.html;5;2;50.065155;14.428767;None;None
+Pivnice V Chodské;Prague;https://www.firmy.cz/detail/13187202-pivnice-v-chodske-praha-vinohrady.html;4.8;3;50.073712;14.446012;None;None
+Hospoda U Barona;Prague;https://www.firmy.cz/detail/13747708-hospoda-u-barona-praha-prosek.html;None;None;50.116839;14.494824;None;None
+Hostinec na Schůdku;Prague;https://www.firmy.cz/detail/13112961-hostinec-na-schudku-praha-vinohrady.html;4.6;15;50.078468;14.445625;None;None
+Hospoda Šuplík;Prague;https://www.firmy.cz/detail/13121991-hospoda-suplik-praha-kyje.html;4.8;8;50.091177;14.543144;None;None
+Hospoda Za Větrem;Prague;https://www.firmy.cz/detail/2471905-hospoda-za-vetrem-praha-zizkov.html;5;10;50.091375;14.479799;None;None
+Publikum;Prague;https://www.firmy.cz/detail/13299735-publikum-praha-strasnice.html;4.4;10;50.069896;14.489256;None;None
+Restaurant Oáza Billiard club;Prague;https://www.firmy.cz/detail/1949500-restaurant-oaza-billiard-club-praha.html;3.9;19;50.100674;14.384883;None;None
+Bad Flash Bar;Prague;https://www.firmy.cz/detail/13123015-bad-flash-bar-praha-karlin.html;3.7;14;50.093841;14.456169;None;None
+Hostinec U Bláhů;Prague;https://www.firmy.cz/detail/13127532-hostinec-u-blahu-praha-zbraslav.html;4.9;13;49.967657;14.378143;None;None
+Balbínova poetická hospůdka;Prague;https://www.firmy.cz/detail/326956-balbinova-poeticka-hospudka-praha-vinohrady.html;4.8;19;50.076978;14.433924;None;None
+Hospoda U Klokočníka;Prague;https://www.firmy.cz/detail/13021981-hospoda-u-klokocnika-praha-nusle.html;4.5;38;50.058740;14.441874;None;None
+U Kajmana;Prague;https://www.firmy.cz/detail/13156223-u-kajmana-praha-chodov.html;3.8;8;50.023384;14.516612;None;None
+Pivnice U Stadionu;Prague;https://www.firmy.cz/detail/13372242-pivnice-u-stadionu-praha-vrsovice.html;4.8;3;50.069505;14.469771;None;None
+Pivovarská restaurace;Prague;https://www.firmy.cz/detail/13022379-pivovarska-restaurace-praha-zabehlice.html;4.2;10;50.055242;14.486080;None;None
+NA OLYMPII;Prague;https://www.firmy.cz/detail/13329312-na-olympii-praha-seberov.html;1;1;50.010602;14.513206;None;None
+U Sumečka-Šeberov;Prague;https://www.firmy.cz/detail/13354809-u-sumecka-seberov-praha-seberov.html;5;1;50.013199;14.513524;None;None
+Obývák - tvůj pivní bar;Prague;https://www.firmy.cz/detail/13214096-obyvak-tvuj-pivni-bar-praha-strasnice.html;4.5;14;50.078666;14.488460;None;None
+Hospoda Libeňský ostrov 1555;Prague;https://www.firmy.cz/detail/13120945-hospoda-libensky-ostrov-1555-praha-liben.html;4.1;4;50.104217;14.464273;None;None
+Hospoda Pohoda;Prague;https://www.firmy.cz/detail/569598-hospoda-pohoda-praha-nusle.html;4.2;10;50.065496;14.439408;None;None
+Shromaždiště;Prague;https://www.firmy.cz/detail/13262808-shromazdiste-praha-zizkov.html;5;8;50.082910;14.447168;None;None
+Hospůdka U Standy;Prague;https://www.firmy.cz/detail/13153912-hospudka-u-standy-praha-vrsovice.html;3.6;7;50.070236;14.453592;None;None
+Lokál Dlouhááá;Prague;https://www.firmy.cz/detail/2466156-lokal-dlouhaaa-praha-stare-mesto.html;4.4;86;50.090694;14.425880;None;None
+Chaberská PERGOLA;Prague;https://www.firmy.cz/detail/13352123-chaberska-pergola-praha-dolni-chabry.html;4.4;19;50.147649;14.446884;None;None
+U hrocha;Prague;https://www.firmy.cz/detail/336158-u-hrocha-praha-mala-strana.html;4.4;201;50.089161;14.403232;None;None
+Hospůdka U splavu;Prague;https://www.firmy.cz/detail/13410217-hospudka-u-splavu-praha-uhrineves.html;4.6;4;50.023346;14.605355;None;None
+Bamboo Pub;Prague;https://www.firmy.cz/detail/13843358-bamboo-pub-praha-strasnice.html;None;None;50.076986;14.500508;None;None
+HANGÁR PUB;Prague;https://www.firmy.cz/detail/13202710-hangar-pub-praha-holesovice.html;4.9;20;50.099211;14.422740;None;None
+Gunners Pub;Prague;https://www.firmy.cz/detail/13328758-gunners-pub-praha-zizkov.html;3.4;3;50.089845;14.471741;None;None
+Pub 88;Prague;https://www.firmy.cz/detail/13922337-pub-88-praha-zabehlice.html;None;None;50.044488;14.497870;None;None
+Hostinec U Břehu;Prague;https://www.firmy.cz/detail/13767755-hostinec-u-brehu-praha-michle.html;5;2;50.058883;14.451329;None;None
+Lucaffé 48;Prague;https://www.firmy.cz/detail/13391503-lucaffe-48-praha.html;3;1;50.027801;14.508367;None;None
+Oáza;Prague;https://www.firmy.cz/detail/13149424-oaza-praha-malesice.html;5;1;50.083229;14.506417;None;None
+Hospůdka Do Větru;Prague;https://www.firmy.cz/detail/12746063-hospudka-do-vetru-praha-brevnov.html;4.8;14;50.088093;14.352723;None;None
+Pivní lokál Ostrý;Prague;https://www.firmy.cz/detail/12735594-pivni-lokal-ostry-praha-zizkov.html;3.8;5;50.084427;14.450972;None;None
+Knajpička;Prague;https://www.firmy.cz/detail/13922562-knajpicka-praha-karlin.html;None;None;50.094160;14.452520;None;None
+U Budyho;Prague;https://www.firmy.cz/detail/13365353-u-budyho-praha-liben.html;4.3;25;50.106461;14.464694;None;None
+BeerCheckpoint;Prague;https://www.firmy.cz/detail/13530073-beercheckpoint-praha-letnany.html;4.9;10;50.137011;14.516660;None;None
+Domeček;Prague;https://www.firmy.cz/detail/13126886-domecek-praha.html;4;8;50.127289;14.412802;None;None
+Hostinec pod Vrbou;Prague;https://www.firmy.cz/detail/13401448-hostinec-pod-vrbou-praha-miskovice.html;4.6;14;50.159637;14.542884;None;None
+Hospůdka Knoflík;Prague;https://www.firmy.cz/detail/2253647-hospudka-knoflik-praha-smichov.html;4.3;8;50.070273;14.404562;None;None
+Hostinec U Starejch hadru;Prague;https://www.firmy.cz/detail/13069150-hostinec-u-starejch-hadru-praha-vrsovice.html;5;3;50.071865;14.449866;None;None
+Hospoda U Zdi;Prague;https://www.firmy.cz/detail/13217099-hospoda-u-zdi-praha-liben.html;3.3;6;50.104714;14.489717;None;None
+Hostinec Ve Mlýně;Prague;https://www.firmy.cz/detail/13079723-hostinec-ve-mlyne-praha-krc.html;4.8;31;50.015967;14.457158;None;None
+PUB U Sousedů;Prague;https://www.firmy.cz/detail/13202385-pub-u-sousedu-praha-hostivar.html;4.7;16;50.050692;14.538223;None;None
+Bufet Černý kohout;Prague;https://www.firmy.cz/detail/2331311-bufet-cerny-kohout-praha-holesovice.html;2.5;2;50.103334;14.449075;None;None
+Pohoda hospoda & bar;Prague;https://www.firmy.cz/detail/13647104-pohoda-hospoda-bar-praha-stodulky.html;None;None;50.050010;14.347597;None;None
+Stromeček;Prague;https://www.firmy.cz/detail/13507995-stromecek-praha-zbraslav.html;4.9;19;49.973444;14.392981;None;None
+Poctivej Výčep;Prague;https://www.firmy.cz/detail/12983895-poctivej-vycep-praha-kobylisy.html;4.8;40;50.126158;14.447541;None;None
+Staré zátiší;Prague;https://www.firmy.cz/detail/13744906-stare-zatisi-praha-bubenec.html;4.8;2;50.103235;14.398264;None;None
+malý pivo;Prague;https://www.firmy.cz/detail/13541716-maly-pivo-praha-vinohrady.html;4.9;29;50.072658;14.485609;None;None
+Pivnice Šutka;Prague;https://www.firmy.cz/detail/13717362-pivnice-sutka-praha-troja.html;5;4;50.125339;14.444764;None;None
+Billiard svět;Prague;https://www.firmy.cz/detail/13136676-billiard-svet-praha-ujezd-nad-lesy.html;5;1;50.075333;14.664500;None;None
+Valdštejnská hospoda;Prague;https://www.firmy.cz/detail/12963474-valdstejnska-hospoda-praha-mala-strana.html;2.6;2;50.089617;14.405416;None;None
+Lidová pivnice;Prague;https://www.firmy.cz/detail/13791563-lidova-pivnice-praha-kamyk.html;4;1;50.008653;14.455022;None;None
+POHÁDKA;Prague;https://www.firmy.cz/detail/643952-pohadka-praha-liben.html;3.9;4;50.104181;14.485084;None;None
+Restaurace Na zámyšli;Prague;https://www.firmy.cz/detail/12888232-restaurace-na-zamysli-praha-kosire.html;4.7;3;50.069385;14.374017;None;None
+Branická Formanka;Prague;https://www.firmy.cz/detail/13200476-branicka-formanka-praha-nove-mesto.html;4.7;27;50.080236;14.423890;None;None
+Šenk Na Rajské;Prague;https://www.firmy.cz/detail/12814379-senk-na-rajske-praha-cerny-most.html;4.6;7;50.106445;14.561870;None;None
+Občerstvení U Báti;Prague;https://www.firmy.cz/detail/2175877-obcerstveni-u-bati-praha-libus.html;4;1;50.007431;14.462904;None;None
+Lipanská hospůdka U Klingra;Prague;https://www.firmy.cz/detail/12981882-lipanska-hospudka-u-klingra-praha-lipany.html;5;7;49.999173;14.617068;None;None
+The PUB Praha 6;Prague;https://www.firmy.cz/detail/13710652-the-pub-praha-6-praha-bubenec.html;1.5;2;50.100847;14.401082;None;None
+Kovadlina u Lázní;Prague;https://www.firmy.cz/detail/13571688-kovadlina-u-lazni-praha-holesovice.html;5;2;50.097815;14.432346;None;None
+Garáž;Prague;https://www.firmy.cz/detail/13259819-garaz-praha-hodkovicky.html;4.8;6;50.022265;14.412071;None;None
+Hospoda U Benyho;Prague;https://www.firmy.cz/detail/13382266-hospoda-u-benyho-praha-vinohrady.html;4.9;6;50.077576;14.442154;None;None
+Hospůdka U hřiště;Prague;https://www.firmy.cz/detail/13750660-hospudka-u-hriste-praha.html;None;None;50.130366;14.414050;None;None
+Tetyana Tulaydan;Prague;https://www.firmy.cz/detail/13130488-tetyana-tulaydan-praha-stodulky.html;None;None;50.055815;14.313868;None;None
+Restaurace Kulturní dům Barikádníků;Prague;https://www.firmy.cz/detail/13118335-restaurace-kulturni-dum-barikadniku-praha-strasnice.html;4.4;9;50.073552;14.493394;None;None
+Hospoda Brouk;Prague;https://www.firmy.cz/detail/13112041-hospoda-brouk-praha-smichov.html;4.1;12;50.069806;14.406860;None;None
+Pivnice Dno pytle;Prague;https://www.firmy.cz/detail/12943672-pivnice-dno-pytle-praha-vinohrady.html;4.1;33;50.077109;14.442861;None;None
+Hostinec Dívčí skok;Prague;https://www.firmy.cz/detail/1959313-hostinec-divci-skok-praha-liboc.html;3.4;87;50.099755;14.320765;None;None
+Hospůdka Na Výšinách;Prague;https://www.firmy.cz/detail/13372495-hospudka-na-vysinach-praha-vrsovice.html;5;3;50.071625;14.460367;None;None
+Hospůdka U Habásků;Prague;https://www.firmy.cz/detail/2692616-hospudka-u-habasku-praha-zizkov.html;4.8;14;50.085760;14.446419;None;None
+Hospůdka Prima;Prague;https://www.firmy.cz/detail/13643420-hospudka-prima-praha-pisnice.html;None;None;49.993525;14.467949;None;None
+Restaurace U Čouků;Prague;https://www.firmy.cz/detail/13113999-restaurace-u-couku-praha-horni-mecholupy.html;4.3;11;50.044162;14.559137;None;None
+Hospůdka Na zápraží;Prague;https://www.firmy.cz/detail/13466807-hospudka-na-zaprazi-praha-kobylisy.html;3.5;9;50.130268;14.445385;None;None
+Pivní zahrada;Prague;https://www.firmy.cz/detail/13882444-pivni-zahrada-praha-smichov.html;None;None;50.072060;14.405967;None;None
+Hostinec V Rybníčkách;Prague;https://www.firmy.cz/detail/2349310-hostinec-v-rybnickach-praha-strasnice.html;4.3;7;50.070676;14.507995;None;None
+Holešovický pub;Prague;https://www.firmy.cz/detail/13557774-holesovicky-pub-praha-holesovice.html;None;None;50.103287;14.445862;None;None
+Pivovar Šedivák;Prague;https://www.firmy.cz/detail/13247913-pivovar-sedivak-praha-bohnice.html;4;33;50.131395;14.424422;None;None
+Hospoda U Kruhu;Prague;https://www.firmy.cz/detail/13129771-hospoda-u-kruhu-praha-nove-mesto.html;4.6;20;50.080933;14.423279;None;None
+U Olmerů - Rest & Pub;Prague;https://www.firmy.cz/detail/13337629-u-olmeru-rest-pub-praha-nusle.html;4.6;20;50.063776;14.425236;None;None
+Hospůdka u draka v exilu;Prague;https://www.firmy.cz/detail/13811765-hospudka-u-draka-v-exilu-praha-radotin.html;None;None;49.984339;14.359793;None;None
+Galerie Piva, s.r.o.;Prague;https://www.firmy.cz/detail/13015661-galerie-piva-praha-vrsovice.html;4.7;8;50.070599;14.450866;None;None
+Hostinec U Jendy;Prague;https://www.firmy.cz/detail/13297205-hostinec-u-jendy-praha-nove-mesto.html;4.5;39;50.069903;14.418497;None;None
+Hostinec U Procházků;Prague;https://www.firmy.cz/detail/573112-hostinec-u-prochazku-praha-krc.html;4.9;7;50.047933;14.441216;None;None
+U Kunštátů;Prague;https://www.firmy.cz/detail/12723884-u-kunstatu-praha-stare-mesto.html;3.2;3;50.085338;14.417006;None;None
+Rapidbar65;Prague;https://www.firmy.cz/detail/13033633-rapidbar65-praha-karlin.html;4.7;5;50.091097;14.444111;None;None
+Pivnice Parukářka s.r.o.;Prague;https://www.firmy.cz/detail/12947397-pivnice-parukarka-s-r-o-praha.html;4.2;9;50.084436;14.458180;None;None
+Hamerský sklípek;Prague;https://www.firmy.cz/detail/12919050-hamersky-sklipek-praha-zabehlice.html;3.9;53;50.051641;14.485615;None;None
+Bar Barré;Prague;https://www.firmy.cz/detail/12852763-bar-barre-praha-holesovice.html;4.8;2;50.100977;14.427257;None;None
+Vodácká krčma U Sváry;Prague;https://www.firmy.cz/detail/13142606-vodacka-krcma-u-svary-praha-hodkovicky.html;4.4;14;50.023949;14.398308;None;None
+Hospůdka na Slavoji;Prague;https://www.firmy.cz/detail/12717064-hospudka-na-slavoji-praha-zbraslav.html;5;3;49.971016;14.382711;None;None
+Neko anime bar;Prague;https://www.firmy.cz/detail/13563081-neko-anime-bar-praha-smichov.html;5;3;50.076999;14.403276;None;None
+Burza #4;Prague;https://www.firmy.cz/detail/13361026-burza-4-praha-holesovice.html;4.8;6;50.098409;14.445308;None;None
+HOSPODA NEDVĚZÍ;Prague;https://www.firmy.cz/detail/13247207-hospoda-nedvezi-praha-nedvezi-u-rican.html;5;1;50.017771;14.652395;None;None

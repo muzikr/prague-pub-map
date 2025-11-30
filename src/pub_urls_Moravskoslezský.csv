@@ -1,0 +1,733 @@
+name;region;url;rating;number_of_reviews;latitude;longitude;menu_item;price
+Pasta & Café Romana;Moravskoslezský;https://www.firmy.cz/detail/13175789-pasta-cafe-romana-havirov-podlesi.html;4.7;58;49.780956;18.451877;None;None
+Sauna Štramberk;Moravskoslezský;https://www.firmy.cz/detail/13152117-sauna-stramberk-stramberk.html;4.9;6;49.586704;18.122846;None;None
+Restaurace KD Kozmice;Moravskoslezský;https://www.firmy.cz/detail/13391440-restaurace-kd-kozmice-kozmice.html;5;4;49.912855;18.155616;"Hovězí svíčková na smetaně, houskový knedlík A 13 7 9";"279 Kč"
+Restaurace KD Kozmice;Moravskoslezský;https://www.firmy.cz/detail/13391440-restaurace-kd-kozmice-kozmice.html;5;4;49.912855;18.155616;"Pečené kachní stehno, červené zelí, variace knedlíků A 137";"279 Kč"
+Restaurace KD Kozmice;Moravskoslezský;https://www.firmy.cz/detail/13391440-restaurace-kd-kozmice-kozmice.html;5;4;49.912855;18.155616;"Vepřová panenka v anglické slanině s pepřovou omáčkou, pečené brambory A7";"279 Kč"
+Restaurace KD Kozmice;Moravskoslezský;https://www.firmy.cz/detail/13391440-restaurace-kd-kozmice-kozmice.html;5;4;49.912855;18.155616;"Kachní prsa s pomerančovou omáčkou, bramborové krokety A 13";"279 Kč"
+Restaurace KD Kozmice;Moravskoslezský;https://www.firmy.cz/detail/13391440-restaurace-kd-kozmice-kozmice.html;5;4;49.912855;18.155616;"Králík na smetaně, houskový knedlík A 71 3";"279 Kč"
+Hospůdka Na Zelené;Moravskoslezský;https://www.firmy.cz/detail/13109647-hospudka-na-zelene-frydek-mistek-mistek.html;1;2;49.670647;18.339386;None;None
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 33 l Slepičí vývar s masem a nudlemi";"59 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 33 l Česneková polévka";"69 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 33 l Fazolová polévka";"69 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 33 l Zelňačka";"64 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"150g Smažený kuřecí řízek";"119 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"350g Smažený květák";"109 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"150g Božský Kája";"239 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"225g Woodstock";"259 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"150g Queen";"249 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"140g Red Hot";"249 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"210g Ozzy";"259 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"2x140g U2";"319 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"2x40g Double ČÍZ";"145 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Buffalo wings 9ks";"199 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Buffalo wings 12ks";"239 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Louisiana wings 9ks";"199 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Louisiana wings 12ks";"239 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo Buffalo wings 9ks";"259 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo Buffalo wings 12ks";"338 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo Louisiana wings 9ks";"259 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo Louisiana wings 12ks";"338 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"New York wings 9ks";"199 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"New York wing 12ks";"239 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo New York wings 9ks";"259 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kombo New York wings 12ks";"338 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l Belgická omáčka speciál";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l Mexická omáčka";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l BBQ";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l Tatarská omáčka";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l Sweet chilli";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 07 l Kečup";"30 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"4ks Kuřecí stripsy";"179 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"10ks Kuřecí stripsy";"249 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Kyblík half to half";"379 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Tortila se stripsy a jogurtovým dipem";"199 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Stripsový salát";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Originál";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Špenátové";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Se třemi druhy sýrů";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Lovecké s kuřecím masem";"219 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Lovecké s vepřovou panenkou";"219 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"200g Hranolky";"54 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Pizza chléb se sýrem a česnekem";"64 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Cibulové kroužky";"64 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Bramboráky s česnekem a majoránkou";"54 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Nakládaný hermelín";"89 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Utopenec se zelím a cibulí, chléb";"79 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Korbačík";"9 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Tyčinky syrové";"31 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Křupky arašídové";"26 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Chipsy Lay's";"40 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Hospodské brambůrky";"38 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Arašídy";"31 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"Pistácie";"48 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"400g Pečené koleno + chléb";"239 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"5 ks Pikantní čedarové uhlíky";"79 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"10 ks Pikantní čedarové uhlíky";"129 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"10 ks Pikantní čedarové uhlíky (+ běžná porce hranolek, omáčka dle výběru)";"169 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"200 g SALÁTEK COLESLAW";"59 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 465 l Arašídová";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"465g Vanilková";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"465g Karamelová a čokoládová";"209 Kč"
+Hospoda U Švejka;Moravskoslezský;https://www.firmy.cz/detail/13353513-hospoda-u-svejka-trinec-lyzbice.html;4.5;10;49.663626;18.681308;"0, 465 l Zmrzlina z arašídového másla";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"0, 33 l Tradiční vývar s nudlemi";"55 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"0, 33 l Česnečka se sýrem";"55 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"0, 50 l Česnečka XXL se sýrem";"70 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"0, 33 l Česnečka s tvarůžkou";"60 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"0, 50 l Česnečka XXL s tvarůžkou";"75 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"300g Halušky se zelím a uzeninou";"199 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Moravský vrabec, zelí, knedlík";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Pikantní vepřová játra, steakové hranolky";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Ohnivé maso, steakové hranolky";"219 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Hovězí ďábelský guláš, knedlík";"239 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Líčka na víně, bramborová kaše";"279 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Svíčková na smetaně, knedlík";"269 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"1 ks Konfitované kachní stehno, zelí, knedlík";"299 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"100g Hermelín v bramborovém těstě, přízdoba";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Pikantní játra v bramboráku";"219 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"100g Cmunda po kaplicku";"219 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Kuřecí prso v bramborovém těstě, přízdoba";"239 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Pikantní směs v bramboráku, přízdoba";"239 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Panenka v bramborovém těstě, přízdoba";"259 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Smažený kuřecí stehenní řízek, přízdoba";"159 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Smažený vepřový řízek, přízdoba";"169 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Smažený prsní řízek, přízdoba";"179 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Vepřový smažený řízek XXL z krkovice, přízdoba";"199 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Vepřový smažený řízek XXL z kotlety, přízdoba";"199 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Variace smažených řízků (vepř. , kuř) , přízdoba";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"250g Smažená krkovice na sádle, přízdoba";"249 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"100g Smažený sýr, přízdoba";"129 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"100g Smažený sýr se šunkou, přízdoba";"139 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"100g Smažený hermelín, přízdoba";"139 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"5Ks Smažené tvarůžky, přízdoba";"149 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Vepřová játra na grilu, přízdoba";"189 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Grilované prsíčko na bylinkách, přízdoba";"199 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Kuřecí prsíčko se šunkou a hermelínem, přízdoba";"209 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Grilovaná krkovice na česneku, přízdoba";"239 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Grilovaná panenka na lesních hříbkách";"249 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Losos na grilu, přízdoba";"259 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"1kg Korýtko mix (řízečky, špalíčky, žebra, apod) (Na objednávku předem)";"460 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"500g Pečené žebra na medu, kukuřičný klas, chléb";"249 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Tvarůžkový tatarák, topinky";"160 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"80g Dětský smažený/přírodní kuřecí řízek, hranolky";"129 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"50g Dětský smažený sýr, hranolky";"119 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"3ks Palačinky s džemem, nebo nutelou, šlehačka";"99 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"80g Dětská svíčková na smetaně, knedlík";"139 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Okurkový salát";"70 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Rajčatový salát";"70 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Šopský salát";"95 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"300g Salát Cézar s masem, sýr Gran Moravia";"219 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Hamburger Chuck roll, hranolky Omačka Barbecue + slanina - 150g";"239 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Hamburger Chuck roll DOUBLE Omačka Barbecue + slanina - 300g";"299 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Hamburger Chuck roll do ruky Omačka Barbecue + slanina - 150g";"179 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Hamburger Chuck roll do ruky DOUBLE Omačka Barbecue + slanina - 300g";"249 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Bramborový salát";"60 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Brambory vařené";"50 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Šťouchané brambory";"60 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Americké brambory";"70 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Hranolky steakové McCain";"70 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"200g Hranolky Julienne McCain";"60 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"150g Grilovaná zelenina";"110 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"50g Tatarská omáčka";"30 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"50g Pikantní omáčka";"30 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"50g Kečup";"30 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"1ks Knedlík";"10 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"1ks Topinka";"12 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"500g Pečená žebírka s pečivem";"230 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Topinka s ohnivým masem";"129 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Zmrzlinový pohár s jahodami a šlehačkou";"99 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Zmrzlinový pohár s lesním ovocem";"99 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Marlenka Naturál";"50 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Marlenka Kakaová";"50 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Sýrové tyčinky";"40 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Hospodské brambůrky";"45 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Arašídy";"40 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Mandle pražené se solí";"50 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Arašídové křupky";"30 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Kroužky jarní cibulka";"45 Kč"
+Hostinec U Zajíce;Moravskoslezský;https://www.firmy.cz/detail/13358307-hostinec-u-zajice-hnojnik.html;4.2;47;49.683243;18.537614;"Žvýkačky";"25 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"Kyselica s uzeným masem a haluškami";"61 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"Česneková z uzeného vývaru s vejcem";"59 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"120g Hovězí tatarák s cibulkou a česnekem, křupavá topinka";"199 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"180g Domácí chipsy";"55 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"130g Pravý domácí hovězí Burger čerstvé hovězí mleté maso se sýrem Cheddar v domácí bylinkové bulce, plátky grilované slaniny, salát, rajče, křupavá cibulka, česnekovo-petrželková majonéza, hranolky";"205 Kč"
+Hospůdka Balkán;Moravskoslezský;https://www.firmy.cz/detail/13049308-hospudka-balkan-repiste.html;4.4;71;49.735214;18.303940;"260g Hovězí double Burger dva plátky čerstvě mletého hovězího masa se sýrem Cheddar v domácí bylinkové bulce, plátky grilované slaniny, salát, rajče, křupavá cibulka, česnekovo petrželková majonéza, hranolky";"245 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"0, 33 l Masový vývar s nudlemi";"45 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"0, 33 l Česneková Speciál s šunkou, vejcem, krutóny a tvarůžkem";"49 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"0, 33 l Valašská kyselice s uzeným masem";"49 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Kuřecí steak plněný listovým špenátem a slaninou, ochucený česnekem v jemné smetanové omáčce";"179 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Kuřecí medailonky na žampionovém ragů zjemněné máslem";"176 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Kuřecí filetovaný steak na anglických fazolkách, omáčka";"176 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Kuřecí nudličky Lahoda /šunka, hermelín, smetana/";"170 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"150g Sťavnatá vepřová panenka s dom. bramborami, lívanečky se smetanovou omáčkou";"287 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"150g Vepřová panenka v anglickém kabátku pečená do růžova";"199 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Grilovaná vepřová krkovička s chipsem z anglické slaniny a s vídeňskou cibulkou199";"199 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"350g Tondův flákanec /grilovaná krkovice, křen, hořčice, okurek, kozí rohy, vídeňská cibulka, 2ks chleba/";"267 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"100g Smažený kuřecí řízek s přílohou";"113 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"70g Smažený sýr s přílohou";"113 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"100g Přírodní kuřecí plátek s přílohou";"113 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"350g Míchaný listový salát Ceasar s krutóny, parmazánem a dresingem s ančoviček, 2 ks rozpečených toastů";"179 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"350g Míchaný salát s hořčicovo-medovým winegretem a filetovaným kuřecím steakem, 2 ks rozpečených toastů";"215 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"1 ks Topinka s kuřecí směsí sypaná strouhaným sýrem";"115 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"1 ks Topinka s husí játrou sypaná strouhaným sýrem";"115 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"4 ks Nakládané tvarůžky, 2 ks másla, 2 ks chleba, cibule, paprika";"89 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"1 ks Topinka s tvarůžkovou pomazánkou";"55 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Hovězí tatarák, 5 ks topinek";"289 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200g Bramborový placek";"69 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"120g Kuřecí nudličky v bramborovém těstíčku, salátek";"167 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200/180g Bramborák plněný masovou směsí sypaný strouhaným sýrem";"189 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200/180g Havířský placek /grilovaná krkovička v placku zdobená slaninou/";"189 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200/180g Bramborák Speciál /filetovaný kuřecí steak, zelenina, strouhaný sýr, ďábelská omáčka/";"189 Kč"
+Hostinec U Tondy;Moravskoslezský;https://www.firmy.cz/detail/2403234-hostinec-u-tondy-ostrava-martinov.html;3.8;21;49.847509;18.170385;"200/120g Bramborák s naloženými tvarůžkami a vídeňskou cibulkou";"169 Kč"
+Hospůdka na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13325682-hospudka-na-hristi-ticha.html;None;None;49.566964;18.224089;None;None
+U Čagana;Moravskoslezský;https://www.firmy.cz/detail/566266-u-cagana-bruntal.html;4.3;12;49.983488;17.459830;"Segedinský guláš, houskový knedlík";"122 Kč"
+U Čagana;Moravskoslezský;https://www.firmy.cz/detail/566266-u-cagana-bruntal.html;4.3;12;49.983488;17.459830;"Přírodní vepřová panenka, opékané brambory, salátek";"122 Kč"
+Pivní bar U Taty;Moravskoslezský;https://www.firmy.cz/detail/13120479-pivni-bar-u-taty-ostrava-pustkovec.html;2.9;15;49.842034;18.169009;None;None
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"0, 33l Domácí hovězí vývar s nudlemi";"69 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"0, 33l Česneková polévka s vejcem, krutony a sýrem";"79 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"150g Smažené cibulové kroužky s BBQ omáčkou";"125 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"120g Trhané vepřové maso, sweet chilli, rozpékaný chléb";"125 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"120g Hovězí tatarák s topinkami";"225 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"120g Tvarůžkový tatarák s topinkami";"185 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"150g Hovězí guláš s karlovarským knedlíkem a karamelizovanou cibulkou";"239 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"150g Smažený sýr, hranolky, tatarská omáčka";"205 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"150g Svíčková na smetaně s variací knedlíků a citronovým terčíkem s brusinkama a šlehačkou";"245 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Smažené olomoucké tvarůžky. hranolky, tatarská omáčka";"215 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200g Smažené řízečky (kuřecí nebo z vepřové panenky";"185 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200g Dorůžova pečený špalek z vepřové panenky se slaninovou omáčkou";"219 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200gFilírovaný kuřecí plátek na smetanovém ragú z lišek";"275 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"250g/100g Gnocchi quatro formagi";"195 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"250g/100g Gnocchi se smetanou, špenátem a kuřecím masem";"185 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Caesar tortilla s kuřecím masem";"209 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"400g Pomalu pečené koleno bez kosti na černé Barboře";"385 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"400g Řízkový mix z vepřové panenky a kuřecích prsíček, koktejlová a ďábelská omáčka, rozpékaný chléb";"375 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1000g Marinované pikantní křidýlka, koktejlová a tatarská omáčka, rozpékaný chléb";"365 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"700g Smažený sýrový mix (eidam, hermelín, niva, tvarůžky, hranolky)";"545 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1400g Česká klasika (koleno, trhané vepřové maso, marinované křídla, rozpékaný chléb";"719 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"250g Míchaný salát s bazalkovým pestem";"165 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"300g Caesar salát s kuřecím masem";"229 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"250g/100g Míchaný salát s grilovaným hermelínem";"205 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200g Šťouchané brambory";"43 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200g Hranolky";"44 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"200g Americké brambory";"44 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Tatarská omáčka";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Ďábelská omáčka";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Kokteilová omáčka";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g BBQ omáčka";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Sweet chilli omáčka";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1ks Topinka";"8 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1ks Chléb";"6 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"150g Čerstvá zelenina s bazalkovým pestem";"90 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Margarita";"155 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Šunková";"185 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Žampionová";"195 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Tvarůžková";"215 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Sýrová";"235 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Salámová";"225 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Ostrá";"295 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Hawai";"195 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Špenátová";"215 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Vegetariánská";"195 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Pepperoni";"295 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Quattro formaggi";"265 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"Bacon";"245 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Kuřecí maso";"45 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Slanina";"45 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Hermelín";"40 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Tvarůžky";"45 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Ananas";"25 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Listový špenát";"15 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Žampiony";"15 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Kukuřice";"10 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Eidam";"40 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Feferony";"15 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Cibule";"15 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Šunka";"35 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Paprikáš";"30 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Vysočina";"25 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1ks Vejce";"10 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"100g Mozzarella";"40 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"50g Olivy";"15 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"1ks Domácí vafle s rozvarem z horkých malin a šlehačkou";"135 Kč"
+Tankovna U Haldy;Moravskoslezský;https://www.firmy.cz/detail/13205243-tankovna-u-haldy-ostrava-hrabuvka.html;3.9;15;49.788300;18.266900;"3ks Domácí lívance ve skořicovém cukru s tvarohovým přelivem a borůvkovým pyré";"135 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"1ks Utopenec na útěku, 2ks chléb";"109 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"100g Olomoucké tvarůžky, máslo, cibule, 2ks chléb";"109 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"1ks Nakládaný hermelín, kozí roh, 2ks chléb";"109 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"120g Topinka nebo 3ks placičky s pikantní masovou směsí sypané sýrem";"189 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"500g Marinovaná vepřová žebra, hořčice, křen, kozí rohy, 3ks chléb";"279 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"500g Smažené kuřecí řízečky (prsní) , kyselý okurek, hořčice, 3ks chléb 1a, 3, 10";"309 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"500g Smažené vepřové řízečky (Panenka) , kyselý okurek, hořčice, chléb 1a, 3, 10";"359 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"100g Tatarský biftek s cibulí, 2ks topinka";"229 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"750g Vepřové pečené koleno sous-vide, kyselý okurek, hořčice, křen, chléb 10";"280 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Smažený kuřecí prsní řízek, šťouchaný brambor se slaninou 1a, 3";"259 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Smažený vepřový řízek z krkovice, šťouchaný brambor se slaninou 1a, 3";"259 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Kuřecí steak, omáčka z nivy, hranolky";"249 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Kuřecí medailonky, sušená rajčata, bazalka, sypané parmazánem, hranolky 1a, 3, 7";"259 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Vepřová grilovaná krkovice, americké brambory, ďábelská omáčka";"279 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Vepřová panenka na lůžku zelených fazolek se slaninou";"275 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"Vepřové medailonky z panenky zapečené s hermelínem, americké brambory 1a, 3";"275 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g vepřové výpečky, kysané zelí, houskový knedlík 1a, 3, 7";"249 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"150g Smažená gouda, hranolky, tatarská omáčka 1a, 3";"239 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"100g Smažený camembert, hranolky, tatarská omáčka 1a, 3";"239 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"150g Americké brambory";"50 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"150g Hranolky";"50 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"200g Šťouchané brambory se slaninou";"50 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"1ks Chléb";"10 Kč"
+Pivní bar U Köhlera;Moravskoslezský;https://www.firmy.cz/detail/13402897-pivni-bar-u-kohlera-ostrava-moravska-ostrava.html;5;1;49.837100;18.285007;"1ks Topinka";"15 Kč"
+Bunkr;Moravskoslezský;https://www.firmy.cz/detail/13750333-bunkr-ostrava-poruba.html;None;None;49.829043;18.168443;None;None
+Posezení U Žáby;Moravskoslezský;https://www.firmy.cz/detail/13164348-posezeni-u-zaby-dobroslavice.html;4.1;26;49.880484;18.170167;None;None
+Hospoda Na Točně;Moravskoslezský;https://www.firmy.cz/detail/13836671-hospoda-na-tocne-havirov-sumbark.html;3.4;6;49.802018;18.411804;None;None
+Pivnice u Fortuny;Moravskoslezský;https://www.firmy.cz/detail/12887065-pivnice-u-fortuny-krnov-pod-bezrucovym-vrchem.html;None;None;50.088859;17.706058;None;None
+Letní zahrádka Za vodou;Moravskoslezský;https://www.firmy.cz/detail/13851473-letni-zahradka-za-vodou-pribor.html;5;1;49.636686;18.147879;None;None
+Hostinec na Rozcestí;Moravskoslezský;https://www.firmy.cz/detail/13490825-hostinec-na-rozcesti-petrovice.html;1;1;50.238951;17.448508;None;None
+Hostinec u Čendy;Moravskoslezský;https://www.firmy.cz/detail/12959827-hostinec-u-cendy-baska-hodonovice.html;4.4;26;49.635023;18.353950;None;None
+Hospoda u Micanu;Moravskoslezský;https://www.firmy.cz/detail/13028991-hospoda-u-micanu-frenstat-pod-radhostem.html;4;2;49.552326;18.207211;None;None
+Hospoda u Ondry;Moravskoslezský;https://www.firmy.cz/detail/13908061-hospoda-u-ondry-tisek.html;None;None;49.792832;18.015811;None;None
+U Pepy;Moravskoslezský;https://www.firmy.cz/detail/13138057-u-pepy-ostrava-koblov.html;4.6;10;49.898861;18.313099;None;None
+Hospůdka na Růžku;Moravskoslezský;https://www.firmy.cz/detail/13360648-hospudka-na-ruzku-frenstat-pod-radhostem.html;4;8;49.545010;18.218516;None;None
+Hostinec Cingrova 1627;Moravskoslezský;https://www.firmy.cz/detail/13145076-hostinec-cingrova-1627-ostrava-moravska-ostrava.html;None;None;49.833600;18.280900;None;None
+Hostinec u Holbergů;Moravskoslezský;https://www.firmy.cz/detail/13113760-hostinec-u-holbergu-ostrava-koblov.html;5;5;49.884351;18.289380;None;None
+Hospůdka Na Pokroku;Moravskoslezský;https://www.firmy.cz/detail/13108960-hospudka-na-pokroku-karvina-raj.html;4.7;3;49.843245;18.558233;None;None
+Hospoda Na Kovárně;Moravskoslezský;https://www.firmy.cz/detail/13339089-hospoda-na-kovarne-horni-benesov-luhy.html;None;None;49.970194;17.595400;None;None
+Domeček;Moravskoslezský;https://www.firmy.cz/detail/13852259-domecek-ostrava-pustkovec.html;5;4;49.839986;18.166770;None;None
+Hospoda Stodola;Moravskoslezský;https://www.firmy.cz/detail/13114109-hospoda-stodola-fulnek.html;4.7;4;49.717379;17.913850;None;None
+Hospoda pod Kaštany;Moravskoslezský;https://www.firmy.cz/detail/13645856-hospoda-pod-kastany-razova.html;4.7;35;49.933082;17.533680;None;None
+Hospůdka Zaolší;Moravskoslezský;https://www.firmy.cz/detail/13812269-hospudka-zaolsi-vendryne.html;5;2;49.631458;18.701695;None;None
+Zastávka U Geně;Moravskoslezský;https://www.firmy.cz/detail/13201746-zastavka-u-gene-brusperk.html;5;3;49.698451;18.223965;None;None
+Hospůdka Na Gruntě;Moravskoslezský;https://www.firmy.cz/detail/13065604-hospudka-na-grunte-bilovec-stara-ves.html;4.7;3;49.765655;17.984620;None;None
+Hostinec Sokolovna;Moravskoslezský;https://www.firmy.cz/detail/13109360-hostinec-sokolovna-pribor.html;3.9;13;49.641732;18.140375;None;None
+Hospoda Na Kurtech;Moravskoslezský;https://www.firmy.cz/detail/13698407-hospoda-na-kurtech-senov-u-noveho-jicina.html;4.5;1;49.606812;18.006534;None;None
+Pivní bar Miczka;Moravskoslezský;https://www.firmy.cz/detail/13116974-pivni-bar-miczka-albrechtice.html;None;None;49.783116;18.523561;None;None
+MSV STUDÉNKA, s.r.o.;Moravskoslezský;https://www.firmy.cz/detail/13145195-msv-studenka-studenka-butovice.html;5;1;49.709958;18.049919;None;None
+Hospůdka Terasa;Moravskoslezský;https://www.firmy.cz/detail/2419602-hospudka-terasa-baska.html;4.7;11;49.647990;18.382713;None;None
+Hospoda u Božky;Moravskoslezský;https://www.firmy.cz/detail/13303926-hospoda-u-bozky-svobodne-hermanice.html;4.1;4;49.945151;17.674001;None;None
+Hostinec U Lopaty;Moravskoslezský;https://www.firmy.cz/detail/13148778-hostinec-u-lopaty-havirov-mesto.html;3.5;2;49.784369;18.428981;None;None
+Hostinec U Agáty;Moravskoslezský;https://www.firmy.cz/detail/13117590-hostinec-u-agaty-opava-puste-jakartice.html;4.1;2;49.966763;17.948701;None;None
+Hostinec U Formana;Moravskoslezský;https://www.firmy.cz/detail/13920582-hostinec-u-formana-ostrava-dubina.html;None;None;49.774147;18.252906;None;None
+Hospůdka Na Kopečku;Moravskoslezský;https://www.firmy.cz/detail/13396873-hospudka-na-kopecku-zbyslavice.html;4.9;6;49.806515;18.072343;None;None
+Pohostinství U Antona;Moravskoslezský;https://www.firmy.cz/detail/2024860-pohostinstvi-u-antona-opava-predmesti.html;4.4;16;49.931941;17.890447;None;None
+Hospůdka U Jiřího;Moravskoslezský;https://www.firmy.cz/detail/2594749-hospudka-u-jiriho-ludvikov.html;4.6;93;50.102338;17.339640;None;None
+Hospůdka Na Špici;Moravskoslezský;https://www.firmy.cz/detail/13577250-hospudka-na-spici-ostrava-zabreh.html;3.8;8;49.789817;18.237507;None;None
+Špiler buda
+Sárňo buda;Moravskoslezský;https://www.firmy.cz/detail/13316371-spiler-buda-bystrice.html;5;4;49.635836;18.718043;None;None
+Petr Prášil;Moravskoslezský;https://www.firmy.cz/detail/13109474-petr-prasil-ostrava-moravska-ostrava.html;5;1;49.847597;18.290324;None;None
+Hotel Elba - Pivnice;Moravskoslezský;https://www.firmy.cz/detail/13123104-hotel-elba-pivnice-bohumin-novy-bohumin.html;None;None;49.902659;18.352589;None;None
+Restaurace U Vašíčků;Moravskoslezský;https://www.firmy.cz/detail/13109917-restaurace-u-vasicku-ostrava-radvanice.html;5;7;49.818268;18.361899;None;None
+Hospůdka k Lesu;Moravskoslezský;https://www.firmy.cz/detail/13659203-hospudka-k-lesu-frydek-mistek-frydek.html;3.6;7;49.693058;18.357223;None;None
+Hospůdka U Oráče;Moravskoslezský;https://www.firmy.cz/detail/12935783-hospudka-u-orace-ostrava-hrabuvka.html;4.9;18;49.782300;18.269559;None;None
+Hospůdka U Soudku;Moravskoslezský;https://www.firmy.cz/detail/13081541-hospudka-u-soudku-frydek-mistek-frydek.html;4.5;3;49.686374;18.368193;None;None
+Bečvárka;Moravskoslezský;https://www.firmy.cz/detail/13820588-becvarka-jesenik-nad-odrou.html;4.5;4;49.613966;17.905555;None;None
+Hostinec U Agáty;Moravskoslezský;https://www.firmy.cz/detail/13117590-hostinec-u-agaty-opava-puste-jakartice.html;4.1;2;49.966763;17.948701;None;None
+Hostinec U Formana;Moravskoslezský;https://www.firmy.cz/detail/13920582-hostinec-u-formana-ostrava-dubina.html;None;None;49.774147;18.252906;None;None
+Hospůdka Na Kopečku;Moravskoslezský;https://www.firmy.cz/detail/13396873-hospudka-na-kopecku-zbyslavice.html;4.9;6;49.806515;18.072343;None;None
+Pohostinství U Antona;Moravskoslezský;https://www.firmy.cz/detail/2024860-pohostinstvi-u-antona-opava-predmesti.html;4.4;16;49.931941;17.890447;None;None
+Hospoda Pod Lípou;Moravskoslezský;https://www.firmy.cz/detail/13321208-hospoda-pod-lipou-nydek.html;4.9;10;49.659037;18.763368;None;None
+Hospoda U Hřiště;Moravskoslezský;https://www.firmy.cz/detail/13385212-hospoda-u-hriste-milotice-nad-opavou.html;3.8;3;49.991393;17.538545;None;None
+Neptej se Pod Kohoutem;Moravskoslezský;https://www.firmy.cz/detail/13327562-neptej-se-pod-kohoutem-hlucin-bobrovniky.html;4.9;9;49.872305;18.206823;None;None
+Restaurace u Keconě;Moravskoslezský;https://www.firmy.cz/detail/13391386-restaurace-u-kecone-bohumin-skrecon.html;None;None;49.903564;18.377813;None;None
+Hospoda U Splavu;Moravskoslezský;https://www.firmy.cz/detail/13109840-hospoda-u-splavu-horni-domaslavice.html;4.8;6;49.695082;18.465335;None;None
+U Hroudy;Moravskoslezský;https://www.firmy.cz/detail/13137886-u-hroudy-opava-katerinky.html;3.5;3;49.949586;17.900246;None;None
+Hospoda u hriště;Moravskoslezský;https://www.firmy.cz/detail/13117154-hospoda-u-hriste-dolni-domaslavice.html;None;None;49.713565;18.482416;None;None
+Porubská Myslivna;Moravskoslezský;https://www.firmy.cz/detail/13205426-porubska-myslivna-ostrava-poruba.html;4.2;60;49.831227;18.149923;None;None
+Pivnice U Edisona;Moravskoslezský;https://www.firmy.cz/detail/12948543-pivnice-u-edisona-ostrava-hrabuvka.html;3.3;4;49.791268;18.270699;None;None
+Hospoda Na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13333382-hospoda-na-hristi-rybi.html;4.2;5;49.596722;18.078736;None;None
+Pivovarský Šenk;Moravskoslezský;https://www.firmy.cz/detail/13279882-pivovarsky-senk-odry.html;5;1;49.660102;17.831314;None;None
+Krčma U Jarząbka;Moravskoslezský;https://www.firmy.cz/detail/12828956-krcma-u-jarzabka-kosariska.html;3.1;2;49.589150;18.680607;None;None
+Hospůdka V Polouvsí;Moravskoslezský;https://www.firmy.cz/detail/13528675-hospudka-v-polouvsi-jesenik-nad-odrou-polouvsi.html;None;None;49.585452;17.895216;None;None
+Hospoda GARÁŽ;Moravskoslezský;https://www.firmy.cz/detail/13823744-hospoda-garaz-neplachovice.html;None;None;49.993138;17.812943;None;None
+Hospoda Na Šikmé ploše;Moravskoslezský;https://www.firmy.cz/detail/13011672-hospoda-na-sikme-plose-novy-jicin.html;4.8;5;49.590113;18.013329;None;None
+Hostinec U svatého Mikuláše;Moravskoslezský;https://www.firmy.cz/detail/2203645-hostinec-u-svateho-mikulase-hat.html;4.6;33;49.942426;18.267959;None;None
+HOSPŮDKA NA KOLEJÍCH;Moravskoslezský;https://www.firmy.cz/detail/13135700-hospudka-na-kolejich-mosty-u-jablunkova.html;4.7;24;49.524281;18.751570;None;None
+Hospůdka Zvonírna;Moravskoslezský;https://www.firmy.cz/detail/12993071-hospudka-zvonirna-ostrava-hrabova.html;3;3;49.779583;18.274601;None;None
+Hospůdka u Pošty;Moravskoslezský;https://www.firmy.cz/detail/13676912-hospudka-u-posty-smilovice.html;5;1;49.661176;18.571670;None;None
+Restaurace u bazénu;Moravskoslezský;https://www.firmy.cz/detail/13123554-restaurace-u-bazenu-vresina.html;3.3;2;49.949479;18.204430;None;None
+Slezská pětka;Moravskoslezský;https://www.firmy.cz/detail/13015849-slezska-petka-ostrava-michalkovice.html;4.8;6;49.837982;18.350423;None;None
+Hospůdka;Moravskoslezský;https://www.firmy.cz/detail/13185468-hospudka-havirov-sumbark.html;4.8;3;49.801342;18.414489;None;None
+Nekuřácká Hospůdka Dostavník;Moravskoslezský;https://www.firmy.cz/detail/13701740-nekuracka-hospudka-dostavnik-ostrava-vyskovice.html;5;2;49.783215;18.223613;None;None
+Hospůdka U Bizona;Moravskoslezský;https://www.firmy.cz/detail/13191612-hospudka-u-bizona-vrbno-pod-pradedem.html;5;1;50.116544;17.380097;None;None
+Klubovna U Staré pípy;Moravskoslezský;https://www.firmy.cz/detail/13036216-klubovna-u-stare-pipy-ostrava-vitkovice.html;4.9;3;49.813525;18.269145;None;None
+Hospůdka pod Lípami;Moravskoslezský;https://www.firmy.cz/detail/13104379-hospudka-pod-lipami-bystrice.html;4.6;9;49.626071;18.713144;None;None
+Hospůdka Meteor;Moravskoslezský;https://www.firmy.cz/detail/13326224-hospudka-meteor-vratimov.html;4.8;18;49.772207;18.316106;None;None
+Restaurace Barbara;Moravskoslezský;https://www.firmy.cz/detail/13257060-restaurace-barbara-krnov-pod-bezrucovym-vrchem.html;4.7;6;50.092460;17.701781;None;None
+Hospůdka u Ježibaby;Moravskoslezský;https://www.firmy.cz/detail/12943833-hospudka-u-jezibaby-havirov-dolni-sucha.html;4.5;25;49.810104;18.426059;None;None
+Hospůdka na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13879063-hospudka-na-hristi-bela.html;None;None;49.972651;18.148471;None;None
+Hostinec na podloubí;Moravskoslezský;https://www.firmy.cz/detail/13290296-hostinec-na-podloubi-klimkovice.html;4.6;11;49.786278;18.131649;None;None
+Hostinec Na Vrablovci;Moravskoslezský;https://www.firmy.cz/detail/13662698-hostinec-na-vrablovci-ludgerovice.html;3.5;5;49.884656;18.223696;None;None
+Restaurace Hero;Moravskoslezský;https://www.firmy.cz/detail/13330650-restaurace-hero-ostrava-hrabuvka.html;4.8;8;49.789219;18.264185;None;None
+Hospůdka U Binga;Moravskoslezský;https://www.firmy.cz/detail/13113548-hospudka-u-binga-karvina-nove-mesto.html;None;None;49.868859;18.536591;None;None
+geliatan group, s.r.o.;Moravskoslezský;https://www.firmy.cz/detail/13155295-geliatan-group-ostrava-moravska-ostrava.html;None;None;49.835982;18.284777;None;None
+Hospůdka Krásná Marie;Moravskoslezský;https://www.firmy.cz/detail/13882261-hospudka-krasna-marie-studenka.html;None;None;49.707235;18.069716;None;None
+Hostinec Jan Fárek;Moravskoslezský;https://www.firmy.cz/detail/13122203-hostinec-jan-farek-vrazne-emauzy.html;None;None;49.637418;17.834591;None;None
+Restaurace Sokolka Vávrovice;Moravskoslezský;https://www.firmy.cz/detail/13342769-restaurace-sokolka-vavrovice-opava-vavrovice.html;4.8;2;49.974047;17.865807;None;None
+Roman Václavík;Moravskoslezský;https://www.firmy.cz/detail/2214388-roman-vaclavik-ostrava-moravska-ostrava.html;4.8;3;49.839737;18.260475;None;None
+Hospůdka u Evika;Moravskoslezský;https://www.firmy.cz/detail/13141367-hospudka-u-evika-ostrava-pustkovec.html;5;1;49.840255;18.178190;None;None
+Pivnice v zatáčce;Moravskoslezský;https://www.firmy.cz/detail/12922766-pivnice-v-zatacce-ostrava-michalkovice.html;3.8;2;49.845942;18.343871;None;None
+Malá Jamajka;Moravskoslezský;https://www.firmy.cz/detail/13357321-mala-jamajka-havirov-mesto.html;4.4;16;49.784126;18.416773;None;None
+Hospůdka U Rošťáka;Moravskoslezský;https://www.firmy.cz/detail/13015823-hospudka-u-rostaka-ostrava-martinov.html;4.6;40;49.854841;18.176976;None;None
+Hospoda U Pantlíka;Moravskoslezský;https://www.firmy.cz/detail/13633523-hospoda-u-pantlika-dobra.html;1.5;1;49.672489;18.419704;None;None
+Hospoda v dědině;Moravskoslezský;https://www.firmy.cz/detail/13355455-hospoda-v-dedine-milikov.html;None;None;49.584661;18.721702;None;None
+Pivnice Venuše;Moravskoslezský;https://www.firmy.cz/detail/2456045-pivnice-venuse-ostrava-hrabuvka.html;4.5;5;49.784178;18.259451;None;None
+Hospůdka na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13128587-hospudka-na-hristi-havirov-sumbark.html;5;4;49.796208;18.411581;None;None
+Hospůdka U přechodu;Moravskoslezský;https://www.firmy.cz/detail/13143210-hospudka-u-prechodu-fulnek.html;5;1;49.712026;17.902646;None;None
+Nový Žalák;Moravskoslezský;https://www.firmy.cz/detail/13110282-novy-zalak-ostrava-marianske-hory.html;4.8;2;49.830728;18.254149;None;None
+Hospůdka U Pepana;Moravskoslezský;https://www.firmy.cz/detail/12750530-hospudka-u-pepana-jindrichov.html;4.7;40;50.253777;17.498554;None;None
+Bistro VeGa;Moravskoslezský;https://www.firmy.cz/detail/13792061-bistro-vega-uvalno.html;None;None;50.046978;17.743378;None;None
+Obec Chvalíkovice - Hospůdka na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13737189-obec-chvalikovice-hospudka-na-hristi-chvalikovice.html;3.7;2;49.886637;17.914927;None;None
+Hospůdka na Kamenci;Moravskoslezský;https://www.firmy.cz/detail/13733898-hospudka-na-kamenci-baska-hodonovice.html;3;2;49.625400;18.360101;None;None
+Hospůdka Osůvky;Moravskoslezský;https://www.firmy.cz/detail/13136431-hospudka-osuvky-trinec-konska.html;5;1;49.699942;18.667055;None;None
+Hostinec NA KOPCI;Moravskoslezský;https://www.firmy.cz/detail/13066181-hostinec-na-kopci-bilcice.html;5;3;49.871788;17.569647;None;None
+Hostinec U Štamgastů;Moravskoslezský;https://www.firmy.cz/detail/2587042-hostinec-u-stamgastu-hukvaldy-dolni-sklenov.html;4.8;14;49.634236;18.216412;None;None
+Hospoda Střelnice;Moravskoslezský;https://www.firmy.cz/detail/13541368-hospoda-strelnice-orlova-poruba.html;4.7;4;49.851849;18.409257;None;None
+Hospůdka U Primy;Moravskoslezský;https://www.firmy.cz/detail/13118964-hospudka-u-primy-lomnice.html;5;1;49.880524;17.421438;None;None
+Hospoda nám. Republiky;Moravskoslezský;https://www.firmy.cz/detail/13517546-hospoda-nam-republiky-studenka-butovice.html;2.5;2;49.714529;18.054203;None;None
+Hospůdka Lubinská;Moravskoslezský;https://www.firmy.cz/detail/13536013-hospudka-lubinska-stara-ves-nad-ondrejnici-kosatka.html;None;None;49.732058;18.160405;None;None
+Pivárna na Polní;Moravskoslezský;https://www.firmy.cz/detail/13654460-pivarna-na-polni-cesky-tesin.html;3.7;2;49.734716;18.617175;None;None
+Hospoda U Obušku;Moravskoslezský;https://www.firmy.cz/detail/13194196-hospoda-u-obusku-karlovice.html;4.5;4;50.104003;17.448913;None;None
+Hospoda U Krbu;Moravskoslezský;https://www.firmy.cz/detail/13364363-hospoda-u-krbu-vitkov.html;2.1;2;49.779209;17.756001;None;None
+Club Brooklyn Ostrava;Moravskoslezský;https://www.firmy.cz/detail/13362296-club-brooklyn-ostrava-ostrava-michalkovice.html;5;2;49.842708;18.352873;None;None
+Hospůdka U Dady;Moravskoslezský;https://www.firmy.cz/detail/13115538-hospudka-u-dady-bohumin-novy-bohumin.html;5;2;49.909067;18.362543;None;None
+Hospoda U Papuča;Moravskoslezský;https://www.firmy.cz/detail/13580874-hospoda-u-papuca-trinec-dolni-listna.html;5;1;49.680132;18.680599;None;None
+Hospůdka U Hasičů;Moravskoslezský;https://www.firmy.cz/detail/13111431-hospudka-u-hasicu-petrvald-2-petrvaldik.html;4.4;3;49.719080;18.135699;None;None
+Tipsport bar;Moravskoslezský;https://www.firmy.cz/detail/13240816-tipsport-bar-bridlicna.html;None;None;49.913465;17.375294;None;None
+VOPka;Moravskoslezský;https://www.firmy.cz/detail/13720299-vopka-cesky-tesin.html;5;3;49.741083;18.601193;None;None
+Hospoda Vendryně 341;Moravskoslezský;https://www.firmy.cz/detail/13118653-hospoda-vendryne-341-vendryne.html;None;None;49.668017;18.719239;None;None
+Vzpomínka klub;Moravskoslezský;https://www.firmy.cz/detail/13537807-vzpominka-klub-ostrava-poruba.html;None;None;49.834253;18.168150;None;None
+Green Pub;Moravskoslezský;https://www.firmy.cz/detail/13151266-green-pub-koprivnice.html;None;None;49.598419;18.143644;None;None
+Hospůdka pod Lípou;Moravskoslezský;https://www.firmy.cz/detail/13109114-hospudka-pod-lipou-hlucin.html;5;2;49.891796;18.194906;None;None
+Bledý úsvit;Moravskoslezský;https://www.firmy.cz/detail/13381861-bledy-usvit-cesky-tesin.html;4.9;5;49.743078;18.624935;None;None
+Pivnice Šverma;Moravskoslezský;https://www.firmy.cz/detail/13644749-pivnice-sverma-ostrava-marianske-hory.html;None;None;49.838831;18.240480;None;None
+Havran bar;Moravskoslezský;https://www.firmy.cz/detail/13243332-havran-bar-novy-jicin.html;4.4;5;49.595131;18.011487;None;None
+Nádražní restaurace;Moravskoslezský;https://www.firmy.cz/detail/13741233-nadrazni-restaurace-navsi.html;4.2;5;49.590045;18.754839;None;None
+Ertepel s.r.o., s.r.o.;Moravskoslezský;https://www.firmy.cz/detail/13130312-ertepel-s-r-o-trojanovice.html;3.9;4;49.488566;18.263685;None;None
+Hospůdka Pohoda;Moravskoslezský;https://www.firmy.cz/detail/325183-hospudka-pohoda-baska-kuncicky-u-basky.html;1.5;3;49.647508;18.339766;None;None
+Hospůdka na Návsi;Moravskoslezský;https://www.firmy.cz/detail/13575036-hospudka-na-navsi-hladke-zivotice.html;5;1;49.682907;17.957648;None;None
+Rostislav Krzyžanek;Moravskoslezský;https://www.firmy.cz/detail/13134787-rostislav-krzyzanek-havirov-prostredni-sucha.html;None;None;49.796970;18.452449;None;None
+Pivní Bar Maršál;Moravskoslezský;https://www.firmy.cz/detail/13166862-pivni-bar-marsal-frydek-mistek-mistek.html;4;2;49.677139;18.337681;None;None
+Bumbálka;Moravskoslezský;https://www.firmy.cz/detail/13144004-bumbalka-chlebicov.html;5;1;49.956979;17.971865;None;None
+Krásenská Studánka;Moravskoslezský;https://www.firmy.cz/detail/13267197-krasenska-studanka-krasna.html;4.6;10;49.581015;18.479507;None;None
+Hospoda U Radka;Moravskoslezský;https://www.firmy.cz/detail/13117630-hospoda-u-radka-vrbno-pod-pradedem-zelezna.html;4.8;12;50.127654;17.360475;None;None
+Studánka;Moravskoslezský;https://www.firmy.cz/detail/13020844-studanka-skotnice.html;4.2;2;49.666820;18.137825;None;None
+Sněhurka;Moravskoslezský;https://www.firmy.cz/detail/13839968-snehurka-stepankovice.html;5;3;49.957227;18.041931;None;None
+Hostinec Na obecním;Moravskoslezský;https://www.firmy.cz/detail/1943323-hostinec-na-obecnim-bartosovice.html;5;1;49.669438;18.054449;None;None
+Hospůdka u mloka;Moravskoslezský;https://www.firmy.cz/detail/13530211-hospudka-u-mloka-senov.html;4.2;2;49.792769;18.370981;None;None
+Hostinec Na Trnkovci;Moravskoslezský;https://www.firmy.cz/detail/13031343-hostinec-na-trnkovci-ostrava-radvanice.html;5;1;49.825177;18.332982;None;None
+Hostinec U Laryšů;Moravskoslezský;https://www.firmy.cz/detail/13131847-hostinec-u-larysu-holasovice.html;5;2;49.999899;17.806942;None;None
+Česká Hospůdka Renata;Moravskoslezský;https://www.firmy.cz/detail/13136742-ceska-hospudka-renata-kravare.html;None;None;49.933925;18.017823;None;None
+Hospoda Luboměř;Moravskoslezský;https://www.firmy.cz/detail/13355491-hospoda-lubomer-lubomer.html;3.5;1;49.685869;17.702269;None;None
+Olbrew Hospůdka u Kellerů;Moravskoslezský;https://www.firmy.cz/detail/13489076-olbrew-hospudka-u-kelleru-sedlnice.html;4.7;7;49.661444;18.086180;None;None
+U Mikesků;Moravskoslezský;https://www.firmy.cz/detail/13112259-u-mikesku-ostrava-hrabuvka.html;4;1;49.789751;18.266124;None;None
+Hospůdka Na Kopečku;Moravskoslezský;https://www.firmy.cz/detail/2540467-hospudka-na-kopecku-kuncice-pod-ondrejnikem.html;4.6;75;49.540637;18.288524;None;None
+Hospůdka Kovárna;Moravskoslezský;https://www.firmy.cz/detail/12751416-hospudka-kovarna-koprivnice.html;3;2;49.605688;18.143972;None;None
+Hospoda U cesty;Moravskoslezský;https://www.firmy.cz/detail/2463347-hospoda-u-cesty-dolni-benesov-zabreh.html;1;1;49.920422;18.083079;None;None
+Hospůdka Pikolo;Moravskoslezský;https://www.firmy.cz/detail/13282443-hospudka-pikolo-trinec-dolni-listna.html;4.8;2;49.682203;18.680144;None;None
+Hospoda NA HASCE;Moravskoslezský;https://www.firmy.cz/detail/13294318-hospoda-na-hasce-paskov-oprechtice.html;4.8;6;49.724320;18.266370;None;None
+Hostinec U Goje;Moravskoslezský;https://www.firmy.cz/detail/13115682-hostinec-u-goje-stare-mesto.html;5;4;49.667374;18.365788;None;None
+Pohostinství Kulturní dům;Moravskoslezský;https://www.firmy.cz/detail/13111302-pohostinstvi-kulturni-dum-darkovice.html;5;1;49.939145;18.224182;None;None
+Tělocvičná jednota Sokol Ostrava - Plesná;Moravskoslezský;https://www.firmy.cz/detail/13145431-telocvicna-jednota-sokol-ostrava-plesna-ostrava-plesna.html;5;1;49.859023;18.163500;None;None
+Sport club Victoria;Moravskoslezský;https://www.firmy.cz/detail/13370024-sport-club-victoria-pist.html;3.5;3;49.979870;18.204946;None;None
+Hospoda V Korunce 108/14;Moravskoslezský;https://www.firmy.cz/detail/13139601-hospoda-v-korunce-108-14-ostrava-hermanice.html;None;None;49.852231;18.315657;None;None
+Hostinec U Nádraží - Tipsport;Moravskoslezský;https://www.firmy.cz/detail/13142899-hostinec-u-nadrazi-tipsport-haj-ve-slezsku-chabicov.html;5;2;49.900740;18.093820;None;None
+Hospůdka U Lucky;Moravskoslezský;https://www.firmy.cz/detail/13298321-hospudka-u-lucky-ostrava-hrabuvka.html;4.6;9;49.788911;18.260884;None;None
+Hospůdka - Penzion Pod Zámkem;Moravskoslezský;https://www.firmy.cz/detail/13623920-hospudka-penzion-pod-zamkem-chotebuz.html;3.4;3;49.768312;18.570462;None;None
+Minibar Satelit;Moravskoslezský;https://www.firmy.cz/detail/13115813-minibar-satelit-ostrava-petrkovice.html;4.3;3;49.875646;18.259332;None;None
+Hospůdka u Lenina;Moravskoslezský;https://www.firmy.cz/detail/13357556-hospudka-u-lenina-havirov-mesto.html;None;None;49.777557;18.441268;None;None
+Restaurace U Vojáčka;Moravskoslezský;https://www.firmy.cz/detail/1948790-restaurace-u-vojacka-vresina.html;5;5;49.945838;18.192455;None;None
+Hospůdka na Zátiší;Moravskoslezský;https://www.firmy.cz/detail/13468073-hospudka-na-zatisi-frydek-mistek-frydek.html;4.9;6;49.698500;18.361970;None;None
+Autobar;Moravskoslezský;https://www.firmy.cz/detail/13460060-autobar-havirov-mesto.html;4.8;2;49.781170;18.441151;None;None
+Posezení U Lesa;Moravskoslezský;https://www.firmy.cz/detail/13686014-posezeni-u-lesa-hlucin-bobrovniky.html;4.6;9;49.870886;18.204996;None;None
+Hostinec Pod Kaštanem;Moravskoslezský;https://www.firmy.cz/detail/2463294-hostinec-pod-kastanem-olbramice.html;4.5;9;49.786642;18.092434;None;None
+Hospůdka U Sokola;Moravskoslezský;https://www.firmy.cz/detail/13134353-hospudka-u-sokola-ostrava-moravska-ostrava.html;4.9;4;49.845681;18.287032;None;None
+Hospoda TJ Viktorie Bohumín;Moravskoslezský;https://www.firmy.cz/detail/2462777-hospoda-tj-viktorie-bohumin-bohumin-stary-bohumin.html;5;1;49.917330;18.334449;None;None
+Taxiclub Titz;Moravskoslezský;https://www.firmy.cz/detail/12994707-taxiclub-titz-krnov-pod-bezrucovym-vrchem.html;None;None;50.088855;17.708257;None;None
+Cafe Bar Gross;Moravskoslezský;https://www.firmy.cz/detail/13117610-cafe-bar-gross-opava-predmesti.html;5;2;49.938743;17.895598;None;None
+Hospůdka Mezinka;Moravskoslezský;https://www.firmy.cz/detail/13009487-hospudka-mezinka-mezina.html;4.2;15;49.958428;17.477053;None;None
+Hospůdka U Kocoura;Moravskoslezský;https://www.firmy.cz/detail/12971762-hospudka-u-kocoura-ostrava-kuncice.html;4;2;49.792131;18.287696;None;None
+Hospůdka Čarda;Moravskoslezský;https://www.firmy.cz/detail/13017734-hospudka-carda-frydek-mistek-liskovec.html;5;2;49.709432;18.337659;None;None
+Kiosek U Hasičů;Moravskoslezský;https://www.firmy.cz/detail/13861599-kiosek-u-hasicu-stitina.html;5;2;49.916504;18.016114;None;None
+Hospůdka Ve dvoře;Moravskoslezský;https://www.firmy.cz/detail/13119149-hospudka-ve-dvore-hnevosice.html;5;2;50.005974;18.013149;None;None
+Hospoda U Aničky;Moravskoslezský;https://www.firmy.cz/detail/13831130-hospoda-u-anicky-bilovec-vyskovice.html;None;None;49.808033;17.988863;None;None
+Hospůdka U Irky;Moravskoslezský;https://www.firmy.cz/detail/13104439-hospudka-u-irky-nydek.html;4.7;7;49.643083;18.780104;None;None
+Hospůdka Na Lékárně;Moravskoslezský;https://www.firmy.cz/detail/13102866-hospudka-na-lekarne-horni-benesov.html;None;None;49.967348;17.601513;None;None
+Hospoda Na Kopci;Moravskoslezský;https://www.firmy.cz/detail/13112452-hospoda-na-kopci-dehylov.html;5;1;49.869491;18.168493;None;None
+Tři Koťátka;Moravskoslezský;https://www.firmy.cz/detail/13324239-tri-kotatka-petrovice-u-karvine-dolni-marklovice.html;None;None;49.891697;18.562061;None;None
+Pohostinství Pod Kostelem;Moravskoslezský;https://www.firmy.cz/detail/13561938-pohostinstvi-pod-kostelem-bolatice.html;5;1;49.951626;18.083938;None;None
+Hospůdka Na kopci;Moravskoslezský;https://www.firmy.cz/detail/12743270-hospudka-na-kopci-havirov-bludovice.html;4.5;6;49.762609;18.465533;None;None
+Hostinec Stará Husarůvka;Moravskoslezský;https://www.firmy.cz/detail/13154826-hostinec-stara-husaruvka-sobesovice.html;4.1;3;49.729138;18.461578;None;None
+Hospůdka pod skalkou;Moravskoslezský;https://www.firmy.cz/detail/13805070-hospudka-pod-skalkou-budisov-nad-budisovkou-stare-oldruvky.html;5;1;49.760282;17.639322;None;None
+Pivní bar U Segala;Moravskoslezský;https://www.firmy.cz/detail/12742857-pivni-bar-u-segala-ostrava-marianske-hory.html;4.8;9;49.836341;18.259579;None;None
+Hospoda Na Staré;Moravskoslezský;https://www.firmy.cz/detail/13112020-hospoda-na-stare-opava-komarov.html;3.5;1;49.913976;17.966846;None;None
+Kateřina Tylečková;Moravskoslezský;https://www.firmy.cz/detail/13114677-katerina-tyleckova-katerinice.html;4.8;5;49.674935;18.183487;None;None
+Kiosek U Hasičů;Moravskoslezský;https://www.firmy.cz/detail/13861599-kiosek-u-hasicu-stitina.html;5;2;49.916504;18.016114;None;None
+Hospůdka Ve dvoře;Moravskoslezský;https://www.firmy.cz/detail/13119149-hospudka-ve-dvore-hnevosice.html;5;2;50.005974;18.013149;None;None
+Hospoda U Aničky;Moravskoslezský;https://www.firmy.cz/detail/13831130-hospoda-u-anicky-bilovec-vyskovice.html;None;None;49.808033;17.988863;None;None
+Pohostinství Klimkovice;Moravskoslezský;https://www.firmy.cz/detail/13185454-pohostinstvi-klimkovice-klimkovice.html;4.8;9;49.806915;18.122217;None;None
+Kelta;Moravskoslezský;https://www.firmy.cz/detail/13139685-kelta-krnov-pod-bezrucovym-vrchem.html;None;None;50.096359;17.682155;None;None
+Hospůdka U Bučka;Moravskoslezský;https://www.firmy.cz/detail/13075060-hospudka-u-bucka-frydek-mistek-skalice.html;4.8;18;49.652426;18.416504;None;None
+U Kramarky;Moravskoslezský;https://www.firmy.cz/detail/13113888-u-kramarky-bolatice.html;5;1;49.950236;18.082763;None;None
+Pohostinství Bulač;Moravskoslezský;https://www.firmy.cz/detail/13771022-pohostinstvi-bulac-stonava.html;4.5;1;49.796309;18.502519;None;None
+Hostinec u Koupaliště;Moravskoslezský;https://www.firmy.cz/detail/13139414-hostinec-u-koupaliste-vaclavovice.html;5;2;49.756271;18.372594;None;None
+U DLOUHÝCH est.1892;Moravskoslezský;https://www.firmy.cz/detail/13131845-u-dlouhych-est-1892-ostrava-privoz.html;3.6;3;49.851883;18.277997;None;None
+Taverna Rýmařov;Moravskoslezský;https://www.firmy.cz/detail/13867490-taverna-rymarov-rymarov.html;5;1;49.931944;17.269594;None;None
+Hostinec Věřňovice;Moravskoslezský;https://www.firmy.cz/detail/13135636-hostinec-vernovice-dolni-lutyne-vernovice.html;2.8;4;49.924563;18.415065;None;None
+Hospoda Deštné 88;Moravskoslezský;https://www.firmy.cz/detail/13119235-hospoda-destne-88-jakartovice-destne.html;None;None;49.895373;17.676832;None;None
+Hostinec Moravan;Moravskoslezský;https://www.firmy.cz/detail/13353221-hostinec-moravan-oldrisov.html;None;None;49.989358;17.969408;None;None
+U Luboše;Moravskoslezský;https://www.firmy.cz/detail/13116450-u-lubose-stary-jicin-dub.html;4.9;21;49.571591;17.885613;None;None
+Bunkr 02;Moravskoslezský;https://www.firmy.cz/detail/2459609-bunkr-02-ostrava-poruba.html;4.1;3;49.827489;18.180726;None;None
+Hudební hospůdka U Arnošta;Moravskoslezský;https://www.firmy.cz/detail/2561699-hudebni-hospudka-u-arnosta-frydek-mistek.html;4.5;23;49.682836;18.352521;None;None
+Kačabar;Moravskoslezský;https://www.firmy.cz/detail/13080243-kacabar-dobra.html;4.2;24;49.667301;18.417091;None;None
+Hospůdka U Buta;Moravskoslezský;https://www.firmy.cz/detail/13141763-hospudka-u-buta-horni-lhota.html;5;1;49.853577;18.069022;None;None
+Hospoda Na Pile;Moravskoslezský;https://www.firmy.cz/detail/13108858-hospoda-na-pile-milikov.html;4.2;2;49.591852;18.700918;None;None
+Hospůdka U Pepy;Moravskoslezský;https://www.firmy.cz/detail/13125657-hospudka-u-pepy-rymarov.html;5;2;49.931394;17.273110;None;None
+Kurnik Šopa Hospoda®;Moravskoslezský;https://www.firmy.cz/detail/13107855-kurnik-sopa-hospoda-ostrava-moravska-ostrava.html;4.8;39;49.849985;18.279860;None;None
+Hospůdka - Josef Žalčík;Moravskoslezský;https://www.firmy.cz/detail/13110954-hospudka-josef-zalcik-velke-heraltice-tabor.html;4.8;6;49.997139;17.747872;None;None
+Hospůdka U Zika;Moravskoslezský;https://www.firmy.cz/detail/13119194-hospudka-u-zika-horni-benesov.html;None;None;49.971313;17.605930;None;None
+Šalanda Assen;Moravskoslezský;https://www.firmy.cz/detail/13866518-salanda-assen-ostrava-poruba.html;None;None;49.827418;18.190410;None;None
+Hospůdka Pod Věží;Moravskoslezský;https://www.firmy.cz/detail/13490705-hospudka-pod-vezi-ostrava-lhotka.html;4.5;7;49.857831;18.228456;None;None
+Hospůdka u Nás;Moravskoslezský;https://www.firmy.cz/detail/13677131-hospudka-u-nas-karvina-raj.html;None;None;49.852262;18.562272;None;None
+Hospůdka POD LIPAMI;Moravskoslezský;https://www.firmy.cz/detail/13847435-hospudka-pod-lipami-albrechtice-mesto-albrechtice.html;4.5;2;50.170113;17.558815;None;None
+Hospůdka Pod Schody;Moravskoslezský;https://www.firmy.cz/detail/13513613-hospudka-pod-schody-dolni-domaslavice.html;5;1;49.712340;18.483112;None;None
+Hospoda U Sikory;Moravskoslezský;https://www.firmy.cz/detail/13145634-hospoda-u-sikory-hrcava.html;4.1;41;49.519577;18.832197;None;None
+Hobit club;Moravskoslezský;https://www.firmy.cz/detail/1989230-hobit-club-ostrava-moravska-ostrava.html;3.8;11;49.840023;18.288522;None;None
+Hostinec U Turka;Moravskoslezský;https://www.firmy.cz/detail/1953324-hostinec-u-turka-bukovec.html;3.2;7;49.557906;18.818324;None;None
+Hospoda Svatoňovice 80;Moravskoslezský;https://www.firmy.cz/detail/13117818-hospoda-svatonovice-80-svatonovice.html;5;4;49.799281;17.668727;None;None
+Hospoda Na Statku;Moravskoslezský;https://www.firmy.cz/detail/13111021-hospoda-na-statku-havirov-dolni-datyne.html;4.6;16;49.758943;18.418668;None;None
+Hostinec Na Hůrce;Moravskoslezský;https://www.firmy.cz/detail/1346663-hostinec-na-hurce-ostrava-vyskovice.html;4.8;2;49.780968;18.224033;None;None
+U Můstku;Moravskoslezský;https://www.firmy.cz/detail/13147569-u-mustku-koprivnice.html;5;1;49.594058;18.142017;None;None
+Nevada;Moravskoslezský;https://www.firmy.cz/detail/13373525-nevada-ostrava-poruba.html;1.8;3;49.829605;18.167918;None;None
+Hospoda u Magery;Moravskoslezský;https://www.firmy.cz/detail/12979439-hospoda-u-magery-kanovice.html;3.1;3;49.739686;18.374998;None;None
+Hospůdka u rybníčku;Moravskoslezský;https://www.firmy.cz/detail/13114857-hospudka-u-rybnicku-karlovice.html;4.6;45;50.106862;17.444337;None;None
+Na Salaši;Moravskoslezský;https://www.firmy.cz/detail/13185416-na-salasi-dolni-lutyne.html;5;1;49.899389;18.429365;None;None
+Hospůdka U Šindlera;Moravskoslezský;https://www.firmy.cz/detail/13868108-hospudka-u-sindlera-orlova-lazy.html;5;3;49.826910;18.423587;None;None
+Hospoda U Puškina;Moravskoslezský;https://www.firmy.cz/detail/13139675-hospoda-u-puskina-klimkovice-josefovice.html;None;None;49.771444;18.110383;None;None
+Cyklobar 100dola;Moravskoslezský;https://www.firmy.cz/detail/12992484-cyklobar-100dola-opava-male-hostice.html;4.6;11;49.931608;17.946241;None;None
+Hospůdka Hukovice;Moravskoslezský;https://www.firmy.cz/detail/456484-hospudka-hukovice-bartosovice-hukovice.html;None;None;49.651088;18.023334;None;None
+Hostinec Lékárna;Moravskoslezský;https://www.firmy.cz/detail/1954659-hostinec-lekarna-havirov-bludovice.html;4.7;3;49.767254;18.448125;None;None
+Hostinec Dobroslavice;Moravskoslezský;https://www.firmy.cz/detail/13178905-hostinec-dobroslavice-dobroslavice.html;4.3;4;49.878567;18.140554;None;None
+U Lupka;Moravskoslezský;https://www.firmy.cz/detail/12947304-u-lupka-ostrava-zabreh.html;4.8;6;49.809771;18.234356;None;None
+Hostinec Na Zastávce;Moravskoslezský;https://www.firmy.cz/detail/13112245-hostinec-na-zastavce-darkovice.html;4.7;7;49.935276;18.221683;None;None
+Koupaliště Hukvaldy;Moravskoslezský;https://www.firmy.cz/detail/13373284-koupaliste-hukvaldy-hukvaldy-dolni-sklenov.html;4.5;8;49.629116;18.227692;None;None
+Hostinec Trnávka;Moravskoslezský;https://www.firmy.cz/detail/13369598-hostinec-trnavka-trnavka.html;3.5;1;49.684639;18.176925;None;None
+Hospůdka U Mě;Moravskoslezský;https://www.firmy.cz/detail/13108483-hospudka-u-me-havirov-prostredni-sucha.html;5;2;49.795436;18.450390;None;None
+Hospoda Scwarzová;Moravskoslezský;https://www.firmy.cz/detail/13115087-hospoda-scwarzova-ostrava-marianske-hory.html;None;None;49.836341;18.259579;None;None
+Hostinec K Zátiší 170;Moravskoslezský;https://www.firmy.cz/detail/13109761-hostinec-k-zatisi-170-pusta-polom.html;2.4;3;49.851528;18.006956;None;None
+Hospůdka U Kovačka;Moravskoslezský;https://www.firmy.cz/detail/1974538-hospudka-u-kovacka-kozlovice.html;4.8;3;49.573941;18.271631;None;None
+Restaurace Sokolka;Moravskoslezský;https://www.firmy.cz/detail/13829450-restaurace-sokolka-frycovice.html;4.8;2;49.673972;18.226809;None;None
+Hostinec U Koníčka;Moravskoslezský;https://www.firmy.cz/detail/13120538-hostinec-u-konicka-vojkovice.html;4.6;134;49.674830;18.476714;None;None
+Na Růžku;Moravskoslezský;https://www.firmy.cz/detail/2471117-na-ruzku-ostrava-poruba.html;3;2;49.825696;18.161329;None;None
+Penzion U Pacošů;Moravskoslezský;https://www.firmy.cz/detail/13353918-penzion-u-pacosu-malenovice.html;4.8;78;49.583363;18.414901;None;None
+Kovárna Rebel;Moravskoslezský;https://www.firmy.cz/detail/13120717-kovarna-rebel-pribor.html;4.5;2;49.641804;18.150675;None;None
+Hostinec u Rumcajse;Moravskoslezský;https://www.firmy.cz/detail/13496036-hostinec-u-rumcajse-detmarovice.html;4.8;6;49.876333;18.457737;None;None
+Hostinec U kaštanů;Moravskoslezský;https://www.firmy.cz/detail/13109169-hostinec-u-kastanu-velka-stahle.html;4;1;49.929816;17.355993;None;None
+Hospůdka Na lipce;Moravskoslezský;https://www.firmy.cz/detail/13271695-hospudka-na-lipce-ostrava-hostalkovice.html;4.7;17;49.844012;18.218191;None;None
+Klubovna Plechárna;Moravskoslezský;https://www.firmy.cz/detail/13258112-klubovna-plecharna-havirov-mesto.html;4.7;8;49.777870;18.428830;None;None
+Modrý krocan;Moravskoslezský;https://www.firmy.cz/detail/13920156-modry-krocan-ostrava-poruba.html;5;2;49.823781;18.187900;None;None
+Relax DOTEP;Moravskoslezský;https://www.firmy.cz/detail/13134443-relax-dotep-novy-jicin.html;4;2;49.594385;17.998283;None;None
+Hostinec U Mlýna;Moravskoslezský;https://www.firmy.cz/detail/13115402-hostinec-u-mlyna-staric.html;4.7;6;49.690747;18.294289;None;None
+Břetislav Hranický;Moravskoslezský;https://www.firmy.cz/detail/2290705-bretislav-hranicky-staric.html;5;1;49.683510;18.251938;None;None
+Hospoda U Černochů;Moravskoslezský;https://www.firmy.cz/detail/13118310-hospoda-u-cernochu-zivotice-u-noveho-jicina.html;5;2;49.558158;18.046327;None;None
+Hospoda Dallas;Moravskoslezský;https://www.firmy.cz/detail/13334485-hospoda-dallas-rychvald.html;4.5;1;49.849043;18.394098;None;None
+Hospoda U Bartečka;Moravskoslezský;https://www.firmy.cz/detail/13073119-hospoda-u-bartecka-detmarovice.html;None;None;49.892537;18.468211;None;None
+Obecní hostinec;Moravskoslezský;https://www.firmy.cz/detail/13111150-obecni-hostinec-bravantice.html;5;1;49.755511;18.083815;None;None
+Hostinec U Veličků;Moravskoslezský;https://www.firmy.cz/detail/13003545-hostinec-u-velicku-malenovice.html;4.7;115;49.563916;18.415539;None;None
+Hospůdka Radioklub;Moravskoslezský;https://www.firmy.cz/detail/13121855-hospudka-radioklub-havirov-podlesi.html;5;7;49.777579;18.448295;None;None
+Hospůdka U Dubu;Moravskoslezský;https://www.firmy.cz/detail/13142654-hospudka-u-dubu-albrechtice.html;4.7;28;49.790353;18.528539;None;None
+Hostinec u Buroně Mexiko;Moravskoslezský;https://www.firmy.cz/detail/13730274-hostinec-u-burone-mexiko-klimkovice.html;4.8;33;49.806918;18.119430;None;None
+Chata Ryžovka;Moravskoslezský;https://www.firmy.cz/detail/13297723-chata-ryzovka-ryzoviste.html;4.9;9;49.874787;17.351124;None;None
+Hostinec Razová;Moravskoslezský;https://www.firmy.cz/detail/13114548-hostinec-razova-razova.html;4.5;10;49.933082;17.533680;None;None
+Hospůdka u Sosáka;Moravskoslezský;https://www.firmy.cz/detail/13065877-hospudka-u-sosaka-havirov-bludovice.html;3.9;7;49.765262;18.420382;None;None
+Hospoda Pepíno;Moravskoslezský;https://www.firmy.cz/detail/2676900-hospoda-pepino-ludvikov.html;4.5;2;50.107318;17.341898;None;None
+Pivnice Sekáč;Moravskoslezský;https://www.firmy.cz/detail/168021-pivnice-sekac-ostrava-hrabuvka.html;1;2;49.781776;18.259312;None;None
+Hospůdka Hájov;Moravskoslezský;https://www.firmy.cz/detail/13759493-hospudka-hajov-pribor-hajov.html;None;None;49.636064;18.190372;None;None
+Hostinec U Dostálů;Moravskoslezský;https://www.firmy.cz/detail/13118303-hostinec-u-dostalu-horni-lhota.html;None;None;49.853194;18.068162;None;None
+Bar valmer;Moravskoslezský;https://www.firmy.cz/detail/13114354-bar-valmer-ostrava-slezska-ostrava.html;4.8;2;49.843583;18.295568;None;None
+Hospůdka u Odry;Moravskoslezský;https://www.firmy.cz/detail/13621205-hospudka-u-odry-bernartice-nad-odrou.html;4.9;26;49.620860;17.941230;None;None
+Hospůdka u kuřátek;Moravskoslezský;https://www.firmy.cz/detail/13772984-hospudka-u-kuratek-frydek-mistek-frydek.html;None;None;49.685774;18.358248;None;None
+Hospoda U Horaku;Moravskoslezský;https://www.firmy.cz/detail/13815983-hospoda-u-horaku-ostrava-moravska-ostrava.html;4.5;1;49.839624;18.282119;None;None
+Kurnik Šopa Hospoda®;Moravskoslezský;https://www.firmy.cz/detail/12988807-kurnik-sopa-hospoda-ostrava-poruba.html;4.8;35;49.838830;18.162975;None;None
+Pivnice Podkova;Moravskoslezský;https://www.firmy.cz/detail/12906183-pivnice-podkova-karvina-frystat.html;4.9;33;49.853646;18.543907;None;None
+Hospůdka Na růžku Pustějov;Moravskoslezský;https://www.firmy.cz/detail/13232937-hospudka-na-ruzku-pustejov-pustejov.html;4.8;3;49.700147;18.003547;None;None
+Pohostinství Vítek;Moravskoslezský;https://www.firmy.cz/detail/13126385-pohostinstvi-vitek-velke-hostice.html;5;1;49.936441;17.974153;None;None
+Hospůdka U Pláže;Moravskoslezský;https://www.firmy.cz/detail/12741852-hospudka-u-plaze-baska.html;4.7;44;49.648424;18.382547;None;None
+Hostinec U Bizona;Moravskoslezský;https://www.firmy.cz/detail/13224609-hostinec-u-bizona-zator.html;4.8;15;50.043686;17.590195;None;None
+Hospoda Bernard;Moravskoslezský;https://www.firmy.cz/detail/12909561-hospoda-bernard-frydek-mistek.html;4.6;3;49.681095;18.355750;None;None
+Hospoda U Studny;Moravskoslezský;https://www.firmy.cz/detail/13076234-hospoda-u-studny-baska.html;4.7;26;49.647881;18.374364;None;None
+Hospůdka U Dřeváka;Moravskoslezský;https://www.firmy.cz/detail/2570593-hospudka-u-drevaka-frydek-mistek-frydek.html;4.3;4;49.690859;18.341339;None;None
+Hospoda Odry 15;Moravskoslezský;https://www.firmy.cz/detail/13138250-hospoda-odry-15-odry-tosovice.html;5;1;49.698896;17.853940;None;None
+Hospůdka u Ivoše;Moravskoslezský;https://www.firmy.cz/detail/13730907-hospudka-u-ivose-bravantice.html;None;None;49.754685;18.084443;None;None
+Hospoda Nová Horka;Moravskoslezský;https://www.firmy.cz/detail/13670894-hospoda-nova-horka-studenka-nova-horka.html;4.7;7;49.693194;18.067442;None;None
+Hospoda Pod obrazem;Moravskoslezský;https://www.firmy.cz/detail/12984924-hospoda-pod-obrazem-krnov-pod-bezrucovym-vrchem.html;4.1;7;50.089137;17.700685;None;None
+Hospůdka u Avionu;Moravskoslezský;https://www.firmy.cz/detail/13563786-hospudka-u-avionu-ostrava-zabreh.html;4;4;49.786438;18.233263;None;None
+Hospoda U Zvoničky;Moravskoslezský;https://www.firmy.cz/detail/655221-hospoda-u-zvonicky-jakubcovice-nad-odrou.html;None;None;49.694985;17.787834;None;None
+Darts Club Orlová;Moravskoslezský;https://www.firmy.cz/detail/13873949-darts-club-orlova-orlova-lutyne.html;5;1;49.871288;18.428034;None;None
+Black Cat Irish Pub;Moravskoslezský;https://www.firmy.cz/detail/12816654-black-cat-irish-pub-koprivnice.html;None;None;49.599180;18.146220;None;None
+Hospůdka u Hanzyho;Moravskoslezský;https://www.firmy.cz/detail/13146165-hospudka-u-hanzyho-ostrava-zabreh.html;4.5;1;49.792722;18.234033;None;None
+Restaurace Kriváň;Moravskoslezský;https://www.firmy.cz/detail/13483751-restaurace-krivan-karvina-nove-mesto.html;4.7;3;49.863464;18.537773;None;None
+Pohostinství Albrechtičky;Moravskoslezský;https://www.firmy.cz/detail/2210361-pohostinstvi-albrechticky-albrechticky.html;4.6;6;49.700151;18.094762;None;None
+Obecní hospoda Petřkovice;Moravskoslezský;https://www.firmy.cz/detail/13138288-obecni-hospoda-petrkovice-stary-jicin-petrkovice.html;None;None;49.545575;17.950529;None;None
+Na staré záchytce;Moravskoslezský;https://www.firmy.cz/detail/568114-na-stare-zachytce-trinec-stare-mesto.html;4.3;7;49.679919;18.667316;None;None
+Hospoda Mexiko;Moravskoslezský;https://www.firmy.cz/detail/13368540-hospoda-mexiko-frydek-mistek-frydek.html;2.5;2;49.688811;18.356237;None;None
+Pivní Bar Hořanka;Moravskoslezský;https://www.firmy.cz/detail/13136093-pivni-bar-horanka-stonava.html;5;1;49.809378;18.538776;None;None
+Hospoda Nová Horka;Moravskoslezský;https://www.firmy.cz/detail/13670894-hospoda-nova-horka-studenka-nova-horka.html;4.7;7;49.693194;18.067442;None;None
+TOČNA 34;Moravskoslezský;https://www.firmy.cz/detail/13153387-tocna-34-hlucin.html;4.4;10;49.889981;18.193346;None;None
+U Paneláku;Moravskoslezský;https://www.firmy.cz/detail/13354654-u-panelaku-vratimov.html;4.9;4;49.768901;18.321848;None;None
+Pivnice Centrum;Moravskoslezský;https://www.firmy.cz/detail/12840796-pivnice-centrum-orlova-lutyne.html;3.9;4;49.869322;18.424942;None;None
+Hospoda Na Růžku;Moravskoslezský;https://www.firmy.cz/detail/13083616-hospoda-na-ruzku-petrovice-u-karvine-prstna.html;5;5;49.911122;18.548192;None;None
+Hospoda Pod šimlem;Moravskoslezský;https://www.firmy.cz/detail/13123327-hospoda-pod-simlem-sviadnov.html;4.2;14;49.695818;18.320720;None;None
+Bar Elephant;Moravskoslezský;https://www.firmy.cz/detail/13265616-bar-elephant-studenka-butovice.html;5;1;49.715378;18.051873;None;None
+Občerstvení Spálovský mlýn;Moravskoslezský;https://www.firmy.cz/detail/13255960-obcerstveni-spalovsky-mlyn-spalov.html;4.6;20;49.721219;17.729709;None;None
+Restaurace Kulturní Dům;Moravskoslezský;https://www.firmy.cz/detail/13266652-restaurace-kulturni-dum-lichnov.html;5;1;50.008163;17.627424;None;None
+Hospoda Na Půlce;Moravskoslezský;https://www.firmy.cz/detail/13117835-hospoda-na-pulce-vitkov.html;3.4;3;49.779430;17.754616;None;None
+Hospůdka A je to;Moravskoslezský;https://www.firmy.cz/detail/13110573-hospudka-a-je-to-trinec-stare-mesto.html;4;1;49.672672;18.673004;None;None
+Pohostinství U Cihelny;Moravskoslezský;https://www.firmy.cz/detail/13113897-pohostinstvi-u-cihelny-kunin.html;None;None;49.629344;17.990691;None;None
+Restaurace Větřkovice;Moravskoslezský;https://www.firmy.cz/detail/13696235-restaurace-vetrkovice-vetrkovice.html;4.8;10;49.780133;17.820118;None;None
+Hospůdka Na Vyhlídce;Moravskoslezský;https://www.firmy.cz/detail/13142997-hospudka-na-vyhlidce-hrcava.html;4.3;26;49.522039;18.836561;None;None
+U Matesa;Moravskoslezský;https://www.firmy.cz/detail/13908760-u-matesa-trinec-lyzbice.html;4.3;12;49.666249;18.685305;None;None
+Cocktail bar;Moravskoslezský;https://www.firmy.cz/detail/284183-cocktail-bar-opava-kylesovice.html;5;3;49.921466;17.920200;None;None
+Hospoda U Lékárny;Moravskoslezský;https://www.firmy.cz/detail/12818117-hospoda-u-lekarny-frydek-mistek-mistek.html;4;2;49.679145;18.340148;None;None
+Ateliér chalupa;Moravskoslezský;https://www.firmy.cz/detail/664738-atelier-chalupa-moravka.html;4.7;135;49.615376;18.533217;None;None
+U Palivce;Moravskoslezský;https://www.firmy.cz/detail/13245679-u-palivce-havirov-podlesi.html;5;2;49.775793;18.454581;None;None
+Nela Bar;Moravskoslezský;https://www.firmy.cz/detail/13115104-nela-bar-koberice.html;4.9;4;49.986723;18.051703;None;None
+Pivnice Pivní Hotovost;Moravskoslezský;https://www.firmy.cz/detail/13354812-pivnice-pivni-hotovost-frydek-mistek-mistek.html;2.4;2;49.671127;18.347756;None;None
+Hospoda Na Hřišti;Moravskoslezský;https://www.firmy.cz/detail/13482603-hospoda-na-hristi-vresina.html;4.8;3;49.830182;18.121131;None;None
+Bar Osmička;Moravskoslezský;https://www.firmy.cz/detail/13416020-bar-osmicka-ostrava-poruba.html;None;None;49.841812;18.177942;None;None
+Hospůdka Jaris;Moravskoslezský;https://www.firmy.cz/detail/2463275-hospudka-jaris-ostrava-stara-bela.html;3.9;9;49.771420;18.237732;None;None
+Na Hřišti;Moravskoslezský;https://www.firmy.cz/detail/13116963-na-hristi-budisovice.html;3.5;1;49.859600;18.036397;None;None
+Orlovna;Moravskoslezský;https://www.firmy.cz/detail/13340670-orlovna-opava-kylesovice.html;5;4;49.922039;17.914708;None;None
+Hospůdka DEPO;Moravskoslezský;https://www.firmy.cz/detail/13486517-hospudka-depo-cavisov.html;4.8;3;49.828823;18.084966;None;None
+Hostinec Hlinka;Moravskoslezský;https://www.firmy.cz/detail/13117005-hostinec-hlinka-hlinka.html;None;None;50.279135;17.670201;None;None
+Hostinec U Horáků;Moravskoslezský;https://www.firmy.cz/detail/1963702-hostinec-u-horaku-koprivnice-lubina.html;4.7;2;49.613390;18.161260;None;None
+Hostinec Obecník;Moravskoslezský;https://www.firmy.cz/detail/13204337-hostinec-obecnik-dobratice.html;4.5;3;49.664512;18.486800;None;None
+Hospůdka Na Konci světa;Moravskoslezský;https://www.firmy.cz/detail/13519208-hospudka-na-konci-sveta-odry-vitovka.html;4.8;52;49.691318;17.827147;None;None
+Hospůdka U dvou Písařů;Moravskoslezský;https://www.firmy.cz/detail/13132444-hospudka-u-dvou-pisaru-terlicko-dolni-terlicko.html;4.5;13;49.769075;18.494981;None;None
+MIRROR PUB & BILBOVA NORA;Moravskoslezský;https://www.firmy.cz/detail/12939950-mirror-pub-bilbova-nora-ostrava-moravska-ostrava.html;4.6;8;49.839498;18.289734;None;None
+Hostinec U Splavu;Moravskoslezský;https://www.firmy.cz/detail/2008156-hostinec-u-splavu-fulnek-stachovice.html;4.7;16;49.698619;17.930830;None;None
+Hospůdka Na Ščučím;Moravskoslezský;https://www.firmy.cz/detail/13797948-hospudka-na-scucim-ostrava-hrabova.html;5;2;49.772923;18.283117;None;None
+Hospůdka U Libuše;Moravskoslezský;https://www.firmy.cz/detail/13011428-hospudka-u-libuse-petrovice-u-karvine-zavada.html;5;3;49.901552;18.507732;None;None
+Hostinec Pomněnka;Moravskoslezský;https://www.firmy.cz/detail/324450-hostinec-pomnenka-novy-jicin.html;3.8;3;49.590885;18.016411;None;None
+Hospůdka U Matěje;Moravskoslezský;https://www.firmy.cz/detail/13112477-hospudka-u-mateje-frydlant-nad-ostravici-frydlant.html;3.4;6;49.599953;18.358134;None;None
+Pivnice Pětka;Moravskoslezský;https://www.firmy.cz/detail/13148050-pivnice-petka-orlova-lutyne.html;4.3;4;49.880552;18.439133;None;None
+Novolublická hospoda;Moravskoslezský;https://www.firmy.cz/detail/13105454-novolublicka-hospoda-nove-lublice.html;None;None;49.862846;17.678250;None;None
+Posezení Pohoda;Moravskoslezský;https://www.firmy.cz/detail/13110656-posezeni-pohoda-ostrava-stara-bela.html;5;1;49.783226;18.249137;None;None
+Hostinec u Dluhošů;Moravskoslezský;https://www.firmy.cz/detail/1951524-hostinec-u-dluhosu-ostrava-polanka-nad-odrou.html;None;None;49.786319;18.160050;None;None
+Koliba pod Stolovou;Moravskoslezský;https://www.firmy.cz/detail/13059454-koliba-pod-stolovou-kuncice-pod-ondrejnikem.html;4.7;66;49.522221;18.308238;None;None
+Restaurace Nová Husarůvka;Moravskoslezský;https://www.firmy.cz/detail/12937482-restaurace-nova-husaruvka-sobesovice.html;4.1;17;49.728684;18.462601;None;None
+Staročeská Pivnice;Moravskoslezský;https://www.firmy.cz/detail/2572698-staroceska-pivnice-ostrava-moravska-ostrava.html;4.2;6;49.832045;18.290504;None;None
+Hospůdka U Eriška a Messiho;Moravskoslezský;https://www.firmy.cz/detail/13117985-hospudka-u-eriska-a-messiho-stepankovice.html;4;1;49.956583;18.044177;None;None
+Hospůdka Na Štole;Moravskoslezský;https://www.firmy.cz/detail/13679531-hospudka-na-stole-horni-mesto.html;None;None;49.908706;17.211405;None;None
+WW Klub Ostrava;Moravskoslezský;https://www.firmy.cz/detail/13614653-ww-klub-ostrava-ostrava-moravska-ostrava.html;4.7;3;49.846565;18.285986;None;None
+Hostinec Na Obecní;Moravskoslezský;https://www.firmy.cz/detail/13028914-hostinec-na-obecni-lichnov.html;4.5;2;49.564072;18.170333;None;None
+Restaurace Na Fojtství;Moravskoslezský;https://www.firmy.cz/detail/13358423-restaurace-na-fojtstvi-ostrava-nova-bela.html;3.9;11;49.753268;18.255642;None;None
+Kovárna Marica;Moravskoslezský;https://www.firmy.cz/detail/13616366-kovarna-marica-ostrava-zabreh.html;4.3;3;49.795127;18.231899;None;None
+Hospoda U Cypa;Moravskoslezský;https://www.firmy.cz/detail/13330755-hospoda-u-cypa-havirov-podlesi.html;1.8;2;49.779366;18.449784;None;None
+Hostinec Na Rynku;Moravskoslezský;https://www.firmy.cz/detail/298643-hostinec-na-rynku-dolni-benesov.html;4.7;5;49.919004;18.114762;None;None
+Hostinec Na Kovárně;Moravskoslezský;https://www.firmy.cz/detail/13375061-hostinec-na-kovarne-uvalno.html;5;1;50.046905;17.745306;None;None
+Hospoda U Krbu;Moravskoslezský;https://www.firmy.cz/detail/13034322-hospoda-u-krbu-frydek-mistek-mistek.html;4.7;4;49.676474;18.337874;None;None
+Hostinec U kozla;Moravskoslezský;https://www.firmy.cz/detail/13116379-hostinec-u-kozla-bolatice-borova.html;4.3;3;49.958515;18.103650;None;None
+Roští - Hospoda v parku;Moravskoslezský;https://www.firmy.cz/detail/13000099-rosti-hospoda-v-parku-bruntal.html;4.9;6;49.994303;17.461529;None;None
+Hospůdka Na Hřišti;Moravskoslezský;https://www.firmy.cz/detail/13367339-hospudka-na-hristi-ostrava-hostalkovice.html;4.4;10;49.847244;18.210360;None;None
+Datlovna;Moravskoslezský;https://www.firmy.cz/detail/13709363-datlovna-frydek-mistek-frydek.html;4.9;14;49.685780;18.349483;None;None
+Pohostinství Beseda;Moravskoslezský;https://www.firmy.cz/detail/1961699-pohostinstvi-beseda-rybi.html;4.6;9;49.598274;18.072136;None;None
+Park Club Q;Moravskoslezský;https://www.firmy.cz/detail/13186456-park-club-q-bystrice.html;5;1;49.636007;18.726191;None;None
+Občerstvení za školou;Moravskoslezský;https://www.firmy.cz/detail/13054955-obcerstveni-za-skolou-nosovice.html;5;3;49.658558;18.428858;None;None
+Hospoda Sněmovna;Moravskoslezský;https://www.firmy.cz/detail/13233604-hospoda-snemovna-kanovice.html;4.9;15;49.746001;18.400093;None;None
+Skalka Gorolia, s.r.o.;Moravskoslezský;https://www.firmy.cz/detail/13116535-skalka-gorolia-mosty-u-jablunkova.html;4.3;31;49.516702;18.715969;None;None
+Pivnice Šenkýřka;Moravskoslezský;https://www.firmy.cz/detail/13540867-pivnice-senkyrka-ostrava-moravska-ostrava.html;4.8;3;49.836903;18.263154;None;None
+Hostinec u Starosty;Moravskoslezský;https://www.firmy.cz/detail/13490831-hostinec-u-starosty-rusin.html;5;1;50.209880;17.734493;None;None
+Hospůdka U Čápů;Moravskoslezský;https://www.firmy.cz/detail/571603-hospudka-u-capu-brumovice-skrochovice.html;3.9;31;50.018984;17.774734;None;None
+Restaurace Ke Koupališti 161/14;Moravskoslezský;https://www.firmy.cz/detail/13154168-restaurace-ke-koupalisti-161-14-dehylov.html;4.3;3;49.874119;18.171087;None;None
+Hostinec Nový Svět;Moravskoslezský;https://www.firmy.cz/detail/13109103-hostinec-novy-svet-slatina-novy-svet.html;4.6;19;49.791182;17.996475;None;None
+Nýdecká Bouda;Moravskoslezský;https://www.firmy.cz/detail/13121871-nydecka-bouda-nydek.html;4.5;9;49.659826;18.763346;None;None
+Hospůdka U Šmakouna;Moravskoslezský;https://www.firmy.cz/detail/12705236-hospudka-u-smakouna-hrabyne.html;5;2;49.880731;18.053742;None;None
+Hostinec Mniší;Moravskoslezský;https://www.firmy.cz/detail/13515143-hostinec-mnisi-koprivnice-mnisi.html;5;1;49.600100;18.200873;None;None
+Hostinec U Psoty;Moravskoslezský;https://www.firmy.cz/detail/1966873-hostinec-u-psoty-ostrava-proskovice.html;4.8;3;49.750952;18.195879;None;None
+Garage 11;Moravskoslezský;https://www.firmy.cz/detail/13120515-garage-11-ostrava-hrabuvka.html;3.1;2;49.783708;18.266966;None;None
+Hospoda U Šárky;Moravskoslezský;https://www.firmy.cz/detail/12992725-hospoda-u-sarky-krnov-pod-bezrucovym-vrchem.html;1;1;50.094523;17.700086;None;None
+Hostinec Samiec;Moravskoslezský;https://www.firmy.cz/detail/13018017-hostinec-samiec-kosariska.html;5;5;49.589193;18.695410;None;None
+U Pinkiho;Moravskoslezský;https://www.firmy.cz/detail/13138468-u-pinkiho-petrovice-u-karvine-zavada.html;None;None;49.899232;18.490643;None;None
+Hospoda na hřišti;Moravskoslezský;https://www.firmy.cz/detail/13139472-hospoda-na-hristi-palkovice.html;5;2;49.636517;18.315018;None;None
+U Oldy;Moravskoslezský;https://www.firmy.cz/detail/13120445-u-oldy-studenka-butovice.html;5;1;49.717700;18.039891;None;None
+Martina Petrušková;Moravskoslezský;https://www.firmy.cz/detail/13114360-martina-petruskova-klimkovice.html;1.5;1;49.785201;18.123348;None;None
+Hospůdka U Knedlíka;Moravskoslezský;https://www.firmy.cz/detail/13070982-hospudka-u-knedlika-krnov-pod-bezrucovym-vrchem.html;None;None;50.090828;17.692582;None;None
+Pivnice SOKOL;Moravskoslezský;https://www.firmy.cz/detail/13500152-pivnice-sokol-petrvald.html;4;2;49.832074;18.392542;None;None
+Hospůdka U Dřevasu;Moravskoslezský;https://www.firmy.cz/detail/13191609-hospudka-u-drevasu-vrbno-pod-pradedem.html;4.7;4;50.122698;17.373481;None;None
+Hospoda Oáza - bowling;Moravskoslezský;https://www.firmy.cz/detail/13303346-hospoda-oaza-bowling-ostrava-poruba.html;4.2;8;49.823831;18.150729;None;None
+Mukade;Moravskoslezský;https://www.firmy.cz/detail/13143832-mukade-ostrava-poruba.html;4.2;8;49.831456;18.164995;None;None
+Hospůdka KOLIBISKA;Moravskoslezský;https://www.firmy.cz/detail/13227383-hospudka-kolibiska-nydek.html;4.1;10;49.619071;18.801339;None;None
+KáDéčko;Moravskoslezský;https://www.firmy.cz/detail/13873502-kadecko-vratimov-horni-datyne.html;None;None;49.765170;18.354546;None;None
+Restaurace Vrtule;Moravskoslezský;https://www.firmy.cz/detail/13117046-restaurace-vrtule-ostrava-vyskovice.html;4.9;7;49.777014;18.220079;None;None
+Hospůdka U Kapličky;Moravskoslezský;https://www.firmy.cz/detail/13138463-hospudka-u-kaplicky-vratimov-horni-datyne.html;4.9;5;49.759706;18.344059;None;None
+Hospůdka U Černého Kohouta;Moravskoslezský;https://www.firmy.cz/detail/13066141-hospudka-u-cerneho-kohouta-trinec-lyzbice.html;3.9;9;49.649763;18.679573;None;None
+Murloc Bar;Moravskoslezský;https://www.firmy.cz/detail/13373023-murloc-bar-ostrava-moravska-ostrava.html;3.3;2;49.835213;18.284096;None;None
+Psí Kusy;Moravskoslezský;https://www.firmy.cz/detail/13513238-psi-kusy-ostrava-moravska-ostrava.html;5;7;49.837226;18.289954;None;None
+Restaurace u hřiště;Moravskoslezský;https://www.firmy.cz/detail/13118495-restaurace-u-hriste-dolni-moravice.html;1;1;49.977252;17.325271;None;None
+Kovárna na České;Moravskoslezský;https://www.firmy.cz/detail/2237495-kovarna-na-ceske-ostrava-zabreh.html;4.5;2;49.789725;18.226150;None;None
+Hospoda na Domoracu;Moravskoslezský;https://www.firmy.cz/detail/13119641-hospoda-na-domoracu-hostasovice.html;4.7;45;49.521108;18.016430;None;None
+Pivnice U Sýpky;Moravskoslezský;https://www.firmy.cz/detail/742707-pivnice-u-sypky-ostrava-kuncice.html;4.2;3;49.793873;18.300991;None;None
+Hospoda u Kišky;Moravskoslezský;https://www.firmy.cz/detail/12713013-hospoda-u-kisky-jakartovice-destne.html;4.1;26;49.895395;17.707999;None;None
+Zájezdní hostinec U Gerina;Moravskoslezský;https://www.firmy.cz/detail/12976179-zajezdni-hostinec-u-gerina-bohusov.html;4.2;7;50.244078;17.713097;None;None
+Western Hospůdka U Mirka;Moravskoslezský;https://www.firmy.cz/detail/12944562-western-hospudka-u-mirka-dolni-lutyne.html;4.8;2;49.899973;18.431805;None;None
+Hospudka Pod plechym;Moravskoslezský;https://www.firmy.cz/detail/13124624-hospudka-pod-plechym-ropice.html;4.4;4;49.709767;18.617825;None;None
+U Milky;Moravskoslezský;https://www.firmy.cz/detail/13134881-u-milky-ostrava-nova-bela.html;5;4;49.748201;18.273966;None;None
+Hospůdka Na Hřišti Krásné Pole;Moravskoslezský;https://www.firmy.cz/detail/13354650-hospudka-na-hristi-krasne-pole-ostrava-krasne-pole.html;4.5;9;49.839890;18.119637;None;None
+Pohostinství Sport;Moravskoslezský;https://www.firmy.cz/detail/13140323-pohostinstvi-sport-albrechticky.html;None;None;49.697221;18.098935;None;None
+Hospůdka u Petrošů;Moravskoslezský;https://www.firmy.cz/detail/13759883-hospudka-u-petrosu-budisov-nad-budisovkou.html;4.1;13;49.795021;17.629268;None;None
+Hospůdka U Hafana;Moravskoslezský;https://www.firmy.cz/detail/13321610-hospudka-u-hafana-reka.html;4.6;8;49.642422;18.570764;None;None
+Hospoda Na Sokolce;Moravskoslezský;https://www.firmy.cz/detail/13012348-hospoda-na-sokolce-opava-katerinky.html;4.1;3;49.943880;17.917773;None;None
+Hasič PUB III;Moravskoslezský;https://www.firmy.cz/detail/13302309-hasic-pub-iii-opava-predmesti.html;4;5;49.939999;17.897263;None;None
+U Brežněva;Moravskoslezský;https://www.firmy.cz/detail/13139517-u-brezneva-krnov-pod-bezrucovym-vrchem.html;5;1;50.093358;17.688348;None;None
+Hospůdka Na rozcestí;Moravskoslezský;https://www.firmy.cz/detail/13115254-hospudka-na-rozcesti-osoblaha.html;5;2;50.278328;17.718871;None;None
+Obecní restaurace Ženklava;Moravskoslezský;https://www.firmy.cz/detail/13118377-obecni-restaurace-zenklava-zenklava.html;2.4;2;49.564444;18.107724;None;None
+Hospůdka U Kotaly;Moravskoslezský;https://www.firmy.cz/detail/13060483-hospudka-u-kotaly-trinec-tyra.html;4.5;15;49.612830;18.638742;None;None
+Hospůdka na Trojce;Moravskoslezský;https://www.firmy.cz/detail/13857200-hospudka-na-trojce-melc.html;5;2;49.849635;17.763976;None;None
+Hospoda Libuše;Moravskoslezský;https://www.firmy.cz/detail/13374313-hospoda-libuse-detmarovice.html;3.8;4;49.873364;18.447755;None;None
+Hospoda v Dědině;Moravskoslezský;https://www.firmy.cz/detail/13265789-hospoda-v-dedine-milikov.html;5;1;49.584616;18.721622;None;None
+Hostinec Bravinné;Moravskoslezský;https://www.firmy.cz/detail/13137476-hostinec-bravinne-bilovec-bravinne.html;4;1;49.752770;17.961037;None;None
+Hostinec Na špici;Moravskoslezský;https://www.firmy.cz/detail/13110082-hostinec-na-spici-horni-mesto-skaly.html;5;2;49.915905;17.230160;None;None
+Hospůdka Na Kopci;Moravskoslezský;https://www.firmy.cz/detail/13113945-hospudka-na-kopci-cesky-tesin-horni-zukov.html;4.5;11;49.722319;18.565190;None;None
+Hospůdka na hřišťi;Moravskoslezský;https://www.firmy.cz/detail/13147604-hospudka-na-hristi-spalov.html;4.5;5;49.705760;17.717032;None;None
+Hospůdka U Stonišů;Moravskoslezský;https://www.firmy.cz/detail/13136345-hospudka-u-stonisu-ostrava-zabreh.html;4.5;1;49.810388;18.242037;None;None
+hospoda Cvilínka;Moravskoslezský;https://www.firmy.cz/detail/12999666-hospoda-cvilinka-krnov-pod-cvilinem.html;4.6;5;50.081989;17.718853;None;None
+Hospůdka Kahan;Moravskoslezský;https://www.firmy.cz/detail/13668290-hospudka-kahan-ostrava-zabreh.html;4.5;1;49.787928;18.223757;None;None
+SmallKoff Hospoda | Kavárna;Moravskoslezský;https://www.firmy.cz/detail/13640966-smallkoff-hospoda-kavarna-haj-ve-slezsku-smolkov.html;4.3;8;49.901399;18.074765;None;None
+Pivnice U Šlimoka;Moravskoslezský;https://www.firmy.cz/detail/12836107-pivnice-u-slimoka-bystrice.html;4.2;2;49.636681;18.720066;None;None
+Pivnice Na kopečku;Moravskoslezský;https://www.firmy.cz/detail/2321063-pivnice-na-kopecku-bridlicna.html;4.3;3;49.912133;17.368243;None;None
+Hospůdka U Hastrmana;Moravskoslezský;https://www.firmy.cz/detail/13704164-hospudka-u-hastrmana-terlicko-hradiste.html;4.9;11;49.728525;18.513318;None;None
+Restaurace Špica;Moravskoslezský;https://www.firmy.cz/detail/13412542-restaurace-spica-bohumin-novy-bohumin.html;4.9;6;49.893955;18.359350;None;None
+Obecní hospůdka Dívčí Hrad;Moravskoslezský;https://www.firmy.cz/detail/13561257-obecni-hospudka-divci-hrad-divci-hrad.html;None;None;50.249610;17.635514;None;None
+Hospoda Zámecká 703;Moravskoslezský;https://www.firmy.cz/detail/13126473-hospoda-zamecka-703-odry.html;None;None;49.664010;17.831333;None;None
+Selská Hospoda;Moravskoslezský;https://www.firmy.cz/detail/13139930-selska-hospoda-radkov.html;None;None;49.826814;17.770923;None;None
+Hospůdka na Dvojce;Moravskoslezský;https://www.firmy.cz/detail/13100522-hospudka-na-dvojce-rymarov.html;5;1;49.932815;17.265699;None;None
+Pivnice U Barona;Moravskoslezský;https://www.firmy.cz/detail/12770479-pivnice-u-barona-odry.html;None;None;49.662976;17.830104;None;None
+U LÍPY - IVY;Moravskoslezský;https://www.firmy.cz/detail/13112861-u-lipy-ivy-neplachovice.html;None;None;49.991738;17.809396;None;None
+Cyklobar Morávka;Moravskoslezský;https://www.firmy.cz/detail/12894410-cyklobar-moravka-moravka.html;4.9;7;49.603121;18.512609;None;None
+Hospůdka u zastávky;Moravskoslezský;https://www.firmy.cz/detail/13513928-hospudka-u-zastavky-opava-podvihov.html;None;None;49.877070;17.976234;None;None
+Hospoda U Dihlů;Moravskoslezský;https://www.firmy.cz/detail/13116828-hospoda-u-dihlu-opava-male-hostice.html;None;None;49.935637;17.942411;None;None
+Na Pavlači;Moravskoslezský;https://www.firmy.cz/detail/13298664-na-pavlaci-ostrava-hrabuvka.html;5;1;49.784222;18.259833;None;None
+Pod okapem;Moravskoslezský;https://www.firmy.cz/detail/13119323-pod-okapem-ostrava-poruba.html;2.1;3;49.827880;18.177704;None;None
+Hospůdka Na Hřišti;Moravskoslezský;https://www.firmy.cz/detail/13142770-hospudka-na-hristi-verovice.html;4.5;1;49.532996;18.128888;None;None
+Divadelní klub Múza;Moravskoslezský;https://www.firmy.cz/detail/13100981-divadelni-klub-muza-novy-jicin.html;4.5;3;49.592530;18.007942;None;None
+Pivnice Assen Poruba;Moravskoslezský;https://www.firmy.cz/detail/13099400-pivnice-assen-poruba-ostrava-poruba.html;3.9;13;49.825021;18.179085;None;None
+Pivnice Havrlant;Moravskoslezský;https://www.firmy.cz/detail/2555295-pivnice-havrlant-frenstat-pod-radhostem.html;5;1;49.547179;18.212806;None;None
+Obecní hospoda;Moravskoslezský;https://www.firmy.cz/detail/13137836-obecni-hospoda-hlavnice.html;None;None;49.924543;17.728554;None;None
+Hospůdka Na Konírně;Moravskoslezský;https://www.firmy.cz/detail/13302929-hospudka-na-konirne-budisov-nad-budisovkou.html;4.5;18;49.793823;17.622010;None;None
+Na Strožůvkách;Moravskoslezský;https://www.firmy.cz/detail/13135637-na-strozuvkach-cesky-tesin-dolni-zukov.html;5;6;49.735651;18.602373;None;None
+Dublin pub;Moravskoslezský;https://www.firmy.cz/detail/327057-dublin-pub-ostrava-moravska-ostrava.html;4;5;49.835588;18.284518;None;None
+Hospoda Kyjovice;Moravskoslezský;https://www.firmy.cz/detail/13112201-hospoda-kyjovice-kyjovice.html;5;4;49.831868;18.041141;None;None
+Pivnice Assen;Moravskoslezský;https://www.firmy.cz/detail/12859671-pivnice-assen-ostrava-zabreh.html;3.7;14;49.807583;18.235154;None;None
+Crazy club Pračka;Moravskoslezský;https://www.firmy.cz/detail/13185438-crazy-club-pracka-trinec.html;3.3;2;49.666265;18.674784;None;None
+Hospůdka & Restaurace U Martiny;Moravskoslezský;https://www.firmy.cz/detail/13109195-hospudka-restaurace-u-martiny-fulnek.html;4.5;29;49.711018;17.900115;None;None
+Pivnice Havana;Moravskoslezský;https://www.firmy.cz/detail/13123394-pivnice-havana-trinec-lyzbice.html;4;1;49.671051;18.672689;None;None
+Hospoda U zámku;Moravskoslezský;https://www.firmy.cz/detail/13149658-hospoda-u-zamku-hlavnice.html;None;None;49.925080;17.729048;None;None
+Hospoda U Tomaša;Moravskoslezský;https://www.firmy.cz/detail/13133892-hospoda-u-tomasa-senov.html;4.4;4;49.785428;18.373885;None;None
+Hospůdka U Bernarda;Moravskoslezský;https://www.firmy.cz/detail/13108313-hospudka-u-bernarda-morkov.html;5;3;49.536662;18.043666;None;None
+Tankovna U Budky;Moravskoslezský;https://www.firmy.cz/detail/13827224-tankovna-u-budky-bohumin-novy-bohumin.html;None;None;49.905343;18.353018;None;None
+Hospůdka U Milana;Moravskoslezský;https://www.firmy.cz/detail/13115794-hospudka-u-milana-rybi.html;4.8;7;49.599141;18.082795;None;None
+Hospůdka na Hřišti;Moravskoslezský;https://www.firmy.cz/detail/13497101-hospudka-na-hristi-opava-zlatniky.html;None;None;49.941418;17.832248;None;None
+BAR U ŘEZNÍKA;Moravskoslezský;https://www.firmy.cz/detail/12885934-bar-u-reznika-hradek.html;5;1;49.609293;18.743059;None;None
+U Dvořáků;Moravskoslezský;https://www.firmy.cz/detail/2321047-u-dvoraku-vrbno-pod-pradedem.html;None;None;50.116469;17.385463;None;None
+Hospůdka U Zastávky;Moravskoslezský;https://www.firmy.cz/detail/13117622-hospudka-u-zastavky-silherovice.html;None;None;49.923909;18.260520;None;None
+Hospůdka na Dolním;Moravskoslezský;https://www.firmy.cz/detail/13119606-hospudka-na-dolnim-hodslavice.html;3.5;1;49.549755;18.026590;None;None
+Hospoda U Bačů;Moravskoslezský;https://www.firmy.cz/detail/13019602-hospoda-u-bacu-trojanovice.html;4.1;5;49.522022;18.203582;None;None
+U červeného trpaslíka;Moravskoslezský;https://www.firmy.cz/detail/2297655-u-cerveneho-trpaslika-ostrava-marianske-hory.html;None;None;49.830952;18.254350;None;None
+Bar Myslivna Opava;Moravskoslezský;https://www.firmy.cz/detail/13354204-bar-myslivna-opava-opava-mesto.html;5;4;49.936092;17.903050;None;None
+Hospoda Pod Lípou;Moravskoslezský;https://www.firmy.cz/detail/13639955-hospoda-pod-lipou-orlova-lutyne.html;4.7;3;49.878953;18.441904;None;None

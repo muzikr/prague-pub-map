@@ -1,0 +1,763 @@
+name;region;url;rating;number_of_reviews;latitude;longitude;menu_item;price
+Stodola Herink;Středočeský;https://www.firmy.cz/detail/13039485-stodola-herink-herink.html;4.7;69;49.967578;14.575496;None;None
+Hostinec RACEK;Středočeský;https://www.firmy.cz/detail/13464785-hostinec-racek-tynec-nad-labem.html;4.2;48;50.042324;15.357479;None;None
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Hovězí vývar s játrovými knedlíčky a nudlemi";"55 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Bramboračka";"48 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Hovězí po pražsku (šunka, vejce) , rýže";"178 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Vepřové nudličky v dijonské omáčce, hranolky";"175 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Brambory";"209 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Sekaná svíčková, houskové knedlíky";"165 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Smažená vinná klobása, bramborová kaše, kyselá okurka";"168 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"180g Kuřecí medailonky, hříbková omáčka, krokety";"239 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Medovník se šlehačkou";"69 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Čokoládový dort";"75 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"100g Tatarský biftek z pravé svíčkové, 4ks topinek";"189 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"80g Topinka s pikantní kuřecí směsí a sýrem";"125 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"60g Pražené mandle s tymiánem a chilli";"85 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Tlačenka s cibulí a octem, chléb";"65 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"1ks Nakládaný hermelín, chléb";"85 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Vývar s knedlíčky";"60 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Telecí Hanger steak s pepřovou omáčkou";"285 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Grilovaný Rump steak s marinovanou cibulkou a bylinkovým dipem";"305 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Hovězí burger, steakové hranolky";"255 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"750g Vepřová žebírka na medu a chilli, hořčice, křen, chléb";"285 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"1kg Pečené koleno, hořčice, křen, chléb";"305 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Vepřová panenka se smetanovo-hříbkovou omáčkou";"265 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Řezy z vepřové panenky na fazolových luscích se slaninou";"265 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Grilovaná krkovička s restovanou slaninou, česnekem, cibulí a feferonkou";"235 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Vepřové nudličky se zeleninou a žampiony";"205 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Kuřecí steak na bylinkách s grilovanou zeleninou";"255 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Ďábelská pánev";"205 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Kuřecí medailonky s omáčkou z modrého sýra";"245 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"180g Smažený kuřecí/vepřový řízek";"165 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"250g Bramborové noky s kuřecím masem, špenátem v sýrové omáčce, parmezán";"205 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"100g Smažený sýr, tatarská omáčka";"135 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Caesar salát (římský salát, rajčata, kuřecí maso 150g, ančovičkový dressing parmazán, krutony)";"225 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Šopský salát s balkánským";"85 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"300g Pestrý salát s grilovaným hovězím";"225 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Zmrzlinový pohár s horkými malinami";"125 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"Dort dle výběru";"75 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Smažené hranolky";"50 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Vařené brambory s máslem a petrželkou";"40 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"3ks Domácí bramboráčky";"55 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"200g Grilovaná čerstvá zelenina (rajčata, cuketa paprika červená cibule, rozmarýn)";"95 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Opečené brambory";"45 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"150g Vařená rýže";"45 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"1ks Chléb, rohlík";"10 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"1ks Topinka";"15 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"50g Tatarská omáčka";"25 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"50g Chilli omáčka";"25 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"50g Bylinkový dip";"25 Kč"
+Hostinec Na Hrázi;Středočeský;https://www.firmy.cz/detail/13043568-hostinec-na-hrazi-podebrady-iii.html;4.4;69;50.142118;15.129230;"50g Kečup";"25 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Šťavnatý vepřový steak s pepřovou omáčkou";"134 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Vepřový steak s anglickou slaninou a volským okem";"139 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Katův šleh";"134 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Vepřový řízek, okurka";"134 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Kuřecí steak se šunkou a sýrem";"139 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Kuřecí nudličky na nivě";"135 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Smažený sýr s bílou plísní";"134 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Smažený sýr";"125 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Smažený květák";"125 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Vařené brambory";"40 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Opečené brambory";"40 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Americké brambory";"40 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Hranolky";"40 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Krokety";"45 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Tatarská omáčka";"25 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"BBQ omáčka";"35 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Sweet & sour";"35 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Kečup";"20 Kč"
+Restaurace Žofín;Středočeský;https://www.firmy.cz/detail/13300770-restaurace-zofin-nymburk.html;3.5;39;50.182186;15.042357;"Váha masa je na 150.";"150 Kč"
+Ubytovna a restaurace Hamburk;Středočeský;https://www.firmy.cz/detail/13521383-ubytovna-a-restaurace-hamburk-zajecov.html;5;2;49.771076;13.841899;None;None
+Hostinec U Simonů;Středočeský;https://www.firmy.cz/detail/12972674-hostinec-u-simonu-krenice.html;None;None;50.031559;14.668699;None;None
+Potraviny a hospoda u Křížku;Středočeský;https://www.firmy.cz/detail/13374751-potraviny-a-hospoda-u-krizku-roztoky.html;4.7;4;50.021803;13.867613;None;None
+Hasičárna Na Žižkově;Středočeský;https://www.firmy.cz/detail/13906312-hasicarna-na-zizkove-velky-chlumec-maly-chlumec.html;None;None;49.820409;14.085237;None;None
+Hospoda V Podzámčí;Středočeský;https://www.firmy.cz/detail/13108984-hospoda-v-podzamci-smolotely.html;4.2;5;49.621371;14.137208;None;None
+KUFR Hospůdka;Středočeský;https://www.firmy.cz/detail/13185314-kufr-hospudka-mlada-boleslav-i.html;5;1;50.411319;14.904673;None;None
+Hospůdka U Nádraží;Středočeský;https://www.firmy.cz/detail/13128262-hospudka-u-nadrazi-dolni-bousov.html;5;1;50.441254;15.132667;None;None
+Kuchařská hospůdka;Středočeský;https://www.firmy.cz/detail/13321664-kucharska-hospudka-vysoky-ujezd-kuchar.html;4.9;17;49.981905;14.236304;None;None
+Hospoda Pohoda;Středočeský;https://www.firmy.cz/detail/13121508-hospoda-pohoda-radosovice.html;5;1;49.740445;14.868741;None;None
+Hostinec Na Huse;Středočeský;https://www.firmy.cz/detail/13328471-hostinec-na-huse-svaty-mikulas.html;3.9;56;49.983866;15.348095;None;None
+Hospůdka Na Trucovně;Středočeský;https://www.firmy.cz/detail/13491050-hospudka-na-trucovne-sazava-belokozly.html;5;25;49.854576;14.898481;None;None
+Hostinec Sportovní 857;Středočeský;https://www.firmy.cz/detail/13109081-hostinec-sportovni-857-mnichovice.html;5;2;49.932892;14.709492;None;None
+Hospoda Krupá;Středočeský;https://www.firmy.cz/detail/13114630-hospoda-krupa-krupa.html;5;1;50.018029;14.871275;None;None
+Hospůdka U Báby;Středočeský;https://www.firmy.cz/detail/13123373-hospudka-u-baby-chocerady-vestec.html;4.5;1;49.858493;14.824317;None;None
+Divadelní klub Janov;Středočeský;https://www.firmy.cz/detail/13144626-divadelni-klub-janov-janov.html;5;2;50.210554;13.637163;None;None
+Pohostinství Petrovice;Středočeský;https://www.firmy.cz/detail/13133971-pohostinstvi-petrovice-petrovice-i.html;None;None;49.808474;15.296810;None;None
+U Macháčků;Středočeský;https://www.firmy.cz/detail/13676462-u-machacku-svrkyne.html;None;None;50.171382;14.296198;None;None
+U Řeháků;Středočeský;https://www.firmy.cz/detail/13037755-u-rehaku-zdiby-veltez.html;4.8;2;50.167503;14.441449;None;None
+Restaurace Srub;Středočeský;https://www.firmy.cz/detail/13140724-restaurace-srub-horovice.html;4.8;15;49.839599;13.906211;None;None
+Stará hospoda Liblice;Středočeský;https://www.firmy.cz/detail/13010804-stara-hospoda-liblice-liblice.html;3.6;15;50.312672;14.590454;None;None
+Na Kotvě;Středočeský;https://www.firmy.cz/detail/13353804-na-kotve-kladno.html;None;None;50.144898;14.075011;None;None
+Krušovická hospoda;Středočeský;https://www.firmy.cz/detail/13065651-krusovicka-hospoda-nymburk.html;2.5;1;50.193447;15.037713;None;None
+Hospoda Sudovo Hlavno;Středočeský;https://www.firmy.cz/detail/13112354-hospoda-sudovo-hlavno-sudovo-hlavno.html;5;2;50.261820;14.682461;None;None
+Pivnice Na Čeplově;Středočeský;https://www.firmy.cz/detail/2471364-pivnice-na-ceplove-caslav-nove-mesto.html;None;None;49.907286;15.386916;None;None
+Hostinec u Pášů;Středočeský;https://www.firmy.cz/detail/13009692-hostinec-u-pasu-benesov-vidlakova-lhota.html;4.9;10;49.814237;14.660719;None;None
+Hospoda Sokol Starkoč;Středočeský;https://www.firmy.cz/detail/13120240-hospoda-sokol-starkoc-starkoc.html;3;1;49.937211;15.507568;None;None
+Hospůdka Staďák;Středočeský;https://www.firmy.cz/detail/13332601-hospudka-stadak-sadska.html;5;3;50.133415;14.981300;None;None
+U Císaře Rudolfa II.;Středočeský;https://www.firmy.cz/detail/13371884-u-cisare-rudolfa-ii-pribram-v-zdabor.html;5;5;49.673156;13.984301;None;None
+Šalanda Vltava;Středočeský;https://www.firmy.cz/detail/13438692-salanda-vltava-kralupy-nad-vltavou-lobecek.html;4;56;50.247337;14.315879;None;None
+Hostinec Racanda;Středočeský;https://www.firmy.cz/detail/13233212-hostinec-racanda-kladno-rozdelov.html;5;1;50.137465;14.065364;None;None
+Klub Moo;Středočeský;https://www.firmy.cz/detail/13095802-klub-moo-kladno.html;5;1;50.146281;14.104638;None;None
+Hospoda Prokopka;Středočeský;https://www.firmy.cz/detail/13875379-hospoda-prokopka-celakovice.html;5;1;50.163916;14.734836;None;None
+Hospoda U Kolmanů;Středočeský;https://www.firmy.cz/detail/13118912-hospoda-u-kolmanu-dolni-kralovice-vrazdovy-lhotice.html;5;2;49.641791;15.180409;None;None
+Hospůdka Na Mýtince;Středočeský;https://www.firmy.cz/detail/13113623-hospudka-na-mytince-cim.html;4.9;7;49.784563;14.405937;None;None
+Hospoda Oleška;Středočeský;https://www.firmy.cz/detail/13111497-hospoda-oleska-oleska.html;5;1;49.971132;14.915751;None;None
+Hospůdka Domeček;Středočeský;https://www.firmy.cz/detail/13109576-hospudka-domecek-odolena-voda.html;3.9;3;50.226592;14.410667;None;None
+Pohostinství;Středočeský;https://www.firmy.cz/detail/13011065-pohostinstvi-brezno.html;4.8;8;50.406222;15.005311;None;None
+Hostinec U Brázdů;Středočeský;https://www.firmy.cz/detail/2124402-hostinec-u-brazdu-drahobudice.html;4.8;2;49.937138;15.065896;None;None
+Peklo;Středočeský;https://www.firmy.cz/detail/13114380-peklo-pristoupim.html;None;None;50.053567;14.878972;None;None
+Hospůdka u pivovaru Fenik;Středočeský;https://www.firmy.cz/detail/13606397-hospudka-u-pivovaru-fenik-ohrazenice.html;4.9;20;49.780807;13.952385;None;None
+Hospoda U Krkovičky;Středočeský;https://www.firmy.cz/detail/13371877-hospoda-u-krkovicky-knoviz.html;4.9;5;50.212257;14.136458;None;None
+Hostinec Na Staré;Středočeský;https://www.firmy.cz/detail/13075898-hostinec-na-stare-nucice.html;4.7;18;50.016688;14.231642;None;None
+Hostinec U Honzy;Středočeský;https://www.firmy.cz/detail/2463357-hostinec-u-honzy-krepenice.html;4.5;1;49.702148;14.346793;None;None
+Sauna U Kůšů;Středočeský;https://www.firmy.cz/detail/13698605-sauna-u-kusu-jince.html;5;5;49.790968;13.975671;None;None
+Sokolovna Únětice;Středočeský;https://www.firmy.cz/detail/13064937-sokolovna-unetice-unetice.html;4.6;10;50.151417;14.352768;None;None
+Občersvení Na Kurtech;Středočeský;https://www.firmy.cz/detail/13115426-obcersveni-na-kurtech-breznice.html;None;None;49.562665;13.953044;None;None
+Třtická hospoda;Středočeský;https://www.firmy.cz/detail/13805145-trticka-hospoda-trtice.html;5;1;50.185094;13.865065;None;None
+Hospůdka u Kocoura;Středočeský;https://www.firmy.cz/detail/329620-hospudka-u-kocoura-kladno-krocehlavy.html;4;2;50.135726;14.131519;None;None
+Restaurace Šťastný Hroch;Středočeský;https://www.firmy.cz/detail/13011089-restaurace-stastny-hroch-benatky-nad-jizerou-i.html;4.3;40;50.293095;14.830441;None;None
+Hostinec Tichý;Středočeský;https://www.firmy.cz/detail/13113591-hostinec-tichy-kozmice.html;None;None;49.825225;14.796154;None;None
+Hospoda V kabinách;Středočeský;https://www.firmy.cz/detail/13373647-hospoda-v-kabinach-kosova-hora.html;5;1;49.656658;14.478506;None;None
+Hospoda Na Zámecké;Středočeský;https://www.firmy.cz/detail/13209822-hospoda-na-zamecke-bukova-u-pribrame.html;4.5;10;49.754475;14.064317;None;None
+Na Hřišti;Středočeský;https://www.firmy.cz/detail/13121488-na-hristi-pavlikov.html;1;1;50.056697;13.746744;None;None
+HOSTINEC U ONDŘICHŮ;Středočeský;https://www.firmy.cz/detail/13119460-hostinec-u-ondrichu-rehenice.html;5;4;49.869304;14.651587;None;None
+Hospoda Oksford;Středočeský;https://www.firmy.cz/detail/13572489-hospoda-oksford-pysely-zajecice.html;4.6;31;49.896136;14.683764;None;None
+Hostinec U Heroldů;Středočeský;https://www.firmy.cz/detail/12831171-hostinec-u-heroldu-kamyk-nad-vltavou-velka.html;4.2;8;49.660366;14.252247;None;None
+Hospoda Kozolupy;Středočeský;https://www.firmy.cz/detail/13733523-hospoda-kozolupy-vysoky-ujezd-kozolupy.html;None;None;49.975017;14.192952;None;None
+Hospůdka Na hřišti;Středočeský;https://www.firmy.cz/detail/13777439-hospudka-na-hristi-predboj.html;5;2;50.229675;14.482779;None;None
+Hospoda U Kocoura;Středočeský;https://www.firmy.cz/detail/13280134-hospoda-u-kocoura-bohutin-vysoka-pec.html;4.5;2;49.665307;13.962807;None;None
+Hostinec Na Staré - Úhonice;Středočeský;https://www.firmy.cz/detail/13721031-hostinec-na-stare-uhonice-uhonice.html;None;None;50.041527;14.186903;None;None
+Hostinec U Menclů;Středočeský;https://www.firmy.cz/detail/13120511-hostinec-u-menclu-skuhrov-hate.html;4.4;36;49.880976;14.164021;None;None
+Klášterský hostinec U Karlových Varů;Středočeský;https://www.firmy.cz/detail/13356447-klastersky-hostinec-u-karlovych-varu-mnichovo-hradiste.html;4.1;57;50.522137;14.974452;None;None
+Hostinec Na Rychtě;Středočeský;https://www.firmy.cz/detail/13609511-hostinec-na-rychte-kolin-ii.html;4.7;2;50.028567;15.194074;None;None
+Pohostinství U Divocha;Středočeský;https://www.firmy.cz/detail/12896935-pohostinstvi-u-divocha-senomaty-nouzov.html;5;1;50.108423;13.644862;None;None
+Tetínská hospoda;Středočeský;https://www.firmy.cz/detail/13698944-tetinska-hospoda-tetin.html;4.1;9;49.947368;14.101236;None;None
+Hostinec U Janatů;Středočeský;https://www.firmy.cz/detail/13790225-hostinec-u-janatu-cestin.html;4.3;51;49.807234;15.104255;None;None
+Hospoda u Krulišů;Středočeský;https://www.firmy.cz/detail/13110175-hospoda-u-krulisu-libodrice.html;5;1;50.003024;15.088356;None;None
+Restaurace Kulturní dům Libice;Středočeský;https://www.firmy.cz/detail/13504053-restaurace-kulturni-dum-libice-libice-nad-cidlinou.html;3.3;7;50.126392;15.178629;None;None
+Hospoda Roztoky;Středočeský;https://www.firmy.cz/detail/13374752-hospoda-roztoky-roztoky.html;5;3;50.021803;13.867613;None;None
+Hospoda Okřínek 63;Středočeský;https://www.firmy.cz/detail/13137338-hospoda-okrinek-63-okrinek.html;None;None;50.165345;15.193098;None;None
+Hřiště Ernest - hospoda Zvole;Středočeský;https://www.firmy.cz/detail/13799178-hriste-ernest-hospoda-zvole-zvole.html;4.9;7;49.936335;14.415987;None;None
+Hospůdka Pod Hrází;Středočeský;https://www.firmy.cz/detail/13317134-hospudka-pod-hrazi-rimovice.html;None;None;49.696598;14.943726;None;None
+Klub Penalta;Středočeský;https://www.firmy.cz/detail/13142711-klub-penalta-kacice.html;5;1;50.157666;13.984495;None;None
+Hospůdka U Jungmanna;Středočeský;https://www.firmy.cz/detail/13560462-hospudka-u-jungmanna-hudlice.html;4.5;22;49.961618;13.974392;None;None
+Hostinec u Blanky;Středočeský;https://www.firmy.cz/detail/13671050-hostinec-u-blanky-melnik.html;None;None;50.393162;14.465676;None;None
+Hostinec U Aldy;Středočeský;https://www.firmy.cz/detail/13750093-hostinec-u-aldy-zehun.html;None;None;50.135489;15.293016;None;None
+Hostinec Stehelčeves;Středočeský;https://www.firmy.cz/detail/13123871-hostinec-stehelceves-stehelceves.html;3.3;3;50.170337;14.191199;None;None
+Hospůdka u Jelínků;Středočeský;https://www.firmy.cz/detail/13119446-hospudka-u-jelinku-kolin-iii.html;5;1;50.026077;15.201996;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13111696-hospudka-na-hristi-jilove-u-prahy-radlik.html;None;None;49.909616;14.489052;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13150437-hospoda-na-hristi-tuchomerice.html;4.6;4;50.133367;14.284974;None;None
+Hostinec Janov 82;Středočeský;https://www.firmy.cz/detail/13144642-hostinec-janov-82-janov.html;None;None;50.211951;13.635513;None;None
+Pivnice U Zelené žáby;Středočeský;https://www.firmy.cz/detail/13204957-pivnice-u-zelene-zaby-podebrady-i.html;4.2;15;50.143225;15.117276;None;None
+Hospůdka U jezera;Středočeský;https://www.firmy.cz/detail/13812395-hospudka-u-jezera-pnov-predhradi-predhradi.html;5;2;50.092511;15.153574;None;None
+Hospoda Kamenné Zboží;Středočeský;https://www.firmy.cz/detail/13143282-hospoda-kamenne-zbozi-kamenne-zbozi.html;5;1;50.191822;14.999802;None;None
+Hospoda Skvrňov;Středočeský;https://www.firmy.cz/detail/13306072-hospoda-skvrnov-skvrnov.html;None;None;49.897418;15.001316;None;None
+Hospoda u Kocoura;Středočeský;https://www.firmy.cz/detail/2372952-hospoda-u-kocoura-nymburk.html;3.4;9;50.182830;15.042240;None;None
+U hřiště;Středočeský;https://www.firmy.cz/detail/13143227-u-hriste-stradonice.html;None;None;50.291432;14.046905;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13148051-hospudka-na-hristi-hrdliv.html;3;2;50.200087;14.071700;None;None
+Obecní hospůdka;Středočeský;https://www.firmy.cz/detail/13140736-obecni-hospudka-milostin.html;4.9;4;50.194193;13.670768;None;None
+Na Růžku;Středočeský;https://www.firmy.cz/detail/13832393-na-ruzku-kostelni-lhota.html;3.5;1;50.129317;15.029442;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/337150-hospoda-na-hristi-kosor.html;4.9;6;49.989081;14.327063;None;None
+Hostinec na Klokočné;Středočeský;https://www.firmy.cz/detail/12992924-hostinec-na-klokocne-klokocna.html;4.6;33;49.958496;14.720191;None;None
+Bistro Kanton;Středočeský;https://www.firmy.cz/detail/13138668-bistro-kanton-kolin-v.html;3.8;4;50.031174;15.205843;None;None
+Bistro U Podkovy;Středočeský;https://www.firmy.cz/detail/13108582-bistro-u-podkovy-kraluv-dvur.html;5;1;49.948608;14.035858;None;None
+Hostinec Kožovská 19;Středočeský;https://www.firmy.cz/detail/13109697-hostinec-kozovska-19-velke-pritocno.html;None;None;50.117095;14.126404;None;None
+Hospůdka Oáza;Středočeský;https://www.firmy.cz/detail/13228293-hospudka-oaza-mlada-boleslav.html;4.8;4;50.400920;14.881648;None;None
+Hostinec U Vlka;Středočeský;https://www.firmy.cz/detail/13810808-hostinec-u-vlka-vlkov-pod-oskobrhem.html;4.1;7;50.154672;15.221655;None;None
+Rock hospoda V Prdeli;Středočeský;https://www.firmy.cz/detail/12967245-rock-hospoda-v-prdeli-nymburk-drahelice.html;4.3;12;50.174202;15.007388;None;None
+Hostinec Na Blahu;Středočeský;https://www.firmy.cz/detail/13115149-hostinec-na-blahu-chotesice.html;5;1;50.278714;15.275293;None;None
+Pohostinství Kalivody 60;Středočeský;https://www.firmy.cz/detail/13117163-pohostinstvi-kalivody-60-kalivody.html;5;2;50.207497;13.839929;None;None
+Hospoda Sedmpány;Středočeský;https://www.firmy.cz/detail/13343295-hospoda-sedmpany-trhovy-stepanov-sedmpany.html;5;1;49.698799;15.066809;None;None
+Hospoda na fotbalovém hřišti;Středočeský;https://www.firmy.cz/detail/13141359-hospoda-na-fotbalovem-hristi-hlizov.html;1.8;2;49.985362;15.290463;None;None
+Hospoda u Paloshů;Středočeský;https://www.firmy.cz/detail/13110862-hospoda-u-paloshu-neratovice.html;2.7;3;50.255806;14.515364;None;None
+Gastro TEMAR, s.r.o.;Středočeský;https://www.firmy.cz/detail/13151092-gastro-temar-klinec.html;None;None;49.904353;14.337620;None;None
+HOPS Lokálka;Středočeský;https://www.firmy.cz/detail/2224128-hops-lokalka-ricany.html;4.4;13;49.997243;14.663702;None;None
+Western Saloon Pečky;Středočeský;https://www.firmy.cz/detail/13135393-western-saloon-pecky-pecky.html;5;5;50.084576;15.030778;None;None
+Hospoda U Hasiče;Středočeský;https://www.firmy.cz/detail/13742959-hospoda-u-hasice-pochvalov.html;5;2;50.226855;13.792604;None;None
+Hostinec Milý;Středočeský;https://www.firmy.cz/detail/13134076-hostinec-mily-mily.html;3.5;2;50.233838;13.867706;None;None
+Hospoda V Zatáčce;Středočeský;https://www.firmy.cz/detail/13015892-hospoda-v-zatacce-kochanky.html;4.2;2;50.276063;14.779521;None;None
+Hospoda Fraja;Středočeský;https://www.firmy.cz/detail/2207620-hospoda-fraja-neratovice.html;4.3;9;50.258536;14.519538;None;None
+Hostinec U Rohlíčků;Středočeský;https://www.firmy.cz/detail/13370614-hostinec-u-rohlicku-krakovany.html;5;3;50.065750;15.369011;None;None
+Fotbalová Bašta;Středočeský;https://www.firmy.cz/detail/13303551-fotbalova-basta-zbuzany.html;4.6;7;50.022206;14.285198;None;None
+Hospoda U Sokola;Středočeský;https://www.firmy.cz/detail/13140331-hospoda-u-sokola-krechor.html;4.3;3;50.024503;15.126733;None;None
+Hospoda na hřišti;Středočeský;https://www.firmy.cz/detail/13757299-hospoda-na-hristi-benatky-nad-jizerou-i.html;5;1;50.291982;14.819448;None;None
+Hospoda na Hřišti;Středočeský;https://www.firmy.cz/detail/13016093-hospoda-na-hristi-knezmost.html;2.2;3;50.492699;15.037995;None;None
+Hospoda Liblice;Středočeský;https://www.firmy.cz/detail/13140801-hospoda-liblice-liblice.html;1.9;2;50.312367;14.590483;None;None
+Hospoda GRADO;Středočeský;https://www.firmy.cz/detail/460753-hospoda-grado-karany.html;4.3;30;50.170657;14.752777;None;None
+Marie Benešová;Středočeský;https://www.firmy.cz/detail/13113111-marie-benesova-stochov.html;5;2;50.147649;13.956355;None;None
+Retro;Středočeský;https://www.firmy.cz/detail/13178431-retro-cernuc-bratkovice.html;5;1;50.283407;14.189689;None;None
+Hostinec Láz;Středočeský;https://www.firmy.cz/detail/13143008-hostinec-laz-laz.html;None;None;49.649293;13.905789;None;None
+Restaurace U Vola;Středočeský;https://www.firmy.cz/detail/13111757-restaurace-u-vola-bystrice.html;4.9;11;49.731330;14.673187;None;None
+U Buráka;Středočeský;https://www.firmy.cz/detail/12885239-u-buraka-revnicov.html;4.9;3;50.173904;13.836336;None;None
+Bojanovická hospůdka;Středočeský;https://www.firmy.cz/detail/13256554-bojanovicka-hospudka-bojanovice.html;5;2;49.854063;14.351937;None;None
+U Hroudů;Středočeský;https://www.firmy.cz/detail/12933376-u-hroudu-poricany.html;5;3;50.109316;14.917143;None;None
+Hostinec U srdíčka;Středočeský;https://www.firmy.cz/detail/13178410-hostinec-u-srdicka-brezany.html;5;1;50.006604;13.586104;None;None
+Jana Vrbová;Středočeský;https://www.firmy.cz/detail/13113933-jana-vrbova-hradesin.html;None;None;50.037865;14.755124;None;None
+Hospoda u Mečára a Mariši
+Mária Polakovičová;Středočeský;https://www.firmy.cz/detail/13117079-hospoda-u-mecara-a-marisi-velke-vselisy.html;5;2;50.380928;14.745259;None;None
+Hostinec U Doutníka;Středočeský;https://www.firmy.cz/detail/13177616-hostinec-u-doutnika-sanov.html;None;None;50.088195;13.629195;None;None
+Hostinec U Skanzenu;Středočeský;https://www.firmy.cz/detail/13011328-hostinec-u-skanzenu-prerov-nad-labem.html;4.4;59;50.161715;14.825857;None;None
+Hostinec Klondajk;Středočeský;https://www.firmy.cz/detail/13116515-hostinec-klondajk-kostelec-nad-labem.html;3.9;6;50.224997;14.584866;None;None
+Restaurace U Medvěda;Středočeský;https://www.firmy.cz/detail/13115469-restaurace-u-medveda-vlasim.html;4.3;4;49.713479;14.896579;None;None
+Lidový hostinec;Středočeský;https://www.firmy.cz/detail/13902850-lidovy-hostinec-dobris.html;None;None;49.789892;14.177395;None;None
+Hospoda 9. května 104;Středočeský;https://www.firmy.cz/detail/13119900-hospoda-9-kvetna-104-chotetov.html;3.5;1;50.340502;14.800937;None;None
+Hospoda TJ Křinec;Středočeský;https://www.firmy.cz/detail/13141766-hospoda-tj-krinec-krinec.html;5;1;50.268463;15.140556;None;None
+Hospoda U Kubelků;Středočeský;https://www.firmy.cz/detail/13110764-hospoda-u-kubelku-nucice.html;None;None;49.955463;14.884322;None;None
+Hostinec Ouběnice;Středočeský;https://www.firmy.cz/detail/13118182-hostinec-oubenice-bystrice-oubenice.html;5;2;49.694242;14.687664;None;None
+Hostinec U lípy;Středočeský;https://www.firmy.cz/detail/13111392-hostinec-u-lipy-brezova.html;5;2;49.903737;13.883633;None;None
+Hospoda U Lepičů;Středočeský;https://www.firmy.cz/detail/252552-hospoda-u-lepicu-chynava.html;5;1;50.028580;14.078549;None;None
+Zámecký hostinec;Středočeský;https://www.firmy.cz/detail/13121249-zamecky-hostinec-jankov-odlochovice.html;5;1;49.628413;14.764068;None;None
+Hospoda u Strnadů;Středočeský;https://www.firmy.cz/detail/13835915-hospoda-u-strnadu-celakovice-sedlcanky.html;None;None;50.167799;14.787046;None;None
+Restaurace Krystal;Středočeský;https://www.firmy.cz/detail/2459085-restaurace-krystal-podebrady-ii.html;2;1;50.146489;15.114824;None;None
+Tankovna Bajkal;Středočeský;https://www.firmy.cz/detail/13425596-tankovna-bajkal-kladno-krocehlavy.html;3;3;50.129630;14.121438;None;None
+Saloon Brandýs;Středočeský;https://www.firmy.cz/detail/13762727-saloon-brandys-brandys-nad-labem-stara-boleslav-brandys-nad-labem.html;4.7;2;50.187221;14.663732;None;None
+Hostinec U českého lva;Středočeský;https://www.firmy.cz/detail/13001386-hostinec-u-ceskeho-lva-mnichovo-hradiste-vesela.html;1;1;50.497287;14.969107;None;None
+Hospoda ve Škole;Středočeský;https://www.firmy.cz/detail/13121561-hospoda-ve-skole-mnichovice.html;4.5;1;49.668543;15.039380;None;None
+Ranč U kulhavýho velblouda;Středočeský;https://www.firmy.cz/detail/13011076-ranc-u-kulhavyho-velblouda-kobylnice.html;4.8;7;50.371570;15.065622;None;None
+Restaurace Volenice 22;Středočeský;https://www.firmy.cz/detail/13137664-restaurace-volenice-22-volenice-bubovice.html;None;None;49.550854;13.928527;None;None
+Hostinec u Pavla;Středočeský;https://www.firmy.cz/detail/13618010-hostinec-u-pavla-lesany.html;None;None;49.845642;14.522566;None;None
+Restaurace Letná;Středočeský;https://www.firmy.cz/detail/728377-restaurace-letna-kolin-ii.html;4.3;2;50.027109;15.191788;None;None
+POHOSTINSTVÍ U BIRHANZLŮ;Středočeský;https://www.firmy.cz/detail/13016834-pohostinstvi-u-birhanzlu-drahenice.html;5;13;49.521706;13.958837;None;None
+U ČESKÉHO LVA;Středočeský;https://www.firmy.cz/detail/13014917-u-ceskeho-lva-opocnice.html;5;4;50.174076;15.258000;None;None
+SH ČMS - Sbor dobrovolných hasičů Jesenice;Středočeský;https://www.firmy.cz/detail/13146895-sh-cms-sbor-dobrovolnych-hasicu-jesenice-jesenice.html;5;1;49.607026;14.477661;None;None
+Hospůdka NA MARINĚ;Středočeský;https://www.firmy.cz/detail/13297997-hospudka-na-marine-tynec-nad-labem.html;4.4;18;50.035755;15.348174;None;None
+Hospoda Na Staré Faře;Středočeský;https://www.firmy.cz/detail/13134323-hospoda-na-stare-fare-kunice.html;4.4;11;49.935694;14.669647;None;None
+Hostinec u Sousedů;Středočeský;https://www.firmy.cz/detail/13752454-hostinec-u-sousedu-chrastany-bylany.html;None;None;50.064523;14.909276;None;None
+Hospoda Kamberk;Středočeský;https://www.firmy.cz/detail/13621496-hospoda-kamberk-kamberk.html;1;1;49.595727;14.838628;None;None
+Hospůdka U Kováře;Středočeský;https://www.firmy.cz/detail/13266105-hospudka-u-kovare-karany.html;4.5;26;50.175049;14.740813;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13323501-hospoda-na-hristi-rozdalovice.html;3.9;4;50.307442;15.162656;None;None
+Hospůdka Romanov;Středočeský;https://www.firmy.cz/detail/13022709-hospudka-romanov-mseno-romanov.html;4.4;70;50.446782;14.629893;None;None
+Hostinec U Lisých;Středočeský;https://www.firmy.cz/detail/13113220-hostinec-u-lisych-drozdov.html;None;None;49.863086;13.840018;None;None
+Hospoda;Středočeský;https://www.firmy.cz/detail/13174355-hospoda-strasnov.html;5;1;50.352533;14.887354;None;None
+Hostinec u sokolovny;Středočeský;https://www.firmy.cz/detail/13657874-hostinec-u-sokolovny-lety.html;5;2;49.919008;14.253127;None;None
+Beseda;Středočeský;https://www.firmy.cz/detail/13922247-beseda-krasna-ves.html;None;None;50.425232;14.791602;None;None
+Hostinec U Páců;Středočeský;https://www.firmy.cz/detail/13116824-hostinec-u-pacu-ondrejov-tremblat.html;5;2;49.930988;14.761668;None;None
+Hospůdka Sokolovna;Středočeský;https://www.firmy.cz/detail/13139014-hospudka-sokolovna-semice.html;3.8;4;50.164027;14.871215;None;None
+Hostinec Snět;Středočeský;https://www.firmy.cz/detail/13110675-hostinec-snet-snet.html;None;None;49.626170;15.227163;None;None
+David Komárovský;Středočeský;https://www.firmy.cz/detail/13109740-david-komarovsky-hulice.html;None;None;49.709654;15.087612;None;None
+Hospoda u Labe;Středočeský;https://www.firmy.cz/detail/13567947-hospoda-u-labe-tynec-nad-labem.html;None;None;50.039012;15.357924;None;None
+Hospůdka u Jarouše;Středočeský;https://www.firmy.cz/detail/13117588-hospudka-u-jarouse-hostivice.html;4.8;2;50.076812;14.259912;None;None
+Hospůdka U Pavla;Středočeský;https://www.firmy.cz/detail/13213583-hospudka-u-pavla-rozmital-pod-tremsinem.html;4.3;3;49.597580;13.867056;None;None
+Hospůdka Eqilon;Středočeský;https://www.firmy.cz/detail/12973972-hospudka-eqilon-velky-borek-melnicka-vrutice.html;3.4;3;50.348345;14.554184;None;None
+Hostinec U Kubelků;Středočeský;https://www.firmy.cz/detail/13370163-hostinec-u-kubelku-celakovice.html;4.8;2;50.168732;14.767128;None;None
+Hospoda U Čonků;Středočeský;https://www.firmy.cz/detail/571771-hospoda-u-conku-kosmonosy.html;3;5;50.442293;14.925818;None;None
+Hospůdka na kabinách;Středočeský;https://www.firmy.cz/detail/13011517-hospudka-na-kabinach-kounice.html;5;1;50.109900;14.848731;None;None
+Stodola Bukovany;Středočeský;https://www.firmy.cz/detail/13546624-stodola-bukovany-bukovany.html;4.8;2;49.822266;14.618571;None;None
+Obecní pohostinství;Středočeský;https://www.firmy.cz/detail/13117941-obecni-pohostinstvi-vsejany.html;None;None;50.255414;14.953012;None;None
+U Jednorožce;Středočeský;https://www.firmy.cz/detail/13168682-u-jednorozce-prezletice.html;4.2;17;50.152305;14.566662;None;None
+Hospůdka U Pucka;Středočeský;https://www.firmy.cz/detail/13890667-hospudka-u-pucka-kroucova.html;None;None;50.207695;13.780570;None;None
+Hospůdka na Zásadce;Středočeský;https://www.firmy.cz/detail/13011198-hospudka-na-zasadce-bosen-zasadka.html;4.7;23;50.514267;15.025664;None;None
+Hostinec u Jarošů;Středočeský;https://www.firmy.cz/detail/13552932-hostinec-u-jarosu-svojsice.html;5;6;50.003259;15.044692;None;None
+Hostinec u Drdů;Středočeský;https://www.firmy.cz/detail/739426-hostinec-u-drdu-drahelcice.html;5;1;50.030954;14.204180;None;None
+Hostinec Na rozcestí;Středočeský;https://www.firmy.cz/detail/13379980-hostinec-na-rozcesti-pravonin.html;None;None;49.636351;14.944824;None;None
+Hospoda Maštal;Středočeský;https://www.firmy.cz/detail/1347943-hospoda-mastal-losany.html;None;None;49.997969;15.124999;None;None
+Hospůdka Na Poště;Středočeský;https://www.firmy.cz/detail/13439787-hospudka-na-poste-polni-voderady.html;5;4;49.992241;15.095189;None;None
+Máslovická Hospůdka;Středočeský;https://www.firmy.cz/detail/13340396-maslovicka-hospudka-maslovice.html;5;4;50.208695;14.379236;None;None
+Obecní hostinec Kolešovice;Středočeský;https://www.firmy.cz/detail/13535917-obecni-hostinec-kolesovice-kolesovice.html;None;None;50.136804;13.608502;None;None
+PBbowling bar Na Chmelnici;Středočeský;https://www.firmy.cz/detail/13330214-pbbowling-bar-na-chmelnici-pribram-iv.html;4.2;5;49.684444;14.002131;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13624550-hospoda-na-hristi-stratov.html;None;None;50.193857;14.906202;None;None
+Klubovna Na Hřišti;Středočeský;https://www.firmy.cz/detail/13120282-klubovna-na-hristi-bezno.html;5;1;50.370833;14.792314;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13751755-hospoda-na-hristi-bakov-nad-jizerou.html;None;None;50.476035;14.933851;None;None
+Kácovská hospoda;Středočeský;https://www.firmy.cz/detail/13090209-kacovska-hospoda-kacov.html;4.3;5;49.782292;15.026962;None;None
+Hostinec Nepomuk;Středočeský;https://www.firmy.cz/detail/13136789-hostinec-nepomuk-nepomuk.html;4.3;4;49.644132;13.837628;None;None
+Jaroslava Hubnerová;Středočeský;https://www.firmy.cz/detail/13117935-jaroslava-hubnerova-lustenice-voderady.html;5;1;50.336569;14.944463;None;None
+Hostinec na Jestřebici;Středočeský;https://www.firmy.cz/detail/13315702-hostinec-na-jestrebici-dobren-jestrebice.html;3.9;100;50.464004;14.575884;None;None
+Orlí hnízdo Kunice;Středočeský;https://www.firmy.cz/detail/13850543-orli-hnizdo-kunice-kunice-vidovice.html;None;None;49.929584;14.669403;None;None
+Hospoda na Kopečku;Středočeský;https://www.firmy.cz/detail/13377933-hospoda-na-kopecku-babice.html;4.9;7;50.007522;14.716734;None;None
+Hostinec U Černů;Středočeský;https://www.firmy.cz/detail/13118445-hostinec-u-cernu-chudir.html;5;9;50.307931;15.010892;None;None
+NAŠE HOSPODA Bukovensko - Línská;Středočeský;https://www.firmy.cz/detail/13514933-nase-hospoda-bukovensko-linska-bukovno.html;4.8;2;50.444905;14.834963;None;None
+Alena Vavřičková;Středočeský;https://www.firmy.cz/detail/2217310-alena-vavrickova-vodranty.html;5;2;49.890554;15.336467;None;None
+Hostinec Na Radnici;Středočeský;https://www.firmy.cz/detail/13110611-hostinec-na-radnici-brodce.html;4.2;4;50.331069;14.867417;None;None
+Pohostinství U Nevyhoštěných;Středočeský;https://www.firmy.cz/detail/13011392-pohostinstvi-u-nevyhostenych-straziste.html;4.4;29;50.592757;14.930221;None;None
+U Adenauera - Na Zastávce;Středočeský;https://www.firmy.cz/detail/1965889-u-adenauera-na-zastavce-kamenny-privoz.html;4.7;39;49.866316;14.516953;None;None
+Hostinec U kostela;Středočeský;https://www.firmy.cz/detail/13804686-hostinec-u-kostela-poricany.html;None;None;50.104829;14.918334;None;None
+Hostinec Jiřetice;Středočeský;https://www.firmy.cz/detail/2108592-hostinec-jiretice-neustupov-jiretice.html;5;2;49.599688;14.727052;None;None
+Hospůdka KD Hvožďany;Středočeský;https://www.firmy.cz/detail/13169152-hospudka-kd-hvozdany-hvozdany.html;4.1;6;49.527564;13.804499;None;None
+Hospoda Dolany 35;Středočeský;https://www.firmy.cz/detail/13119761-hospoda-dolany-35-dolany.html;5;1;50.116692;14.148881;None;None
+Společenský dům;Středočeský;https://www.firmy.cz/detail/13009792-spolecensky-dum-zadni-treban.html;5;2;49.918947;14.209819;None;None
+Petr Medřický;Středočeský;https://www.firmy.cz/detail/13112999-petr-medricky-mnichovice.html;5;2;49.935782;14.709208;None;None
+SH ČMS - Sbor dobrovolných hasičů Rataje;Středočeský;https://www.firmy.cz/detail/13117828-sh-cms-sbor-dobrovolnych-hasicu-rataje-rataje.html;None;None;49.703667;14.967393;None;None
+Hospoda na Braňce;Středočeský;https://www.firmy.cz/detail/13823891-hospoda-na-brance-ptyrov.html;5;1;50.511243;14.941421;None;None
+Hospůdka pod lípou;Středočeský;https://www.firmy.cz/detail/13031268-hospudka-pod-lipou-sedlec-prcice-kvasejovice.html;4.6;3;49.572295;14.495040;None;None
+Hospoda V Příhrazích
+Turnovská pivnice, s.r.o.;Středočeský;https://www.firmy.cz/detail/13223171-hospoda-v-prihrazich-zdar-prihrazy.html;3.9;56;50.526646;15.075821;None;None
+Hospoda U Herčíků;Středočeský;https://www.firmy.cz/detail/2519144-hospoda-u-herciku-opocnice.html;None;None;50.175177;15.258691;None;None
+Zámecká hospoda;Středočeský;https://www.firmy.cz/detail/743756-zamecka-hospoda-lounovice-pod-blanikem.html;4.1;68;49.636889;14.846811;None;None
+Hostinec U České Koruny;Středočeský;https://www.firmy.cz/detail/13146614-hostinec-u-ceske-koruny-melnik.html;4.2;4;50.373959;14.501203;None;None
+Výčep Práce;Středočeský;https://www.firmy.cz/detail/13371853-vycep-prace-nove-straseci.html;4.5;1;50.146788;13.903857;None;None
+Hostinec Na Šumavě;Středočeský;https://www.firmy.cz/detail/2124656-hostinec-na-sumave-zleby.html;4.2;3;49.891316;15.490248;None;None
+Historický hostinec;Středočeský;https://www.firmy.cz/detail/13343527-historicky-hostinec-petrovice-ii-stara-hut.html;3.6;2;49.827951;15.087249;None;None
+Hostinec U Nováků;Středočeský;https://www.firmy.cz/detail/13117908-hostinec-u-novaku-korenice.html;None;None;49.978001;15.140272;None;None
+U Vojty na Volárně;Středočeský;https://www.firmy.cz/detail/13109759-u-vojty-na-volarne-volarna.html;5;1;50.091797;15.240045;None;None
+Hospoda Na Návsi;Středočeský;https://www.firmy.cz/detail/13010469-hospoda-na-navsi-ledcice.html;None;None;50.340744;14.293785;None;None
+Pivnice Šenk;Středočeský;https://www.firmy.cz/detail/13354176-pivnice-senk-cesky-brod.html;5;1;50.070460;14.853126;None;None
+U dědy Jehudy z Lokšan;Středočeský;https://www.firmy.cz/detail/13368157-u-dedy-jehudy-z-loksan-breznice.html;3.9;2;49.558160;13.950545;None;None
+Radovesnická hospoda;Středočeský;https://www.firmy.cz/detail/13131160-radovesnicka-hospoda-radovesnice-i.html;5;1;50.009196;15.150620;None;None
+Pivnička U Trati;Středočeský;https://www.firmy.cz/detail/13219341-pivnicka-u-trati-bakov-nad-jizerou-mala-bela.html;None;None;50.486677;14.922927;None;None
+Skorkovská hospoda;Středočeský;https://www.firmy.cz/detail/13135336-skorkovska-hospoda-skorkov.html;4.7;7;50.231532;14.749080;None;None
+U Honzy;Středočeský;https://www.firmy.cz/detail/13911805-u-honzy-lodenice-janska.html;4.5;1;49.987894;14.152982;None;None
+Jack Diesel Club;Středočeský;https://www.firmy.cz/detail/13758352-jack-diesel-club-lysa-nad-labem.html;4.7;3;50.201188;14.832977;None;None
+Hospůdka u tety;Středočeský;https://www.firmy.cz/detail/13011303-hospudka-u-tety-zaluzi.html;3;1;49.842439;13.858581;None;None
+Hospůdka U Laky;Středočeský;https://www.firmy.cz/detail/13366786-hospudka-u-laky-vrane-nad-vltavou.html;4.9;7;49.938447;14.383060;None;None
+Slivenská Sokolovna;Středočeský;https://www.firmy.cz/detail/13846874-slivenska-sokolovna-dolni-slivno.html;4.5;1;50.307034;14.731199;None;None
+HOSTINEC ČESKÁ KORUNA;Středočeský;https://www.firmy.cz/detail/13229469-hostinec-ceska-koruna-veltrusy.html;4.2;12;50.272320;14.325186;None;None
+Hostinec u Paši;Středočeský;https://www.firmy.cz/detail/13868660-hostinec-u-pasi-oracov.html;4.5;2;50.109436;13.548732;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13178323-hospoda-na-hristi-bohutin.html;4.6;57;49.661997;13.934211;None;None
+Beach Park Mlékojedy;Středočeský;https://www.firmy.cz/detail/2459985-beach-park-mlekojedy-neratovice-mlekojedy.html;3.7;23;50.264761;14.542125;None;None
+Hospůdka Sokolovna;Středočeský;https://www.firmy.cz/detail/13354804-hospudka-sokolovna-sadska.html;3.5;2;50.136608;14.988391;None;None
+Na Kalifáči;Středočeský;https://www.firmy.cz/detail/13117105-na-kalifaci-kostelec-u-krizku.html;4.7;2;49.908917;14.560143;None;None
+Raskburger - hospůdka na hřišti;Středočeský;https://www.firmy.cz/detail/13302440-raskburger-hospudka-na-hristi-stehelceves.html;4.5;3;50.170141;14.195954;None;None
+Hostinec U Pepíčka;Středočeský;https://www.firmy.cz/detail/13135557-hostinec-u-pepicka-zahorany.html;4.9;4;49.848820;14.287090;None;None
+Nezahospoda;Středočeský;https://www.firmy.cz/detail/12976997-nezahospoda-nezabudice.html;4.9;11;50.013268;13.822144;None;None
+Obecní hospoda Kostelní Hlavno;Středočeský;https://www.firmy.cz/detail/13907842-obecni-hospoda-kostelni-hlavno-kostelni-hlavno.html;None;None;50.257314;14.699014;None;None
+U Vořechů;Středočeský;https://www.firmy.cz/detail/13115742-u-vorechu-chynava-male-prilepy.html;4.5;2;50.011274;14.114455;None;None
+Hospůdka U Pinců;Středočeský;https://www.firmy.cz/detail/13166381-hospudka-u-pincu-rataje-nad-sazavou.html;3.7;80;49.841833;14.956491;None;None
+Hospoda U hřiště;Středočeský;https://www.firmy.cz/detail/13118876-hospoda-u-hriste-ledce.html;None;None;50.196184;14.007529;None;None
+Bar U Synagogy;Středočeský;https://www.firmy.cz/detail/13137679-bar-u-synagogy-uhlirske-janovice.html;3.2;2;49.880379;15.064006;None;None
+Pivnice u Sparťana;Středočeský;https://www.firmy.cz/detail/13301686-pivnice-u-spartana-podebrady-iii.html;3.7;4;50.147393;15.126624;None;None
+Na Cikánce;Středočeský;https://www.firmy.cz/detail/13592656-na-cikance-krupa.html;None;None;50.175700;13.732653;None;None
+Hospůdka U Machů;Středočeský;https://www.firmy.cz/detail/13157236-hospudka-u-machu-stara-lysa.html;4.5;5;50.223026;14.801552;None;None
+Hostinec U Kmochů;Středočeský;https://www.firmy.cz/detail/13119430-hostinec-u-kmochu-stankovice.html;None;None;49.874956;15.013320;None;None
+Hospoda Úmonín;Středočeský;https://www.firmy.cz/detail/13109756-hospoda-umonin-umonin.html;5;3;49.890565;15.270448;None;None
+Pivnice u potoka Jarpice;Středočeský;https://www.firmy.cz/detail/13460531-pivnice-u-potoka-jarpice-jarpice.html;3.5;1;50.318699;14.085496;None;None
+Starozámecká hospoda;Středočeský;https://www.firmy.cz/detail/13329064-starozamecka-hospoda-hradecno.html;5;3;50.187930;13.994738;None;None
+Restaurace U pošty;Středočeský;https://www.firmy.cz/detail/12966960-restaurace-u-posty-revnice.html;None;None;49.913449;14.232808;None;None
+Hospoda Na Baráku;Středočeský;https://www.firmy.cz/detail/13115132-hospoda-na-baraku-bysice.html;5;1;50.310356;14.609938;None;None
+Dita Pošmourná - HOSTINEC;Středočeský;https://www.firmy.cz/detail/13135412-dita-posmourna-hostinec-stochov-celechovice.html;None;None;50.169703;13.957189;None;None
+Hostinec Na Rozhledně;Středočeský;https://www.firmy.cz/detail/12925618-hostinec-na-rozhledne-bradlec.html;4.1;2;50.453247;14.906633;None;None
+Hostinec Vrbičany;Středočeský;https://www.firmy.cz/detail/13110326-hostinec-vrbicany-vrbicany.html;4.5;1;50.307299;13.994813;None;None
+Hostinec Na Růžku;Středočeský;https://www.firmy.cz/detail/12704770-hostinec-na-ruzku-nove-straseci-pecinov.html;4.9;49;50.144105;13.899141;None;None
+Pohostinství U Cempírka;Středočeský;https://www.firmy.cz/detail/13115494-pohostinstvi-u-cempirka-vysoka-u-pribrame.html;4.9;28;49.633518;13.946156;None;None
+Hospoda Na Vsi;Středočeský;https://www.firmy.cz/detail/13066053-hospoda-na-vsi-ujezd.html;5;3;49.831389;13.836975;None;None
+Hospoda Na Radnici;Středočeský;https://www.firmy.cz/detail/13251527-hospoda-na-radnici-vlasim-domasin.html;5;3;49.713947;14.878591;None;None
+Hostinec U Vágnerů;Středočeský;https://www.firmy.cz/detail/2468575-hostinec-u-vagneru-cecelice.html;None;None;50.293894;14.617942;None;None
+U Vousatýho;Středočeský;https://www.firmy.cz/detail/13753282-u-vousatyho-neustupov.html;4.5;11;49.614964;14.697903;None;None
+Občerstvení U VODY;Středočeský;https://www.firmy.cz/detail/12992741-obcerstveni-u-vody-borotice-cholin.html;3.6;4;49.717638;14.329707;None;None
+Hospoda Lhotka;Středočeský;https://www.firmy.cz/detail/13535866-hospoda-lhotka-lhotka.html;4.6;5;50.372660;14.548849;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13111258-hospoda-na-hristi-uhlirske-janovice.html;None;None;49.884580;15.061194;None;None
+Poštovna;Středočeský;https://www.firmy.cz/detail/13267438-postovna-postovice.html;2.5;1;50.310838;14.136336;None;None
+Hospůdka u Hospyka;Středočeský;https://www.firmy.cz/detail/13568994-hospudka-u-hospyka-mesice.html;4.6;17;50.199310;14.523189;None;None
+HOSTINEC U BASAŘE;Středočeský;https://www.firmy.cz/detail/13017155-hostinec-u-basare-horousany.html;4.9;9;50.106221;14.741510;None;None
+Hospůdka Obrubce;Středočeský;https://www.firmy.cz/detail/13348938-hospudka-obrubce-obrubce.html;5;2;50.447882;15.064748;None;None
+Paluba Vrané nad Vltavou;Středočeský;https://www.firmy.cz/detail/13599568-paluba-vrane-nad-vltavou-vrane-nad-vltavou.html;5;2;49.937750;14.380852;None;None
+Hostinec U Hřiště;Středočeský;https://www.firmy.cz/detail/13115361-hostinec-u-hriste-okrouhlo.html;4.9;5;49.915838;14.446221;None;None
+Hostinec Na Vyhlídce;Středočeský;https://www.firmy.cz/detail/12977296-hostinec-na-vyhlidce-pohori.html;4.4;19;49.899816;14.525799;None;None
+Vrátkovská hospůdka u Velrybky;Středočeský;https://www.firmy.cz/detail/13112788-vratkovska-hospudka-u-velrybky-vratkov.html;5;1;50.047670;14.835841;None;None
+Hospoda U Jezzu;Středočeský;https://www.firmy.cz/detail/13324093-hospoda-u-jezzu-roztoky.html;4.8;143;50.023929;13.859677;None;None
+Hostinec Plzeňka;Středočeský;https://www.firmy.cz/detail/13263736-hostinec-plzenka-bohutin.html;None;None;49.656695;13.940651;None;None
+Hospoda u hřiště;Středočeský;https://www.firmy.cz/detail/13111611-hospoda-u-hriste-velky-borek.html;3.5;3;50.342678;14.515353;None;None
+Na Tribuně;Středočeský;https://www.firmy.cz/detail/13115666-na-tribune-sedlcany.html;None;None;49.658365;14.429177;None;None
+Hospoda Stará Lysá;Středočeský;https://www.firmy.cz/detail/2633996-hospoda-s-tara-lysa-stara-lysa.html;5;7;50.225032;14.800298;None;None
+Hostinec Na staré Rychtě;Středočeský;https://www.firmy.cz/detail/13120191-hostinec-na-stare-rychte-vinarice.html;4.7;34;50.174910;14.091051;None;None
+Staročeská hospoda Řisuty;Středočeský;https://www.firmy.cz/detail/13554939-staroceska-hospoda-risuty-risuty.html;5;1;50.217360;14.003862;None;None
+Hospoda u Hejduků;Středočeský;https://www.firmy.cz/detail/13762199-hospoda-u-hejduku-lhotka.html;1;1;49.831971;13.996128;None;None
+U Koupadla;Středočeský;https://www.firmy.cz/detail/13135578-u-koupadla-mnichovice.html;4;1;49.941240;14.703827;None;None
+NO_NAME Bar & Pub;Středočeský;https://www.firmy.cz/detail/13839626-no-name-bar-pub-kutna-hora-vnitrni-mesto.html;5;1;49.948549;15.265459;None;None
+Hospůdka na hřišti;Středočeský;https://www.firmy.cz/detail/13252798-hospudka-na-hristi-statenice.html;5;1;50.139192;14.312599;None;None
+Hospůdka U Kostela;Středočeský;https://www.firmy.cz/detail/12801135-hospudka-u-kostela-odolena-voda.html;4.6;7;50.231244;14.408789;None;None
+Hospoda Pod Lipami;Středočeský;https://www.firmy.cz/detail/13561041-hospoda-pod-lipami-hrdliv.html;None;None;50.198981;14.074862;None;None
+Restaurace Lesovna;Středočeský;https://www.firmy.cz/detail/13148098-restaurace-lesovna-velka-dobra.html;5;2;50.110052;14.069085;None;None
+Hostinec u Černohlávků;Středočeský;https://www.firmy.cz/detail/13732965-hostinec-u-cernohlavku-kolin-sendrazice.html;4.2;12;50.047940;15.218943;None;None
+Hospoda - Potraviny u Petra;Středočeský;https://www.firmy.cz/detail/13208926-hospoda-potraviny-u-petra-vidim.html;4.7;35;50.468042;14.525231;None;None
+Hospůdka pod Lipou;Středočeský;https://www.firmy.cz/detail/13705748-hospudka-pod-lipou-pribram-ii.html;None;None;49.691900;14.021000;None;None
+U Hamouzů;Středočeský;https://www.firmy.cz/detail/13209674-u-hamouzu-chyne.html;4.9;51;50.068108;14.185673;None;None
+Hospoda na Hlavní;Středočeský;https://www.firmy.cz/detail/13115602-hospoda-na-hlavni-berunice.html;None;None;50.185181;15.334870;None;None
+Hostinec u Doležalů;Středočeský;https://www.firmy.cz/detail/2566486-hostinec-u-dolezalu-zabori-nad-labem.html;4.1;15;50.024544;15.352029;None;None
+Hospůdka Na Křižovatce;Středočeský;https://www.firmy.cz/detail/13219396-hospudka-na-krizovatce-branzez.html;4.7;69;50.505222;15.057200;None;None
+U Studánky;Středočeský;https://www.firmy.cz/detail/13117280-u-studanky-lysa-nad-labem.html;4.8;5;50.199946;14.835867;None;None
+Nechvalická hospoda U Vlastičky;Středočeský;https://www.firmy.cz/detail/13299381-nechvalicka-hospoda-u-vlasticky-nechvalice.html;None;None;49.575279;14.395408;None;None
+Hospoda u Březinů;Středočeský;https://www.firmy.cz/detail/328473-hospoda-u-brezinu-drevcice.html;4.4;9;50.167112;14.629650;None;None
+Hoštická Hospoda;Středočeský;https://www.firmy.cz/detail/13870289-hosticka-hospoda-vodochody-hostice.html;4.7;4;50.202185;14.406948;None;None
+Hospůdka U Vildy;Středočeský;https://www.firmy.cz/detail/13109916-hospudka-u-vildy-pasinka.html;4.6;13;49.995902;15.189503;None;None
+Restaurace Vlkaneč 130;Středočeský;https://www.firmy.cz/detail/13122645-restaurace-vlkanec-130-vlkanec.html;None;None;49.805677;15.403432;None;None
+Hospoda U Štiky;Středočeský;https://www.firmy.cz/detail/13115639-hospoda-u-stiky-dolni-chvatliny.html;None;None;49.980925;15.067282;None;None
+Krymlovská Hospoda;Středočeský;https://www.firmy.cz/detail/13117612-krymlovska-hospoda-oleska-krymlov.html;None;None;49.957893;14.927551;None;None
+Sulovická hospůdka;Středočeský;https://www.firmy.cz/detail/13525445-sulovicka-hospudka-svaty-mikulas-sulovice.html;5;10;50.000233;15.406858;None;None
+Hospoda u zastávky;Středočeský;https://www.firmy.cz/detail/13454210-hospoda-u-zastavky-mcely.html;5;2;50.294437;15.075984;None;None
+Hospůdka U Kubů;Středočeský;https://www.firmy.cz/detail/13014956-hospudka-u-kubu-mrzky.html;None;None;50.045985;14.809366;None;None
+Hospoda Karlštejnská 242;Středočeský;https://www.firmy.cz/detail/13895935-hospoda-karlstejnska-242-liten-belec.html;None;None;49.913929;14.178354;None;None
+Hospoda U Nás;Středočeský;https://www.firmy.cz/detail/2540236-hospoda-u-nas-ratmerice.html;3.5;6;49.643956;14.755680;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13108318-hospudka-na-hristi-stechovice.html;3.8;12;49.851637;14.412385;None;None
+Hospůdka U Filipa;Středočeský;https://www.firmy.cz/detail/13141860-hospudka-u-filipa-beroun-mesto.html;4.1;3;49.960971;14.073845;None;None
+Restaurace Sportka;Středočeský;https://www.firmy.cz/detail/13487954-restaurace-sportka-cesky-brod.html;4;1;50.077428;14.858909;None;None
+Pohostinství Šípy;Středočeský;https://www.firmy.cz/detail/13141280-pohostinstvi-sipy-sipy.html;4.4;4;50.012410;13.617246;None;None
+Hostinec U krále Václava IV.;Středočeský;https://www.firmy.cz/detail/12972261-hostinec-u-krale-vaclava-iv-tocnik.html;4.3;59;49.885431;13.882894;None;None
+Pohostinství Třebestovice;Středočeský;https://www.firmy.cz/detail/13113371-pohostinstvi-trebestovice-trebestovice.html;4.5;1;50.122993;14.952336;None;None
+Sudoměřská hospůdka;Středočeský;https://www.firmy.cz/detail/13489622-sudomerska-hospudka-sudomer.html;2.9;2;50.444789;14.742061;None;None
+Hostinec u Cafourků;Středočeský;https://www.firmy.cz/detail/13011681-hostinec-u-cafourku-jenstejn.html;4.8;11;50.152713;14.611934;None;None
+Letní krčma;Středočeský;https://www.firmy.cz/detail/13119483-letni-krcma-lounovice.html;4;2;49.979809;14.761341;None;None
+Hospoda U Vypity;Středočeský;https://www.firmy.cz/detail/13134789-hospoda-u-vypity-senec.html;5;1;50.068383;13.705558;None;None
+Hospoda U Mnicha;Středočeský;https://www.firmy.cz/detail/2235382-hospoda-u-mnicha-brandys-nad-labem-stara-boleslav-brandys-nad-labem.html;None;None;50.186262;14.660312;None;None
+Restaurace Na Hřišti;Středočeský;https://www.firmy.cz/detail/12723638-restaurace-na-hristi-pecky.html;4.2;3;50.089158;15.034535;None;None
+Hospoda U Taterů;Středočeský;https://www.firmy.cz/detail/13466766-hospoda-u-tateru-stechovice-trebenice.html;4.8;152;49.830951;14.436517;None;None
+Hostinec Na Žíněnce;Středočeský;https://www.firmy.cz/detail/13167842-hostinec-na-zinence-libcice-nad-vltavou.html;3.8;5;50.196940;14.364439;None;None
+Sokolovna;Středočeský;https://www.firmy.cz/detail/13117987-sokolovna-dvory.html;5;2;50.212039;15.000349;None;None
+Hospoda Járy Cimrmana;Středočeský;https://www.firmy.cz/detail/13070490-hospoda-jary-cimrmana-rpety.html;4.8;8;49.828252;13.938601;None;None
+Hospůdka u Richtrů;Středočeský;https://www.firmy.cz/detail/13891594-hospudka-u-richtru-horomerice.html;5;1;50.137003;14.334272;None;None
+Hospoda U Kunců;Středočeský;https://www.firmy.cz/detail/13113209-hospoda-u-kuncu-cerniky.html;4;1;50.102179;14.820016;None;None
+Hospoda Na Baště;Středočeský;https://www.firmy.cz/detail/13682222-hospoda-na-baste-vlkancice.html;5;4;49.898947;14.893848;None;None
+Private Club;Středočeský;https://www.firmy.cz/detail/13111441-private-club-ledce.html;4.3;3;50.352521;15.080952;None;None
+U Lisců;Středočeský;https://www.firmy.cz/detail/13312724-u-liscu-kmetineves.html;5;2;50.309357;14.156434;None;None
+Hostinec U Lutherů;Středočeský;https://www.firmy.cz/detail/13859585-hostinec-u-lutheru-uhlirska-lhota-rasochy.html;5;1;50.090339;15.408799;None;None
+Hostinec u Retrů;Středočeský;https://www.firmy.cz/detail/13011221-hostinec-u-retru-loukovec.html;5;1;50.561885;15.015618;None;None
+Tenisové kurty Ledce - hospůdka;Středočeský;https://www.firmy.cz/detail/13302799-tenisove-kurty-ledce-hospudka-ledce.html;None;None;50.194981;14.006697;None;None
+Hospoda "Na Hřišti";Středočeský;https://www.firmy.cz/detail/13133768-hospoda-na-hristi-kamenne-zehrovice.html;4.5;4;50.127664;14.027387;None;None
+Hospoda na hřišti - Kladno;Středočeský;https://www.firmy.cz/detail/13156135-hospoda-na-hristi-kladno-kladno-rozdelov.html;5;2;50.137954;14.070102;None;None
+Hospoda Sokolovna;Středočeský;https://www.firmy.cz/detail/13371908-hospoda-sokolovna-zvoleneves.html;4.8;4;50.230308;14.181121;None;None
+Obecní Stránecká hospoda;Středočeský;https://www.firmy.cz/detail/13372154-obecni-stranecka-hospoda-stranka.html;None;None;50.423588;14.658576;None;None
+Vlkančická hospoda, s.r.o.;Středočeský;https://www.firmy.cz/detail/13007368-vlkancicka-hospoda-vlkancice.html;4.8;8;49.901662;14.897016;None;None
+Hostinec Na Ostrově;Středočeský;https://www.firmy.cz/detail/13798995-hostinec-na-ostrove-pustovety.html;4.5;12;50.055435;13.813407;None;None
+U Kámíka;Středočeský;https://www.firmy.cz/detail/13112129-u-kamika-benesov-urocnice.html;None;None;49.806131;14.630194;None;None
+Hostinec V Ofsajdu;Středočeský;https://www.firmy.cz/detail/13657829-hostinec-v-ofsajdu-lety.html;5;1;49.920495;14.257079;None;None
+Country club U Čudy;Středočeský;https://www.firmy.cz/detail/2300389-country-club-u-cudy-jilove-u-prahy-borek.html;4.6;11;49.882513;14.506016;None;None
+Hostinec KALÍRNA;Středočeský;https://www.firmy.cz/detail/13204864-hostinec-kalirna-kaliste.html;5;3;49.882668;14.774447;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13121252-hospoda-na-hristi-votice.html;4.4;3;49.639849;14.646657;None;None
+Bar Safír;Středočeský;https://www.firmy.cz/detail/12752135-bar-safir-mlada-boleslav-iii.html;5;4;50.413641;14.925020;None;None
+Hostinec U Márinky;Středočeský;https://www.firmy.cz/detail/13109830-hostinec-u-marinky-bykos.html;5;1;49.883014;14.063785;None;None
+Hospoda;Středočeský;https://www.firmy.cz/detail/12998778-hospoda-horomerice.html;None;None;50.137121;14.336916;None;None
+Hostinec U Černého kohouta;Středočeský;https://www.firmy.cz/detail/13652345-hostinec-u-cerneho-kohouta-kutna-hora-vnitrni-mesto.html;4.2;85;49.949229;15.265357;None;None
+Hospůdka u Toníčka;Středočeský;https://www.firmy.cz/detail/13011542-hospudka-u-tonicka-panenske-brezany.html;4.7;4;50.213933;14.435356;None;None
+Hospoda Zberazská;Středočeský;https://www.firmy.cz/detail/13111633-hospoda-zberazska-sedlcany.html;None;None;49.657185;14.430667;None;None
+Hospoda U Dobroty;Středočeský;https://www.firmy.cz/detail/272320-hospoda-u-dobroty-novy-dum.html;4.5;5;50.089423;13.827185;None;None
+Pivnice Pod Lesem;Středočeský;https://www.firmy.cz/detail/13108449-pivnice-pod-lesem-kraluv-dvur.html;5;2;49.950011;14.032798;None;None
+Hospoda U Zelených;Středočeský;https://www.firmy.cz/detail/716682-hospoda-u-zelenych-beroun-mesto.html;4.1;5;49.964329;14.062274;None;None
+Sokol Klub;Středočeský;https://www.firmy.cz/detail/13109949-sokol-klub-vsetaty.html;4.9;4;50.281977;14.593371;None;None
+Hospůdka Na Vinici;Středočeský;https://www.firmy.cz/detail/2656904-hospudka-na-vinici-konarovice.html;5;2;50.040425;15.280570;None;None
+Hospoda u dvou přátel;Středočeský;https://www.firmy.cz/detail/13140625-hospoda-u-dvou-pratel-dvory-veleliby.html;3;1;50.211564;15.021929;None;None
+Hospoda u Ferusů;Středočeský;https://www.firmy.cz/detail/13007341-hospoda-u-ferusu-karany.html;4.6;53;50.180968;14.736434;None;None
+Klubovna na Hřišti;Středočeský;https://www.firmy.cz/detail/13146459-klubovna-na-hristi-celakovice-zaluzi.html;None;None;50.144434;14.744112;None;None
+Hospoda U Vitoušů;Středočeský;https://www.firmy.cz/detail/13128667-hospoda-u-vitousu-branov.html;4.4;20;50.013807;13.841534;None;None
+U Motorkáře;Středočeský;https://www.firmy.cz/detail/13015003-u-motorkare-uholicky.html;4.7;2;50.161911;14.334260;None;None
+Hospůdka za pecí;Středočeský;https://www.firmy.cz/detail/2616177-hospudka-za-peci-sedlec-prcice-veletin.html;4.6;35;49.553919;14.475708;None;None
+Hospůdka U hřiště;Středočeský;https://www.firmy.cz/detail/13002507-hospudka-u-hriste-husinec-rez.html;4.5;16;50.175842;14.355221;None;None
+Hospoda Kovárna;Středočeský;https://www.firmy.cz/detail/13319017-hospoda-kovarna-tuklaty.html;4.8;11;50.085324;14.769688;None;None
+U posledních sil - Michal Viktora;Středočeský;https://www.firmy.cz/detail/13215518-u-poslednich-sil-michal-viktora-olovnice.html;4.8;29;50.231534;14.244004;None;None
+Hostinec Na Růžku;Středočeský;https://www.firmy.cz/detail/13611161-hostinec-na-ruzku-horatev.html;4.9;4;50.150051;15.041686;None;None
+Obecní hospoda;Středočeský;https://www.firmy.cz/detail/13287297-obecni-hospoda-vitice.html;4.7;3;50.031098;14.915011;None;None
+Hostinec U Lípy;Středočeský;https://www.firmy.cz/detail/13109522-hostinec-u-lipy-brezany-i.html;5;1;50.037021;15.078127;None;None
+Hostinec Třebohostice;Středočeský;https://www.firmy.cz/detail/13563969-hostinec-trebohostice-skvorec-trebohostice.html;4.7;12;50.037216;14.720387;None;None
+Olga Nová;Středočeský;https://www.firmy.cz/detail/13112706-olga-nova-odrepsy.html;None;None;50.143102;15.191889;None;None
+Hostinec Ovčáry;Středočeský;https://www.firmy.cz/detail/13108804-hostinec-ovcary-ovcary.html;None;None;50.062787;15.239136;None;None
+U Mysíků;Středočeský;https://www.firmy.cz/detail/13581021-u-mysiku-neprevazka.html;5;2;50.377950;14.915205;None;None
+Hostinec Na Veverce;Středočeský;https://www.firmy.cz/detail/568249-hostinec-na-veverce-brandysek-olsany.html;4.2;3;50.188792;14.155272;None;None
+Hospoda Březnice;Středočeský;https://www.firmy.cz/detail/13140608-hospoda-breznice-breznice.html;5;1;49.564752;13.950635;None;None
+Hospoda Sloveč;Středočeský;https://www.firmy.cz/detail/13114895-hospoda-slovec-slovec-strihov.html;5;1;50.225456;15.370045;None;None
+Pohostinství U kachny;Středočeský;https://www.firmy.cz/detail/13116605-pohostinstvi-u-kachny-nedrahovice.html;5;1;49.608334;14.455125;None;None
+Hospoda Na Vidli;Středočeský;https://www.firmy.cz/detail/13501848-hospoda-na-vidli-libechov-jesovice.html;4.8;2;50.432528;14.429369;None;None
+Hospoda Pod Smrkem;Středočeský;https://www.firmy.cz/detail/2467660-hospoda-pod-smrkem-krechor.html;4.3;2;50.027622;15.127347;None;None
+Restaurace U nádraží;Středočeský;https://www.firmy.cz/detail/12911433-restaurace-u-nadrazi-neratovice.html;4.8;8;50.262117;14.517436;None;None
+Restaurace Chemik;Středočeský;https://www.firmy.cz/detail/329709-restaurace-chemik-kralupy-nad-vltavou-lobecek.html;4.7;2;50.247880;14.318747;None;None
+Hulická hospoda;Středočeský;https://www.firmy.cz/detail/13111352-hulicka-hospoda-hulice.html;None;None;49.709981;15.088308;None;None
+Hospůdka U Irenky;Středočeský;https://www.firmy.cz/detail/13083817-hospudka-u-irenky-semice.html;4.9;4;50.164375;14.875299;None;None
+Restaurace U Lasíků;Středočeský;https://www.firmy.cz/detail/13466892-restaurace-u-lasiku-unetice.html;4.8;133;50.149540;14.359853;None;None
+Hospůdka Na hřišti;Středočeský;https://www.firmy.cz/detail/13492373-hospudka-na-hristi-dobroviz.html;5;8;50.114140;14.221686;None;None
+HOSPODA U KRTIČKŮ;Středočeský;https://www.firmy.cz/detail/13111007-hospoda-u-krticku-rudna.html;3.6;2;50.038398;14.242816;None;None
+Pivnice u Obecního úřadu;Středočeský;https://www.firmy.cz/detail/13114755-pivnice-u-obecniho-uradu-zabonosy.html;5;1;50.035277;15.026915;None;None
+Hospoda Sezemice;Středočeský;https://www.firmy.cz/detail/13133976-hospoda-sezemice-sezemice.html;5;1;50.586418;15.006859;None;None
+Občerstvení Na Hřišti;Středočeský;https://www.firmy.cz/detail/13771148-obcerstveni-na-hristi-pleteny-ujezd.html;None;None;50.108087;14.112689;None;None
+Hostinec U Zvoničky;Středočeský;https://www.firmy.cz/detail/13141805-hostinec-u-zvonicky-pluzna.html;4.9;5;50.473496;14.803847;None;None
+Hostinec Lobkovický Sklípek;Středočeský;https://www.firmy.cz/detail/13566519-hostinec-lobkovicky-sklipek-neratovice-lobkovice.html;5;1;50.251453;14.538152;None;None
+SH ČMS - Sbor dobrovolných hasičů Líchovy;Středočeský;https://www.firmy.cz/detail/13150686-sh-cms-sbor-dobrovolnych-hasicu-lichovy-dublovice-lichovy.html;None;None;49.676601;14.318371;None;None
+Hospoda Kluky;Středočeský;https://www.firmy.cz/detail/13133973-hospoda-kluky-kluky.html;None;None;49.907471;15.325210;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13797767-hospoda-na-hristi-holubice.html;3;1;50.204391;14.296269;None;None
+Hostinec “U Střikačky”;Středočeský;https://www.firmy.cz/detail/13561215-hostinec-u-strikacky-pecky.html;3.6;7;50.090239;15.033307;None;None
+Restaurace Páleč;Středočeský;https://www.firmy.cz/detail/13117204-restaurace-palec-palec.html;None;None;50.312956;14.049177;None;None
+Hospůdka Bosyně;Středočeský;https://www.firmy.cz/detail/13863767-hospudka-bosyne-vysoka-bosyne.html;1;1;50.413996;14.549421;None;None
+Hospoda na hřišti Tišice;Středočeský;https://www.firmy.cz/detail/13877989-hospoda-na-hristi-tisice-tisice-chrast.html;4.8;3;50.262991;14.560412;None;None
+Pohostinství U Potápěče;Středočeský;https://www.firmy.cz/detail/611560-pohostinstvi-u-potapece-kysice.html;None;None;50.091224;14.107447;None;None
+Hostinec Slávie;Středočeský;https://www.firmy.cz/detail/13136165-hostinec-slavie-kolec.html;2.7;2;50.197851;14.225409;None;None
+Knajpa u Satana;Středočeský;https://www.firmy.cz/detail/13117459-knajpa-u-satana-klobuky-kokovice.html;None;None;50.296818;13.965292;None;None
+ANTOSH PUB
+Petr Tůma;Středočeský;https://www.firmy.cz/detail/13002864-antosh-pub-mnichovo-hradiste.html;2.9;3;50.525940;14.973941;None;None
+Hostinec U Kocoura;Středočeský;https://www.firmy.cz/detail/13010478-hostinec-u-kocoura-vranany.html;3.6;3;50.316457;14.359864;None;None
+Pohostinství Srbice;Středočeský;https://www.firmy.cz/detail/13134936-pohostinstvi-srbice-votice-srbice.html;None;None;49.647865;14.628884;None;None
+Irish Pub Down The Street;Středočeský;https://www.firmy.cz/detail/13011924-irish-pub-down-the-street-pribram-vii.html;4.5;4;49.679146;13.990735;None;None
+Hospůdka Dřevák;Středočeský;https://www.firmy.cz/detail/13657877-hospudka-drevak-sadska.html;4;1;50.151602;14.980587;None;None
+Restaurace u Svatého Václava;Středočeský;https://www.firmy.cz/detail/13137933-restaurace-u-svateho-vaclava-dretovice.html;4.3;7;50.184039;14.208622;None;None
+Hostinec Pod Kovárnou;Středočeský;https://www.firmy.cz/detail/13050840-hostinec-pod-kovarnou-neveklov-jablonna.html;4.6;8;49.780423;14.450593;None;None
+SOUKROMÝ KLUB NA BAMBOUSKU;Středočeský;https://www.firmy.cz/detail/13140500-soukromy-klub-na-bambousku-morina.html;4.2;9;49.954184;14.206700;None;None
+Restaurace u stadionu;Středočeský;https://www.firmy.cz/detail/13117811-restaurace-u-stadionu-benatky-nad-jizerou-iii.html;None;None;50.290027;14.818203;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13353132-hospoda-na-hristi-podebrady-iii.html;4;1;50.141952;15.139278;None;None
+Hostinec v Rudě;Středočeský;https://www.firmy.cz/detail/13484646-hostinec-v-rude-ruda.html;None;None;50.138674;13.877755;None;None
+Pivnice U Seckých;Středočeský;https://www.firmy.cz/detail/12735357-pivnice-u-seckych-kladno-krocehlavy.html;4.8;5;50.144986;14.119448;None;None
+Hospoda U Vasila;Středočeský;https://www.firmy.cz/detail/13111605-hospoda-u-vasila-cervene-pecky-bohounovice-i.html;4.7;20;49.977056;15.180975;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13277257-hospoda-na-hristi-tuchoraz.html;4.5;10;50.047206;14.850591;None;None
+Obecní hospoda Konětopy;Středočeský;https://www.firmy.cz/detail/13817459-obecni-hospoda-konetopy-konetopy.html;None;None;50.274767;14.655283;None;None
+Fotbal Club;Středočeský;https://www.firmy.cz/detail/13130707-fotbal-club-stochov.html;None;None;50.147264;13.950498;None;None
+Hospoda Pod Lipami;Středočeský;https://www.firmy.cz/detail/13265800-hospoda-pod-lipami-kralupy-nad-vltavou-zemechy.html;5;1;50.229760;14.267601;None;None
+Hospůdka na Marvánku;Středočeský;https://www.firmy.cz/detail/13339415-hospudka-na-marvanku-ricany.html;4;51;49.984178;14.658966;None;None
+Hospoda Na Poustce 144;Středočeský;https://www.firmy.cz/detail/13110381-hospoda-na-poustce-144-jinocany.html;4.3;5;50.034348;14.265378;None;None
+Jakubova krčma;Středočeský;https://www.firmy.cz/detail/13880731-jakubova-krcma-petrovice-obdenice.html;4.5;1;49.550878;14.375789;None;None
+Hostinec u Mašinky;Středočeský;https://www.firmy.cz/detail/13009790-hostinec-u-masinky-zadni-treban.html;4.5;39;49.918552;14.203146;None;None
+Hospoda u Renči;Středočeský;https://www.firmy.cz/detail/13117314-hospoda-u-renci-marsovice-zderadice.html;None;None;49.729710;14.560562;None;None
+Hospoda u Rybníků;Středočeský;https://www.firmy.cz/detail/13110423-hospoda-u-rybniku-brezi.html;5;3;50.012468;14.702030;None;None
+Hospoda Na Žabkách;Středočeský;https://www.firmy.cz/detail/13872887-hospoda-na-zabkach-kacov.html;None;None;49.786363;15.003043;None;None
+Hospůdka a restaurace u Rytířů;Středočeský;https://www.firmy.cz/detail/12997989-hospudka-a-restaurace-u-rytiru-tocnik.html;3.6;35;49.887232;13.884279;None;None
+Hospůdka U Chlupáče;Středočeský;https://www.firmy.cz/detail/13011626-hospudka-u-chlupace-kovanice-chvalovice.html;5;12;50.163924;15.082141;None;None
+Hospůdka Na Růžku;Středočeský;https://www.firmy.cz/detail/13242201-hospudka-na-ruzku-nymburk.html;4.6;27;50.190122;15.054175;None;None
+Hostinec Chorušice;Středočeský;https://www.firmy.cz/detail/13911700-hostinec-chorusice-chorusice.html;None;None;50.391031;14.671677;None;None
+Hostinec Antonín Barták;Středočeský;https://www.firmy.cz/detail/13252204-hostinec-antonin-bartak-nespeky-mestecko.html;4.7;164;49.851835;14.675122;None;None
+Hospoda Malešov;Středočeský;https://www.firmy.cz/detail/13140335-hospoda-malesov-malesov.html;1;1;49.905853;15.227864;None;None
+Hostinec na Růžku;Středočeský;https://www.firmy.cz/detail/13768001-hostinec-na-ruzku-osecany.html;4.6;19;49.698228;14.438143;None;None
+Hospůdka u Miládky;Středočeský;https://www.firmy.cz/detail/12937279-hospudka-u-miladky-kaliste-lensedly.html;4.8;9;49.894349;14.751312;None;None
+Hostinec Na Staré Poště;Středočeský;https://www.firmy.cz/detail/13631354-hostinec-na-stare-poste-kamenny-privoz.html;3.5;11;49.861001;14.503591;None;None
+Klub u veselého kuchaře;Středočeský;https://www.firmy.cz/detail/13647929-klub-u-veseleho-kuchare-chyne.html;None;None;50.060827;14.226907;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13177615-hospoda-na-hristi-mnichovo-hradiste.html;4.7;3;50.526505;14.967781;None;None
+Hospoda Na Plovárně;Středočeský;https://www.firmy.cz/detail/13269212-hospoda-na-plovarne-hlasna-treban.html;5;4;49.923014;14.182488;None;None
+Hospoda na Bucku, s.r.o.;Středočeský;https://www.firmy.cz/detail/13849922-hospoda-na-bucku-trtice.html;4.9;6;50.173047;13.845897;None;None
+Hospůdka Čechie;Středočeský;https://www.firmy.cz/detail/13122604-hospudka-cechie-kralupy-nad-vltavou.html;4.7;2;50.242568;14.323771;None;None
+Úžická hospůdka;Středočeský;https://www.firmy.cz/detail/13661405-uzicka-hospudka-uzice.html;None;None;50.251622;14.378741;None;None
+Hospoda Na Plácku;Středočeský;https://www.firmy.cz/detail/13417979-hospoda-na-placku-zdiby-premysleni.html;5;1;50.161583;14.409623;None;None
+U sazenské jedenáctky;Středočeský;https://www.firmy.cz/detail/13136103-u-sazenske-jedenactky-sazena.html;4;1;50.306033;14.289987;None;None
+Hospoda u hřiště;Středočeský;https://www.firmy.cz/detail/13118410-hospoda-u-hriste-cervene-pecky.html;4.3;4;49.985132;15.209868;None;None
+Rouspůdka;Středočeský;https://www.firmy.cz/detail/13849271-rouspudka-slabce-rousinov.html;None;None;50.020694;13.676020;None;None
+Obecní hospoda Chodouň;Středočeský;https://www.firmy.cz/detail/13371257-obecni-hospoda-chodoun-chodoun.html;4.5;1;49.897845;13.984717;None;None
+Hospoda Bezovka;Středočeský;https://www.firmy.cz/detail/13725900-hospoda-bezovka-bzova.html;None;None;49.897319;13.867662;None;None
+Posezení u Milouše;Středočeský;https://www.firmy.cz/detail/13010509-posezeni-u-milouse-melnik.html;2;1;50.359327;14.481097;None;None
+Hospoda Žebrák 9;Středočeský;https://www.firmy.cz/detail/13118340-hospoda-zebrak-9-zebrak-sedlec.html;None;None;49.866689;13.908000;None;None
+Hospoda Veliká Ves;Středočeský;https://www.firmy.cz/detail/13011544-hospoda-velika-ves-velika-ves.html;5;2;50.243000;14.456225;None;None
+Hospoda pod Hrází;Středočeský;https://www.firmy.cz/detail/13241724-hospoda-pod-hrazi-popovice.html;5;1;49.694340;14.753459;None;None
+Hostinec U Zlatého Lva;Středočeský;https://www.firmy.cz/detail/13353022-hostinec-u-zlateho-lva-kutna-hora-sedlec.html;2.9;82;49.959393;15.289186;None;None
+KK U Závor;Středočeský;https://www.firmy.cz/detail/13528456-kk-u-zavor-karlstejn.html;5;3;49.931596;14.180353;None;None
+Občerstvení na hřišti Církvice;Středočeský;https://www.firmy.cz/detail/13113633-obcerstveni-na-hristi-cirkvice-cirkvice-jakub.html;None;None;49.948148;15.341322;None;None
+Hospoda u Lucyka;Středočeský;https://www.firmy.cz/detail/13663883-hospoda-u-lucyka-kokorin.html;4.3;19;50.430514;14.565774;None;None
+Hospoda Na růžku;Středočeský;https://www.firmy.cz/detail/13521068-hospoda-na-ruzku-vseradice.html;4.8;2;49.874615;14.108220;None;None
+Hostinec Janina - Radíč;Středočeský;https://www.firmy.cz/detail/13110632-hostinec-janina-radic-radic.html;4.5;1;49.716047;14.414898;None;None
+Hospoda Na Náměstí;Středočeský;https://www.firmy.cz/detail/13675067-hospoda-na-namesti-prezletice.html;5;3;50.156449;14.575813;None;None
+Pivní aréna U Houdů;Středočeský;https://www.firmy.cz/detail/244968-pivni-arena-u-houdu-vlasim.html;5;1;49.709462;14.901197;None;None
+Hospoda Na Hatích;Středočeský;https://www.firmy.cz/detail/13120146-hospoda-na-hatich-horni-bezdekov.html;4.7;5;50.081867;14.068735;None;None
+Hostinec U Barchánků;Středočeský;https://www.firmy.cz/detail/13033165-hostinec-u-barchanku-morinka.html;4.7;17;49.938403;14.235944;None;None
+Hospůdka na Návsi;Středočeský;https://www.firmy.cz/detail/13857044-hospudka-na-navsi-oboriste.html;5;1;49.742575;14.152222;None;None
+Hospůdka na hřišti;Středočeský;https://www.firmy.cz/detail/13066274-hospudka-na-hristi-prerov-nad-labem.html;None;None;50.167258;14.824883;None;None
+Hospoda u Sudu;Středočeský;https://www.firmy.cz/detail/13011624-hospoda-u-sudu-kosik-tuchom.html;4.9;23;50.326295;15.140572;None;None
+Restaurace Vracovice 1;Středočeský;https://www.firmy.cz/detail/13124574-restaurace-vracovice-1-vracovice.html;None;None;49.662456;14.934411;None;None
+Restaurace U Brožků;Středočeský;https://www.firmy.cz/detail/13023435-restaurace-u-brozku-kamenny-privoz-hosteradice.html;4.9;7;49.861876;14.492061;None;None
+Hospůdka U Potoka;Středočeský;https://www.firmy.cz/detail/13010972-hospudka-u-potoka-kosova-hora.html;4.8;3;49.653268;14.472318;None;None
+Hospůdka Libiš;Středočeský;https://www.firmy.cz/detail/13234857-hospudka-libis-libis.html;4.7;8;50.276605;14.497307;None;None
+Hostinec Na Františku;Středočeský;https://www.firmy.cz/detail/13118106-hostinec-na-frantisku-sedlec-prcice-vrchotice.html;None;None;49.543737;14.563420;None;None
+Hostinec U Černých;Středočeský;https://www.firmy.cz/detail/13134882-hostinec-u-cernych-berunice-vlkov-nad-lesy.html;5;4;50.204882;15.386207;None;None
+Hostinec Na Staré;Středočeský;https://www.firmy.cz/detail/13070441-hostinec-na-stare-liber.html;4.7;15;49.921430;14.478603;None;None
+Hospůdka Na návsi;Středočeský;https://www.firmy.cz/detail/13636454-hospudka-na-navsi-makotrasy.html;5;3;50.144446;14.215889;None;None
+Rybářka Sadská;Středočeský;https://www.firmy.cz/detail/13659509-rybarka-sadska-sadska.html;4.4;6;50.158630;14.980629;None;None
+U Horvátů;Středočeský;https://www.firmy.cz/detail/12838232-u-horvatu-benatky-nad-jizerou-i.html;None;None;50.291958;14.826358;None;None
+Jdu na dvě;Středočeský;https://www.firmy.cz/detail/13815053-jdu-na-dve-vysoky-ujezd.html;5;4;49.995598;14.205206;None;None
+Hospoda U Pardála;Středočeský;https://www.firmy.cz/detail/13107061-hospoda-u-pardala-lazsko.html;5;1;49.623646;14.002219;None;None
+Hrušovská hospůdka;Středočeský;https://www.firmy.cz/detail/13591990-hrusovska-hospudka-hrusov.html;4;1;50.343765;14.849389;None;None
+Hospoda Zvánovice;Středočeský;https://www.firmy.cz/detail/13853771-hospoda-zvanovice-zvanovice.html;None;None;49.933318;14.778556;None;None
+Jídelna Čerčanská 94;Středočeský;https://www.firmy.cz/detail/13137683-jidelna-cercanska-94-porici-nad-sazavou.html;4.8;2;49.837617;14.675538;None;None
+Pivnice Bingo u kolejí;Středočeský;https://www.firmy.cz/detail/2465415-pivnice-bingo-u-koleji-mlada-boleslav-ii.html;5;1;50.420145;14.913393;None;None
+Tankovna U Pšeničků;Středočeský;https://www.firmy.cz/detail/12979841-tankovna-u-psenicku-davle.html;3.2;7;49.896252;14.399764;None;None
+Doubravčická hospoda;Středočeský;https://www.firmy.cz/detail/13048059-doubravcicka-hospoda-doubravcice.html;4.7;13;50.022832;14.791415;None;None
+Hospůdka U Sokola;Středočeský;https://www.firmy.cz/detail/13032982-hospudka-u-sokola-umyslovice.html;5;1;50.203372;15.175950;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13373323-hospoda-na-hristi-kly-lom.html;5;2;50.314302;14.515628;None;None
+Hostinec Na baště;Středočeský;https://www.firmy.cz/detail/2469598-hostinec-na-baste-veltruby.html;None;None;50.071060;15.185102;None;None
+Hospoda U kapličky;Středočeský;https://www.firmy.cz/detail/12921082-hospoda-u-kaplicky-chrastany.html;None;None;49.792538;14.586662;None;None
+HOSTINEC U PRIMASŮ;Středočeský;https://www.firmy.cz/detail/13451942-hostinec-u-primasu-blevice.html;4.7;5;50.209945;14.235793;None;None
+Na Skále;Středočeský;https://www.firmy.cz/detail/13202401-na-skale-caslav-nove-mesto.html;5;3;49.902837;15.401615;None;None
+Hospoda Jamajka;Středočeský;https://www.firmy.cz/detail/13779967-hospoda-jamajka-luzec-nad-vltavou.html;4;1;50.320099;14.407416;None;None
+Hospůdka U Lípy;Středočeský;https://www.firmy.cz/detail/13374634-hospudka-u-lipy-opolany-kanin.html;4.3;2;50.123239;15.202106;None;None
+Hospůdka Na Baště;Středočeský;https://www.firmy.cz/detail/675914-hospudka-na-baste-benatky-nad-jizerou-i.html;None;None;50.292013;14.827318;None;None
+Brdská Kozlovna;Středočeský;https://www.firmy.cz/detail/2566652-brdska-kozlovna-mnisek-pod-brdy.html;1;1;49.863519;14.237156;None;None
+Hospoda U Oťase;Středočeský;https://www.firmy.cz/detail/13118161-hospoda-u-otase-bystrice-drachkov.html;5;1;49.715022;14.621998;None;None
+Hospůdka Na Břežance - U Kuklů;Středočeský;https://www.firmy.cz/detail/13146056-hospudka-na-brezance-u-kuklu-dolni-brezany.html;4.7;6;49.969423;14.460684;None;None
+Nemyslovická hospoda;Středočeský;https://www.firmy.cz/detail/13666766-nemyslovicka-hospoda-nemyslovice.html;4;1;50.357999;14.763263;None;None
+Klub Starcovy lesní restaurace;Středočeský;https://www.firmy.cz/detail/13268621-klub-starcovy-lesni-restaurace-hradistko-pikovice.html;3.7;21;49.875166;14.446894;None;None
+Hospůdka na Vinici;Středočeský;https://www.firmy.cz/detail/13272696-hospudka-na-vinici-vinare-vinice.html;5;2;49.918449;15.491195;None;None
+Hostinec u Švestků;Středočeský;https://www.firmy.cz/detail/13824017-hostinec-u-svestku-hyskov.html;None;None;49.990630;14.052302;None;None
+Staročeská hospoda;Středočeský;https://www.firmy.cz/detail/13537267-staroceska-hospoda-zloncice.html;4;2;50.228967;14.360472;None;None
+Hostinec na Sladovně;Středočeský;https://www.firmy.cz/detail/13644662-hostinec-na-sladovne-velvary.html;None;None;50.280485;14.236194;None;None
+Hospoda U Hostů;Středočeský;https://www.firmy.cz/detail/13102657-hospoda-u-hostu-liber.html;None;None;49.923068;14.480340;None;None
+U Vodvárků;Středočeský;https://www.firmy.cz/detail/13134873-u-vodvarku-kolin-v.html;4.7;11;50.033700;15.203412;None;None
+Hospůdka Do Dolů;Středočeský;https://www.firmy.cz/detail/13119836-hospudka-do-dolu-brezova-olesko-olesko.html;4.7;2;49.902351;14.410845;None;None
+Obecní Hospůdka Kostomlátky;Středočeský;https://www.firmy.cz/detail/13499744-obecni-hospudka-kostomlatky-kostomlatky.html;4.7;55;50.170177;14.981595;None;None
+Hostinec u Blanky;Středočeský;https://www.firmy.cz/detail/13022009-hostinec-u-blanky-zelizy.html;4.3;124;50.422559;14.463626;None;None
+Hostinec Dlouhá Lhota;Středočeský;https://www.firmy.cz/detail/13363167-hostinec-dlouha-lhota-marsovice-dlouha-lhota.html;4.8;7;49.740748;14.594142;None;None
+Hostinec U Krůtů;Středočeský;https://www.firmy.cz/detail/13116643-hostinec-u-krutu-kamyk-nad-vltavou.html;3.3;8;49.640707;14.256829;None;None
+Hospoda Dělnický dům;Středočeský;https://www.firmy.cz/detail/13532392-hospoda-delnicky-dum-pchery-humny.html;4.6;3;50.188830;14.110623;None;None
+Hospoda Lemberk;Středočeský;https://www.firmy.cz/detail/13370375-hospoda-lemberk-knezmost-drhleny.html;3.7;15;50.502226;15.079811;None;None
+Hostinec Na poště;Středočeský;https://www.firmy.cz/detail/420682-hostinec-na-poste-tynec-nad-sazavou-chrast-nad-sazavou.html;3;2;49.846665;14.554292;None;None
+Hospůdka Onomyšl;Středočeský;https://www.firmy.cz/detail/13769927-hospudka-onomysl-onomysl.html;None;None;49.899353;15.124354;None;None
+HOSPODA U TUPOUNA;Středočeský;https://www.firmy.cz/detail/12978738-hospoda-u-tupouna-kutna-hora-vnitrni-mesto.html;4.8;18;49.948757;15.272779;None;None
+Terezie Vartová;Středočeský;https://www.firmy.cz/detail/13146040-terezie-vartova-brandys-nad-labem-stara-boleslav-stara-boleslav.html;5;1;50.194520;14.679204;None;None
+Hostinec Na Staré Lubomíra Kincla;Středočeský;https://www.firmy.cz/detail/13557066-hostinec-na-stare-lubomira-kincla-drinov.html;4.6;5;50.274179;14.395745;None;None
+Hostinec Tupadly;Středočeský;https://www.firmy.cz/detail/13141143-hostinec-tupadly-tupadly.html;None;None;49.870004;15.406082;None;None
+La Vidlička Mexicana;Středočeský;https://www.firmy.cz/detail/13563495-la-vidlicka-mexicana-chynice.html;4.5;19;49.995718;14.264201;None;None
+Hostinec u Bašusů;Středočeský;https://www.firmy.cz/detail/13065956-hostinec-u-basusu-planany.html;5;3;50.049983;15.029346;None;None
+Bundesvér u Cigiho;Středočeský;https://www.firmy.cz/detail/13136686-bundesver-u-cigiho-marsovice-mstetice.html;None;None;49.726278;14.541351;None;None
+Restaurace Na hřišti;Středočeský;https://www.firmy.cz/detail/567762-restaurace-na-hristi-brandys-nad-labem-stara-boleslav-brandys-nad-labem.html;5;3;50.190555;14.652978;None;None
+U Vojty na Volárně;Středočeský;https://www.firmy.cz/detail/13713870-u-vojty-na-volarne-volarna.html;None;None;50.091826;15.239799;None;None
+Hostinec Drážkov;Středočeský;https://www.firmy.cz/detail/13118194-hostinec-drazkov-svaty-jan-drazkov.html;5;1;49.650458;14.283764;None;None
+Na hřišti;Středočeský;https://www.firmy.cz/detail/13012221-na-hristi-nespeky.html;5;2;49.856538;14.664073;None;None
+HOSTINEC POD DŽBÁNEM;Středočeský;https://www.firmy.cz/detail/13114467-hostinec-pod-dzbanem-hredle.html;3.5;1;50.188195;13.748089;None;None
+Hospoda Dobřeň;Středočeský;https://www.firmy.cz/detail/13325366-hospoda-dobren-dobren.html;4.5;12;50.479199;14.556599;None;None
+Hostinec Na Růžku;Středočeský;https://www.firmy.cz/detail/568074-hostinec-na-ruzku-roztoky.html;5;10;50.165438;14.375249;None;None
+Hospoda Řehačka;Středočeský;https://www.firmy.cz/detail/13726122-hospoda-rehacka-lysa-nad-labem-bysicky.html;4.8;22;50.177710;14.808921;None;None
+Občerstvení u Weinlichů;Středočeský;https://www.firmy.cz/detail/13217409-obcerstveni-u-weinlichu-mseno-raj.html;4.3;21;50.465287;14.614343;None;None
+Klub přátel piva;Středočeský;https://www.firmy.cz/detail/13518611-klub-pratel-piva-vlkanec-pribyslavice.html;5;1;49.842249;15.405734;None;None
+Hospůdka U Kozla;Středočeský;https://www.firmy.cz/detail/13505775-hospudka-u-kozla-repin.html;4;1;50.368006;14.631878;None;None
+Hospoda Otmíče;Středočeský;https://www.firmy.cz/detail/13097047-hospoda-otmice-otmice.html;None;None;49.868009;13.947694;None;None
+Hostinec Na Zelené Louce;Středočeský;https://www.firmy.cz/detail/13376401-hostinec-na-zelene-louce-brezova.html;None;None;49.904197;13.882059;None;None
+Hospoda na hřišti;Středočeský;https://www.firmy.cz/detail/13610165-hospoda-na-hristi-zahornice.html;4.5;1;50.242466;15.296491;None;None
+Hospoda U Starosty;Středočeský;https://www.firmy.cz/detail/13806834-hospoda-u-starosty-chvateruby.html;None;None;50.232524;14.343128;None;None
+Kiosek Nenacovice;Středočeský;https://www.firmy.cz/detail/13204434-kiosek-nenacovice-nenacovice.html;3.8;16;50.018430;14.142470;None;None
+Obecní hospoda Křenek;Středočeský;https://www.firmy.cz/detail/13507398-obecni-hospoda-krenek-krenek.html;4.7;5;50.229548;14.629627;None;None
+Hospůdka Na Kovárně;Středočeský;https://www.firmy.cz/detail/13133724-hospudka-na-kovarne-lasovice.html;5;9;50.055195;13.782749;None;None
+Koupák Neratovice;Středočeský;https://www.firmy.cz/detail/13288871-koupak-neratovice-neratovice.html;4.6;7;50.257774;14.523968;None;None
+Restaurace Vinařice 93;Středočeský;https://www.firmy.cz/detail/13125399-restaurace-vinarice-93-vinarice.html;None;None;50.374004;14.953774;None;None
+Hostinec Bělušice 1;Středočeský;https://www.firmy.cz/detail/13118007-hostinec-belusice-1-belusice.html;None;None;50.070458;15.322754;None;None
+Hospoda Na hřišti;Středočeský;https://www.firmy.cz/detail/13304570-hospoda-na-hristi-uhonice.html;3;1;50.046447;14.179442;None;None
+Na Zápaďáku;Středočeský;https://www.firmy.cz/detail/12985764-na-zapadaku-horovice.html;3.1;2;49.832533;13.899493;None;None
+Hospoda pod kaštany;Středočeský;https://www.firmy.cz/detail/12951372-hospoda-pod-kastany-horni-kruty.html;1;1;49.919506;14.959470;None;None
+Na Rozkoši;Středočeský;https://www.firmy.cz/detail/1900577-na-rozkosi-kolin-v.html;4.3;3;50.032175;15.212412;None;None
+Stará hospoda U Bínů;Středočeský;https://www.firmy.cz/detail/13110832-stara-hospoda-u-binu-polni-chrcice.html;4.8;3;50.109625;15.298026;None;None
+Pivnice U Matěje;Středočeský;https://www.firmy.cz/detail/745390-pivnice-u-mateje-kladno-krocehlavy.html;4.2;6;50.132717;14.135761;None;None
+Hospoda Na radnici;Středočeský;https://www.firmy.cz/detail/13110277-hospoda-na-radnici-krivsoudov.html;5;1;49.631103;15.087090;None;None
+Petr Kubíček;Středočeský;https://www.firmy.cz/detail/13150813-petr-kubicek-tlustice.html;None;None;49.844483;13.886134;None;None
+Hostinec Na Patříně;Středočeský;https://www.firmy.cz/detail/13425845-hostinec-na-patrine-loucen-patrin.html;4.6;13;50.272901;15.013941;None;None
+Hostinec Na Osečku;Středočeský;https://www.firmy.cz/detail/12842306-hostinec-na-osecku-osecek.html;4.4;26;50.104092;15.158686;None;None
+Hospůdka Na Růžku;Středočeský;https://www.firmy.cz/detail/13215989-hospudka-na-ruzku-hovorcovice.html;5;1;50.178857;14.517883;None;None
+Hostinec U Smrků;Středočeský;https://www.firmy.cz/detail/13257192-hostinec-u-smrku-mezno.html;5;6;49.534741;14.644655;None;None
+BUKOLSKÁ RYCHTA;Středočeský;https://www.firmy.cz/detail/12997150-bukolska-rychta-vojkovice-bukol.html;4.8;35;50.314522;14.392837;None;None
+Velkej Cajk;Středočeský;https://www.firmy.cz/detail/13290921-velkej-cajk-mnichovo-hradiste.html;4.3;2;50.526619;14.971232;None;None
+Seletická hospoda;Středočeský;https://www.firmy.cz/detail/13662728-seleticka-hospoda-seletice.html;4.9;41;50.323276;15.093804;None;None
+Hospoda v Jiřině;Středočeský;https://www.firmy.cz/detail/13901668-hospoda-v-jirine-celakovice.html;None;None;50.167299;14.766298;None;None
+Hospoda Na návsi;Středočeský;https://www.firmy.cz/detail/13584384-hospoda-na-navsi-slustice.html;4.8;3;50.039248;14.684867;None;None
+Hostinec Na Hřišti;Středočeský;https://www.firmy.cz/detail/2467609-hostinec-na-hristi-velim.html;5;2;50.061939;15.114492;None;None
+Hospoda - Na hřišti;Středočeský;https://www.firmy.cz/detail/13556229-hospoda-na-hristi-vinarice.html;5;1;50.174881;14.096219;None;None
+Hostinec u Kelta;Středočeský;https://www.firmy.cz/detail/13503006-hostinec-u-kelta-nizbor-stradonice.html;3;3;49.992302;14.022207;None;None
+Restaurace na Hřišti;Středočeský;https://www.firmy.cz/detail/13601179-restaurace-na-hristi-dolany-nad-vltavou.html;5;2;50.224642;14.349547;None;None
+U Erby;Středočeský;https://www.firmy.cz/detail/13272107-u-erby-velka-bukova.html;4;11;50.019741;13.858070;None;None
+Dřevník u Horníčku;Středočeský;https://www.firmy.cz/detail/13748001-drevnik-u-hornicku-kutna-hora-sipsi.html;5;1;49.959462;15.274351;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13520708-hospudka-na-hristi-sibrina.html;3.5;1;50.054253;14.672509;None;None
+HOSPŮDKA NA NÁVSI;Středočeský;https://www.firmy.cz/detail/13759105-hospudka-na-navsi-cetyne.html;None;None;49.599727;14.121006;None;None
+Spolek U Mamuta;Středočeský;https://www.firmy.cz/detail/13371845-spolek-u-mamuta-kladno-krocehlavy.html;3.7;3;50.137512;14.103316;None;None
+Borek Original;Středočeský;https://www.firmy.cz/detail/13454027-borek-original-borek.html;4.6;50;50.221893;14.644085;None;None
+Sport Bar Fanatic;Středočeský;https://www.firmy.cz/detail/13118558-sport-bar-fanatic-kutna-hora-hlouska.html;5;3;49.953056;15.276898;None;None
+U Brejníků;Středočeský;https://www.firmy.cz/detail/13116290-u-brejniku-doksy.html;5;1;50.118073;14.046366;None;None
+KD Hutě pod Třemšínem;Středočeský;https://www.firmy.cz/detail/13260955-kd-hute-pod-tremsinem-rozmital-pod-tremsinem-hute-pod-tremsinem.html;4.8;8;49.594135;13.812072;None;None
+Na Hřišti;Středočeský;https://www.firmy.cz/detail/13156225-na-hristi-psary.html;4.3;6;49.936209;14.511928;None;None
+Hruškovna;Středočeský;https://www.firmy.cz/detail/13849460-hruskovna-kutna-hora-zizkov.html;5;3;49.952483;15.262406;None;None
+Hostinec Zelený Strom;Středočeský;https://www.firmy.cz/detail/13109478-hostinec-zeleny-strom-rakovnik-i.html;5;1;50.106412;13.729818;None;None
+Hospoda U Vodáka;Středočeský;https://www.firmy.cz/detail/12990826-hospoda-u-vodaka-horka-ii.html;3;11;49.738574;15.128659;None;None
+Hospůdka u Šandů;Středočeský;https://www.firmy.cz/detail/13136209-hospudka-u-sandu-luzec-nad-vltavou.html;5;2;50.320748;14.402480;None;None
+Smíchovská Tankovna;Středočeský;https://www.firmy.cz/detail/13643348-smichovska-tankovna-benesov.html;5;1;49.783433;14.688264;None;None
+Knajpa U Čápa;Středočeský;https://www.firmy.cz/detail/13120497-knajpa-u-capa-benesov.html;5;2;49.784848;14.684972;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13110390-hospudka-na-hristi-dobris.html;5;1;49.776813;14.174965;None;None
+U Jezevců;Středočeský;https://www.firmy.cz/detail/13321493-u-jezevcu-lazne-tousen.html;4.6;36;50.171250;14.721585;None;None
+Hospoda Pičín;Středočeský;https://www.firmy.cz/detail/13036904-hospoda-picin-picin.html;3.1;2;49.744002;14.058563;None;None
+Hostinec Drahouš;Středočeský;https://www.firmy.cz/detail/13116079-hostinec-drahous-drahous.html;4.8;15;50.078829;13.474474;None;None
+Hostinec u Bruthansů;Středočeský;https://www.firmy.cz/detail/13117482-hostinec-u-bruthansu-vrbcany.html;3.3;10;50.050355;14.990850;None;None
+Občerstvení Veslák;Středočeský;https://www.firmy.cz/detail/12887783-obcerstveni-veslak-nymburk.html;4.7;19;50.184172;15.054411;None;None
+Pohostinství U Dubu;Středočeský;https://www.firmy.cz/detail/13064724-pohostinstvi-u-dubu-laz.html;4.1;6;49.652648;13.912708;None;None
+Hostinec U Antošů;Středočeský;https://www.firmy.cz/detail/2205555-hostinec-u-antosu-jirny.html;4.6;22;50.115958;14.698307;None;None
+Sport bar Václavák;Středočeský;https://www.firmy.cz/detail/13069332-sport-bar-vaclavak-kladno-krocehlavy.html;None;None;50.132425;14.119448;None;None
+Hospoda Obecná ŠKOLA;Středočeský;https://www.firmy.cz/detail/13372883-hospoda-obecna-skola-hrebecniky-tyrovice.html;5;4;49.980249;13.785669;None;None
+U Žižky;Středočeský;https://www.firmy.cz/detail/13116921-u-zizky-chorusice-velky-ujezd.html;4.7;2;50.410021;14.630690;None;None
+Hospůdka U Pepeho;Středočeský;https://www.firmy.cz/detail/13110062-hospudka-u-pepeho-neratovice.html;None;None;50.254598;14.495468;None;None
+Hospoda Na Kopečku;Středočeský;https://www.firmy.cz/detail/13111424-hospoda-na-kopecku-tynec-nad-sazavou-pecerady.html;4.5;1;49.840966;14.615081;None;None
+Hostinec U Šimků;Středočeský;https://www.firmy.cz/detail/13866503-hostinec-u-simku-cista.html;5;1;50.027939;13.570382;None;None
+Hospoda Na Hřišti;Středočeský;https://www.firmy.cz/detail/13011332-hospoda-na-hristi-kosorice.html;1;1;50.330386;14.966525;None;None
+Pohostinství Na Hřišti;Středočeský;https://www.firmy.cz/detail/13080764-pohostinstvi-na-hristi-mlada-boleslav.html;5;3;50.412172;14.886576;None;None
+Hostinec na Vidláku;Středočeský;https://www.firmy.cz/detail/12948798-hostinec-na-vidlaku-cerniny.html;3.6;8;49.841756;15.207574;None;None
+Stará hospoda;Středočeský;https://www.firmy.cz/detail/2112822-stara-hospoda-vysoky-chlumec.html;4.5;4;49.617667;14.389049;None;None
+Slovan Velvary;Středočeský;https://www.firmy.cz/detail/13641833-slovan-velvary-velvary.html;5;2;50.281665;14.230269;None;None
+Hospoda U Divočáka;Středočeský;https://www.firmy.cz/detail/13098474-hospoda-u-divocaka-stremy-jenichov.html;3.5;1;50.375327;14.587691;None;None
+HOSTINEC NA HŘIŠTI;Středočeský;https://www.firmy.cz/detail/13017685-hostinec-na-hristi-zaryby.html;5;1;50.217291;14.627683;None;None
+Obecní hospůdka Hostín;Středočeský;https://www.firmy.cz/detail/13614998-obecni-hospudka-hostin-hostin.html;4.6;20;50.340790;14.588057;None;None
+U Pavlíčků;Středočeský;https://www.firmy.cz/detail/13846229-u-pavlicku-kolin-vi.html;4.2;2;50.018956;15.180949;None;None
+Hospůdka Týnec;Středočeský;https://www.firmy.cz/detail/13780784-hospudka-tynec-tynec-nad-sazavou.html;5;4;49.832126;14.593952;None;None
+KioSýk - občerstvení na fotbalovém hřišti;Středočeský;https://www.firmy.cz/detail/13365947-kiosyk-obcerstveni-na-fotbalovem-hristi-sykorice.html;4.9;4;50.031236;13.930574;None;None
+HOSPODA U MENCLŮ;Středočeský;https://www.firmy.cz/detail/13368480-hospoda-u-menclu-bzova.html;5;4;49.899007;13.860938;None;None
+Hospoda Country Bar;Středočeský;https://www.firmy.cz/detail/12811738-hospoda-country-bar-mnichovo-hradiste.html;4.4;2;50.523209;14.977739;None;None
+Pivnice Sokolovna;Středočeský;https://www.firmy.cz/detail/13254243-pivnice-sokolovna-kostomlaty-nad-labem.html;3;2;50.184362;14.958337;None;None
+Hospoda U Václava Mazance;Středočeský;https://www.firmy.cz/detail/13751431-hospoda-u-vaclava-mazance-vranovice.html;4.7;20;49.623856;13.899654;None;None
+Hospůdka Bouda;Středočeský;https://www.firmy.cz/detail/13684769-hospudka-bouda-dobren-strezivojice.html;4.8;52;50.490996;14.556052;None;None
+Pohostinství U Kavalírů;Středočeský;https://www.firmy.cz/detail/421481-pohostinstvi-u-kavaliru-knezmost-suhrovice.html;4.9;23;50.490707;15.058179;None;None
+Hospoda U Kapličky;Středočeský;https://www.firmy.cz/detail/13119608-hospoda-u-kaplicky-vrdy.html;None;None;49.921858;15.472256;None;None
+Hospůdka U Šacha;Středočeský;https://www.firmy.cz/detail/13732734-hospudka-u-sacha-beroun-mesto.html;None;None;49.967637;14.064662;None;None
+Dušan Pešek;Středočeský;https://www.firmy.cz/detail/13867361-dusan-pesek-polepy.html;None;None;50.006801;15.205099;None;None
+Hostinec Trubská;Středočeský;https://www.firmy.cz/detail/13145796-hostinec-trubska-trubska.html;5;2;49.955238;13.997364;None;None
+Obecní hospůdka;Středočeský;https://www.firmy.cz/detail/13132548-obecni-hospudka-veltruby.html;1;1;50.067189;15.181497;None;None
+Bukovská hospůdka;Středočeský;https://www.firmy.cz/detail/12969092-bukovska-hospudka-vesin-bukova.html;4.5;7;49.627605;13.822908;None;None
+Hostinec na Špýchaře;Středočeský;https://www.firmy.cz/detail/13763042-hostinec-na-spychare-cirkvice-jakub.html;5;2;49.951837;15.337158;None;None
+Hospoda na hřišti;Středočeský;https://www.firmy.cz/detail/13516841-hospoda-na-hristi-mnisek-pod-brdy.html;None;None;49.870557;14.264751;None;None
+Hostinec Na Radnici;Středočeský;https://www.firmy.cz/detail/12718184-hostinec-na-radnici-marsovice.html;4.5;1;49.713879;14.564864;None;None
+Hostinec U Martina;Středočeský;https://www.firmy.cz/detail/2465941-hostinec-u-martina-kly.html;4.8;30;50.308599;14.503911;None;None
+Baráčnická Rychta;Středočeský;https://www.firmy.cz/detail/13890802-baracnicka-rychta-revnicov.html;None;None;50.184158;13.804012;None;None
+Hostinec Hronětice;Středočeský;https://www.firmy.cz/detail/13114628-hostinec-hronetice-kostomlaty-nad-labem-hronetice.html;None;None;50.203396;14.949417;None;None
+Klub Oplany;Středočeský;https://www.firmy.cz/detail/13094837-klub-oplany-oplany.html;5;1;49.924842;14.866591;None;None
+Hospoda U Josefa;Středočeský;https://www.firmy.cz/detail/13142985-hospoda-u-josefa-mokrovraty.html;4.7;3;49.796422;14.250621;None;None
+SK MARINA CHÝŠE;Středočeský;https://www.firmy.cz/detail/13119157-sk-marina-chyse-davle-sazava.html;4.4;6;49.887202;14.397071;None;None
+Hospůdka na Václaváku;Středočeský;https://www.firmy.cz/detail/13731402-hospudka-na-vaclavaku-knezeves.html;None;None;50.146041;13.636782;None;None
+Hospoda U Kocánků;Středočeský;https://www.firmy.cz/detail/13663961-hospoda-u-kocanku-hradistko.html;4.2;17;50.167089;14.937488;None;None
+Restaurace Kochmanka;Středočeský;https://www.firmy.cz/detail/13150718-restaurace-kochmanka-kralupy-nad-vltavou.html;3.6;3;50.238631;14.302902;None;None
+Hospůdka Jizera;Středočeský;https://www.firmy.cz/detail/13470863-hospudka-jizera-predmerice-nad-jizerou.html;5;2;50.254219;14.776790;None;None
+Hospoda Montgomery;Středočeský;https://www.firmy.cz/detail/13288796-hospoda-montgomery-mukarov-zernovka.html;4.5;3;50.000691;14.757036;None;None
+Hostinec U Součků;Středočeský;https://www.firmy.cz/detail/13358828-hostinec-u-soucku-cisovice-bojov.html;4.8;44;49.880275;14.349087;None;None
+Hospoda Na Baště;Středočeský;https://www.firmy.cz/detail/13123029-hospoda-na-baste-kutna-hora-kank.html;3.2;2;49.979208;15.271665;None;None
+Hospoda Jitřenka;Středočeský;https://www.firmy.cz/detail/13118384-hospoda-jitrenka-praskolesy.html;2.7;2;49.867339;13.931878;None;None
+Hospoda u Petra;Středočeský;https://www.firmy.cz/detail/13010374-hospoda-u-petra-vlacice-vycapy.html;5;1;49.943352;15.447507;None;None
+Hospůdka Mořina;Středočeský;https://www.firmy.cz/detail/13854479-hospudka-morina-morina.html;5;2;49.952026;14.219396;None;None
+Club na ranči v Dýbí;Středočeský;https://www.firmy.cz/detail/13182401-club-na-ranci-v-dybi-bratronice-dolni-bezdekov.html;5;1;50.084698;14.035406;None;None
+HOSPŮDKA NA NÁVSI;Středočeský;https://www.firmy.cz/detail/13016071-hospudka-na-navsi-stremy.html;5;1;50.383589;14.564741;None;None
+Hostinec u Čapoše;Středočeský;https://www.firmy.cz/detail/13126828-hostinec-u-capose-melnik.html;3.8;3;50.371609;14.497807;None;None
+Kabina Jirčany;Středočeský;https://www.firmy.cz/detail/13304970-kabina-jircany-psary-dolni-jircany.html;4.7;2;49.948407;14.526788;None;None
+Restaurace Na hřišti;Středočeský;https://www.firmy.cz/detail/13150045-restaurace-na-hristi-nucice.html;5;3;50.015179;14.227642;None;None
+Hostinec U Cmíralů;Středočeský;https://www.firmy.cz/detail/13125271-hostinec-u-cmiralu-hermanicky.html;4.8;4;49.608276;14.582586;None;None
+Hostinec Kass;Středočeský;https://www.firmy.cz/detail/13010371-hostinec-kass-vrdy-dolni-bucice.html;5;2;49.925307;15.461575;None;None
+Hospoda U Oty;Středočeský;https://www.firmy.cz/detail/316664-hospoda-u-oty-osek.html;5;2;49.819898;13.859637;None;None
+Hospoda Podělusy;Středočeský;https://www.firmy.cz/detail/13791704-hospoda-podelusy-tynec-nad-sazavou-podelusy.html;4.5;1;49.836274;14.574355;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13571232-hospudka-na-hristi-svetice.html;None;None;49.971858;14.666329;None;None
+Hostinec U Jelena;Středočeský;https://www.firmy.cz/detail/13011656-hostinec-u-jelena-hlavenec.html;4.6;104;50.239029;14.702332;None;None
+Hostinec U Bílého Žida;Středočeský;https://www.firmy.cz/detail/13080310-hostinec-u-bileho-zida-tuhan.html;4.2;8;50.294884;14.516348;None;None
+Branická hospoda Tehov;Středočeský;https://www.firmy.cz/detail/13182781-branicka-hospoda-tehov-tehov.html;None;None;49.971049;14.693498;None;None
+Pivnice Panský mlýn;Středočeský;https://www.firmy.cz/detail/2604252-pivnice-pansky-mlyn-rakovnik-ii.html;None;None;50.105776;13.721735;None;None
+Hospůdka Na hřišti;Středočeský;https://www.firmy.cz/detail/13664378-hospudka-na-hristi-hrebec.html;4.3;5;50.132933;14.163736;None;None
+Restaurace na parkovišti;Středočeský;https://www.firmy.cz/detail/13031360-restaurace-na-parkovisti-krivoklat.html;3.9;41;50.036960;13.876520;None;None
+Hostinec u Svaté Anny;Středočeský;https://www.firmy.cz/detail/12790939-hostinec-u-svate-anny-krecovice-nahoruby.html;4.7;2;49.739454;14.443746;None;None
+Hospůdka U Kocoura;Středočeský;https://www.firmy.cz/detail/13209725-hospudka-u-kocoura-tisice-kozly.html;4;6;50.254027;14.560687;None;None
+Kolešovský Hostinec;Středočeský;https://www.firmy.cz/detail/13840613-kolesovsky-hostinec-kolesov.html;None;None;50.157980;13.509395;None;None
+Hostinec Milčice;Středočeský;https://www.firmy.cz/detail/13109764-hostinec-milcice-milcice.html;None;None;50.104935;14.993124;None;None
+Hostinec Podolánka;Středočeský;https://www.firmy.cz/detail/13861593-hostinec-podolanka-podolanka.html;4.8;2;50.156594;14.599400;None;None
+Hospoda na hřišti;Středočeský;https://www.firmy.cz/detail/13491068-hospoda-na-hristi-ostra.html;4.9;9;50.184504;14.894202;None;None
+Hospoda Poděbradská 7;Středočeský;https://www.firmy.cz/detail/13119413-hospoda-podebradska-7-sokolec.html;5;4;50.097293;15.106648;None;None
+Hospoda Na Hřišti - Krhanice;Středočeský;https://www.firmy.cz/detail/13139455-hospoda-na-hristi-krhanice-krhanice.html;5;7;49.852142;14.557539;None;None
+Občerstvení u hřiště;Středočeský;https://www.firmy.cz/detail/13110799-obcerstveni-u-hriste-dobric.html;4.9;7;50.023214;14.260355;None;None
+Pohostinství U Heřmanů;Středočeský;https://www.firmy.cz/detail/13118794-pohostinstvi-u-hermanu-kozojedy.html;4.1;6;49.996189;14.813568;None;None
+Hospůdka Háčko;Středočeský;https://www.firmy.cz/detail/13110582-hospudka-hacko-kladno-krocehlavy.html;4.8;22;50.133755;14.126391;None;None
+U Šmejkalů;Středočeský;https://www.firmy.cz/detail/13374559-u-smejkalu-vysoky-chlumec-hrabri.html;4.1;5;49.631267;14.341283;None;None
+Hostinec u Vrbů;Středočeský;https://www.firmy.cz/detail/13116361-hostinec-u-vrbu-stasov.html;5;13;49.887151;13.954007;None;None
+Hospůdka Vlachovka;Středočeský;https://www.firmy.cz/detail/13123133-hospudka-vlachovka-sany.html;3.9;4;50.120832;15.241787;None;None
+Hospůdka na hřišti;Středočeský;https://www.firmy.cz/detail/13012478-hospudka-na-hristi-hrdlorezy.html;5;2;50.454084;14.874721;None;None
+Hospoda Na mostě;Středočeský;https://www.firmy.cz/detail/13113783-hospoda-na-moste-druzec.html;4.7;3;50.104109;14.049778;None;None
+Huu Tran Duc;Středočeský;https://www.firmy.cz/detail/13139413-huu-tran-duc-breznice.html;4.3;2;49.556839;13.952802;None;None
+Lepič s.r.o.;Středočeský;https://www.firmy.cz/detail/13154516-lepic-s-r-o-horesedly.html;5;1;50.162326;13.604042;None;None
+Hospůdka Káčko;Středočeský;https://www.firmy.cz/detail/13661498-hospudka-kacko-kladno-svermov.html;5;2;50.166481;14.107307;None;None
+Hospůdka Lipec 80;Středočeský;https://www.firmy.cz/detail/13117403-hospudka-lipec-80-lipec.html;4.7;2;50.083728;15.364525;None;None
+Podbrdská hospoda;Středočeský;https://www.firmy.cz/detail/12943723-podbrdska-hospoda-bratkovice-dominikalni-paseky.html;4.7;11;49.752282;13.994376;None;None
+Pub Na Hlavní;Středočeský;https://www.firmy.cz/detail/13724775-pub-na-hlavni-knezmost.html;None;None;50.491728;15.037274;None;None
+Hostinec Na Kopečku;Středočeský;https://www.firmy.cz/detail/2133261-hostinec-na-kopecku-kladruby.html;4.1;2;49.723268;14.950749;None;None
+Hostinec Na Návsi;Středočeský;https://www.firmy.cz/detail/13005362-hostinec-na-navsi-patek.html;4.8;6;50.164181;15.159249;None;None
+ZAHRADA;Středočeský;https://www.firmy.cz/detail/13197797-zahrada-mnichovo-hradiste.html;5;3;50.523749;14.973846;None;None
+Hospoda U Chlumčáka;Středočeský;https://www.firmy.cz/detail/13262578-hospoda-u-chlumcaka-jemniky.html;5;1;50.206036;14.117615;None;None
+Střezimířská hospoda;Středočeský;https://www.firmy.cz/detail/13667558-strezimirska-hospoda-strezimir.html;4.8;5;49.532751;14.609681;None;None
+Restaurace Řendějov 43;Středočeský;https://www.firmy.cz/detail/13122272-restaurace-rendejov-43-rendejov-jirice.html;4;1;49.771135;15.098228;None;None
+Pivnice Limonádový Jeliman;Středočeský;https://www.firmy.cz/detail/2461435-pivnice-limonadovy-jeliman-komarov.html;5;2;49.811248;13.852198;None;None
+Hostinec U Kyselů;Středočeský;https://www.firmy.cz/detail/13118594-hostinec-u-kyselu-pisty.html;4;20;50.165312;15.001670;None;None
+Hostinec U rybníka;Středočeský;https://www.firmy.cz/detail/13117990-hostinec-u-rybnika-hvozdnice.html;4.3;16;49.870999;14.370137;None;None
+Hospůdka Na Špýchaře;Středočeský;https://www.firmy.cz/detail/13135763-hospudka-na-spychare-potehy.html;4.2;2;49.869042;15.417787;None;None
+Hospoda U Šimků;Středočeský;https://www.firmy.cz/detail/13119050-hospoda-u-simku-pricovy.html;4.8;3;49.671883;14.390741;None;None
+HOSPŮDKA U HASIČE;Středočeský;https://www.firmy.cz/detail/13015863-hospudka-u-hasice-nova-ves-stare-ouholice.html;4.7;8;50.290126;14.321247;None;None
+Hospoda U Cinklý Pentle;Středočeský;https://www.firmy.cz/detail/13859453-hospoda-u-cinkly-pentle-chotec.html;None;None;49.985153;14.286448;None;None
+Hospůdka Na Hřišti;Středočeský;https://www.firmy.cz/detail/13349789-hospudka-na-hristi-broumy.html;5;12;49.953908;13.853752;None;None
+Kulturní dům Hříměždice;Středočeský;https://www.firmy.cz/detail/13119079-kulturni-dum-hrimezdice-hrimezdice.html;5;2;49.687401;14.275629;None;None
+Hospoda Studánka;Středočeský;https://www.firmy.cz/detail/13608245-hospoda-studanka-kladno-krocehlavy.html;None;None;50.131462;14.115226;None;None
+Klubovna SK Vyžlovka;Středočeský;https://www.firmy.cz/detail/13152021-klubovna-sk-vyzlovka-vyzlovka.html;3;2;49.983408;14.798934;None;None
+OBECNÍ HOSPŮDKA;Středočeský;https://www.firmy.cz/detail/13016068-obecni-hospudka-chorusice-chorousky.html;5;1;50.399546;14.663830;None;None
+Hospoda Na Návsi;Středočeský;https://www.firmy.cz/detail/13518566-hospoda-na-navsi-horesovice.html;None;None;50.271749;13.966855;None;None
+Hospoda Vranov;Středočeský;https://www.firmy.cz/detail/13824581-hospoda-vranov-vranov.html;4.2;7;49.852749;14.776569;None;None
+HOSPODA U MÁCHALA;Středočeský;https://www.firmy.cz/detail/13016106-hospoda-u-machala-horky-nad-jizerou.html;4.1;8;50.327285;14.857852;None;None
+Hostinec Komunál;Středočeský;https://www.firmy.cz/detail/2470771-hostinec-komunal-libusin.html;3.9;4;50.166471;14.054583;None;None
+Hospoda Na Materně;Středočeský;https://www.firmy.cz/detail/13674380-hospoda-na-materne-zercice.html;None;None;50.371734;15.034355;None;None
+Hospůdka Pod Lípou;Středočeský;https://www.firmy.cz/detail/13509083-hospudka-pod-lipou-dlouha-lhota.html;1.5;1;50.419957;15.054429;None;None
