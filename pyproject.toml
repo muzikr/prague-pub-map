@@ -29,6 +29,10 @@ dependencies = [
     "setuptools>=80.9.0",
     "ydata-profiling>=4.17.0",
     "selenium>=4.27.1",
+    "jupyter-cache>=1.0.1",
+    "contextily>=1.6.2",
+    "geopandas>=1.1.1",
+    "cartopy>=0.25.0",
 ]
 
 

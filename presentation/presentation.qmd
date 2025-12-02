@@ -11,13 +11,13 @@ execute:
     cache: true
 date: today
 format:
-    html:
-        toc: true
+    revealjs:
+        toc: false
         embed-resources: true
-        echo: true
-        code-fold: true
-        code-tools: true
-        code-summary: "Show code"
+        echo: false
+        code-fold: false
+        slide-number: true
+        smaller: true
 ---
 
 # Data
@@ -28,7 +28,7 @@ format:
 print("Hello, World!")
 ```
 
-## Loading
+## Prague
 
 ```{python}
 import pandas as pd
@@ -42,6 +42,9 @@ prague_pubs_df = pd.read_csv("../data/pub_urls_Prague.csv", sep=";")
 prague_pubs_df.head()
 
 ```
+
+## Czechia
+
 ```{python}
 # load all the czech region files into one dataframe.
 # The files are located in ../data/ and have names like pubs_urls_<region>.csv
@@ -264,33 +267,6 @@ def plot_rating_histogram(df, title):
   plt.grid(axis='y', alpha=0.75)
   plt.show()
 
-def print_min_max_rating(df):
-  # keep only rows with non-empty rating, one row per url
-  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
-  df_unique = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
-
-  # ensure rating is numeric
-  df_unique['rating_num'] = pd.to_numeric(df_unique['rating'], errors='coerce')
-  df_unique = df_unique[df_unique['rating_num'].notna()]
-
-  if df_unique.empty:
-    print("No ratings available.")
-    return
-
-  min_r = float(df_unique['rating_num'].min())
-  max_r = float(df_unique['rating_num'].max())
-
-  print(f"Minimum rating: {min_r}")
-  min_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), min_r)]
-  print(f"Number of pubs with minimum rating: {len(min_rows)}")
-  # print relevant columns
-  print(min_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
-
-  print(f"\nMaximum rating: {max_r}")
-  max_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), max_r)]
-  print(f"Number of pubs with maximum rating: {len(max_rows)}")
-  print(max_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
-
 def print_min_max_rating_filtered(df, minimal_reviews=10):
   # keep only rows with non-empty rating, one row per url
   mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
@@ -313,12 +289,12 @@ def print_min_max_rating_filtered(df, minimal_reviews=10):
   min_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), min_r)]
   print(f"Number of pubs with minimum rating: {len(min_rows)}")
   # print relevant columns
-  print(min_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
+  print(min_rows[['name','rating','number_of_reviews']].to_string(index=False))
 
   print(f"\nMaximum rating: {max_r}")
   max_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), max_r)]
   print(f"Number of pubs with maximum rating: {len(max_rows)}")
-  print(max_rows[['url','rating','rating_num','number_of_reviews']].to_string(index=False))
+  print(max_rows[['name','rating','number_of_reviews']].to_string(index=False))
 
 def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
   # keep only rows with non-empty rating, then one row per url
@@ -443,17 +419,16 @@ def print_min_max_price(df):
   print(f"Minimum average price: {min_p:.2f} Kč")
   min_rows = unique[np.isclose(unique['avg_price'].astype(float), min_p)]
   print(f"Number of pubs with minimum average price: {len(min_rows)}")
-  print(min_rows.reset_index()[['url','avg_price']].to_string(index=False))
+  print(min_rows.reset_index()[['name','avg_price']].to_string(index=False))
 
   print(f"\nMaximum average price: {max_p:.2f} Kč")
   max_rows = unique[np.isclose(unique['avg_price'].astype(float), max_p)]
   print(f"Number of pubs with maximum average price: {len(max_rows)}")
-  print(max_rows.reset_index()[['url','avg_price']].to_string(index=False))
+  print(max_rows.reset_index()[['name','avg_price']].to_string(index=False))
 ```
 
 
-:::{.panel-tabset}
-## Prague
+## Prague - basic analysis
 ```{python}
 analyze_df(prague_pubs_df)
 
@@ -467,60 +442,57 @@ print("Unique ratings:")
 print(prague_pubs_df['rating'].unique())
 ```
 
-Velikost puntiku podle poctu hodnoceni
-Histogram cen a hodnocení
-
-### Rating
-
-:::{.panel-tabset}
-## All
+## Prague - rating all
 ```{python}
 plot_all_pubs(prague_pubs_df, "Prague")
 ```
-## Filtered
+## Prague - rating filtered
 ```{python}
 plot_filter_rating(prague_pubs_df, "Prague")
 ```
-## Rated
+## Prague - rating rated
 ```{python}
 plot_rating(prague_pubs_df, "Prague")
 ```
-:::
+
+## Prague ratings
 
 ```{python}
 plot_rating_histogram(prague_pubs_df, "Prague")
 ```
 
+## Prague - best and worst
+
 ```{python}
-print_min_max_rating(prague_pubs_df)
+print_min_max_rating_filtered(prague_pubs_df,1)
 ```
+
+## Prague - best and worst without outliers
 
 ```{python}
 print_min_max_rating_filtered(prague_pubs_df)
 ```
 
-### Price
-
-:::{.panel-tabset}
-## All
+## Prague - price all
 ```{python}
 plot_all_pubs(prague_pubs_df, "Prague")
 ```
-## Filtered
+## Prague - price filtered
 ```{python}
 plot_filter_price(prague_pubs_df, "Prague")
 ```
-## Priced
+## Prague - price priced
 ```{python}
 plot_price(prague_pubs_df, "Prague")
 ```
-:::
+
+## Prague - price min/max average
 
 ```{python}
 print_min_max_price(prague_pubs_df)
 ```
 
-## Czechia
+## Czechia - basic analysis
 
 ```{python}
 analyze_df(czech_pubs_df)
@@ -528,58 +500,58 @@ analyze_df(czech_pubs_df)
 czech_pubs_df = czech_pubs_df.drop_duplicates()
 ```
 
-### Rating
-
-:::{.panel-tabset}
-## All
+## Czechia - rating all
 ```{python}
 plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
 ```
-## Filtered
+## Czechia - rating filtered
 ```{python}
 plot_filter_rating(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
 ```
-## Rated
+## Czechia - rating rated
 ```{python}
 plot_rating(czech_pubs_df, "Czechia", 15, 175)
 ```
-:::
+
+## Czechia ratings
 
 ```{python}
 plot_average_rating_per_region(czech_pubs_df)
 ```
 
+## Czechia rating histogram
+
 ```{python}
 plot_rating_histogram(czech_pubs_df, "Czechia")
 ```
 
+## Czechia - best and worst
+
 ```{python}
-print_min_max_rating(czech_pubs_df)
+print_min_max_rating_filtered(czech_pubs_df,1)
 ```
+
+## Czechia - best and worst without outliers
 
 ```{python}
 print_min_max_rating_filtered(czech_pubs_df)
 ```
 
-### Price
-
-:::{.panel-tabset}
-## All
+## Czechia - price all
 ```{python}
 plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
 ```
-## Filtered
+## Czechia - price filtered
 ```{python}
 plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
 ```
-## Priced
+## Czechia - price priced
 ```{python}
 plot_price(czech_pubs_df, "Czechia")
 ```
-:::
+
+## Czechia - price min/max average
 
 ```{python}
 print_min_max_price(czech_pubs_df)
 ```
-
-:::
