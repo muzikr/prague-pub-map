@@ -20,30 +20,15 @@ format:
         smaller: true
 ---
 
-# Data
+# Scraping
 
 ## Scraping of data
+- 14 regions
+- python, selenium
+- hurdles: shadow root, rating, time 
+- 14 processes for the win
 
-```{python}
-print("Hello, World!")
-```
-
-## Prague
-
-```{python}
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-MAX_WIDTH = 8
-
-prague_pubs_df = pd.read_csv("../data/pub_urls_Prague.csv", sep=";")
-prague_pubs_df.head()
-
-```
-
-## Czechia
+## Data
 
 ```{python}
 # load all the czech region files into one dataframe.
@@ -51,6 +36,14 @@ prague_pubs_df.head()
 # Additionaly add column with region name
 import os
 import glob
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+MAX_WIDTH = 8.5
+
+prague_pubs_df = pd.read_csv("../data/pub_urls_Prague.csv", sep=";")
 
 all_files = glob.glob("../data/pub_urls_*.csv")
 
@@ -62,7 +55,7 @@ for file in all_files:
     list_df.append(df)
 
 czech_pubs_df = pd.concat(list_df, ignore_index=True)
-czech_pubs_df.head()
+czech_pubs_df.head(3)
 ```
 
 ```{python}
@@ -93,7 +86,7 @@ def analyze_df(df):
     print(f"Number of unique pubs: {df.groupby('url').ngroups}")
     print(f"Number of missing values:\n{df.isna().sum()}")
 
-def plot_all_pubs(df, title, marker_size=30):
+def plot_all_pubs(df, title, marker_size=30, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # Convert your DataFrame into a GeoDataFrame
   # keep only one row per unique URL (first occurrence)
   df_unique = df.drop_duplicates(subset="url", keep="first")
@@ -108,7 +101,7 @@ def plot_all_pubs(df, title, marker_size=30):
   gdf = gdf.to_crs(epsg=3857)
 
   # Plot
-  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  fig, ax = plt.subplots(figsize=(width,height))
   gdf.plot(ax=ax, color="blue", alpha=0.7, markersize=marker_size)
 
   # Add basemap
@@ -119,7 +112,7 @@ def plot_all_pubs(df, title, marker_size=30):
   plt.ylabel("Latitude")
   plt.show()
 
-def plot_filter_rating(df, title, marker_size_dots=30, marker_size_x=40):
+def plot_filter_rating(df, title, marker_size_dots=30, marker_size_x=40, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # keep only rows with non-empty rating, then one row per url
   mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
   df_filtered = df[mask_rated]
@@ -142,7 +135,7 @@ def plot_filter_rating(df, title, marker_size_dots=30, marker_size_x=40):
   ).to_crs(epsg=3857)
 
   # Plot
-  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  fig, ax = plt.subplots(figsize=(width,height))
   # rated pubs (e.g., blue)
   gdf_rated.plot(ax=ax, color="blue", alpha=0.7, markersize=marker_size_dots, label="With rating")
   # unrated pubs as red points
@@ -157,7 +150,7 @@ def plot_filter_rating(df, title, marker_size_dots=30, marker_size_x=40):
   plt.legend()
   plt.show()
 
-def plot_rating(df, title, min_size=30, max_size=350):
+def plot_rating(df, title, min_size=30, max_size=350, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # keep only rows with non-empty rating, then one row per url
   mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
   df_filtered = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
@@ -186,7 +179,7 @@ def plot_rating(df, title, min_size=30, max_size=350):
   ).to_crs(epsg=3857)
 
   # Plot: color by rating (1 = red, 5 = green) using RdYlGn colormap
-  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  fig, ax = plt.subplots(figsize=(width,height))
 
   # plot unrated first so rated points are on top
   if not gdf_unrated.empty:
@@ -217,7 +210,7 @@ def plot_rating(df, title, min_size=30, max_size=350):
   # Add basemap
   ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
 
-  plt.title(f"Pubs in {title} (colored by rating: 1=red ... 5=green; size = number of reviews)")
+  plt.title(f"Pubs in {title} (colored by rating; size = number of reviews)")
   plt.xlabel("Longitude")
   plt.ylabel("Latitude")
   plt.legend()
@@ -239,14 +232,19 @@ def plot_average_rating_per_region(df):
 
   avg_rating = df_filtered.groupby('region')['rating_num'].mean().reset_index()
 
-  plt.figure(figsize=(10,6))
+  plt.figure(figsize=(12,6))
   sns.barplot(data=avg_rating, x='region', y='rating_num', palette='viridis')
+
+  # draw mean across regions as a red line
+  mean_val = avg_rating['rating_num'].mean()
+  plt.axhline(mean_val, color='red', linestyle='--', linewidth=2, label=f"Mean = {mean_val:.2f}")
   plt.title("Average Rating per Region")
   plt.xlabel("Region")
   plt.ylabel("Average Rating")
   plt.ylim(0, 5)
   plt.xticks(rotation=45)
   plt.grid(axis='y', alpha=0.75)
+  plt.legend()
   plt.show()
 
 def plot_rating_histogram(df, title):
@@ -258,8 +256,15 @@ def plot_rating_histogram(df, title):
   df_filtered['rating_num'] = pd.to_numeric(df_filtered['rating'], errors='coerce')
   df_filtered = df_filtered[df_filtered['rating_num'].notna()]
   ratings = df_filtered['rating_num'].astype(float)
-  plt.figure(figsize=(8,5))
+  plt.figure(figsize=(12,7))
   sns.histplot(ratings, bins=np.arange(0.5, 5.6, 0.1), kde=False, color='blue')
+
+  # draw mean as a red vertical line
+  if not ratings.empty:
+    mean_r = ratings.mean()
+    plt.axvline(mean_r, color='red', linestyle='--', linewidth=2, label=f"Mean = {mean_r:.2f}")
+    plt.legend()
+
   plt.title(f"Histogram of Ratings for Pubs in {title}")
   plt.xlabel("Rating")
   plt.ylabel("Number of Pubs")
@@ -296,7 +301,7 @@ def print_min_max_rating_filtered(df, minimal_reviews=10):
   print(f"Number of pubs with maximum rating: {len(max_rows)}")
   print(max_rows[['name','rating','number_of_reviews']].to_string(index=False))
 
-def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
+def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # keep only rows with non-empty rating, then one row per url
   # determine whether each restaurant (unique url) has at least one non-empty menu_item
   has_menu = df.groupby('url')['menu_item'].apply(
@@ -325,7 +330,7 @@ def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
   ).to_crs(epsg=3857)
 
   # Plot: blue dots = has menu, red X = no menu
-  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  fig, ax = plt.subplots(figsize=(width,height))
   if not gdf_no.empty:
     gdf_no.plot(ax=ax, color="red", marker="x", markersize=marker_size_x, alpha=0.9, label="No menu")
   if not gdf_with.empty:
@@ -338,7 +343,7 @@ def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40):
   plt.legend()
   plt.show()
 
-def plot_price(df, title):
+def plot_price(df, title, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # average price per unique URL (restaurant/pub)
   price_avg = df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
 
@@ -363,7 +368,7 @@ def plot_price(df, title):
   ).to_crs(epsg=3857)
 
   # Plot: cheapest (green) -> most expensive (red). Use reversed RdYlGn so low=green, high=red.
-  fig, ax = plt.subplots(figsize=(MAX_WIDTH,MAX_WIDTH))
+  fig, ax = plt.subplots(figsize=(width,height))
 
   if not gdf_no.empty:
     gdf_no.plot(ax=ax, color="lightgray", alpha=0.8, markersize=40, marker="x", label="No price")
@@ -373,6 +378,18 @@ def plot_price(df, title):
     x = gdf_with.geometry.x
     y = gdf_with.geometry.y
 
+    # size of the dot reflects rating: best = biggest, worst = smallest
+    # map rating range [1..5] to marker size range [min_size..max_size]
+    min_marker = 50
+    max_marker = 300
+    # get ratings (fall back to minimal rating for missing values so they appear smallest)
+    rating_nums = pd.to_numeric(gdf_with.get('rating', pd.Series([np.nan]*len(gdf_with))), errors='coerce')
+    rating_filled = rating_nums.fillna(1.0)  # treat missing as worst (size = min_marker)
+    # clip to [1,5] just in case
+    rating_clipped = np.clip(rating_filled.astype(float), 1.0, 5.0)
+    # normalize and scale
+    sizes = min_marker + (rating_clipped - 1.0) / (5.0 - 1.0) * (max_marker - min_marker)
+
     cmap = plt.get_cmap('RdYlGn_r')   # reversed: low=green, high=red
     vmin = prices.min()
     vmax = prices.max()
@@ -381,12 +398,12 @@ def plot_price(df, title):
       vmax = vmax + 1
     norm = plt.Normalize(vmin=vmin, vmax=vmax)
 
-    sc = ax.scatter(x, y, c=prices, cmap=cmap, norm=norm, s=50, edgecolor='k', linewidth=0.2, alpha=0.9, label="With avg price")
+    sc = ax.scatter(x, y, c=prices, cmap=cmap, norm=norm, s=sizes, edgecolor='k', linewidth=0.2, alpha=0.9, label="With avg price (size = rating)")
 
   # Add basemap
   ctx.add_basemap(ax, source=ctx.providers.CartoDB.Voyager)
 
-  plt.title(f"Pubs in {title} (colored by average price; green=cheapest, red=most expensive)")
+  plt.title(f"Pubs in {title} (colored by average price; size = rating)")
   plt.xlabel("Longitude")
   plt.ylabel("Latitude")
   plt.legend()
@@ -416,17 +433,26 @@ def print_min_max_price(df):
   min_p = float(unique['avg_price'].min())
   max_p = float(unique['avg_price'].max())
 
-  print(f"Minimum average price: {min_p:.2f} Kč")
   min_rows = unique[np.isclose(unique['avg_price'].astype(float), min_p)]
-  print(f"Number of pubs with minimum average price: {len(min_rows)}")
   print(min_rows.reset_index()[['name','avg_price']].to_string(index=False))
 
-  print(f"\nMaximum average price: {max_p:.2f} Kč")
   max_rows = unique[np.isclose(unique['avg_price'].astype(float), max_p)]
-  print(f"Number of pubs with maximum average price: {len(max_rows)}")
   print(max_rows.reset_index()[['name','avg_price']].to_string(index=False))
+
+def basic_regions(df):
+  # regian with most pubs (unique urls) and with least pubs
+  unique_counts = df.drop_duplicates(subset='url').groupby('region').size()
+  max_region = unique_counts.idxmax()
+  min_region = unique_counts.idxmin()
+  print(f"Region with most pubs: {max_region} ({unique_counts[max_region]} pubs)")
+  print(f"Region with least pubs: {min_region} ({unique_counts[min_region]} pubs)")
+
+  #average number of pubs per region
+  avg_pubs = unique_counts.mean()
+  print(f"Average number of pubs per region: {avg_pubs:.2f}")
 ```
 
+# Data Analysis
 
 ## Prague - basic analysis
 ```{python}
@@ -442,20 +468,30 @@ print("Unique ratings:")
 print(prague_pubs_df['rating'].unique())
 ```
 
-## Prague - rating all
+## Prague - all pubs
 ```{python}
 plot_all_pubs(prague_pubs_df, "Prague")
 ```
-## Prague - rating filtered
+:::{.notes}
+This is basic map of all pubs in Prague.
+As we can see, pubs are more concentrated around center.
+:::
+## Prague - only pubs with rating
 ```{python}
 plot_filter_rating(prague_pubs_df, "Prague")
 ```
-## Prague - rating rated
+:::{.notes}
+Fortunately most of pubs in Prague, have rating.
+:::
+## Prague - ra
 ```{python}
-plot_rating(prague_pubs_df, "Prague")
+plot_rating(prague_pubs_df, "Prague", width=MAX_WIDTH+0.45, height=MAX_WIDTH+0.45)
 ```
-
-## Prague ratings
+:::{.notes}
+In his map we try to encapsulate info about not only how good is the pubs rating, but also how many ratings the pub has.
+This 
+:::
+## Praguea ratings
 
 ```{python}
 plot_rating_histogram(prague_pubs_df, "Prague")
@@ -475,15 +511,15 @@ print_min_max_rating_filtered(prague_pubs_df)
 
 ## Prague - price all
 ```{python}
-plot_all_pubs(prague_pubs_df, "Prague")
+plot_all_pubs(prague_pubs_df, "Prague", width=MAX_WIDTH, height=MAX_WIDTH)
 ```
 ## Prague - price filtered
 ```{python}
-plot_filter_price(prague_pubs_df, "Prague")
+plot_filter_price(prague_pubs_df, "Prague", width=MAX_WIDTH, height=MAX_WIDTH)
 ```
 ## Prague - price priced
 ```{python}
-plot_price(prague_pubs_df, "Prague")
+plot_price(prague_pubs_df, "Prague", width=MAX_WIDTH+0.45, height=MAX_WIDTH+0.45)
 ```
 
 ## Prague - price min/max average
@@ -498,19 +534,23 @@ print_min_max_price(prague_pubs_df)
 analyze_df(czech_pubs_df)
 
 czech_pubs_df = czech_pubs_df.drop_duplicates()
+
+basic_regions(czech_pubs_df)
 ```
 
 ## Czechia - rating all
 ```{python}
-plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
+HEIGHT_CZECH = 8.5
+WIDTH_CZECH = 12.0
+plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
 ## Czechia - rating filtered
 ```{python}
-plot_filter_rating(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
+plot_filter_rating(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
 ## Czechia - rating rated
 ```{python}
-plot_rating(czech_pubs_df, "Czechia", 15, 175)
+plot_rating(czech_pubs_df, "Czechia", 15, 175, width=WIDTH_CZECH+0.45, height=HEIGHT_CZECH+0.45)
 ```
 
 ## Czechia ratings
@@ -539,15 +579,15 @@ print_min_max_rating_filtered(czech_pubs_df)
 
 ## Czechia - price all
 ```{python}
-plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15)
+plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
 ## Czechia - price filtered
 ```{python}
-plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20)
+plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
 ## Czechia - price priced
 ```{python}
-plot_price(czech_pubs_df, "Czechia")
+plot_price(czech_pubs_df, "Czechia", width=WIDTH_CZECH+0.45, height=HEIGHT_CZECH+0.45)
 ```
 
 ## Czechia - price min/max average
