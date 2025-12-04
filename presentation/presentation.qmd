@@ -18,6 +18,7 @@ format:
         code-fold: false
         slide-number: true
         smaller: true
+        scrollable: true
 ---
 
 # Scraping
@@ -28,6 +29,15 @@ format:
 - hurdles: shadow root, rating, time 
 - 14 processes for the win
 
+:::{.notes}
+- we scraped data from firmy.cz from section pubs and restaurants for all pubs in Czechia
+- we used python and selenium for scraping
+- selenium is library originally used for automated testing of web applications, but it can also be used for web scraping
+- we had to overcome several hurdles
+  - firms.cz uses shadow DOM, which is not directly supported by selenium, so we had to use javascript to access shadow roots
+  - ratings were pain to scrape, had to use brute-force (multiple trials)
+  - slow ... took 16 hours in one process, so we used 14 parallel processes to speed it up
+:::
 ## Data
 
 ```{python}
@@ -272,7 +282,7 @@ def plot_rating_histogram(df, title):
   plt.grid(axis='y', alpha=0.75)
   plt.show()
 
-def print_min_max_rating_filtered(df, minimal_reviews=10):
+def print_min_rating_filtered(df, minimal_reviews=10):
   # keep only rows with non-empty rating, one row per url
   mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
   df_unique = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
@@ -288,7 +298,6 @@ def print_min_max_rating_filtered(df, minimal_reviews=10):
     return
 
   min_r = float(df_unique['rating_num'].min())
-  max_r = float(df_unique['rating_num'].max())
 
   print(f"Minimum rating: {min_r}")
   min_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), min_r)]
@@ -296,10 +305,33 @@ def print_min_max_rating_filtered(df, minimal_reviews=10):
   # print relevant columns
   print(min_rows[['name','rating','number_of_reviews']].to_string(index=False))
 
-  print(f"\nMaximum rating: {max_r}")
+def print_max_rating_filtered(df, minimal_reviews=10):
+  # keep only rows with non-empty rating, one row per url
+  mask_rated = df['rating'].notna() & (df['rating'].astype(str).str.strip() != '')
+  df_unique = df[mask_rated].drop_duplicates(subset="url", keep="first").copy()
+
+  # ensure rating is numeric
+  df_unique['rating_num'] = pd.to_numeric(df_unique['rating'], errors='coerce')
+  df_unique = df_unique[df_unique['rating_num'].notna()]
+
+  df_unique = df_unique[df_unique['number_of_reviews'] >= minimal_reviews]
+
+  if df_unique.empty:
+    print("No ratings available.")
+    return
+
+  max_r = float(df_unique['rating_num'].max())
+
+  print(f"Maximum rating: {max_r}")
   max_rows = df_unique[np.isclose(df_unique['rating_num'].astype(float), max_r)]
   print(f"Number of pubs with maximum rating: {len(max_rows)}")
+  # print relevant columns
   print(max_rows[['name','rating','number_of_reviews']].to_string(index=False))
+
+def print_min_max_rating_filtered(df, minimal_reviews=10):
+  print_min_rating_filtered(df, minimal_reviews)
+  print()
+  print_max_rating_filtered(df, minimal_reviews)
 
 def plot_filter_price(df, title, marker_size_dots=30, marker_size_x=40, *, width=MAX_WIDTH, height=MAX_WIDTH):
   # keep only rows with non-empty rating, then one row per url
@@ -415,7 +447,7 @@ def plot_price(df, title, *, width=MAX_WIDTH, height=MAX_WIDTH):
 
   plt.show()
 
-def print_min_max_price(df):
+def print_min_price(df):
   # average price per unique URL (restaurant/pub)
   price_avg = df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
 
@@ -431,13 +463,36 @@ def print_min_max_price(df):
     return
 
   min_p = float(unique['avg_price'].min())
-  max_p = float(unique['avg_price'].max())
 
   min_rows = unique[np.isclose(unique['avg_price'].astype(float), min_p)]
   print(min_rows.reset_index()[['name','avg_price']].to_string(index=False))
 
+def print_max_price(df):
+  # average price per unique URL (restaurant/pub)
+  price_avg = df.groupby('url')['price_num'].apply(lambda s: s.dropna().mean())
+
+  # take first row per url for coords/metadata and attach avg_price
+  unique = df.drop_duplicates(subset='url', keep='first').set_index('url')
+  unique['avg_price'] = price_avg.reindex(unique.index)
+
+  # filter to those with avg_price
+  unique = unique[unique['avg_price'].notna()]
+
+  if unique.empty:
+    print("No price data available.")
+    return
+
+  max_p = float(unique['avg_price'].max())
+
   max_rows = unique[np.isclose(unique['avg_price'].astype(float), max_p)]
   print(max_rows.reset_index()[['name','avg_price']].to_string(index=False))
+
+def print_min_max_price(df):
+  print("Cheapest pubs:")
+  print_min_price(df)
+  print()
+  print("Most expensive pubs:")
+  print_max_price(df)
 
 def basic_regions(df):
   # regian with most pubs (unique urls) and with least pubs
@@ -452,7 +507,15 @@ def basic_regions(df):
   print(f"Average number of pubs per region: {avg_pubs:.2f}")
 ```
 
+:::{.notes}
+- we scraped info about name of pub, its location (latitude, longitude), rating, number of reviews, menu items and prices
+- we stored the data in csv files, one per region
+- we then loaded all the csv files into one big dataframe for analysis
+:::
+
 # Data Analysis
+
+# Prague
 
 ## Prague - basic analysis
 ```{python}
@@ -462,16 +525,16 @@ analyze_df(prague_pubs_df)
 prague_pubs_df = prague_pubs_df.drop_duplicates()
 ```
 
-```{python}
-# print all unique ratings
-print("Unique ratings:")
-print(prague_pubs_df['rating'].unique())
-```
-
+:::{.notes}
+- some pubs are listed multiple times
+- vast mojority of pubs have rating
+- most of pubs have no menu
+:::
 ## Prague - all pubs
 ```{python}
 plot_all_pubs(prague_pubs_df, "Prague")
 ```
+
 :::{.notes}
 This is basic map of all pubs in Prague.
 As we can see, pubs are more concentrated around center.
@@ -480,53 +543,121 @@ As we can see, pubs are more concentrated around center.
 ```{python}
 plot_filter_rating(prague_pubs_df, "Prague")
 ```
+
 :::{.notes}
 Fortunately most of pubs in Prague, have rating.
 :::
-## Prague - ra
+## Prague - rated
 ```{python}
 plot_rating(prague_pubs_df, "Prague", width=MAX_WIDTH+0.45, height=MAX_WIDTH+0.45)
 ```
+
 :::{.notes}
-In his map we try to encapsulate info about not only how good is the pubs rating, but also how many ratings the pub has.
-This 
+- More reliable info about which pubs are actually good
+- Seems like most prestigious pubs are located around the center of Prague.
 :::
-## Praguea ratings
+## Prague - average pub ratings distribution
 
 ```{python}
 plot_rating_histogram(prague_pubs_df, "Prague")
 ```
 
-## Prague - best and worst
+:::{.notes}
+- most of pubs have rating between 4 and 5
+- very few pubs with rating under 3
+- average rating is 4.36
+- people seem to either rate pubs mostly positively or not at all
+- I would expect more diverse ratings
+- pubs with bad ratings might go out of business quickly?
+:::
+## Prague - best
 
 ```{python}
-print_min_max_rating_filtered(prague_pubs_df,1)
+print_max_rating_filtered(prague_pubs_df,1)
 ```
 
-## Prague - best and worst without outliers
+:::{.notes}
+- doesn't consider outliers
+- many pubs with 5 star but only few reviews
+:::
+
+## Prague - worst
 
 ```{python}
-print_min_max_rating_filtered(prague_pubs_df)
+print_min_rating_filtered(prague_pubs_df,1)
 ```
 
-## Prague - price all
+:::{.notes}
+- doesn't consider outliers
+- many pubs with 1 star but only few reviews
+:::
+
+## Prague - best without outliers
+
+```{python}
+print_max_rating_filtered(prague_pubs_df)
+```
+
+:::{.notes}
+- considers only pubs with at least 10 reviews
+- slightly more reliable info about best/worst pubs
+:::
+
+## Prague - worst without outliers
+
+```{python}
+print_min_rating_filtered(prague_pubs_df)
+```
+
+:::{.notes}
+- considers only pubs with at least 10 reviews
+- slightly more reliable info about best/worst pubs
+:::
+
+## Prague - all pubs
 ```{python}
 plot_all_pubs(prague_pubs_df, "Prague", width=MAX_WIDTH, height=MAX_WIDTH)
 ```
-## Prague - price filtered
+
+## Prague - only pubs with price
 ```{python}
 plot_filter_price(prague_pubs_df, "Prague", width=MAX_WIDTH, height=MAX_WIDTH)
 ```
-## Prague - price priced
+
+:::{.notes}
+- vast majority of pubs have no menu on firmy.cz
+- only few pubs have menu, mostly around center
+:::
+
+
+## Prague - pubs with price info
 ```{python}
 plot_price(prague_pubs_df, "Prague", width=MAX_WIDTH+0.45, height=MAX_WIDTH+0.45)
 ```
 
+:::{.notes}
+- More green dots - cheaper pubs
+- Larger dots - better rated pubs
+:::
+
 ## Prague - price min/max average
 
+- Cheapest pub:
 ```{python}
-print_min_max_price(prague_pubs_df)
+print_min_price(prague_pubs_df)
 ```
+
+- Most expensive pub:
+```{python}
+print_max_price(prague_pubs_df)
+```
+
+:::{.notes}
+- surprisingly, most expensive pub has average price of only 220 Kč
+- maybe tourist traps are not listed on firmy.cz ?
+:::
+
+# Czechia
 
 ## Czechia - basic analysis
 
@@ -534,30 +665,81 @@ print_min_max_price(prague_pubs_df)
 analyze_df(czech_pubs_df)
 
 czech_pubs_df = czech_pubs_df.drop_duplicates()
+```
 
+:::{.notes}
+- some pubs are listed multiple times
+- only about 80% of pubs have rating
+- most of pubs have no menu
+- interestingly, we have 18 urls missing (notice gps too)
+  - saving script error probably
+:::
+
+## Czechia - region stats
+
+```{python}
 basic_regions(czech_pubs_df)
 ```
 
-## Czechia - rating all
+:::{.notes}
+- initially without regions (later added)
+- 6254 towns in Czechia according to Wikipedia -> ~450 pubs for reagion  -> not even one pub for each town
+  - even worse because of prague
+:::
+
+## Czechia - all pubs
 ```{python}
 HEIGHT_CZECH = 8.5
 WIDTH_CZECH = 12.0
 plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
-## Czechia - rating filtered
+
+:::{.notes}
+- most pubs are located around bigger cities, such as Prague, Brno and Ostrava
+- the least pubs are located in the regions of Karlovy Vary, most in stredocesky 
+- Road Sumperk-Olomouc-split to Brno and Zlin-Zlin split Zilina and Bratislava -> Hightways not fully build yet
+- Right to Olomouc - no pubs - Vojensky Ujezd Libava
+- North of it - Praded
+- Right to Karlovy Vary - Vojensky Ujezd Hradiště
+- 2 more -> not clear (Šumava and north to Brno)
+:::
+
+## Czechia - pubs with rating
+
 ```{python}
 plot_filter_rating(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
-## Czechia - rating rated
+
+:::{.notes}
+- as mentioned before, only about 80% of pubs have rating
+- missing pubs ratings are scattered around the country more or less evenly
+:::
+
+## Czechia - rated
 ```{python}
 plot_rating(czech_pubs_df, "Czechia", 15, 175, width=WIDTH_CZECH+0.45, height=HEIGHT_CZECH+0.45)
 ```
 
-## Czechia ratings
+:::{.notes}
+- ratings seems mostly positive
+- no region stands out as significantly better or worse than others
+- confirmed on the next slide
+:::
+
+## Czechia average rating per region
 
 ```{python}
 plot_average_rating_per_region(czech_pubs_df)
 ```
+
+:::{.notes}
+- average ratings across regions are quite similar
+- maybe people tend to rate only pubs they like?
+- I expected that people are more likely to critize than praise
+- maybe bots generate positive reviews?
+  - however, firms.cz have not many reviews compared to google for example
+  - seems that more locals use firmy.cz
+:::
 
 ## Czechia rating histogram
 
@@ -565,33 +747,94 @@ plot_average_rating_per_region(czech_pubs_df)
 plot_rating_histogram(czech_pubs_df, "Czechia")
 ```
 
-## Czechia - best and worst
+:::{.notes}
+- overwhelmingly positive ratings everywhere
+- most ratings between 4 and 5
+- interestingly, no 2 ratings
+- people seem to either rate pubs very positively or only
+:::
+## Czechia - best
 
 ```{python}
-print_min_max_rating_filtered(czech_pubs_df,1)
+print_max_rating_filtered(czech_pubs_df,1)
 ```
 
-## Czechia - best and worst without outliers
+:::{.notes}
+- doesn't consider outliers
+- many pubs with 5 star but only few reviews
+:::
+
+## Czechia - worst
 
 ```{python}
-print_min_max_rating_filtered(czech_pubs_df)
+print_min_rating_filtered(czech_pubs_df,1)
 ```
 
-## Czechia - price all
+:::{.notes}
+- doesn't consider outliers
+- many pubs with 1 star but only few reviews
+:::
+
+## Czechia - best without outliers
+
+```{python}
+print_max_rating_filtered(czech_pubs_df)
+```
+
+:::{.notes}
+- considers only pubs with at least 10 reviews
+- slightly more reliable info about best/worst pubs
+:::
+
+## Czechia - worst without outliers
+
+```{python}
+print_min_rating_filtered(czech_pubs_df)
+```
+:::{.notes}
+- considers only pubs with at least 10 reviews
+- slightly more reliable info about best/worst pubs
+:::
+
+## Czechia - all pubs
 ```{python}
 plot_all_pubs(czech_pubs_df, "Czechia", marker_size=15, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
-## Czechia - price filtered
+:::{.notes}
+- reseting the setting for consistency
+:::
+
+## Czechia - only pubs with price
 ```{python}
 plot_filter_price(czech_pubs_df, "Czechia", marker_size_dots=15, marker_size_x=20, width=WIDTH_CZECH, height=HEIGHT_CZECH)
 ```
-## Czechia - price priced
+:::{.notes}
+- vast majority of pubs have no menu on firmy.cz
+- some restaurants have stable menu, some daily
+:::
+## Czechia - pubs with price info
 ```{python}
 plot_price(czech_pubs_df, "Czechia", width=WIDTH_CZECH+0.45, height=HEIGHT_CZECH+0.45)
 ```
+:::{.notes}
+- the size refers to the rating
+- notice small dot - bad ratings and expensive pub
+- cheap pubs often have limited menu for example only beer and utopenec
+:::
 
 ## Czechia - price min/max average
 
+- Cheapest pub:
 ```{python}
-print_min_max_price(czech_pubs_df)
+print_min_price(czech_pubs_df)
 ```
+- Most expensive pub:
+
+```{python}
+print_max_price(czech_pubs_df)
+```
+
+:::{.notes}
+- Pivnice u Járy is near Prague (pub with utopenec)
+- Restaurace KD Kozmice near Ostrava
+:::

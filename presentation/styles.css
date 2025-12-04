@@ -1,0 +1,29 @@
+/* Reduce size of h2 titles on slides */
+.reveal h2 {
+  font-size: 2em !important;
+}
+
+/* Body text size for slides */
+.reveal p {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Optional: list items */
+.reveal ul li,
+.reveal ol li {
+  font-size: 0.95em;
+}
+
+/* Code block font size */
+.reveal pre code {
+  max-height: none;
+  overflow: visible;
+  white-space: pre-wrap;
+  font-size: 1.5em;
+}
+.reveal .cell-output pre {
+  max-height: none;
+  overflow: visible;
+  white-space: pre-wrap;
+}
